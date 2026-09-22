@@ -637,7 +637,6 @@ export default function Dashboard() {
               error={scoreError}
               date={date}
               requestedDate={scoreFellBackTo}
-              todaysAnnouncements={log?.announcements}
               onRetry={() => fetchScorecard(date)}
             />
           )}

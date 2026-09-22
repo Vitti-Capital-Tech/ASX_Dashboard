@@ -125,7 +125,19 @@ The tab reached five stacked tables and two competing stat bands. Two problems, 
 *   **Two different hit rates on one screen.** The "This session" band published `card.stats` — precomputed, unfiltered, always the gap basis — directly above a totals card recomputed on the chosen basis over the filtered rows. The band is gone; its per-direction detail is now a `Breakdown`, recomputed like everything else.
 *   **Filters that did not reach the table under them.** The verdict/direction chips sat immediately above the Candidates table and drove only the call-by-call one at the bottom.
 
-Now: a stats card (basis switch, price/size filters, six figures), then a `PanelView` segmented control — **Calls / Today / Where the edge is** — and exactly one section below it. The filter row follows the view: verdict chips appear only on Calls, since a candidate has no outcome to filter on; direction applies to both and now actually filters the Candidates rows; the running Σ/avg totals describe the calls table and hide elsewhere.
+Now: a stats card (basis switch, price/size filters, six figures), then a `PanelView` segmented control — **Calls / Where the edge is** — and exactly one section below it. The filter row and the running Σ/avg totals show only on Calls, which is the only view they describe.
+
+#### The "Today" tab, and why it was removed
+A third view shipped briefly: the day's directional calls ranked by how that *kind* of announcement had behaved after the open. It was removed one revision later because it could not say anything.
+
+*   **The ranking key was constant within a group.** It came from a per-`document_type` lookup, so every "Merger & Acquisition" row carried the same `58.6% n=29` and the sort conveyed no information about any individual ticker.
+*   **It repeated tickers.** `merge_by_ticker` deduplicates the scorecard; this list read the live log, which does not, so a company that filed twice appeared twice.
+*   **It ignored liquidity.** Names trading A$2k a day were listed as candidates. The price and market-cap filters reached it; the turnover one did not exist.
+*   **The base rate does not support a shortlist.** Intraday directional accuracy is ~49%. Ordering a coin flip does not make it a signal, and presenting it as a morning list implies otherwise.
+
+Making it real needs live intraday prices, which this app does not have — `market_context` stops at the previous close by design, precisely so that no figure can include the reaction it is supposed to precede. With them, the gap-fade result below becomes usable during the session. Without them the Announcements tab's screener is the better morning list, and this was a worse copy of it wearing a prediction's clothes.
+
+`summary.by_document_type` outlived it: it now backs the **All time** column on the type breakdown, where it does real work — one day splits ~40 calls across nine types, so the day's own per-type sample is too thin to read and the running figure is what carries the weight.
 
 #### Client-side recomputation (`AccuracyPanel`)
 `statsFor(rows, basis)` recomputes every displayed figure from the rows on screen rather than reading the precomputed `stats` block. This is required, not stylistic: the sub-cent and large-cap filters change which calls count, and a headline hit rate that ignores the filter beneath it is worse than no headline. The precomputed blocks are used only for the all-time summary.

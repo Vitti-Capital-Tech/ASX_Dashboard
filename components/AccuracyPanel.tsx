@@ -2,9 +2,9 @@
 
 import { useMemo, useState } from 'react';
 import type {
-  Announcement, Scorecard, ScorecardSummary, ScoredCall, Verdict,
+  Scorecard, ScorecardSummary, ScoredCall, Verdict,
 } from '@/types';
-import { formatDateLabel, formatTime, getSentiment } from '@/lib/utils';
+import { formatDateLabel } from '@/lib/utils';
 import ViewHeader from './ViewHeader';
 
 const VERDICT_FILTERS: { key: Verdict | 'all'; label: string }[] = [
@@ -35,8 +35,23 @@ type Direction = 'all' | 'bullish' | 'bearish';
  */
 type Basis = 'gap' | 'intraday';
 
-/** Which table the tab is showing. One at a time — see the control's comment. */
-type PanelView = 'calls' | 'today' | 'breakdowns';
+/** Which table the tab is showing. One at a time — see the control's comment.
+ *
+ *  There was a third, 'today': the day's directional calls ranked by how that
+ *  KIND of announcement had behaved after the open. It was removed because it
+ *  could not say anything. The rank came from a per-document-type lookup, so
+ *  every "Merger & Acquisition" row carried the same 58.6% and the ordering
+ *  conveyed nothing; the list repeated tickers that had filed twice; and it
+ *  showed names trading A$2k a day as candidates. Under it all, the intraday
+ *  hit rate is ~49% — a coin flip cannot be dressed as a shortlist.
+ *
+ *  What would make it real is live intraday prices, which this dashboard does
+ *  not have: `market_context` stops at the previous close by design. With them,
+ *  the gap-fade finding in the Breakdowns tab becomes actionable during the
+ *  session. Without them, the Announcements tab's screener is the better
+ *  morning list and this was a worse copy of it wearing a prediction's clothes.
+ */
+type PanelView = 'calls' | 'breakdowns';
 
 const BASIS: Record<Basis, {
   label: string; blurb: string;
@@ -216,12 +231,16 @@ function VerdictBadge({ verdict }: { verdict: Verdict }) {
 }
 
 /** One breakdown table: rows of a segment, each graded on the chosen basis. */
-function Breakdown({ title, blurb, groups, basis, moveLabel }: {
+function Breakdown({ title, blurb, groups, basis, moveLabel, allTime }: {
   title: string;
   blurb: string;
   groups: { label: string; rows: ScoredCall[] }[];
   basis: Basis;
   moveLabel: string;
+  /** All-time hit rate per group label, where one exists. One day's calls split
+   *  across nine types leaves two or three in each — enough to mislead and not
+   *  enough to conclude. The running figure beside it is what carries weight. */
+  allTime?: Map<string, { rate: number | null; n: number }>;
 }) {
   const scored = groups
     .map(g => ({ label: g.label, s: statsFor(g.rows, basis) }))
@@ -240,7 +259,8 @@ function Breakdown({ title, blurb, groups, basis, moveLabel }: {
         <table className="w-full min-w-[520px] text-left border-collapse">
           <thead>
             <tr style={{ background: 'var(--border-subtle)' }}>
-              {['', 'Calls', 'Hit rate', `Avg ${moveLabel.toLowerCase()} as called`].map((h, i) => (
+              {['', 'Calls', 'Hit rate', `Avg ${moveLabel.toLowerCase()} as called`,
+                ...(allTime ? ['All time'] : [])].map((h, i) => (
                 <th key={h + i}
                   className={`px-4 py-2.5 text-[0.6rem] font-bold uppercase tracking-[0.1em] whitespace-nowrap ${i ? 'text-right' : ''}`}
                   style={{ color: 'var(--text-dim)' }}>{h}</th>
@@ -266,11 +286,27 @@ function Breakdown({ title, blurb, groups, basis, moveLabel }: {
                   style={{ color: moveColor(g.s.avgAsCalled) }}>
                   {pct(g.s.avgAsCalled, 2)}
                 </td>
+                {allTime && (() => {
+                  const a = allTime.get(g.label);
+                  return (
+                    <td className="px-4 py-2.5 text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: a && a.n >= 20 ? rateColor(a.rate) : 'var(--text-dim)' }}
+                      title={a ? `${a.n} settled calls of this type across every scored day`
+                        : 'Fewer than 5 settled calls all time — not published'}>
+                      {a ? rate(a.rate) : '—'}
+                      {a && (
+                        <span className="block text-[0.6rem] font-normal" style={{ color: 'var(--text-dim)' }}>
+                          n={a.n}
+                        </span>
+                      )}
+                    </td>
+                  );
+                })()}
               </tr>
             ))}
             {scored.length === 0 && (
               <tr>
-                <td colSpan={4} className="px-4 py-8 text-center text-[0.76rem]"
+                <td colSpan={allTime ? 5 : 4} className="px-4 py-8 text-center text-[0.76rem]"
                   style={{ color: 'var(--text-dim)' }}>
                   Nothing to group — no settled calls in view.
                 </td>
@@ -283,131 +319,8 @@ function Breakdown({ title, blurb, groups, basis, moveLabel }: {
   );
 }
 
-/**
- * The morning list: today's directional calls, ranked by how the same KIND of
- * announcement has historically behaved after the open.
- *
- * Distinct from every other section here, which grades what already happened.
- * This is the only part of the tab that looks forward, and it is careful about
- * what that means: the history is the only evidence, the sample size sits
- * beside every rate, and nothing on the row is a recommendation. A type that
- * has kept running 8 times out of 11 is a fact about 11 filings, not a signal.
- *
- * Ordered by the historical intraday hit rate because that is the question
- * being asked — of the news that landed today, which kinds still had something
- * left once the market opened.
- */
-function Candidates({ rows: anns, summary, date }: {
-  /** Already filtered by the caller — same price, size and direction filters
-   *  the rest of the tab is under, so the chips above this table apply to it. */
-  rows: Announcement[];
-  summary: ScorecardSummary | null;
-  date: string;
-}) {
-  const byType = useMemo(() => {
-    const m = new Map<string, NonNullable<ScorecardSummary['by_document_type']>[number]>();
-    for (const t of summary?.by_document_type ?? []) m.set(t.document_type, t);
-    return m;
-  }, [summary]);
-
-  const rows = useMemo(() => {
-    return anns
-      .map(a => ({ ann: a, hist: byType.get((a.document_type || 'Other').trim()) }))
-      // Types with no history sink to the bottom rather than being dropped:
-      // "we have never scored this kind of filing" is itself worth seeing.
-      .sort((x, y) =>
-        (y.hist?.intraday_hit_rate ?? -1) - (x.hist?.intraday_hit_rate ?? -1))
-      .slice(0, 40);
-  }, [anns, byType]);
-
-  return (
-    <div className="rounded-2xl overflow-hidden mb-4"
-      style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
-      <div className="px-5 pt-4 pb-3">
-        <h3 className="text-[0.82rem] font-bold" style={{ color: 'var(--text-primary)' }}>
-          Today&apos;s candidates — {formatDateLabel(date)}
-        </h3>
-        <p className="text-[0.68rem] mt-1 leading-relaxed" style={{ color: 'var(--text-dim)' }}>
-          Directional calls filed today, ranked by how that <i>kind</i> of announcement has
-          behaved after the open historically. The history is evidence, not a signal — the
-          sample size sits beside every rate, and none of these has a price outcome yet.
-        </p>
-      </div>
-      {rows.length === 0 && (
-        <p className="px-5 pb-5 text-[0.78rem]" style={{ color: 'var(--text-dim)' }}>
-          No directional calls on {formatDateLabel(date)} match the current filters.
-        </p>
-      )}
-      <div className="overflow-x-auto">
-        <table className="w-full min-w-[900px] text-left border-collapse">
-          <thead>
-            <tr style={{ background: 'var(--border-subtle)' }}>
-              {['Ticker', 'Call', 'Type', 'Released', 'Intraday hit rate', 'Avg as called',
-                'RSI', 'Vol vs 20d', 'Turnover'].map((h, i) => (
-                <th key={h}
-                  className={`px-3 py-2.5 text-[0.6rem] font-bold uppercase tracking-[0.1em] whitespace-nowrap ${i >= 4 ? 'text-right' : ''}`}
-                  style={{ color: 'var(--text-dim)' }}>{h}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map(({ ann: a, hist }, i) => {
-              const sent = getSentiment(a);
-              const c = a.market_context;
-              return (
-                <tr key={a.url + i} style={{ borderTop: '1px solid var(--border-subtle)' }}>
-                  <td className="px-3 py-2.5 font-mono text-[0.78rem] font-bold"
-                    style={{ color: 'var(--text-primary)' }}>{a.ticker}</td>
-                  <td className="px-3 py-2.5 font-mono text-[0.68rem] font-bold whitespace-nowrap"
-                    style={{ color: sent === 'bullish' ? OK : BAD }}>
-                    {sent === 'bullish' ? '▲ BULL' : '▼ BEAR'}
-                  </td>
-                  <td className="px-3 py-2.5 text-[0.73rem] max-w-[200px] truncate"
-                    style={{ color: 'var(--text-secondary)' }} title={a.headline}>
-                    {a.document_type || '—'}
-                  </td>
-                  <td className="px-3 py-2.5 font-mono text-[0.7rem]"
-                    style={{ color: 'var(--text-dim)' }}>{formatTime(a.time)}</td>
-                  <td className="px-3 py-2.5 text-right font-mono text-[0.76rem] font-bold tabular-nums"
-                    style={{ color: hist ? rateColor(hist.intraday_hit_rate) : 'var(--text-dim)' }}
-                    title={hist ? `${hist.intraday_scored} settled calls of this type` : 'No scored history for this type'}>
-                    {hist ? `${rate(hist.intraday_hit_rate)}` : '—'}
-                    {hist && (
-                      <span className="block text-[0.6rem] font-normal" style={{ color: 'var(--text-dim)' }}>
-                        n={hist.intraday_scored}
-                      </span>
-                    )}
-                  </td>
-                  <td className="px-3 py-2.5 text-right font-mono text-[0.74rem] tabular-nums"
-                    style={{ color: moveColor(hist?.intraday_avg_as_called) }}>
-                    {pct(hist?.intraday_avg_as_called, 2)}
-                  </td>
-                  <td className="px-3 py-2.5 text-right font-mono text-[0.74rem] tabular-nums"
-                    style={{ color: 'var(--text-secondary)' }}>
-                    {c?.rsi_14 === null || c?.rsi_14 === undefined ? '—' : c.rsi_14.toFixed(0)}
-                  </td>
-                  <td className="px-3 py-2.5 text-right font-mono text-[0.74rem] tabular-nums"
-                    style={{ color: moveColor(c?.volume_change_pct) }}>
-                    {pct(c?.volume_change_pct, 0)}
-                  </td>
-                  <td className="px-3 py-2.5 text-right font-mono text-[0.74rem] tabular-nums"
-                    style={{ color: c?.liquid === false ? BAD : 'var(--text-dim)' }}
-                    title={c?.liquid === false ? 'Too thin for the ratios to mean much' : undefined}>
-                    {c?.avg_turnover_aud === null || c?.avg_turnover_aud === undefined
-                      ? '—' : `$${Math.round(c.avg_turnover_aud / 1000)}k`}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
-}
-
 export default function AccuracyPanel({
-  card, summary, loading, error, date, requestedDate, todaysAnnouncements, onRetry,
+  card, summary, loading, error, date, requestedDate, onRetry,
 }: {
   card: Scorecard | null;
   summary: ScorecardSummary | null;
@@ -417,9 +330,6 @@ export default function AccuracyPanel({
   /** Set when `card` is an EARLIER session than the one picked, because that
    *  day has not been scored yet. Carries the date that was asked for. */
   requestedDate?: string | null;
-  /** The selected day's live feed. Distinct from `card`, which is scored and
-   *  therefore always at least a session behind. */
-  todaysAnnouncements?: Announcement[];
   onRetry: () => void;
 }) {
   const [filter, setFilter] = useState<Verdict | 'all'>('all');
@@ -469,23 +379,6 @@ export default function AccuracyPanel({
   const directional = useMemo(
     () => universe.filter(r => r.sentiment !== 'neutral'), [universe]);
 
-  /** Today's live feed, under the same price/size filters as everything else
-   *  and under the direction filter, so the chips above the table apply to
-   *  whichever table is showing rather than only to the call-by-call one. */
-  const candidateRows = useMemo(() => {
-    const feed = todaysAnnouncements ?? [];
-    return feed.filter(a => {
-      const sent = getSentiment(a);
-      if (sent === 'neutral') return false;
-      if (direction !== 'all' && sent !== direction) return false;
-      const c = a.market_context;
-      if (excludeSubCent && c?.last_close !== undefined && c.last_close < MIN_PRICE) return false;
-      if (excludeLargeCaps && (c?.market_cap_aud ?? 0) > LARGE_CAP_AUD) return false;
-      return true;
-    });
-  }, [todaysAnnouncements, direction, excludeSubCent, excludeLargeCaps]);
-
-  const todaysDirectional = candidateRows.length;
 
   const gapGroups = useMemo(() => GAP_BUCKETS.map(b => ({
     label: b.label,
@@ -512,6 +405,19 @@ export default function AccuracyPanel({
     { label: '▲ Bullish', rows: universe.filter(r => r.sentiment === 'bullish') },
     { label: '▼ Bearish', rows: universe.filter(r => r.sentiment === 'bearish') },
   ]), [universe]);
+
+  /** All-time per-type accuracy from the summary, on whichever basis is
+   *  selected, so the column cannot say one thing while the toggle says
+   *  another. */
+  const allTimeByType = useMemo(() => {
+    const m = new Map<string, { rate: number | null; n: number }>();
+    for (const t of summary?.by_document_type ?? []) {
+      m.set(t.document_type, basis === 'intraday'
+        ? { rate: t.intraday_hit_rate, n: t.intraday_scored }
+        : { rate: t.hit_rate, n: t.scored });
+    }
+    return m;
+  }, [summary, basis]);
 
   const liquidityGroups = useMemo(() => {
     const band = (r: ScoredCall): string => {
@@ -730,7 +636,6 @@ export default function AccuracyPanel({
       <div className="flex flex-wrap items-center gap-2 mb-3">
         {([
           ['calls', `Calls (${rows.length})`],
-          ['today', `Today (${todaysDirectional})`],
           ['breakdowns', 'Where the edge is'],
         ] as [PanelView, string][]).map(([k, label]) => (
           <button key={k} onClick={() => setView(k)}
@@ -745,7 +650,7 @@ export default function AccuracyPanel({
 
       {/* ── Filters. Verdict is meaningless on Today (no outcome yet), so it
            only shows where it applies; direction applies to both. ── */}
-      {view !== 'breakdowns' && (
+      {view === 'calls' && (
       <div className="flex flex-wrap items-center gap-2 mb-2.5">
         {view === 'calls' && VERDICT_FILTERS.map(f => {
           const active = filter === f.key;
@@ -825,10 +730,6 @@ export default function AccuracyPanel({
       </div>
       )}
 
-      {view === 'today' && (
-        <Candidates rows={candidateRows} summary={summary} date={date} />
-      )}
-
       {view === 'breakdowns' && (
       <>
       {/* ── Where the edge is, if anywhere ──
@@ -847,8 +748,8 @@ export default function AccuracyPanel({
         <div className="xl:col-span-2">
           <Breakdown
             title="By announcement type"
-            blurb="Which kinds of news are still worth trading after the open, and which are finished by then. Twelve most common types in view."
-            groups={typeGroups} basis={basis} moveLabel={B.moveLabel} />
+            blurb="Which kinds of news are still worth trading after the open, and which are finished by then. One day splits ~40 calls across nine types, so read the All time column — the day's own sample is too thin to conclude from."
+            groups={typeGroups} basis={basis} moveLabel={B.moveLabel} allTime={allTimeByType} />
         </div>
         <div className="xl:col-span-2">
           {/* Recomputed like every other figure here, so it moves with the
