@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "generated_at": "2026-09-23T17:46:01.176239+10:00",
+  "generated_at": "2026-09-23T18:48:18.510569+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -14,12 +14,12 @@
         "avg_abnormal_pct": 0.04
       },
       "bearish": {
-        "scored": 37,
+        "scored": 38,
         "correct": 15,
-        "wrong": 15,
+        "wrong": 16,
         "flat": 7,
-        "hit_rate": 50.0,
-        "avg_abnormal_pct": -0.25
+        "hit_rate": 48.4,
+        "avg_abnormal_pct": -0.01
       },
       "neutral": {
         "scored": 165,
@@ -30,11 +30,11 @@
         "avg_abnormal_pct": 0.44
       }
     },
-    "spread_pct": 0.29,
-    "directional_hit_rate": 50.0,
-    "directional_scored": 70,
+    "spread_pct": 0.05,
+    "directional_hit_rate": 49.3,
+    "directional_scored": 71,
     "pending": 0,
-    "no_data": 29,
+    "no_data": 28,
     "conflicts": 4
   },
   "intraday_stats": {
@@ -48,12 +48,12 @@
         "avg_abnormal_pct": -2.33
       },
       "bearish": {
-        "scored": 37,
+        "scored": 38,
         "correct": 12,
-        "wrong": 11,
+        "wrong": 12,
         "flat": 14,
-        "hit_rate": 52.2,
-        "avg_abnormal_pct": -0.13
+        "hit_rate": 50.0,
+        "avg_abnormal_pct": 0.06
       },
       "neutral": {
         "scored": 165,
@@ -64,11 +64,11 @@
         "avg_abnormal_pct": 0.81
       }
     },
-    "spread_pct": -2.2,
-    "directional_hit_rate": 38.6,
-    "directional_scored": 57,
+    "spread_pct": -2.39,
+    "directional_hit_rate": 37.9,
+    "directional_scored": 58,
     "pending": 0,
-    "no_data": 29,
+    "no_data": 28,
     "conflicts": 4
   },
   "highlights": {
@@ -3010,18 +3010,18 @@
       "avg_volume_20": null,
       "rsi_14": null,
       "market_cap_aud": null,
-      "session_date": null,
-      "prev_close": null,
-      "open": null,
-      "vwap": null,
-      "gap_pct": null,
-      "intraday_verdict": "no_data",
-      "close": null,
-      "return_pct": null,
-      "open_close_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data",
+      "session_date": "2026-09-23",
+      "prev_close": 0.27,
+      "open": 0.275,
+      "vwap": 0.2903,
+      "gap_pct": 1.85,
+      "intraday_verdict": "wrong",
+      "close": 0.295,
+      "return_pct": 9.26,
+      "open_close_pct": 7.27,
+      "index_return_pct": 0.38,
+      "abnormal_pct": 8.88,
+      "verdict": "wrong",
       "announcements": 1,
       "also": []
     },
