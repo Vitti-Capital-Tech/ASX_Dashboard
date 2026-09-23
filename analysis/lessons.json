@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-23T08:49:55.499033+00:00",
-  "next_id": 72,
+  "updated_at": "2026-09-23T10:45:33.608177+00:00",
+  "next_id": 73,
   "lessons": [
     {
       "id": "L001",
@@ -1081,16 +1081,9 @@
       "rule": "A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.",
       "created": "2026-09-16",
       "last_seen": "2026-09-23",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
-          "date": "2026-09-17",
-          "ticker": "TMX",
-          "headline": "Issue of Shares and Options",
-          "called": "bearish",
-          "abnormal_pct": 13.87
-        },
-        {
           "date": "2026-09-18",
           "ticker": "NHU",
           "headline": "Application for quotation of securities - NHU",
@@ -1103,6 +1096,13 @@
           "headline": "Application for quotation of securities - NHU",
           "called": "bearish",
           "abnormal_pct": 7.59
+        },
+        {
+          "date": "2026-09-23",
+          "ticker": "SLZ",
+          "headline": "$1.3M Placement to Fund Namibia Exploration",
+          "called": "bullish",
+          "abnormal_pct": -18.56
         },
         {
           "date": "2026-09-23",
@@ -1261,7 +1261,7 @@
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
       "last_seen": "2026-09-23",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
         {
           "date": "2026-09-21",
@@ -1271,11 +1271,11 @@
           "abnormal_pct": -16.67
         },
         {
-          "date": "2026-09-21",
-          "ticker": "MEM",
+          "date": "2026-09-23",
+          "ticker": "CR1",
           "headline": "Change of Director's Interest Notice",
           "called": "neutral",
-          "abnormal_pct": -16.67
+          "abnormal_pct": 22.69
         },
         {
           "date": "2026-09-23",
@@ -1886,17 +1886,10 @@
       "rule": "An AGM notice is not always content-free when the stock is deeply de-rated and volume is elevated — the director nomination deadline is a governance event that can attract activist or strategic interest; before calling neutral, ask whether the volume spike coincides with a known activist position or a corporate action rumour, and if the stock has the shape of an activist target (deep de-rating, illiquid, small board), lean neutral-to-bullish rather than purely neutral. Here the volume (1.92x) into a near-zero-liquidity stock (median ~A$345/day) at a 63% de-rating was dismissed as noise, but at that liquidity level even a single informed buyer opening or building a position ahead of a nomination deadline is a material signal.",
       "created": "2026-09-18",
       "last_seen": "2026-09-23",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-09-23",
-          "ticker": "VRL",
-          "headline": "Date of AGM and closing date for Director Nominations",
-          "called": "neutral",
-          "abnormal_pct": 8.71
-        },
-        {
-          "date": "2026-09-23",
           "ticker": "OB1",
           "headline": "Date of 2026 Annual General Meeting",
           "called": "neutral",
@@ -1913,6 +1906,13 @@
           "date": "2026-09-23",
           "ticker": "OB1",
           "headline": "Date of 2026 Annual General Meeting",
+          "called": "neutral",
+          "abnormal_pct": 8.71
+        },
+        {
+          "date": "2026-09-23",
+          "ticker": "VRL",
+          "headline": "Date of AGM and closing date for Director Nominations",
           "called": "neutral",
           "abnormal_pct": 8.71
         },
@@ -1931,7 +1931,7 @@
       "rule": "When pre-announcement volume is suppressed (below 0.6x average) rather than elevated, the L010 pre-raise-marketing bearish logic is weakened — there is no evidence of active marketing-into-accumulation, and the low volume may simply reflect a news-starved register waiting for a briefing catalyst; before defaulting to bearish on a non-flagged briefing at a de-rated junior, ask whether the company has a specific government or policy nexus (critical minerals designation, named project in a national programme) that makes the briefing content strategically credible rather than purely dilution-preparatory; if yes, default to neutral rather than bearish, reserving bearish only for briefings with elevated volume (evidence of active distribution) or explicit placement language.",
       "created": "2026-09-18",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-18",
@@ -1953,6 +1953,13 @@
           "headline": "Investor & Shareholder Webinar",
           "called": "bearish",
           "abnormal_pct": 8.88
+        },
+        {
+          "date": "2026-09-23",
+          "ticker": "PRB",
+          "headline": "Investor & Shareholder Webinar",
+          "called": "bearish",
+          "abnormal_pct": 8.88
         }
       ]
     },
@@ -1962,7 +1969,7 @@
       "rule": "An application for quotation at a 12-month low on a uranium or active-thematic junior is not uniformly bearish — the raise has already completed and the new capital may fund the next operational step in a sector where thematic inflows are active; before calling bearish on quotation-of-securities at a thematic junior, ask whether the proceeds enable a named near-term catalyst (drill start, resource work, offtake) and whether the sector theme is attracting specialist fund inflows that make fresh paper absorbable; if both conditions hold, default to neutral rather than bearish, because the dilution is already done and the funded-catalyst signal may dominate the supply-overhang concern.",
       "created": "2026-09-18",
       "last_seen": "2026-09-23",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-09-22",
@@ -1972,11 +1979,11 @@
           "abnormal_pct": 21.13
         },
         {
-          "date": "2026-09-22",
-          "ticker": "SQX",
-          "headline": "Application for quotation of securities - SQX",
-          "called": "bearish",
-          "abnormal_pct": 21.13
+          "date": "2026-09-23",
+          "ticker": "KPO",
+          "headline": "Application for quotation of securities - KPO",
+          "called": "neutral",
+          "abnormal_pct": 10.14
         },
         {
           "date": "2026-09-23",
@@ -2518,8 +2525,15 @@
       "rule": "Before calling bullish on a reinstatement, ask whether the concurrent capital event resolves the underlying distress or merely extends it marginally — a small funding advance into a stock 80%+ below its high may be sufficient to lift the halt condition but insufficient to change the market's assessment of terminal risk; when the raise quantum is small relative to the scale of the de-rating, default to neutral rather than bullish, because reinstatement into a near-insolvent register frequently produces a sell-on-return-of-liquidity reaction as trapped holders exit.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "IMA",
+          "headline": "Reinstatement to Quotation",
+          "called": "bullish",
+          "abnormal_pct": -25.38
+        },
         {
           "date": "2026-09-23",
           "ticker": "IMA",
@@ -2549,8 +2563,15 @@
       "rule": "Before calling bearish on a dual C-suite departure at a distressed micro-cap, ask whether the departing roles are operational or purely administrative — a combined CFO/Company Secretary role (common at micro-caps where one person holds both titles) may represent a routine cost-saving restructure rather than a governance crisis, and suppressed volume suggests the market has no negative advance knowledge; default to neutral rather than bearish when the departure involves roles that can be combined or outsourced without operational disruption, reserving bearish for named operational executives (CEO, COO, Chief Scientist) departing in distress conditions.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "HYT",
+          "headline": "Change of Company Secretary & Chief Financial Officer",
+          "called": "bearish",
+          "abnormal_pct": 16.28
+        },
         {
           "date": "2026-09-23",
           "ticker": "HYT",
@@ -2580,8 +2601,15 @@
       "rule": "When a large placement is announced at a stock at a multi-month high, the placement discount is immediately executable arbitrage for incoming placees and creates a mechanical price ceiling at the issue price — call bearish rather than neutral when the stock is extended, the raise is large, and the headline does not disclose a specific near-term funded catalyst (construction start, resource upgrade) that justifies paying above the placement price; the funded-catalyst moderating logic of L027 requires a named near-term operational trigger, not merely a general project advancement narrative.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "SVL",
+          "headline": "Silver Mines Receives Firm Commitments to Raise $70 Million",
+          "called": "neutral",
+          "abnormal_pct": -14.67
+        },
         {
           "date": "2026-09-23",
           "ticker": "SVL",
@@ -2611,8 +2639,15 @@
       "rule": "Before calling bullish on an infrastructure or operational de-risking result (water drilling, road access, power connection), ask whether the result advances the economic value of the project directly or merely removes a prerequisite constraint — a positive water result confirms the mine can be built but does not confirm it should be built; when the stock has already moved above a multi-month technical high on extreme volume ahead of the announcement, the result is largely priced and the correct call is neutral rather than bullish, because the market has already re-rated on the anticipation and the result delivers no grade or economic data to sustain the move.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "NYM",
+          "headline": "PTR: Rosewood Positive Water Drilling Results",
+          "called": "bullish",
+          "abnormal_pct": -10.64
+        },
         {
           "date": "2026-09-23",
           "ticker": "NYM",
@@ -2642,8 +2677,15 @@
       "rule": "A concept-stage or pre-FEED completion at a stock already at its multi-month high means the milestone was anticipated and is priced — before calling bullish, ask whether the completion announcement names a specific next gating event (funding partner, government grant, FID date) that was not previously disclosed; if not, call neutral rather than bullish, because a phase-completion without a named next catalyst is a 'task done' filing that confirms progress already implied by the stock's price level rather than creating new upside.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "DEL",
+          "headline": "Opal / Delorean Concept Stage Completion",
+          "called": "bullish",
+          "abnormal_pct": -9.91
+        },
         {
           "date": "2026-09-23",
           "ticker": "DEL",
@@ -2673,8 +2715,15 @@
       "rule": "Before calling bullish on a 'Funding Secured' headline, confirm the funding structure — equity funding at a distressed company almost always involves a discount placement that generates immediate sell-the-raise pressure, and 'funding secured' language is equally consistent with a discounted equity raise as with non-dilutive debt or grant; when no companion 'Proposed Issue of Securities' filing is yet visible but one is flagged as expected on the same day, default to neutral rather than bullish until the structure is confirmed, because the dilution scenario is as probable as the non-dilutive scenario from the headline alone.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "VBX",
+          "headline": "Funding Secured to Maintain Wuudagu Momentum",
+          "called": "bullish",
+          "abnormal_pct": -9.76
+        },
         {
           "date": "2026-09-23",
           "ticker": "VBX",
@@ -2704,7 +2753,7 @@
       "rule": "When the headline names a specific discovery and bundles assay data with drilling in the same release, this is not a pure extension result under L018 — the discovery framing implies grade data is present that may justify the pre-positioning; do not default to neutral purely on the elevated-volume sell-the-news logic when the headline signals both discovery-level branding and assay content, because the grade data embedded in the filing may be sufficient to sustain or extend the re-rating; lean neutral-to-bullish rather than neutral, and reserve the L018 bearish call for extension-only headlines that lack discovery language.",
       "created": "2026-09-23",
       "last_seen": "2026-09-23",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-23",
@@ -2719,6 +2768,30 @@
           "headline": "Greenewood gold discovery - drilling and assay update",
           "called": "neutral",
           "abnormal_pct": 12.12
+        },
+        {
+          "date": "2026-09-23",
+          "ticker": "MEU",
+          "headline": "Greenewood gold discovery - drilling and assay update",
+          "called": "neutral",
+          "abnormal_pct": 12.12
+        }
+      ]
+    },
+    {
+      "id": "L072",
+      "trigger": "Conference presentation announcement at a named, broadly accessible investor conference (e.g. ASX SMIDcaps Conference) by a pre-revenue biotech or life sciences company, not flagged market sensitive, with no named catalyst in the headline and no price action data available",
+      "rule": "Before calling neutral on an ASX SMIDcaps or equivalent broad-market investor conference announcement, distinguish it from the L010 pre-raise-marketing bearish default — the ASX SMIDcaps audience includes active generalist fund managers who may not follow the stock, and a presentation slot can itself trigger fresh accumulation independent of any new fundamental disclosure; default to neutral rather than bearish when the conference is a named ASX-organised or equivalent institutional forum, reserving bearish only for generic online webinars or roadshows with no curated institutional audience.",
+      "created": "2026-09-23",
+      "last_seen": "2026-09-23",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-23",
+          "ticker": "AVE",
+          "headline": "Avecho to present at the ASX SMIDcaps Conference",
+          "called": "neutral",
+          "abnormal_pct": -9.47
         }
       ]
     }
