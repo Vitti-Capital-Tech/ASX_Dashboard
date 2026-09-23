@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:55:55.086812+10:00",
+  "generated_at": "2026-09-23T17:46:01.257876+10:00",
   "days_scored": 33,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
@@ -14,11 +14,11 @@
     },
     "bearish": {
       "scored": 512,
-      "correct": 175,
+      "correct": 176,
       "wrong": 144,
-      "flat": 193,
-      "hit_rate": 54.9,
-      "avg_abnormal_pct": -0.42
+      "flat": 192,
+      "hit_rate": 55.0,
+      "avg_abnormal_pct": -0.43
     },
     "neutral": {
       "scored": 3884,
@@ -29,9 +29,9 @@
       "avg_abnormal_pct": 0.77
     }
   },
-  "spread_pct": 2.56,
+  "spread_pct": 2.57,
   "directional_hit_rate": 61.1,
-  "directional_scored": 1572,
+  "directional_scored": 1573,
   "intraday": {
     "by_sentiment": {
       "bullish": {
@@ -48,7 +48,7 @@
         "wrong": 115,
         "flat": 230,
         "hit_rate": 59.2,
-        "avg_abnormal_pct": -0.62
+        "avg_abnormal_pct": -0.63
       },
       "neutral": {
         "scored": 3884,
@@ -59,14 +59,14 @@
         "avg_abnormal_pct": 0.05
       }
     },
-    "spread_pct": 0.64,
+    "spread_pct": 0.65,
     "directional_hit_rate": 48.3,
     "directional_scored": 1440
   },
   "by_document_type": [
     {
       "document_type": "Market Update",
-      "scored": 1235,
+      "scored": 1236,
       "hit_rate": 63.6,
       "intraday_scored": 1130,
       "intraday_hit_rate": 48.8,
@@ -405,9 +405,9 @@
     },
     {
       "date": "2026-09-23",
-      "hit_rate": 49.3,
-      "scored": 69,
-      "spread_pct": 0.22,
+      "hit_rate": 50.0,
+      "scored": 70,
+      "spread_pct": 0.29,
       "intraday_hit_rate": 38.6,
       "intraday_scored": 57
     }
