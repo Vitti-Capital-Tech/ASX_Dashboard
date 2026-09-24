@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4903 graded calls
+- Window: last 20 trading days, 4967 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-09-23T10:45:33.801391+00:00
+- Generated: 2026-09-24T06:58:38.865891+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **59.4%** correct on 1172 graded calls.
+Directional calls (bullish/bearish): **59.1%** correct on 1174 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 887 | 61.1% |
-| bearish | 285 | 54% |
+| bullish | 875 | 60.6% |
+| bearish | 299 | 54.8% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **53.4%** of the time (n=3086). Every graded announcement moved 58% of the time.
+Stocks called neutral moved 1% or more anyway **52.8%** of the time (n=3146). Every graded announcement moved 57.5% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,18 +30,18 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 667 | 64.2% |
-| Not flagged | 505 | 53.1% |
+| Market sensitive | 644 | 63.7% |
+| Not flagged | 530 | 53.6% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 943 | 61.9% |
-| Substantial Holding | 66 | 39.4% |
-| Results | 60 | 45% |
-| Dividend | 33 | 48.5% |
+| Market Update | 942 | 61.5% |
+| Substantial Holding | 78 | 41% |
+| Results | 53 | 47.2% |
+| Dividend | 33 | 51.5% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
