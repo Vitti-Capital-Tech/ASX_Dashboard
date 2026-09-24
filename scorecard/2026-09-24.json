@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-24T18:49:34.209227+10:00",
+  "generated_at": "2026-09-24T20:43:43.066698+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -14,12 +14,12 @@
         "avg_abnormal_pct": 1.31
       },
       "bearish": {
-        "scored": 27,
-        "correct": 11,
+        "scored": 28,
+        "correct": 12,
         "wrong": 5,
         "flat": 11,
-        "hit_rate": 68.8,
-        "avg_abnormal_pct": -0.44
+        "hit_rate": 70.6,
+        "avg_abnormal_pct": -0.58
       },
       "neutral": {
         "scored": 174,
@@ -30,11 +30,11 @@
         "avg_abnormal_pct": 0.5
       }
     },
-    "spread_pct": 1.75,
-    "directional_hit_rate": 58.9,
-    "directional_scored": 56,
+    "spread_pct": 1.89,
+    "directional_hit_rate": 59.6,
+    "directional_scored": 57,
     "pending": 0,
-    "no_data": 23,
+    "no_data": 22,
     "conflicts": 3
   },
   "intraday_stats": {
@@ -48,11 +48,11 @@
         "avg_abnormal_pct": 0.86
       },
       "bearish": {
-        "scored": 27,
-        "correct": 9,
+        "scored": 28,
+        "correct": 10,
         "wrong": 2,
         "flat": 16,
-        "hit_rate": 81.8,
+        "hit_rate": 83.3,
         "avg_abnormal_pct": -1.74
       },
       "neutral": {
@@ -65,10 +65,10 @@
       }
     },
     "spread_pct": 2.6,
-    "directional_hit_rate": 61.7,
-    "directional_scored": 47,
+    "directional_hit_rate": 62.5,
+    "directional_scored": 48,
     "pending": 0,
-    "no_data": 23,
+    "no_data": 22,
     "conflicts": 3
   },
   "highlights": {
@@ -7513,18 +7513,18 @@
       "avg_volume_20": null,
       "rsi_14": null,
       "market_cap_aud": null,
-      "session_date": null,
-      "prev_close": null,
-      "open": null,
-      "vwap": null,
-      "gap_pct": null,
-      "intraday_verdict": "no_data",
-      "close": null,
-      "return_pct": null,
-      "open_close_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data",
+      "session_date": "2026-09-24",
+      "prev_close": 0.295,
+      "open": 0.285,
+      "vwap": 0.283,
+      "gap_pct": -3.39,
+      "intraday_verdict": "correct",
+      "close": 0.28,
+      "return_pct": -5.08,
+      "open_close_pct": -1.75,
+      "index_return_pct": -0.72,
+      "abnormal_pct": -4.36,
+      "verdict": "correct",
       "announcements": 1,
       "also": []
     },
