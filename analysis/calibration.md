@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4998 graded calls
+- Window: last 20 trading days, 4965 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-09-24T10:45:42.587880+00:00
+- Generated: 2026-09-25T06:59:12.773372+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **59.1%** correct on 1174 graded calls.
+Directional calls (bullish/bearish): **59.2%** correct on 1140 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 875 | 60.6% |
-| bearish | 299 | 54.8% |
+| bullish | 842 | 60.7% |
+| bearish | 298 | 55% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **52.4%** of the time (n=3170). Every graded announcement moved 57.2% of the time.
+Stocks called neutral moved 1% or more anyway **52.1%** of the time (n=3199). Every graded announcement moved 56.9% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,18 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 644 | 63.7% |
-| Not flagged | 530 | 53.6% |
+| Market sensitive | 632 | 63.8% |
+| Not flagged | 508 | 53.5% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 942 | 61.5% |
-| Substantial Holding | 78 | 41% |
-| Results | 53 | 47.2% |
-| Dividend | 33 | 51.5% |
+| Market Update | 926 | 61.3% |
+| Substantial Holding | 82 | 41.5% |
+| Results | 49 | 51% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -52,9 +51,9 @@ than shown with a caveat. They will appear as the sample fills in.
 | --- | --- | ---: | --- |
 | TSR | bearish | +27.9% | $1.1 Million Placement to Fund Critical Minerals Strategy |
 | REG | bullish | -27.5% | Government announces AN-ACC pricing from 1 October 2026 |
+| MEK | bullish | -25.5% | Institutional Placement Funding The Next Phase of Growth |
 | IMA | bullish | -25.4% | Reinstatement to Quotation |
 | M2R | bearish | +24.7% | $1.25M Placement to Advance Gidji JV Gold Project |
-| TUA | bullish | -23.8% | Investor Presentation FY26 |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
