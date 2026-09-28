@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T07:15:19.612746+00:00",
-  "next_id": 97,
+  "updated_at": "2026-09-28T08:01:20.235371+00:00",
+  "next_id": 99,
   "lessons": [
     {
       "id": "L001",
@@ -227,15 +227,8 @@
       "rule": "When a contract announcement omits revenue value entirely, treat the omission as a material qualifier — the market cannot size the earnings impact and often re-rates the stock down as the news fails to meet the implicit expectation set by the market-sensitive flag. Do not call bullish on a contract win without a disclosed or estimable dollar value; default to neutral until quantum is known.",
       "created": "2026-09-14",
       "last_seen": "2026-09-28",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-14",
-          "ticker": "AMX",
-          "headline": "AMX secures Daly Waters LiDAR and Imagery survey project",
-          "called": "bullish",
-          "abnormal_pct": -11.01
-        },
         {
           "date": "2026-09-17",
           "ticker": "I88",
@@ -256,6 +249,13 @@
           "headline": "Noodlecake Signs Mobile Publishing Agreement",
           "called": "bullish",
           "abnormal_pct": -11.78
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "MX1",
+          "headline": "MX1 - DHS CT Baggage Scanner Contract Extension",
+          "called": "bullish",
+          "abnormal_pct": -9.06
         },
         {
           "date": "2026-09-28",
@@ -679,17 +679,10 @@
       "trigger": "Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day",
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-18",
-      "times_seen": 8,
+      "last_seen": "2026-09-28",
+      "times_seen": 9,
       "examples": [
         {
-          "date": "2026-09-15",
-          "ticker": "GCM",
-          "headline": "Notification of cessation of securities - GCM",
-          "called": "bearish",
-          "abnormal_pct": 10.88
-        },
-        {
           "date": "2026-09-18",
           "ticker": "NVX",
           "headline": "Notification of cessation of securities - NVX",
@@ -716,6 +709,13 @@
           "headline": "Notification of cessation of securities - NVX",
           "called": "neutral",
           "abnormal_pct": -9.08
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "3DA",
+          "headline": "Notification of cessation of securities - 3DA",
+          "called": "neutral",
+          "abnormal_pct": -11.6
         }
       ]
     },
@@ -1697,7 +1697,7 @@
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
       "last_seen": "2026-09-28",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
         {
           "date": "2026-09-25",
@@ -1721,11 +1721,11 @@
           "abnormal_pct": 19.18
         },
         {
-          "date": "2026-09-25",
-          "ticker": "FG1",
-          "headline": "Rights Issue Prospectus",
+          "date": "2026-09-28",
+          "ticker": "DWG",
+          "headline": "Despatch of Prospectus",
           "called": "neutral",
-          "abnormal_pct": 19.18
+          "abnormal_pct": 15.83
         },
         {
           "date": "2026-09-28",
@@ -3451,7 +3451,7 @@
       "rule": "L027's funded-catalyst moderating logic requires a named operational use of proceeds to be visible — when the headline contains only 'Cleansing Notice - Share Placement' with no companion announcement disclosing proceeds deployment, the funded-catalyst condition is unmet and the default should revert to bearish (per L011), not neutral; do not apply L027 as a moderator unless a named catalyst is explicitly linked to the proceeds in an accessible companion filing.",
       "created": "2026-09-25",
       "last_seen": "2026-09-28",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-25",
@@ -3459,6 +3459,13 @@
           "headline": "Cleansing Notice - Share Placement",
           "called": "neutral",
           "abnormal_pct": -19.57
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "YAR",
+          "headline": "Cleansing Notice",
+          "called": "neutral",
+          "abnormal_pct": -25.17
         },
         {
           "date": "2026-09-28",
@@ -3475,8 +3482,15 @@
       "rule": "Apply L006's logic at extreme de-rating levels even when the commercial milestone sounds significant: at >90% below the 12-month high the market has already heavily discounted commercial execution, and a first customer win without a disclosed revenue quantum cannot close the gap between the current price and any recovery thesis. Do not call bullish on a first-customer announcement without a disclosed or clearly estimable contract value; the absence of both a market-sensitive flag and a dollar figure signals the contract is immaterial relative to the scale of value destruction already priced in, and the announcement is more likely to disappoint implicit expectations than to catalyse a re-rating.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "SPX",
+          "headline": "Spenda AI-Returns Platform Signs First Major FMCG Customer",
+          "called": "bullish",
+          "abnormal_pct": -20.17
+        },
         {
           "date": "2026-09-28",
           "ticker": "SPX",
@@ -3492,8 +3506,15 @@
       "rule": "Before calling bullish on an earn-in agreement, ask whether the jurisdiction's sovereign risk profile is itself a primary reason for the prior de-rating — if it is, a new agreement to spend more capital in that jurisdiction may compound rather than resolve the market's concern; default to neutral rather than bullish when the jurisdiction is a known risk factor for the stock and no earn-in quantum or timeline is disclosed, because the deal confirms exposure to the risk rather than removing it.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "TYX",
+          "headline": "Agreement To Earn 70% Interest REE And Nb Project, Angola",
+          "called": "bullish",
+          "abnormal_pct": -20.17
+        },
         {
           "date": "2026-09-28",
           "ticker": "TYX",
@@ -3509,8 +3530,15 @@
       "rule": "A result-season investor presentation flagged market sensitive is not an awareness-marketing filing under L010 — it is the company's primary forward-guidance and recovery-narrative document accompanying a reported financial period; when the stock is deeply de-rated and the market-sensitive flag is present, the presentation likely contains new guidance, cost targets, or strategic pivots that can re-rate the stock independently of the underlying result; lean neutral-to-bullish rather than neutral, because the combination of a named financial year, a market-sensitive flag, and a severely de-rated price creates asymmetric upside if the content signals a credible recovery path.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "SM1",
+          "headline": "Synlait FY26 Investor Presentation",
+          "called": "neutral",
+          "abnormal_pct": 13.16
+        },
         {
           "date": "2026-09-28",
           "ticker": "SM1",
@@ -3526,8 +3554,15 @@
       "rule": "Before calling bullish on a principal environmental approval, ask whether the approval itself is the final gating constraint or merely one of several sequential regulatory hurdles still required before drilling or development capital can be committed — in SE Asian and emerging-market jurisdictions, 'principal environmental approval' often precedes separate operational, social, and fiscal permits that can each take years; if the approval does not directly enable a disclosed next operational step (farm-out launch, FID, drill start), default to neutral rather than bullish, because the market may already have priced the approval probability and will focus immediately on the remaining permit gaps.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "FDR",
+          "headline": "KTJ Project Secures Principal Environmental Approval",
+          "called": "bullish",
+          "abnormal_pct": -12.45
+        },
         {
           "date": "2026-09-28",
           "ticker": "FDR",
@@ -3543,7 +3578,7 @@
       "rule": "Elevated volume into a statutory accounts filing at a junior explorer is more likely to reflect holders selling ahead of an expected going-concern qualification or poor cash position disclosure than informed accumulation — the accounts are a scheduled event and sophisticated holders who have reviewed the cash burn trajectory will have advance read on the likely auditor commentary; do not dismiss the volume signal as noise when the filing type is accounts rather than an operational release; lean bearish rather than neutral when volume is elevated into a compliance-only accounts filing at a de-rated junior, because the elevated activity more likely reflects distribution than accumulation.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-28",
@@ -3551,6 +3586,27 @@
           "headline": "Full Year Statutory Accounts",
           "called": "neutral",
           "abnormal_pct": -10.51
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "LSR",
+          "headline": "Appendix 4G",
+          "called": "neutral",
+          "abnormal_pct": -12.67
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "MHK",
+          "headline": "Full Year Statutory Accounts",
+          "called": "neutral",
+          "abnormal_pct": -10.51
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "SPD",
+          "headline": "Full Year Statutory Accounts - YE 30 June 2026",
+          "called": "neutral",
+          "abnormal_pct": -8.3
         }
       ]
     },
@@ -3560,8 +3616,15 @@
       "rule": "An amendment to a lead manager mandate is a pre-raise administrative signal that a capital event is imminent — but the amendment itself, rather than the subsequent raise announcement, is when the market already knows dilution is coming; at a 12-month low on extreme relative volume, the dominant read is that holders are front-running dilution by selling before the placement is announced and the stock re-prices to the issue discount; lean bearish rather than neutral on a lead-manager-mandate amendment into extreme volume at a 12-month low, because the filing confirms a raise is in progress and the elevated volume more likely reflects exit ahead of dilution than accumulation ahead of a funded catalyst.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "BUY",
+          "headline": "Amendment to lead manager mandate",
+          "called": "neutral",
+          "abnormal_pct": -8.5
+        },
         {
           "date": "2026-09-28",
           "ticker": "BUY",
@@ -3577,7 +3640,7 @@
       "rule": "A convertible debenture announcement without disclosed conversion price, coupon, or maturity is structurally more bearish than a straight equity placement at a distressed stock — the headline quantum overstates the benefit because the conversion mechanics (which may be deeply discounted) are the actual value-destructive element; do not call neutral when conversion terms are absent from the headline; lean bearish rather than neutral, because the market will immediately assume worst-case conversion terms (near-spot or discounted) and will price dilution before details are released, particularly when the facility is in a foreign currency that adds FX complexity.",
       "created": "2026-09-28",
       "last_seen": "2026-09-28",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-28",
@@ -3585,6 +3648,47 @@
           "headline": "Challenger Gold Secures US$24m Convertible Debentures",
           "called": "neutral",
           "abnormal_pct": -8.23
+        },
+        {
+          "date": "2026-09-28",
+          "ticker": "CEL",
+          "headline": "Challenger Gold Secures US$24m Convertible Debentures",
+          "called": "neutral",
+          "abnormal_pct": -8.23
+        }
+      ]
+    },
+    {
+      "id": "L097",
+      "trigger": "Annual report or full-year compliance filing (not flagged market sensitive) at a junior explorer or developer with no price action data available and no companion operational announcement",
+      "rule": "An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.",
+      "created": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "BCM",
+          "headline": "Annual Report to shareholders",
+          "called": "neutral",
+          "abnormal_pct": -11.76
+        }
+      ]
+    },
+    {
+      "id": "L098",
+      "trigger": "Soft promotional filing (executive interview, chairman video, non-flagged media release) at a stock at or near a multi-month high with no new operational data content",
+      "rule": "A promotional piece with no new assay, resource, funding, or partnership data at a stock already at a multi-month high carries asymmetric downside — the tape is extended on speculative optimism and the filing delivers nothing to sustain it; call bearish rather than neutral when the filing is purely promotional, carries no market-sensitive flag, and the stock is at a local high, because the sell-the-news dynamic is the dominant near-term mechanic.",
+      "created": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-28",
+          "ticker": "NHE",
+          "headline": "Interview - Dennis Donald - Executive Chairman",
+          "called": "neutral",
+          "abnormal_pct": -9.26
         }
       ]
     }
