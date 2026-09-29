@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T07:52:28.352779+00:00",
+  "updated_at": "2026-09-29T08:53:31.895335+00:00",
   "next_id": 104,
   "lessons": [
     {
@@ -407,15 +407,8 @@
       "rule": "An investor presentation without a named catalyst (resource estimate, drilling result, funding announcement) is most commonly awareness-building ahead of a capital raise — which is dilutive. Default to bearish rather than neutral when no substantive content is signalled in the headline, because the filing implicitly flags that management is actively marketing stock.",
       "created": "2026-09-14",
       "last_seen": "2026-09-29",
-      "times_seen": 8,
+      "times_seen": 9,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "LIO",
-          "headline": "Investor Presentation - Good Oil and Gas Conference",
-          "called": "neutral",
-          "abnormal_pct": -15.66
-        },
         {
           "date": "2026-09-16",
           "ticker": "LIO",
@@ -429,6 +422,13 @@
           "headline": "RIU Uranium Investment Conference Presentation",
           "called": "bearish",
           "abnormal_pct": 9.59
+        },
+        {
+          "date": "2026-09-29",
+          "ticker": "L1M",
+          "headline": "Investor Presentation",
+          "called": "neutral",
+          "abnormal_pct": -17.01
         },
         {
           "date": "2026-09-29",
@@ -2001,14 +2001,14 @@
       "rule": "When pre-announcement volume is suppressed (below 0.6x average) rather than elevated, the L010 pre-raise-marketing bearish logic is weakened — there is no evidence of active marketing-into-accumulation, and the low volume may simply reflect a news-starved register waiting for a briefing catalyst; before defaulting to bearish on a non-flagged briefing at a de-rated junior, ask whether the company has a specific government or policy nexus (critical minerals designation, named project in a national programme) that makes the briefing content strategically credible rather than purely dilution-preparatory; if yes, default to neutral rather than bearish, reserving bearish only for briefings with elevated volume (evidence of active distribution) or explicit placement language.",
       "created": "2026-09-18",
       "last_seen": "2026-09-29",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
-          "date": "2026-09-23",
-          "ticker": "PRB",
-          "headline": "Investor & Shareholder Webinar",
-          "called": "bearish",
-          "abnormal_pct": 8.88
+          "date": "2026-09-29",
+          "ticker": "UM1",
+          "headline": "Investor Webinar",
+          "called": "neutral",
+          "abnormal_pct": 5.91
         },
         {
           "date": "2026-09-29",
@@ -2899,7 +2899,7 @@
       "rule": "When pre-announcement volume is suppressed (no crowded long to unwind) and the headline names a specific start month, the announcement functions as a hard-timeline commitment rather than a vague activity statement — it removes scheduling uncertainty at a stock already priced for maximum pessimism; do not apply L002's neutral default mechanically when the de-rating exceeds 80% and volume is suppressed; lean neutral-to-bullish, because the funded-operational-certainty signal may be the catalyst the depressed register was waiting for.",
       "created": "2026-09-24",
       "last_seen": "2026-09-29",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-24",
@@ -2916,11 +2916,11 @@
           "abnormal_pct": 23.22
         },
         {
-          "date": "2026-09-24",
-          "ticker": "LMS",
-          "headline": "LMS Secures Rig to Start October Drilling at Oonagalabi",
+          "date": "2026-09-29",
+          "ticker": "VMC",
+          "headline": "RC Drilling Commences at Bellchambers Gold Project",
           "called": "neutral",
-          "abnormal_pct": 23.22
+          "abnormal_pct": 13.3
         },
         {
           "date": "2026-09-29",
@@ -2944,7 +2944,7 @@
       "rule": "Urgency language ('fast tracked', 'accelerated') in a drill-commencement headline is not merely cosmetic — it signals that an external catalyst (permit window, joint-venture milestone, financing condition, or competitive pressure) is driving the timeline, which is an incremental information layer beyond a standard programme statement; when volume is suppressed (no pre-positioning to unwind) and the headline contains explicit acceleration language, lean neutral-to-bullish rather than applying L002's neutral default, because the urgency implies a specific near-term binary event that the market may not have priced.",
       "created": "2026-09-24",
       "last_seen": "2026-09-29",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-24",
@@ -2961,11 +2961,11 @@
           "abnormal_pct": 17.39
         },
         {
-          "date": "2026-09-24",
-          "ticker": "49M",
-          "headline": "Gold Mountain Drilling Fast Tracked for October",
+          "date": "2026-09-29",
+          "ticker": "ARO",
+          "headline": "Guajaraz Drill Program Update - Final Holes Underway",
           "called": "neutral",
-          "abnormal_pct": 17.39
+          "abnormal_pct": 13.94
         },
         {
           "date": "2026-09-29",
@@ -3027,7 +3027,7 @@
       "rule": "L029's bullish prior for maiden substantial-holder filings assumes the accumulation is informed and constructive, but at a stock near a multi-month high in a sector with adverse commodity price momentum, the new 5% holder may simply be slower to react to sector deterioration than the market; before applying L029's bullish default, ask whether the sector commodity price trend is negative and whether the stock's proximity to a recent high reflects sector beta rather than company-specific strength; if yes, downgrade to neutral, because the new holder's conviction may be a lagging rather than a leading signal.",
       "created": "2026-09-24",
       "last_seen": "2026-09-29",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-24",
@@ -3044,11 +3044,11 @@
           "abnormal_pct": -14.75
         },
         {
-          "date": "2026-09-24",
-          "ticker": "CXO",
+          "date": "2026-09-29",
+          "ticker": "WZR",
           "headline": "Becoming a substantial holder",
           "called": "bullish",
-          "abnormal_pct": -14.75
+          "abnormal_pct": -6.59
         },
         {
           "date": "2026-09-29",
@@ -3248,22 +3248,8 @@
       "rule": "When 'high-grade' is paired with an extension descriptor in the same headline, do not treat the filing as a pure extension result under L018 — the 'high-grade' qualifier signals that grade data is present in the body and may be the market-moving element; before applying L018's bearish default, ask whether the 'high-grade' language in the headline is a substantive grade claim (i.e., grade data exists in the filing) or purely marketing language; if substantive grade data is present or strongly implied by the descriptor, downgrade the L018 bearish call to neutral rather than bearish, because the grade content may be sufficient to sustain buying even at a deeply de-rated stock.",
       "created": "2026-09-24",
       "last_seen": "2026-09-29",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-09-24",
-          "ticker": "ARO",
-          "headline": "Novales Project Update - Emilia Mineralised Zone Widens",
-          "called": "bullish",
-          "abnormal_pct": -13.56
-        },
-        {
-          "date": "2026-09-24",
-          "ticker": "BMR",
-          "headline": "Torpys High-Grade Mineralisation Extends Towards Surface",
-          "called": "bearish",
-          "abnormal_pct": 9.06
-        },
         {
           "date": "2026-09-29",
           "ticker": "GBR",
@@ -3284,6 +3270,20 @@
           "headline": "Side Well growth continues- Mulga Bill East now 1.5km",
           "called": "bullish",
           "abnormal_pct": -8.63
+        },
+        {
+          "date": "2026-09-29",
+          "ticker": "GBR",
+          "headline": "Side Well growth continues- Mulga Bill East now 1.5km",
+          "called": "bullish",
+          "abnormal_pct": -8.63
+        },
+        {
+          "date": "2026-09-29",
+          "ticker": "PNN",
+          "headline": "HIGH-GRADE REE EXTENDED AT DEPTH ALONG NEW SECTION AT MDF",
+          "called": "bullish",
+          "abnormal_pct": -7.75
         }
       ]
     },
@@ -3762,15 +3762,8 @@
       "rule": "An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.",
       "created": "2026-09-28",
       "last_seen": "2026-09-29",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-09-28",
-          "ticker": "BCM",
-          "headline": "Annual Report to shareholders",
-          "called": "neutral",
-          "abnormal_pct": -11.76
-        },
         {
           "date": "2026-09-28",
           "ticker": "LSR",
@@ -3784,6 +3777,13 @@
           "headline": "Annual Report to shareholders",
           "called": "neutral",
           "abnormal_pct": -11.76
+        },
+        {
+          "date": "2026-09-29",
+          "ticker": "LIS",
+          "headline": "Annual Report",
+          "called": "neutral",
+          "abnormal_pct": -7.24
         },
         {
           "date": "2026-09-29",
@@ -3865,8 +3865,15 @@
       "rule": "A programme doubling signals genuine management conviction in the geology and functions as a forward credibility statement, while 'results near' language converts the filing from a pure programme statement into a pre-results catalyst notice — together these two elements are stronger than either alone; do not apply L002's neutral default when the headline combines a scale-up with an explicit near-term results signpost, because the market reads the combination as management telegraphing confidence in forthcoming data; lean neutral-to-bullish rather than neutral in this configuration.",
       "created": "2026-09-29",
       "last_seen": "2026-09-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-29",
+          "ticker": "QML",
+          "headline": "Drilling Program Doubled as Mt Chalmers Barge Results Near",
+          "called": "neutral",
+          "abnormal_pct": 10.77
+        },
         {
           "date": "2026-09-29",
           "ticker": "QML",
@@ -3889,7 +3896,7 @@
       "rule": "Before calling bullish on a scoping study at a de-rated junior, ask whether the commodity price used in the study's base-case NPV is consistent with the prevailing spot price — scoping studies use a fixed commodity price assumption that may be materially above current spot, which means the disclosed NPV overstates real-world project economics at the time of announcement and the market will immediately haircut the headline number; if the commodity is in a known adverse price trend, default to neutral rather than bullish on a scoping study result, because the NPV-to-market-cap re-rating logic depends on the commodity price assumption being credible.",
       "created": "2026-09-29",
       "last_seen": "2026-09-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-29",
@@ -3911,6 +3918,13 @@
           "headline": "Positive Scoping Study Results For Van Uden Gold",
           "called": "bullish",
           "abnormal_pct": -6.86
+        },
+        {
+          "date": "2026-09-29",
+          "ticker": "TG6",
+          "headline": "Positive Scoping Study Results For Van Uden Gold",
+          "called": "bullish",
+          "abnormal_pct": -6.86
         }
       ]
     },
@@ -3920,8 +3934,15 @@
       "rule": "An annual resource and reserve statement flagged market sensitive is not directionally ambiguous in the same way as a generic project update — the market-sensitive designation on a scheduled annual filing means the numbers have moved materially relative to the prior year; at a deeply de-rated gold producer where the bear case is largely priced, the asymmetry favours upside (an upgrade re-rates; a modest depletion is already priced); lean neutral-to-bullish rather than neutral when the filing is market-sensitive, the stock is severely de-rated, and the gold price environment is supportive, because the flag signals the resource has moved in a direction management deems reportable.",
       "created": "2026-09-29",
       "last_seen": "2026-09-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-29",
+          "ticker": "PNR",
+          "headline": "Annual Mineral Resource & Ore Reserve Statement",
+          "called": "neutral",
+          "abnormal_pct": 5.97
+        },
         {
           "date": "2026-09-29",
           "ticker": "PNR",
