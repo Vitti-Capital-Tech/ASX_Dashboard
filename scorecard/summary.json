@@ -1,95 +1,95 @@
 {
-  "generated_at": "2026-09-29T20:46:58.347390+10:00",
-  "days_scored": 37,
+  "generated_at": "2026-09-30T17:00:22.987506+10:00",
+  "days_scored": 38,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 2062,
-      "correct": 854,
-      "wrong": 527,
-      "flat": 681,
-      "hit_rate": 61.8,
-      "avg_abnormal_pct": 2.09
+      "scored": 2112,
+      "correct": 874,
+      "wrong": 543,
+      "flat": 695,
+      "hit_rate": 61.7,
+      "avg_abnormal_pct": 2.05
     },
     "bearish": {
-      "scored": 586,
-      "correct": 206,
-      "wrong": 160,
-      "flat": 220,
-      "hit_rate": 56.3,
-      "avg_abnormal_pct": -0.64
+      "scored": 605,
+      "correct": 214,
+      "wrong": 165,
+      "flat": 226,
+      "hit_rate": 56.5,
+      "avg_abnormal_pct": -0.67
     },
     "neutral": {
-      "scored": 4627,
-      "correct": 2118,
-      "wrong": 2509,
+      "scored": 4849,
+      "correct": 2219,
+      "wrong": 2630,
       "flat": 0,
       "hit_rate": 45.8,
-      "avg_abnormal_pct": 0.56
+      "avg_abnormal_pct": 0.51
     }
   },
-  "spread_pct": 2.73,
-  "directional_hit_rate": 60.7,
-  "directional_scored": 1747,
+  "spread_pct": 2.72,
+  "directional_hit_rate": 60.6,
+  "directional_scored": 1796,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 2062,
-        "correct": 582,
-        "wrong": 692,
-        "flat": 788,
-        "hit_rate": 45.7,
-        "avg_abnormal_pct": 0.04
+        "scored": 2112,
+        "correct": 604,
+        "wrong": 709,
+        "flat": 799,
+        "hit_rate": 46.0,
+        "avg_abnormal_pct": 0.05
       },
       "bearish": {
-        "scored": 586,
-        "correct": 197,
-        "wrong": 126,
-        "flat": 263,
-        "hit_rate": 61.0,
-        "avg_abnormal_pct": -0.85
+        "scored": 605,
+        "correct": 206,
+        "wrong": 131,
+        "flat": 268,
+        "hit_rate": 61.1,
+        "avg_abnormal_pct": -0.89
       },
       "neutral": {
-        "scored": 4627,
-        "correct": 2302,
-        "wrong": 2325,
+        "scored": 4849,
+        "correct": 2392,
+        "wrong": 2457,
         "flat": 0,
-        "hit_rate": 49.8,
-        "avg_abnormal_pct": -0.04
+        "hit_rate": 49.3,
+        "avg_abnormal_pct": -0.02
       }
     },
-    "spread_pct": 0.89,
-    "directional_hit_rate": 48.8,
-    "directional_scored": 1597
+    "spread_pct": 0.94,
+    "directional_hit_rate": 49.1,
+    "directional_scored": 1650
   },
   "by_document_type": [
     {
       "document_type": "Market Update",
-      "scored": 1364,
+      "scored": 1407,
       "hit_rate": 63.0,
-      "intraday_scored": 1241,
-      "intraday_hit_rate": 49.1,
-      "intraday_avg_as_called": 0.3,
-      "avg_as_called": 2.12
+      "intraday_scored": 1286,
+      "intraday_hit_rate": 49.4,
+      "intraday_avg_as_called": 0.31,
+      "avg_as_called": 2.09
     },
     {
       "document_type": "Results",
-      "scored": 123,
-      "hit_rate": 54.5,
-      "intraday_scored": 112,
-      "intraday_hit_rate": 45.5,
-      "intraday_avg_as_called": -0.84,
-      "avg_as_called": 0.74
+      "scored": 126,
+      "hit_rate": 54.0,
+      "intraday_scored": 114,
+      "intraday_hit_rate": 45.6,
+      "intraday_avg_as_called": -0.89,
+      "avg_as_called": 0.64
     },
     {
       "document_type": "Substantial Holding",
-      "scored": 110,
-      "hit_rate": 42.7,
-      "intraday_scored": 102,
-      "intraday_hit_rate": 44.1,
-      "intraday_avg_as_called": -0.24,
-      "avg_as_called": -0.45
+      "scored": 111,
+      "hit_rate": 43.2,
+      "intraday_scored": 106,
+      "intraday_hit_rate": 45.3,
+      "intraday_avg_as_called": -0.21,
+      "avg_as_called": -0.4
     },
     {
       "document_type": "Capital Raise",
@@ -120,12 +120,12 @@
     },
     {
       "document_type": "Director Notice",
-      "scored": 15,
-      "hit_rate": 73.3,
-      "intraday_scored": 16,
-      "intraday_hit_rate": 68.8,
-      "intraday_avg_as_called": 0.54,
-      "avg_as_called": 2.2
+      "scored": 16,
+      "hit_rate": 68.8,
+      "intraday_scored": 17,
+      "intraday_hit_rate": 70.6,
+      "intraday_avg_as_called": 1.11,
+      "avg_as_called": 2.06
     },
     {
       "document_type": "Half Yearly Report",
@@ -442,6 +442,14 @@
       "spread_pct": 4.39,
       "intraday_hit_rate": 61.0,
       "intraday_scored": 41
+    },
+    {
+      "date": "2026-09-30",
+      "hit_rate": 57.1,
+      "scored": 49,
+      "spread_pct": 2.23,
+      "intraday_hit_rate": 58.5,
+      "intraday_scored": 53
     }
   ]
 }
