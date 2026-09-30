@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T08:54:22.537643+00:00",
-  "next_id": 108,
+  "updated_at": "2026-09-30T10:47:51.845897+00:00",
+  "next_id": 109,
   "lessons": [
     {
       "id": "L001",
@@ -801,7 +801,7 @@
       "rule": "When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.",
       "created": "2026-09-15",
       "last_seen": "2026-09-30",
-      "times_seen": 11,
+      "times_seen": 12,
       "examples": [
         {
           "date": "2026-09-25",
@@ -818,11 +818,11 @@
           "abnormal_pct": 14.71
         },
         {
-          "date": "2026-09-25",
-          "ticker": "YAR",
+          "date": "2026-09-30",
+          "ticker": "CDR",
           "headline": "Cleansing Notice",
           "called": "neutral",
-          "abnormal_pct": 14.71
+          "abnormal_pct": 12.97
         },
         {
           "date": "2026-09-30",
@@ -1289,7 +1289,7 @@
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
       "last_seen": "2026-09-30",
-      "times_seen": 16,
+      "times_seen": 17,
       "examples": [
         {
           "date": "2026-09-23",
@@ -1299,11 +1299,11 @@
           "abnormal_pct": 22.69
         },
         {
-          "date": "2026-09-23",
-          "ticker": "CR1",
-          "headline": "Change of Director's Interest Notice",
+          "date": "2026-09-30",
+          "ticker": "IPD",
+          "headline": "Change of Director's Interest Notice - Mr Erik Anderson",
           "called": "neutral",
-          "abnormal_pct": 22.69
+          "abnormal_pct": 24.08
         },
         {
           "date": "2026-09-30",
@@ -2371,21 +2371,21 @@
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
       "last_seen": "2026-09-30",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-09-24",
-          "ticker": "ARO",
-          "headline": "Novales Project Update - Emilia Mineralised Zone Widens",
-          "called": "bullish",
-          "abnormal_pct": -13.56
-        },
         {
           "date": "2026-09-29",
           "ticker": "ESK",
           "headline": "UK Government Project Delivery Update",
           "called": "neutral",
           "abnormal_pct": 7.42
+        },
+        {
+          "date": "2026-09-30",
+          "ticker": "DLI",
+          "headline": "Yinnetharra and Mt Ida Exploration Update",
+          "called": "neutral",
+          "abnormal_pct": 11.58
         },
         {
           "date": "2026-09-30",
@@ -3676,7 +3676,7 @@
       "rule": "Elevated volume into a statutory accounts filing at a junior explorer is more likely to reflect holders selling ahead of an expected going-concern qualification or poor cash position disclosure than informed accumulation — the accounts are a scheduled event and sophisticated holders who have reviewed the cash burn trajectory will have advance read on the likely auditor commentary; do not dismiss the volume signal as noise when the filing type is accounts rather than an operational release; lean bearish rather than neutral when volume is elevated into a compliance-only accounts filing at a de-rated junior, because the elevated activity more likely reflects distribution than accumulation.",
       "created": "2026-09-28",
       "last_seen": "2026-09-30",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-30",
@@ -3783,7 +3783,7 @@
       "rule": "An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.",
       "created": "2026-09-28",
       "last_seen": "2026-09-30",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-09-30",
@@ -3852,7 +3852,7 @@
       "rule": "When the stock is at a multi-month high rather than a de-rated low, the L048 activist-accumulation logic inverts — elevated volume into an AGM notice on an extended, near-zero-liquidity stock is more consistent with holders front-running potential dilutive resolutions (new share issuance, option grants) or an anticipated negative outcome at the meeting; lean bearish rather than neutral when the stock is near a recent high, volume is elevated, and liquidity is near-zero, because the AGM may be the catalyst for selling by holders who ran the stock in anticipation of a resolution that disappoints.",
       "created": "2026-09-28",
       "last_seen": "2026-09-30",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-28",
@@ -3860,6 +3860,13 @@
           "headline": "Date of AGM and Closing Date for Director Nominations",
           "called": "neutral",
           "abnormal_pct": -9.26
+        },
+        {
+          "date": "2026-09-30",
+          "ticker": "AXI",
+          "headline": "2026 AGM & Closing Date for Director Nominations",
+          "called": "neutral",
+          "abnormal_pct": -20.92
         },
         {
           "date": "2026-09-30",
@@ -4014,8 +4021,15 @@
       "rule": "A guidance announcement is directionally ambiguous without knowing whether the disclosed numbers beat or miss prior consensus or management signals — 'guidance issued' is not the same as 'guidance beat'; before calling bullish on a guidance filing, require either (a) explicit beat language in the headline, (b) a disclosed metric that can be compared to a prior anchor, or (c) price action confirming the tape was not already positioned for positive news; when none of these are available, default to neutral rather than bullish, because disappointing guidance at an extended valuation is as probable as a beat and the downside is asymmetrically large.",
       "created": "2026-09-30",
       "last_seen": "2026-09-30",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-30",
+          "ticker": "BC8",
+          "headline": "FY27 Guidance & Outlook",
+          "called": "bullish",
+          "abnormal_pct": -25.66
+        },
         {
           "date": "2026-09-30",
           "ticker": "BC8",
@@ -4045,8 +4059,15 @@
       "rule": "A market-sensitive reassurance filing ('export remains unchanged', 'licence remains in good standing') signals that a specific negative concern was live enough to require formal disclosure — the market-sensitive flag on a 'nothing has changed' announcement confirms the underlying risk is real and material, not hypothetical; before calling neutral, ask whether the reassurance filing implicitly acknowledges a known operational or regulatory threat that the market had not yet fully priced; if the filing confirms the threat exists but is currently contained, lean bearish rather than neutral, because the disclosure of the risk itself can catalyse selling by holders who were unaware of it.",
       "created": "2026-09-30",
       "last_seen": "2026-09-30",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-30",
+          "ticker": "LIN",
+          "headline": "Kangankunde Concentrate Export Remains Unchanged",
+          "called": "neutral",
+          "abnormal_pct": -19.41
+        },
         {
           "date": "2026-09-30",
           "ticker": "LIN",
@@ -4076,8 +4097,15 @@
       "rule": "A lease or site-tenure extension for the primary operational asset of a thinly covered junior can function as an unexpected positive catalyst in a news-starved register — the 'so what' is not valuation re-rating but elimination of a previously unquantified tenure risk that may have been quietly suppressing the price; before calling neutral on a site-tenure filing, ask whether tenure uncertainty was a plausible latent overhang on the stock; if yes, lean neutral-to-bullish rather than neutral, because tenure removal is an asymmetric positive for a company whose only asset was at risk.",
       "created": "2026-09-30",
       "last_seen": "2026-09-30",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-30",
+          "ticker": "OSS",
+          "headline": "Three-Year Extension of Takalar Site Lease",
+          "called": "neutral",
+          "abnormal_pct": 15.75
+        },
         {
           "date": "2026-09-30",
           "ticker": "OSS",
@@ -4107,7 +4135,7 @@
       "rule": "Before applying L018's bearish or neutral default to an extension result near a multi-month high, ask whether the named target already carries a well-established high-grade discovery narrative that makes even a continuation result commercially meaningful to the market — if the target has a known high-grade reputation and the headline confirms continuity rather than merely adding strike length to an undistinguished system, the sell-the-news risk is lower than L018 assumes; lean neutral-to-bullish rather than neutral when these conditions coincide, reserving L018's bearish call for extension results at targets with no established grade narrative.",
       "created": "2026-09-30",
       "last_seen": "2026-09-30",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-30",
@@ -4122,6 +4150,30 @@
           "headline": "Visible Gold Continues From TMH Extensional Drilling",
           "called": "neutral",
           "abnormal_pct": 12.9
+        },
+        {
+          "date": "2026-09-30",
+          "ticker": "BTR",
+          "headline": "Visible Gold Continues From TMH Extensional Drilling",
+          "called": "neutral",
+          "abnormal_pct": 12.9
+        }
+      ]
+    },
+    {
+      "id": "L108",
+      "trigger": "Named senior executive or chair appointment announcement (not flagged market sensitive, no price action data available) at an operating or near-operating resources company that is in a known cyclical or operational headwind, where the appointee's credentials are strong but unrelated to the company's specific current operational challenge (e.g. a project-finance or M&A specialist appointed at a company facing cost overruns or production ramp issues)",
+      "rule": "Before calling bullish on a high-profile board appointment, ask whether the appointee's primary expertise addresses the company's specific current problem — a credentialed executive whose background is in deal-making or growth phases does not resolve a cost, production, or balance-sheet crisis, and the market may read the appointment as signalling that existing management has failed to fix the operational issue rather than as a pure quality upgrade; default to neutral rather than bullish when the appointee's skills do not directly map to the company's dominant known risk.",
+      "created": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-30",
+          "ticker": "BOE",
+          "headline": "Peter Botten commences as Boss Energy Chair",
+          "called": "bullish",
+          "abnormal_pct": -12.43
         }
       ]
     }
