@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "generated_at": "2026-10-01T18:52:53.898033+10:00",
+  "generated_at": "2026-10-01T20:45:55.510276+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -27,7 +27,7 @@
         "wrong": 136,
         "flat": 0,
         "hit_rate": 25.7,
-        "avg_abnormal_pct": 0.99
+        "avg_abnormal_pct": 1.09
       }
     },
     "spread_pct": -1.22,
@@ -3942,16 +3942,16 @@
       "rsi_14": 52.15,
       "market_cap_aud": 3294902.37,
       "session_date": "2026-10-01",
-      "prev_close": 0.014,
+      "prev_close": 0.012,
       "open": 0.015,
       "vwap": 0.0152,
-      "gap_pct": 7.14,
+      "gap_pct": 25.0,
       "intraday_verdict": "wrong",
       "close": 0.016,
-      "return_pct": 14.29,
+      "return_pct": 33.33,
       "open_close_pct": 6.67,
       "index_return_pct": -1.99,
-      "abnormal_pct": 16.28,
+      "abnormal_pct": 35.32,
       "verdict": "wrong",
       "announcements": 1,
       "also": []
