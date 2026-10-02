@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4913 graded calls
+- Window: last 20 trading days, 4901 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-01T10:47:51.551464+00:00
+- Generated: 2026-10-02T07:01:26.618315+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **58.3%** correct on 1070 graded calls.
+Directional calls (bullish/bearish): **58%** correct on 1059 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 762 | 60.8% |
-| bearish | 308 | 52.3% |
+| bullish | 753 | 59.6% |
+| bearish | 306 | 53.9% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **53.8%** of the time (n=3323). Every graded announcement moved 58.6% of the time.
+Stocks called neutral moved 1% or more anyway **54.4%** of the time (n=3330). Every graded announcement moved 59% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 620 | 61.9% |
-| Not flagged | 450 | 53.3% |
+| Market sensitive | 614 | 61.6% |
+| Not flagged | 445 | 53% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 861 | 60.6% |
-| Substantial Holding | 84 | 46.4% |
-| Results | 42 | 47.6% |
+| Market Update | 849 | 59.7% |
+| Substantial Holding | 88 | 51.1% |
+| Results | 43 | 48.8% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -49,11 +49,11 @@ than shown with a caveat. They will appear as the sample fills in.
 
 | Ticker | Called | Move | Headline |
 | --- | --- | ---: | --- |
-| TSR | bearish | +27.9% | $1.1 Million Placement to Fund Critical Minerals Strategy |
 | BC8 | bullish | -25.7% | FY27 Guidance & Outlook |
 | MEK | bullish | -25.5% | Institutional Placement Funding The Next Phase of Growth |
 | IMA | bullish | -25.4% | Reinstatement to Quotation |
 | M2R | bearish | +24.7% | $1.25M Placement to Advance Gidji JV Gold Project |
+| TUA | bullish | -23.8% | Investor Presentation FY26 |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
