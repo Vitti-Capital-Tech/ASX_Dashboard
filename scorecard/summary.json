@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-10-02T17:49:53.063692+10:00",
+  "generated_at": "2026-10-02T18:49:21.523484+10:00",
   "days_scored": 40,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 2216,
+      "scored": 2218,
       "correct": 916,
       "wrong": 573,
-      "flat": 727,
+      "flat": 729,
       "hit_rate": 61.5,
-      "avg_abnormal_pct": 2.03
+      "avg_abnormal_pct": 2.02
     },
     "bearish": {
-      "scored": 665,
+      "scored": 670,
       "correct": 224,
       "wrong": 190,
-      "flat": 251,
+      "flat": 256,
       "hit_rate": 54.1,
       "avg_abnormal_pct": -0.61
     },
     "neutral": {
-      "scored": 5233,
-      "correct": 2364,
-      "wrong": 2869,
+      "scored": 5254,
+      "correct": 2384,
+      "wrong": 2870,
       "flat": 0,
-      "hit_rate": 45.2,
+      "hit_rate": 45.4,
       "avg_abnormal_pct": 0.47
     }
   },
-  "spread_pct": 2.64,
+  "spread_pct": 2.63,
   "directional_hit_rate": 59.9,
   "directional_scored": 1903,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 2216,
+        "scored": 2218,
         "correct": 624,
         "wrong": 757,
-        "flat": 835,
+        "flat": 837,
         "hit_rate": 45.2,
         "avg_abnormal_pct": -0.01
       },
       "bearish": {
-        "scored": 665,
+        "scored": 670,
         "correct": 220,
         "wrong": 139,
-        "flat": 306,
+        "flat": 311,
         "hit_rate": 61.3,
         "avg_abnormal_pct": -0.83
       },
       "neutral": {
-        "scored": 5233,
-        "correct": 2603,
+        "scored": 5254,
+        "correct": 2624,
         "wrong": 2630,
         "flat": 0,
-        "hit_rate": 49.7,
+        "hit_rate": 49.9,
         "avg_abnormal_pct": -0.03
       }
     },
@@ -71,7 +71,7 @@
       "intraday_scored": 1354,
       "intraday_hit_rate": 48.3,
       "intraday_avg_as_called": 0.21,
-      "avg_as_called": 1.98
+      "avg_as_called": 1.97
     },
     {
       "document_type": "Results",
@@ -463,7 +463,7 @@
       "date": "2026-10-02",
       "hit_rate": 50.0,
       "scored": 32,
-      "spread_pct": 5.48,
+      "spread_pct": 4.88,
       "intraday_hit_rate": 46.9,
       "intraday_scored": 32
     }
