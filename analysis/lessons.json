@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T08:50:33.235342+00:00",
+  "updated_at": "2026-10-02T10:46:39.879234+00:00",
   "next_id": 123,
   "lessons": [
     {
@@ -1956,15 +1956,8 @@
       "rule": "An AGM notice is not always content-free when the stock is deeply de-rated and volume is elevated — the director nomination deadline is a governance event that can attract activist or strategic interest; before calling neutral, ask whether the volume spike coincides with a known activist position or a corporate action rumour, and if the stock has the shape of an activist target (deep de-rating, illiquid, small board), lean neutral-to-bullish rather than purely neutral. Here the volume (1.92x) into a near-zero-liquidity stock (median ~A$345/day) at a 63% de-rating was dismissed as noise, but at that liquidity level even a single informed buyer opening or building a position ahead of a nomination deadline is a material signal.",
       "created": "2026-09-18",
       "last_seen": "2026-10-02",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-09-23",
-          "ticker": "OB1",
-          "headline": "Date of 2026 Annual General Meeting",
-          "called": "neutral",
-          "abnormal_pct": 8.71
-        },
         {
           "date": "2026-09-23",
           "ticker": "VRL",
@@ -1985,6 +1978,13 @@
           "headline": "2026 AGM Key Dates",
           "called": "neutral",
           "abnormal_pct": 7.55
+        },
+        {
+          "date": "2026-10-02",
+          "ticker": "STV",
+          "headline": "Date of AGM and closing date for Director Nominations",
+          "called": "neutral",
+          "abnormal_pct": 15.88
         },
         {
           "date": "2026-10-02",
@@ -2046,14 +2046,14 @@
       "rule": "An application for quotation at a 12-month low on a uranium or active-thematic junior is not uniformly bearish — the raise has already completed and the new capital may fund the next operational step in a sector where thematic inflows are active; before calling bearish on quotation-of-securities at a thematic junior, ask whether the proceeds enable a named near-term catalyst (drill start, resource work, offtake) and whether the sector theme is attracting specialist fund inflows that make fresh paper absorbable; if both conditions hold, default to neutral rather than bearish, because the dilution is already done and the funded-catalyst signal may dominate the supply-overhang concern.",
       "created": "2026-09-18",
       "last_seen": "2026-10-02",
-      "times_seen": 19,
+      "times_seen": 20,
       "examples": [
         {
           "date": "2026-10-02",
-          "ticker": "CCM",
-          "headline": "Application for quotation of securities - CCM",
+          "ticker": "ECS",
+          "headline": "Application for quotation of securities - ECS",
           "called": "neutral",
-          "abnormal_pct": -11.5
+          "abnormal_pct": -9.88
         },
         {
           "date": "2026-10-02",
@@ -3263,7 +3263,7 @@
       "rule": "A large headline raise quantum is not sufficient for a bullish call without confirming the placement price relative to last trade — when the raise is large and no discount is visible in the headline, the placement price may represent a material discount that creates immediate arbitrage selling pressure from existing holders; default to neutral rather than bullish until the issue price and its discount to the prevailing market price are confirmed, because the funded-catalyst logic of L027 requires the raise to be accretive relative to where the stock is trading, not merely large in absolute terms.",
       "created": "2026-09-24",
       "last_seen": "2026-10-02",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-24",
@@ -3273,11 +3273,11 @@
           "abnormal_pct": -11.7
         },
         {
-          "date": "2026-09-24",
-          "ticker": "USL",
-          "headline": "Unico Raises $60 Million to Accelerate Development",
-          "called": "bullish",
-          "abnormal_pct": -11.7
+          "date": "2026-10-02",
+          "ticker": "PGD",
+          "headline": "PGD Secures $2.25m to Advance Gold & Iron Exploration",
+          "called": "neutral",
+          "abnormal_pct": -9.88
         },
         {
           "date": "2026-10-02",
@@ -3432,7 +3432,7 @@
       "rule": "L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.",
       "created": "2026-09-25",
       "last_seen": "2026-10-02",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-25",
@@ -3456,11 +3456,11 @@
           "abnormal_pct": -25.5
         },
         {
-          "date": "2026-09-25",
-          "ticker": "MEK",
-          "headline": "Institutional Placement Funding The Next Phase of Growth",
+          "date": "2026-10-02",
+          "ticker": "CBE",
+          "headline": "Completion of A$90M Institutional Capital Raise",
           "called": "bullish",
-          "abnormal_pct": -25.5
+          "abnormal_pct": -7.54
         },
         {
           "date": "2026-10-02",
@@ -3584,15 +3584,8 @@
       "rule": "L027's funded-catalyst moderating logic requires a named operational use of proceeds to be visible — when the headline contains only 'Cleansing Notice - Share Placement' with no companion announcement disclosing proceeds deployment, the funded-catalyst condition is unmet and the default should revert to bearish (per L011), not neutral; do not apply L027 as a moderator unless a named catalyst is explicitly linked to the proceeds in an accessible companion filing.",
       "created": "2026-09-25",
       "last_seen": "2026-10-02",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-28",
-          "ticker": "YAR",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": -25.17
-        },
         {
           "date": "2026-10-02",
           "ticker": "FBR",
@@ -3606,6 +3599,13 @@
           "headline": "Application for quotation of securities - ECS",
           "called": "neutral",
           "abnormal_pct": -9.88
+        },
+        {
+          "date": "2026-10-02",
+          "ticker": "FBR",
+          "headline": "Application for quotation of securities - FBR",
+          "called": "neutral",
+          "abnormal_pct": -12.95
         },
         {
           "date": "2026-10-02",
@@ -4588,8 +4588,15 @@
       "rule": "A renounceable rights issue dispatch marks the point at which the offer is fully live and the market begins pricing take-up risk in real time — if the stock trades at or below the offer price during the offer period, the rights become worthless and the raise fails or requires sub-underwriting at a discount; treat dispatch as a bearish event rather than neutral when no price action data is available to confirm the stock is trading comfortably above the offer price, because the launch of the rights-trading window itself introduces a mechanical sell signal for holders who choose to sell entitlements rather than subscribe.",
       "created": "2026-10-02",
       "last_seen": "2026-10-02",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-02",
+          "ticker": "FG1",
+          "headline": "Dispatch of Renounceable Rights Issue Documents",
+          "called": "neutral",
+          "abnormal_pct": -19.54
+        },
         {
           "date": "2026-10-02",
           "ticker": "FG1",
@@ -4619,8 +4626,15 @@
       "rule": "A court or regulatory decision flagged market sensitive is not directionally neutral — the market-sensitive designation confirms the outcome is material, and the absence of positive framing in the headline ('DPM Announces Constitutional Court Decision' rather than 'DPM Wins Constitutional Court Ruling') is itself a negative signal; when the headline names a legal decision without signalling a favourable outcome, default to bearish rather than neutral, because issuers with genuinely positive rulings almost always frame the headline constructively, and a neutral framing implies the result is adverse or ambiguous.",
       "created": "2026-10-02",
       "last_seen": "2026-10-02",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-02",
+          "ticker": "DPM",
+          "headline": "DPM Announces Constitutional Court of BiH Decision",
+          "called": "neutral",
+          "abnormal_pct": -10.56
+        },
         {
           "date": "2026-10-02",
           "ticker": "DPM",
@@ -4650,8 +4664,15 @@
       "rule": "A reinstatement near a recent high with suppressed volume is structurally different from both a distress reinstatement (L065) and a generic neutral reinstatement — the suppressed volume rules out pre-positioning, the near-high price context rules out distress, and the market-sensitive flag implies a positive accompanying disclosure; lean neutral-to-bullish rather than purely neutral, because the combination of reinstatement into strength with no pre-positioning and a material-sensitive flag is more consistent with a positive catalyst being released than with a dilutive or negative event.",
       "created": "2026-10-02",
       "last_seen": "2026-10-02",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-02",
+          "ticker": "HLX",
+          "headline": "Reinstatement to Quotation",
+          "called": "neutral",
+          "abnormal_pct": 9.21
+        },
         {
           "date": "2026-10-02",
           "ticker": "HLX",
@@ -4681,8 +4702,15 @@
       "rule": "A CEO transition at a revenue-generating technology or financial services company with a known growth or M&A strategy is not uniformly bearish — the incoming CEO may signal acceleration of the strategic agenda or a positive reset of management credibility; before defaulting to bearish on any CEO transition, ask whether the company is profitable and strategically active, because the base rate for positive market reactions to CEO changes at growing, profitable companies is materially higher than at distressed or operationally challenged companies; default to neutral rather than bearish when the company is operationally sound and the transition is framed as planned rather than forced.",
       "created": "2026-10-02",
       "last_seen": "2026-10-02",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-02",
+          "ticker": "PPS",
+          "headline": "Chief Executive Officer Transition",
+          "called": "bearish",
+          "abnormal_pct": 8.31
+        },
         {
           "date": "2026-10-02",
           "ticker": "PPS",
@@ -4712,8 +4740,15 @@
       "rule": "A market-sensitive distribution update is directionally asymmetric in favour of a maintained or increased payout — issuers who cut or suspend distributions almost always use language signalling a reduction ('revised', 'suspended', 'deferred'), while a plain 'distribution update' headline from a company with a distribution history more commonly confirms continuity or an increase; lean neutral-to-bullish rather than neutral when the headline uses neutral framing without cut language and the market-sensitive flag is present, because the flag confirms the quantum is material and the absence of negative framing is itself informative.",
       "created": "2026-10-02",
       "last_seen": "2026-10-02",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-02",
+          "ticker": "CCG",
+          "headline": "Distribution update",
+          "called": "neutral",
+          "abnormal_pct": 7.86
+        },
         {
           "date": "2026-10-02",
           "ticker": "CCG",
