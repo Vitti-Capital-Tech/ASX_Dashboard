@@ -1,9 +1,355 @@
 {
   "date": "2026-10-05",
-  "total": 209,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-10-04T23:14:51.651473+00:00",
+  "total": 217,
+  "market_sensitive_count": 55,
+  "generated_at": "2026-10-04T23:28:50.957651+00:00",
   "announcements": [
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Proposed issue of securities - SRN",
+      "time": "2026-10-04T23:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144295-6A1347635",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed issue of securities' form (ASX Appendix 3B or equivalent) filed by SRN on the same day as its Placement and Entitlement Offer announcement [1] is a companion administrative filing notifying the exchange of the securities to be issued — it is procedural and carries no incremental informational content beyond what is already disclosed in the capital raise announcement.",
+        "Not flagged market sensitive, confirming this is a compliance/notification document rather than a disclosure of new material information; the analytical weight belongs entirely with announcement [1].",
+        "No independent trading signal should be derived from this filing; sentiment is governed by the substantive capital raise announcement filed concurrently."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Proposed issue of securities - SRN",
+      "time": "2026-10-04T23:20:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144294-6A1347632",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second 'Proposed issue of securities' filing by SRN on the same day as the capital raise announcement [1] and companion filing [3] — this likely reflects a separate tranche notification (e.g., placement tranche versus entitlement offer tranche each requiring their own Appendix 3B lodgement with ASX).",
+        "Not flagged market sensitive; purely administrative in nature with no incremental disclosure value beyond the substantive raise announcement [1].",
+        "Institutional investors should map this back to the capital raise structure disclosed in [1] and assess the total securities to be issued across all concurrent Appendix 3B filings to understand full dilution quantum."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Proposed issue of securities - SRN",
+      "time": "2026-10-04T23:19:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144293-6A1347631",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A third concurrent 'Proposed issue of securities' filing by SRN — consistent with a multi-tranche capital raise structure (e.g., placement shares, entitlement offer shares, and potentially broker option/oversubscription facility shares each lodged separately with ASX).",
+        "Not flagged market sensitive; the filing is administrative and the informational content is zero in isolation — the total dilution picture requires aggregating the securities across filings [3], [4], and [5].",
+        "The presence of three separate securities-issue notifications on the same day as the capital raise announcement suggests a reasonably structured multi-component raise; analysts should tally the combined share count across all Appendix 3B filings to calculate the effective post-raise shares-on-issue and implied market cap at offer price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Placement and Non-Renounceable Entitlement Offer",
+      "time": "2026-10-04T23:19:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144292-6A1347629",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "SRN is running a dual-tranche capital raise combining a placement with a non-renounceable entitlement offer — the entitlement component gives existing holders a participation right, which partially offsets dilution concerns and is structurally more holder-friendly than a pure placement; this is relevant context per L041 and L027 lessons.",
+        "The market-sensitive flag elevates credibility: this raise likely addresses a specific operational need or near-term catalyst (drill programme, resource work, or project advancement) rather than generic working capital topping-up — the key question for sizing the impact is whether the prospectus names a funded catalyst that removes execution risk.",
+        "Near-term price action will hinge on the discount to last traded price on the placement tranche and the offer price on the entitlement — a shallow discount into a named catalyst is net neutral-to-bullish; a steep discount without a clear use-of-proceeds narrative will pressure the stock as existing holders weigh whether to take up their entitlement or sell on-market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-10-04T23:17:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144291-2A1701749",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3C filing by News Corporation (NWS) relates to an application for quotation of new securities — this is a standard administrative lodgement, most commonly associated with dividend reinvestment plan (DRP) shares, performance rights vesting, or other routine securities issuances.",
+        "Not flagged market sensitive, confirming the filing contains no material new information; for a large-cap dual-listed media company like NWS, routine securities issuances have negligible per-share dilutive impact and are not price-moving events.",
+        "No actionable trading signal; institutional holders should note the filing type to confirm the nature of the securities being quoted (DRP, options, performance rights) but no revision to NWS valuation or sentiment is warranted."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 45.19,
+        "market_cap_aud": 24369214170.28,
+        "shares_outstanding": 539261212,
+        "beta": 0.257,
+        "rsi_14": 42.1,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 0.24,
+        "avg_turnover_aud": 8493721,
+        "liquid": true,
+        "avg_volume_20": 249995,
+        "volume_change_pct": -76.0,
+        "pct_from_3m_high": -8.36,
+        "pct_from_3m_low": 9.9,
+        "pct_from_6m_high": -8.36,
+        "pct_from_6m_low": 13.69,
+        "pct_from_52w_high": -9.02,
+        "pct_from_52w_low": 25.49,
+        "high_52w": 49.67,
+        "low_52w": 36.01,
+        "high_3m": 49.31,
+        "low_3m": 41.12,
+        "high_6m": 49.31,
+        "low_6m": 39.75,
+        "month1_high": 48.2,
+        "month1_low": 41.14,
+        "month2_high": 49.31,
+        "month2_low": 45.46,
+        "month3_high": 47.51,
+        "month3_low": 41.12,
+        "range_position_3m": 0.497,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-02 close.",
+          "The price sat in the middle part of its 3-month range, 8.36% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-10-04T23:16:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144290-2A1701748",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second Appendix 3C filing by NWS on the same day — likely a separate securities tranche (e.g., different class of NWS securities, or a second plan allocation) requiring its own ASX quotation application; this is standard administrative practice for dual-listed companies with multiple security classes.",
+        "Not flagged market sensitive; no material information content. For a company of NWS's scale and liquidity, dual Appendix 3C filings in a single session are operational housekeeping and carry no valuation implication.",
+        "No directional signal warranted; both NWS Appendix 3C filings [6] and [7] should be treated as compliance noise."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 45.19,
+        "market_cap_aud": 24369214170.28,
+        "shares_outstanding": 539261212,
+        "beta": 0.257,
+        "rsi_14": 42.1,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 0.24,
+        "avg_turnover_aud": 8493721,
+        "liquid": true,
+        "avg_volume_20": 249995,
+        "volume_change_pct": -76.0,
+        "pct_from_3m_high": -8.36,
+        "pct_from_3m_low": 9.9,
+        "pct_from_6m_high": -8.36,
+        "pct_from_6m_low": 13.69,
+        "pct_from_52w_high": -9.02,
+        "pct_from_52w_low": 25.49,
+        "high_52w": 49.67,
+        "low_52w": 36.01,
+        "high_3m": 49.31,
+        "low_3m": 41.12,
+        "high_6m": 49.31,
+        "low_6m": 39.75,
+        "month1_high": 48.2,
+        "month1_low": 41.14,
+        "month2_high": 49.31,
+        "month2_low": 45.46,
+        "month3_high": 47.51,
+        "month3_low": 41.12,
+        "range_position_3m": 0.497,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-02 close.",
+          "The price sat in the middle part of its 3-month range, 8.36% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WBT",
+      "company": "WEEBIT NANO LTD",
+      "headline": "2026 Annual General Meeting date",
+      "time": "2026-10-04T23:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144289-3A703309",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM date announcement by Weebit Nano (WBT) is purely procedural — it sets the meeting date and opens the director nomination window but discloses no operational, financial, or strategic content; not flagged market sensitive, consistent with its administrative character.",
+        "WBT is 57.48% below its 12-month high — a significant de-rating for a semiconductor IP licensing company — which means the AGM notice lands into an already-depressed register; per L048 guidance, the director nomination deadline is worth monitoring for activist or strategic interest given the de-rating magnitude, but without evidence of elevated volume or a known activist position, this does not shift the baseline call.",
+        "The AGM itself may carry more weight than the date notice — WBT's technology commercialisation progress (ReRAM licensing deals, production ramp with SkyWater and others) is the key variable investors will focus on in any chairman or CEO address; watch for a companion investor presentation or business update filed ahead of the meeting as the higher-signal event."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 3.78,
+        "market_cap_aud": 917565742.8,
+        "shares_outstanding": 242742260,
+        "beta": 2.212,
+        "rsi_14": 52.53,
+        "volume_trend_ratio": 0.76,
+        "volume_last_ratio": 0.53,
+        "avg_turnover_aud": 6189877,
+        "liquid": true,
+        "avg_volume_20": 2210246,
+        "volume_change_pct": -47.0,
+        "pct_from_3m_high": -54.4,
+        "pct_from_3m_low": 26.0,
+        "pct_from_6m_high": -57.48,
+        "pct_from_6m_low": 26.0,
+        "pct_from_52w_high": -57.48,
+        "pct_from_52w_low": 26.0,
+        "high_52w": 8.89,
+        "low_52w": 3.0,
+        "high_3m": 8.29,
+        "low_3m": 3.0,
+        "high_6m": 8.89,
+        "low_6m": 3.0,
+        "month1_high": 4.05,
+        "month1_low": 3.0,
+        "month2_high": 4.81,
+        "month2_low": 3.39,
+        "month3_high": 8.29,
+        "month3_low": 4.08,
+        "range_position_3m": 0.147,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "57.48% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-02 close.",
+          "The price sat in the lower part of its 3-month range, 54.4% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UM1",
+      "company": "UNITY METALS LIMITED",
+      "headline": "Share Purchase Plan",
+      "time": "2026-10-04T23:12:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144288-6A1347633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Share Purchase Plan (SPP) filed as market sensitive at a stock already 70.79% below its 12-month high signals that a prior placement has completed and UM1 is now offering retail/existing holders the chance to participate — this is structurally participatory rather than exclusionary, consistent with L041 guidance that entitlement-style raises at deeply de-rated stocks can be floor-setting rather than purely dilutive.",
+        "Volume over the last 5 sessions ran at 2.56x the 20-day average — however, with median daily turnover of only ~A$5,539/day, this elevated ratio almost certainly reflects only a handful of small trades and carries close to no informational content about institutional positioning; treat it as noise rather than evidence of informed accumulation or distribution.",
+        "The SPP structure limits dilution to existing holders who choose to participate at the offer price; at a 70.79% de-rating, the critical variable is whether SPP proceeds are tied to a named near-term catalyst (drill, resource, offtake) — if so, the funded-catalyst signal may dominate the dilution overhang and support a neutral rather than bearish read, per L027."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 186,
+        "last_close": 0.13,
+        "market_cap_aud": 25112377.55,
+        "shares_outstanding": 193172135,
+        "beta": 1.552,
+        "rsi_14": 32.21,
+        "volume_trend_ratio": 2.56,
+        "volume_last_ratio": 1.37,
+        "avg_turnover_aud": 5539,
+        "liquid": false,
+        "avg_volume_20": 150124,
+        "volume_change_pct": 37.0,
+        "pct_from_3m_high": -45.83,
+        "pct_from_3m_low": 44.44,
+        "pct_from_6m_high": -45.83,
+        "pct_from_6m_low": 91.18,
+        "pct_from_52w_high": -70.79,
+        "pct_from_52w_low": 91.18,
+        "high_52w": 0.445,
+        "low_52w": 0.068,
+        "high_3m": 0.24,
+        "low_3m": 0.09,
+        "high_6m": 0.24,
+        "low_6m": 0.068,
+        "month1_high": 0.23,
+        "month1_low": 0.105,
+        "month2_high": 0.24,
+        "month2_low": 0.17,
+        "month3_high": 0.19,
+        "month3_low": 0.09,
+        "range_position_3m": 0.267,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.56x its 20-day average",
+          "70.79% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,539/day",
+        "reading": [
+          "Going into this, UM1 traded 2.56x its usual daily volume over the last 5 sessions — measured to the 2026-10-02 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 45.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,539 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FMR",
       "company": "FMR RESOURCES LIMITED",
