@@ -1,9 +1,498 @@
 {
   "date": "2026-10-05",
-  "total": 192,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-10-04T22:54:26.914962+00:00",
+  "total": 207,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-10-04T23:10:34.525890+00:00",
   "announcements": [
+    {
+      "ticker": "IIS",
+      "company": "INTELL INVESTOR SELECT VALUE SHR FUND - ACTIVE ETF",
+      "headline": "IISV Monthly Units on Issue - September 2026",
+      "time": "2026-10-04T23:05:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144285-2A1701746",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly units-on-issue disclosure for the IISV Active ETF is a routine regulatory compliance filing with no investment-decision content — it reports the number of ETF units outstanding at month-end, which is administrative rather than earnings-relevant.",
+        "No market-sensitive flag and no price action data are provided; this filing carries no directional signal for the underlying ETF's NAV or market price.",
+        "The 'so what' is minimal: the figure is relevant only for tracking creation/redemption flow trends over time, which is a secondary liquidity metric rather than a valuation driver."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIS",
+      "company": "INTELL INVESTOR SELECT VALUE SHR FUND - ACTIVE ETF",
+      "headline": "IISV Portfolio Update - September 2026",
+      "time": "2026-10-04T23:04:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144284-2A1701745",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly portfolio update for the IISV Active ETF is a standard transparency disclosure — it reveals the underlying holdings composition as at September 2026, which is required periodic disclosure rather than a market-moving event.",
+        "Not flagged market sensitive; no price action data provided. Any directional read would require knowledge of whether the disclosed portfolio composition reflects meaningful changes in positioning, which cannot be assessed from the headline alone.",
+        "The 'so what' for investors is limited to tracking whether the manager has rotated sector exposure or concentrated/diversified since the prior month — useful for due diligence but not a near-term price catalyst for the ETF units themselves."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INE",
+      "company": "INTELLIGENT INVESTOR ETH SHARE FUND - ACTIVE ETF",
+      "headline": "INES Monthly Units on Issue - September 2026",
+      "time": "2026-10-04T23:03:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144283-2A1701744",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly units-on-issue filing for the INES Active ETF (Ethereum exposure) is a routine regulatory disclosure with no valuation or earnings content — it records unit count at September 2026 month-end.",
+        "Not flagged market sensitive; no price action data provided. The filing carries no independent directional signal; INES unit price is driven by Ethereum's AUD-denominated performance rather than by this administrative update.",
+        "The 'so what' is purely operational: persistent unit growth would indicate net creation demand (bullish flow signal for the vehicle), while unit contraction would signal redemptions — but the headline alone does not disclose the direction of change, making this neutral by default."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Alterity Presents New Analyses of ATH434 Phase 2 Data in MSA",
+      "time": "2026-10-04T23:03:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144282-3A703308",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Presentation of new Phase 2 analyses for ATH434 in Multiple System Atrophy (MSA) — a rare, fatal neurodegenerative disease — is a potential re-rating event for Alterity if the new analyses show biomarker or functional benefit signals not previously highlighted; the headline's 'new analyses' framing implies post-hoc or subgroup work, which markets typically discount relative to pre-specified primary endpoints.",
+        "Volume running at 1.55x average into a 3-month low is a notable tension: elevated volume at a depressed price can reflect short covering, bottom-fishing, or conference-driven awareness — any of which could amplify the reaction to the presentation; however, the filing is NOT flagged market sensitive, which materially reduces conviction that the content is a formal regulatory or clinical milestone disclosure.",
+        "Per track-record calibration, non-market-sensitive filings carry only a 53% directional accuracy base rate; combined with the 'new analyses' framing (secondary rather than primary data), the asymmetric risk is that the presentation recycles known Phase 2 data with reframing rather than delivering a genuinely new efficacy signal — leaving the stock vulnerable to a 'no news' reaction into already-elevated volume at a multi-month low."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 0.38,
+        "market_cap_aud": 83030159.6,
+        "shares_outstanding": 218500420,
+        "beta": 0.564,
+        "rsi_14": 30.73,
+        "volume_trend_ratio": 1.55,
+        "volume_last_ratio": 3.08,
+        "avg_turnover_aud": 51386,
+        "liquid": true,
+        "avg_volume_20": 213641,
+        "volume_change_pct": 208.0,
+        "pct_from_3m_high": -42.86,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -51.59,
+        "pct_from_6m_low": 8.57,
+        "pct_from_52w_high": -51.59,
+        "pct_from_52w_low": 8.57,
+        "high_52w": 0.785,
+        "low_52w": 0.35,
+        "high_3m": 0.665,
+        "low_3m": 0.38,
+        "high_6m": 0.785,
+        "low_6m": 0.35,
+        "month1_high": 0.51,
+        "month1_low": 0.38,
+        "month2_high": 0.595,
+        "month2_low": 0.475,
+        "month3_high": 0.665,
+        "month3_low": 0.495,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.55x its 20-day average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ATH traded 1.55x its usual daily volume over the last 5 sessions — measured to the 2026-10-02 close, before this announcement was public.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INE",
+      "company": "INTELLIGENT INVESTOR ETH SHARE FUND - ACTIVE ETF",
+      "headline": "INES Portfolio Update - September 2026",
+      "time": "2026-10-04T23:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144281-2A1701743",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly portfolio update for the INES Active ETF (Ethereum-linked) is a routine periodic disclosure of underlying holdings or NAV composition — standard regulatory transparency with no independent price-moving content.",
+        "Not flagged market sensitive; no price action data provided. INES portfolio content is largely a function of Ethereum price movements and hedging strategy rather than active stock selection, so this update is near-purely administrative.",
+        "The 'so what' for unit holders is limited to confirming the vehicle remains invested as mandated; no catalyst for near-term unit price movement is implied by this filing type."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIG",
+      "company": "INTELLIGENT INVESTOR EQ GROWTH FUND ACTIVE ETF",
+      "headline": "IIGF Monthly Units on Issue - September 2026",
+      "time": "2026-10-04T23:02:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144280-2A1701736",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly units-on-issue disclosure for the IIGF Active ETF (equity growth mandate) is a routine compliance filing — it records unit count at September 2026 month-end with no earnings, portfolio, or strategy content.",
+        "Not flagged market sensitive; no price action data provided. This is one of four near-identical Intelligent Investor ETF administrative filings in today's batch, confirming a scheduled month-end disclosure cycle rather than any event-driven announcement.",
+        "No directional read is warranted; the filing is purely administrative and carries no information content beyond confirming the ETF remains operational."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INI",
+      "company": "INTELLIGENT INVESTOR AUS EQ INC FUND - ACTIVE ETF",
+      "headline": "INIF Monthly Units on Issue - September 2026",
+      "time": "2026-10-04T23:02:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144279-2A1701732",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly units-on-issue filing for the INIF Active ETF (Australian equity income mandate) is a routine regulatory compliance disclosure with no investment-decision content.",
+        "Not flagged market sensitive; no price action data provided. Part of a coordinated month-end filing batch across four Intelligent Investor ETF vehicles — all administrative in nature.",
+        "The 'so what' is nil for near-term price action; unit count changes matter only as a slow-moving indicator of product distribution momentum, not as a session-level catalyst."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIG",
+      "company": "INTELLIGENT INVESTOR EQ GROWTH FUND ACTIVE ETF",
+      "headline": "IIGF Portfolio Update - September 2026",
+      "time": "2026-10-04T23:02:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144278-2A1701733",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "September portfolio update for the IIGF Active ETF discloses underlying holdings composition — a standard periodic transparency filing required for active ETF structures on ASX under AQUA rules.",
+        "Not flagged market sensitive; no price action data provided. The content may reveal sector rotation or concentration changes within the equity growth mandate, but the headline alone signals no specific catalyst.",
+        "The 'so what' is negligible for near-term unit price movement; any directional implication would depend on whether disclosed holdings changes reflect a meaningful tactical shift, which cannot be assessed from the headline."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 2 Oct 26",
+      "time": "2026-10-04T23:01:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144277-2A1701737",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst MINIs cash amount disclosure following a stop-loss event on 2 October 2026 is an administrative settlement notice — it records the cash return to holders of affected MINI warrants whose stop-loss levels were breached, triggering mandatory termination.",
+        "Not flagged market sensitive; no price action data provided. This is a structured product lifecycle event, not an announcement about the underlying security's own fundamentals — the stop-loss breach has already occurred and the cash amounts are being published as a post-event record.",
+        "The 'so what' for the broader market is nil; this filing is relevant only to holders of the specific terminated CTW MINIs who need to confirm their cash settlement quantum — it carries no directional signal for any underlying security."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRG",
+      "company": "FRANKLIN GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Quarterly Correlation Report - September 2026",
+      "time": "2026-10-04T23:01:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144276-2A1701729",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Routine quarterly correlation report for the Franklin Global Growth Fund Active ETF — a compliance-driven disclosure with no operational, financial, or strategic content that would move the unit price.",
+        "Not flagged market sensitive, consistent with its administrative nature; correlation reporting is a regulatory obligation for active ETFs under ASIC's product disclosure framework and carries zero valuation signal.",
+        "Investors should treat this as background noise; the relevant forward signals for FRG remain its underlying portfolio composition and any changes to the active manager's positioning disclosed in separate filings."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Stop Loss Event Trigger 2 Oct 26 Update",
+      "time": "2026-10-04T23:01:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144275-2A1701734",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A stop-loss trigger event on a CitiFirst MINI product over CTW signals that the underlying security (CTW) has breached the barrier level embedded in that structured product — a mechanically bearish indicator for recent price direction.",
+        "This is a structured-product administration notice, not a corporate filing by CTW itself; it is not market sensitive and carries no direct implication for CTW's fundamentals, capital structure, or operations.",
+        "The practical 'so what' is narrow: holders of this specific MINI product face mandatory close-out or conversion per the product terms; for CTW equity holders the filing is informational only and does not change the underlying investment case."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INI",
+      "company": "INTELLIGENT INVESTOR AUS EQ INC FUND - ACTIVE ETF",
+      "headline": "INIF Portfolio Update - September 2026",
+      "time": "2026-10-04T23:00:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144274-2A1701731",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly portfolio update for the Intelligent Investor Australian Equity Income Fund Active ETF — routine transparency disclosure covering September 2026 holdings or attribution; not flagged market sensitive.",
+        "The 'so what' for unitholders is limited to monitoring whether the portfolio manager has made material allocation shifts (sector rotation, cash weighting changes) that affect income distribution expectations, but no such change is signalled in the headline alone.",
+        "Without a market-sensitive flag or named catalyst, this is a standard investor-relations filing; institutional investors should cross-reference any disclosed positioning changes against their own sector views rather than treating the filing itself as actionable."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "headline": "Weekly Estimate NTA for 02.10.2026",
+      "time": "2026-10-04T22:59:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144273-2A1701730",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weekly NTA estimate for Regal Investment Fund (RF1) as at 2 October 2026 — a routine NAV transparency filing that closed-end and active-ETF fund managers are expected to publish regularly under ASX listing rules.",
+        "The key signal embedded in any NTA update is the premium or discount to last traded price; without the actual NTA figure disclosed in the headline, no directional inference is possible from this filing alone — investors should check whether RF1 is trading at an unusual discount or premium relative to the published estimate.",
+        "Not flagged market sensitive and structurally administrative; the filing's value lies in the data point itself rather than the filing event, and any mispricing signal (wide discount = potential catalyst for buyback or restructure) requires the actual NTA number to assess."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 3.38,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.773,
+        "rsi_14": 44.15,
+        "volume_trend_ratio": 0.73,
+        "volume_last_ratio": 0.27,
+        "avg_turnover_aud": 416208,
+        "liquid": true,
+        "avg_volume_20": 132521,
+        "volume_change_pct": -73.0,
+        "pct_from_3m_high": -11.05,
+        "pct_from_3m_low": 2.42,
+        "pct_from_6m_high": -11.52,
+        "pct_from_6m_low": 2.42,
+        "pct_from_52w_high": -11.52,
+        "pct_from_52w_low": 9.74,
+        "high_52w": 3.82,
+        "low_52w": 3.08,
+        "high_3m": 3.8,
+        "low_3m": 3.3,
+        "high_6m": 3.82,
+        "low_6m": 3.3,
+        "month1_high": 3.6,
+        "month1_low": 3.3,
+        "month2_high": 3.8,
+        "month2_low": 3.47,
+        "month3_high": 3.69,
+        "month3_low": 3.45,
+        "range_position_3m": 0.16,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-02 close.",
+          "The price sat in the lower part of its 3-month range, 11.05% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G88",
+      "company": "GOLDEN MILE RESOURCES LTD",
+      "headline": "Director Appointment/Resignation",
+      "time": "2026-10-04T22:58:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144272-3A703307",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director appointment or resignation at Golden Mile Resources (G88) — a board-change filing at a thinly traded micro-cap (median daily turnover ~A$211/day) where volume ratios are essentially meaningless given near-zero absolute liquidity; the 0.41x below-average volume into the announcement reflects the stock's chronic illiquidity rather than any informed pre-positioning.",
+        "The directional impact hinges entirely on whether this is an appointment or a resignation, and whether the incoming/outgoing director has a specific technical, funding, or strategic profile relevant to G88's project pipeline — none of which is determinable from the headline alone; per lesson L031, direction of the board change must be confirmed before leaning in either direction.",
+        "At a 3-month low with no market-sensitive flag, a director change at this scale of company is most likely procedural (retirement, rotation) unless the new appointee brings a named operational or capital markets catalyst; default to neutral pending disclosure of the individual's identity and role."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 0.006,
+        "market_cap_aud": 4506310.2,
+        "shares_outstanding": 751051700,
+        "beta": 0.408,
+        "rsi_14": 24.59,
+        "volume_trend_ratio": 0.41,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 211,
+        "liquid": false,
+        "avg_volume_20": 370335,
+        "volume_change_pct": -98.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -33.33,
+        "pct_from_6m_low": 20.0,
+        "pct_from_52w_high": -53.85,
+        "pct_from_52w_low": 20.0,
+        "high_52w": 0.013,
+        "low_52w": 0.005,
+        "high_3m": 0.009,
+        "low_3m": 0.006,
+        "high_6m": 0.009,
+        "low_6m": 0.005,
+        "month1_high": 0.008,
+        "month1_low": 0.006,
+        "month2_high": 0.009,
+        "month2_low": 0.006,
+        "month3_high": 0.0085,
+        "month3_low": 0.007,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.41x its average",
+          "at a 3-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$211/day",
+        "reading": [
+          "Going into this, G88 traded only 0.41x its usual daily volume over the last 5 sessions — measured to the 2026-10-02 close.",
+          "It was at the bottom of its 3-month range, already falling into this.",
+          "Treat all of that with care: it trades about A$211 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Magnetics Strengthen Dalgaranga Gold",
+      "time": "2026-10-04T22:57:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144271-6A1347630",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive magnetic survey update at a stock 83.56% below its 12-month high — the deep de-rating means even modestly encouraging technical data can carry outsized re-rating potential if it points to a drillable target, which is the key 'so what' the body of this filing must answer.",
+        "Pre-announcement volume at 0.17x average is near-zero on an already thinly traded stock (median turnover ~A$9,890/day); at this liquidity level volume ratios are close to meaningless as a positioning signal — there is no evidence of pre-accumulation, which removes a sell-the-news overhang but also confirms no institutional interest has been building ahead of this release.",
+        "Per lesson L058, a project-update headline flagged market sensitive but naming only the project and a technique ('Magnetics') rather than a specific milestone (resource, drill intersection, permit) carries symmetric uncertainty; the market-sensitive flag is necessary but not sufficient — direction hinges entirely on whether the filing body discloses a confirmed drill target or maiden resource implication; absent that specificity, default is neutral."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-02",
+        "bars": 253,
+        "last_close": 0.012,
+        "market_cap_aud": 6535923.26,
+        "shares_outstanding": 544660272,
+        "beta": 1.898,
+        "rsi_14": 41.93,
+        "volume_trend_ratio": 0.17,
+        "volume_last_ratio": 0.2,
+        "avg_turnover_aud": 9890,
+        "liquid": false,
+        "avg_volume_20": 3802466,
+        "volume_change_pct": -80.0,
+        "pct_from_3m_high": -63.64,
+        "pct_from_3m_low": 20.0,
+        "pct_from_6m_high": -70.0,
+        "pct_from_6m_low": 20.0,
+        "pct_from_52w_high": -83.56,
+        "pct_from_52w_low": 20.0,
+        "high_52w": 0.073,
+        "low_52w": 0.01,
+        "high_3m": 0.033,
+        "low_3m": 0.01,
+        "high_6m": 0.04,
+        "low_6m": 0.01,
+        "month1_high": 0.022,
+        "month1_low": 0.01,
+        "month2_high": 0.033,
+        "month2_low": 0.018,
+        "month3_high": 0.03,
+        "month3_low": 0.022,
+        "range_position_3m": 0.087,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.17x its average",
+          "83.56% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$9,890/day",
+        "reading": [
+          "Going into this, TG1 traded only 0.17x its usual daily volume over the last 5 sessions — measured to the 2026-10-02 close.",
+          "The price sat in the lower part of its 3-month range, 63.64% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,890 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CHW",
       "company": "CHILWA MINERALS LTD",
