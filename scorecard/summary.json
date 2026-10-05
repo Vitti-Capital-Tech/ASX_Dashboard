@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-05T19:03:48.269446+11:00",
+  "generated_at": "2026-10-05T19:58:57.615626+11:00",
   "days_scored": 41,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 2258,
+      "scored": 2259,
       "correct": 931,
       "wrong": 587,
-      "flat": 740,
+      "flat": 741,
       "hit_rate": 61.3,
       "avg_abnormal_pct": 1.99
     },
     "bearish": {
-      "scored": 678,
+      "scored": 681,
       "correct": 226,
       "wrong": 192,
-      "flat": 260,
+      "flat": 263,
       "hit_rate": 54.1,
       "avg_abnormal_pct": -0.56
     },
     "neutral": {
-      "scored": 5407,
-      "correct": 2454,
-      "wrong": 2953,
+      "scored": 5422,
+      "correct": 2467,
+      "wrong": 2955,
       "flat": 0,
-      "hit_rate": 45.4,
+      "hit_rate": 45.5,
       "avg_abnormal_pct": 0.44
     }
   },
@@ -35,27 +35,27 @@
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 2258,
+        "scored": 2259,
         "correct": 633,
         "wrong": 773,
-        "flat": 852,
+        "flat": 853,
         "hit_rate": 45.0,
         "avg_abnormal_pct": -0.02
       },
       "bearish": {
-        "scored": 678,
+        "scored": 681,
         "correct": 223,
         "wrong": 141,
-        "flat": 314,
+        "flat": 317,
         "hit_rate": 61.3,
         "avg_abnormal_pct": -0.8
       },
       "neutral": {
-        "scored": 5407,
-        "correct": 2705,
+        "scored": 5422,
+        "correct": 2720,
         "wrong": 2702,
         "flat": 0,
-        "hit_rate": 50.0,
+        "hit_rate": 50.2,
         "avg_abnormal_pct": -0.05
       }
     },
@@ -106,8 +106,8 @@
       "hit_rate": 51.2,
       "intraday_scored": 39,
       "intraday_hit_rate": 38.5,
-      "intraday_avg_as_called": -0.48,
-      "avg_as_called": 0.41
+      "intraday_avg_as_called": -0.47,
+      "avg_as_called": 0.4
     },
     {
       "document_type": "Merger & Acquisition",
@@ -471,7 +471,7 @@
       "date": "2026-10-05",
       "hit_rate": 51.5,
       "scored": 33,
-      "spread_pct": -3.25,
+      "spread_pct": -2.28,
       "intraday_hit_rate": 40.0,
       "intraday_scored": 30
     }
