@@ -1,9 +1,79 @@
 {
   "date": "2026-10-06",
-  "total": 287,
+  "total": 288,
   "market_sensitive_count": 90,
-  "generated_at": "2026-10-05T23:52:57.478501+00:00",
+  "generated_at": "2026-10-05T23:59:18.347525+00:00",
   "announcements": [
+    {
+      "ticker": "CLU",
+      "company": "CLUEY LTD",
+      "headline": "Removal from Official List",
+      "time": "2026-10-05T23:56:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144809-2A1701973",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Removal from the ASX Official List is the terminal corporate event — Cluey Ltd ceases to exist as a publicly traded entity, extinguishing any residual liquidity for shareholders and marking a complete loss of the equity story that once commanded a meaningful market capitalisation.",
+        "The stock was already 84% below its 12-month high with a median daily turnover of approximately A$16/day — effectively zero liquidity — meaning the register had long since been abandoned by institutional holders; the delisting formalises a market verdict that was already priced in through near-complete price destruction and negligible trading activity.",
+        "With volume ratios close to meaningless at this liquidity level, there is no tape signal worth reading into the announcement; for any remaining shareholders the practical next step is to assess whether any scheme, wind-up distribution, or acquirer consideration is attached to the delisting, as the removal itself delivers no recovery value without an accompanying corporate action."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.013,
+        "market_cap_aud": 5378534.11,
+        "shares_outstanding": 413733393,
+        "beta": 0.201,
+        "rsi_14": 69.54,
+        "volume_trend_ratio": 0.53,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 16,
+        "liquid": false,
+        "avg_volume_20": 361171,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -13.33,
+        "pct_from_3m_low": 116.67,
+        "pct_from_6m_high": -56.67,
+        "pct_from_6m_low": 333.33,
+        "pct_from_52w_high": -84.15,
+        "pct_from_52w_low": 333.33,
+        "high_52w": 0.082,
+        "low_52w": 0.003,
+        "high_3m": 0.015,
+        "low_3m": 0.006,
+        "high_6m": 0.03,
+        "low_6m": 0.003,
+        "month1_high": 0.013,
+        "month1_low": 0.01,
+        "month2_high": 0.015,
+        "month2_low": 0.01,
+        "month3_high": 0.015,
+        "month3_low": 0.006,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.53x its average",
+          "84.15% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$16/day",
+        "reading": [
+          "Going into this, CLU traded only 0.53x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the upper part of its 3-month range, 13.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$16 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "ADX",
       "company": "ADX ENERGY LTD",
