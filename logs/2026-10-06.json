@@ -1,9 +1,77 @@
 {
   "date": "2026-10-06",
-  "total": 260,
+  "total": 261,
   "market_sensitive_count": 85,
-  "generated_at": "2026-10-05T23:14:06.507326+00:00",
+  "generated_at": "2026-10-05T23:15:39.803271+00:00",
   "announcements": [
+    {
+      "ticker": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "headline": "Change of Director's Interest Notice - MT",
+      "time": "2026-10-05T23:12:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144782-3A703396",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director interest notice for AVITA Medical (AVH) with no direction disclosed in the headline — per lesson L031, direction must be confirmed before leaning bearish; however, L031's moderating logic was designed for stocks NOT near a multi-month high, and AVH is explicitly at a 12-month high, making the context materially different and more consistent with L001's bearish default for insider activity at extended prices.",
+        "Stock at a 12-month high is the critical overlay here: director transactions at extended price levels carry an asymmetric read — if the notice reveals a sale, it is a meaningful bearish signal (insider monetising into strength); if it reveals an acquisition, the bullish signal is muted given the stock has already run; the filing is not flagged market sensitive, which lowers conviction on any directional call per base-rate data (53.3% accuracy on unflagged filings).",
+        "Next step is to review the body of the notice to confirm whether this is a purchase or sale — if a sale into a 12-month high, the bearish interpretation strengthens materially; if an on-market purchase at the high, treat as neutral given the risk of paying top-of-range prices; absent confirmed direction, the procedural nature of the filing and the unflagged status default this to neutral, with the 12-month-high context as a mild bearish tilt if selling is confirmed."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 3.67,
+        "market_cap_aud": 567507642.45,
+        "shares_outstanding": 154634235,
+        "beta": 1.003,
+        "rsi_14": 79.8,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 1.01,
+        "avg_turnover_aud": 932441,
+        "liquid": true,
+        "avg_volume_20": 363594,
+        "volume_change_pct": 1.0,
+        "pct_from_3m_high": -0.27,
+        "pct_from_3m_low": 226.22,
+        "pct_from_6m_high": -0.27,
+        "pct_from_6m_low": 242.99,
+        "pct_from_52w_high": -0.27,
+        "pct_from_52w_low": 267.0,
+        "high_52w": 3.68,
+        "low_52w": 1.0,
+        "high_3m": 3.68,
+        "low_3m": 1.125,
+        "high_6m": 3.68,
+        "low_6m": 1.07,
+        "month1_high": 3.68,
+        "month1_low": 2.66,
+        "month2_high": 3.04,
+        "month2_low": 1.47,
+        "month3_high": 1.48,
+        "month3_low": 1.125,
+        "range_position_3m": 0.996,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_6m_high": true,
+        "at_6m_low": false,
+        "at_52w_high": true,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "It was already at a 12-month high, so the market had been bidding it up regardless of this news — some of what the filing says may already be in the price."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EQR",
       "company": "EQ RESOURCES LIMITED",
