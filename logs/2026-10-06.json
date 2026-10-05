@@ -1,9 +1,85 @@
 {
   "date": "2026-10-06",
-  "total": 279,
+  "total": 283,
   "market_sensitive_count": 89,
-  "generated_at": "2026-10-05T23:39:37.876610+00:00",
+  "generated_at": "2026-10-05T23:46:10.471667+00:00",
   "announcements": [
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQTY PREMIUM INCOME (HEDGED) COMPLEX ETF",
+      "headline": "Outstanding ETF Securities and Monthly Redemptions",
+      "time": "2026-10-05T23:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144804-2A1701958",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly disclosure of outstanding ETF unit count and redemption activity for JEP — a purely administrative filing with no valuation or strategy implications for the underlying fund or its holdings.",
+        "As a hedged equity premium income ETF, monthly redemption data provides a read on retail/institutional demand for the product, but without specific figures disclosed in this filing context, no directional inference on fund flows is warranted.",
+        "No market-sensitive flag and no named catalyst — this is a compliance-driven disclosure obligation under ASX ETF rules; institutional investors should treat it as background data only, with zero expected share-price (NAV) impact."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IVE GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - C Aston",
+      "time": "2026-10-05T23:41:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144803-2A1701960",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Director's Interest Notice for C Aston at IVE Group is an administrative disclosure of a change in a director's securities holding — direction (acquisition vs. disposal) is not confirmed in the headline, which is the critical ambiguity before assigning sentiment per lesson L031.",
+        "IVE Group is a mid-market print and marketing services business with a meaningful dividend yield; director interest changes here warrant attention as insider signals, but without price action data or confirmation of direction, the filing cannot be read as clearly constructive or distributive.",
+        "Consistent with L031 guidance, the absence of direction disclosure in the headline and no market-sensitive flag means this should default to neutral — confirmation of acquisition vs. disposal from the filing body is required before any directional lean is justified."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IVE GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - S Hook",
+      "time": "2026-10-05T23:39:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144802-2A1701959",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Director's Interest Notice on the same day — this time for S Hook at IVE Group — filed alongside two other director notices (C Aston, G Bell) forming a cluster of simultaneous insider disclosures, which may signal a structured equity grant, vesting event, or staff share plan allocation rather than open-market trading.",
+        "A cluster of same-day director interest filings across multiple directors at the same company most commonly reflects a board-wide share plan vesting or allocation event, which is procedural and not a directional signal — it does not represent individual insider conviction buying or selling.",
+        "Not market sensitive, no headline direction disclosed — applying L031 logic, default to neutral; the multi-director cluster actually reinforces the administrative (plan-related) interpretation over any insider-conviction read."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IVE GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - G Bell",
+      "time": "2026-10-05T23:38:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144801-2A1701957",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Third simultaneous Director's Interest Notice at IVE Group in the same filing session (G Bell), completing a three-director cluster — this pattern is highly characteristic of a scheduled equity plan event (performance rights vesting, STI/LTI settlement, or employee share plan allocation) rather than discretionary market purchases or sales.",
+        "The coordinated nature of three director filings on the same day removes the insider-conviction signal that a single isolated director trade would carry — structured plan events are generally neutral to sentiment as they are anticipated by the market and often disclosed in remuneration frameworks.",
+        "No market-sensitive flag, no directional headline disclosure — consistent with the IGL filings [2] and [3] above, the appropriate call remains neutral; investors should review the filing body to confirm plan-event vs. open-market transaction, but the cluster structure makes an administrative vesting event the base case."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IGL",
       "company": "IVE GROUP LIMITED",
