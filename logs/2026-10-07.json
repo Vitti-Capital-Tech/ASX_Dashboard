@@ -1,9 +1,78 @@
 {
   "date": "2026-10-07",
-  "total": 279,
+  "total": 280,
   "market_sensitive_count": 70,
-  "generated_at": "2026-10-06T23:16:44.640954+00:00",
+  "generated_at": "2026-10-06T23:19:15.415417+00:00",
   "announcements": [
+    {
+      "ticker": "FBR",
+      "company": "FBR LTD",
+      "headline": "Cancel - Proposed issue of securities - FBR",
+      "time": "2026-10-06T23:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145409-6A1348073",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cancelled securities issuance notice is structurally positive at the margin — it signals that a planned capital raise or securities issue has been withdrawn before completion, removing an immediate dilution event from the register. For a stock already 74% below its 12-month high, avoiding incremental dilution is a modest near-term relief.",
+        "FBR is thinly traded at a median turnover of ~A$27,092/day, so volume signals are close to meaningless here — the tape cannot reliably indicate whether this cancellation reflects improved balance sheet confidence, a failed placement, or a renegotiated structure. The 'not market sensitive' flag aligns with the procedural nature of the filing, reducing conviction on any directional call.",
+        "The critical unknown is why the issuance was cancelled: if it reflects a failed or withdrawn placement (i.e., the company could not find buyers at acceptable terms), that is a latent negative for funding runway; if it reflects an internal restructuring or timing deferral, it may be neutral. Without companion disclosure, the cancellation is ambiguous and warrants a wait-for-detail posture — watch for a follow-up capital raise or business update filing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 254,
+        "last_close": 0.065,
+        "market_cap_aud": 10869693.64,
+        "shares_outstanding": 167226056,
+        "beta": 1.736,
+        "rsi_14": 27.95,
+        "volume_trend_ratio": 0.76,
+        "volume_last_ratio": 0.08,
+        "avg_turnover_aud": 27092,
+        "liquid": false,
+        "avg_volume_20": 471507,
+        "volume_change_pct": -92.0,
+        "pct_from_3m_high": -67.5,
+        "pct_from_3m_low": 6.56,
+        "pct_from_6m_high": -67.5,
+        "pct_from_6m_low": 6.56,
+        "pct_from_52w_high": -74.0,
+        "pct_from_52w_low": 6.56,
+        "high_52w": 0.25,
+        "low_52w": 0.061,
+        "high_3m": 0.2,
+        "low_3m": 0.061,
+        "high_6m": 0.2,
+        "low_6m": 0.061,
+        "month1_high": 0.12,
+        "month1_low": 0.061,
+        "month2_high": 0.1525,
+        "month2_low": 0.11,
+        "month3_high": 0.2,
+        "month3_low": 0.115,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "74.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$27,092/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-06 close.",
+          "The price sat in the lower part of its 3-month range, 67.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$27,092 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "6KA",
       "company": "6K ADDITIVE, INC.",
