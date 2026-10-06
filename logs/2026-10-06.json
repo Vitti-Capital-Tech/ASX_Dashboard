@@ -1,9 +1,1908 @@
 {
   "date": "2026-10-06",
-  "total": 288,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-10-05T23:59:18.347525+00:00",
+  "total": 331,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-10-06T01:01:16.101618+00:00",
   "announcements": [
+    {
+      "ticker": "STN",
+      "company": "SATURN METALS LIMITED",
+      "headline": "Annual General Meeting Details",
+      "time": "2026-10-06T00:57:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144852-6A1347875",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice is an administrative/procedural filing with no operational content — it sets a meeting date and discloses agenda items but contains no financial, operational, or strategic information that independently moves valuation.",
+        "The filing is not flagged market sensitive, consistent with its administrative nature; with 5-day volume at 0.57x average (modestly below normal), there is no unusual activity pattern suggesting informed positioning ahead of the AGM, and the unflagged status means this filing must make its own case — it does not.",
+        "Near-term focus for STN investors remains on the company's gold exploration programme and any resource or drilling updates rather than this procedural notice; the AGM itself could become relevant if contested resolutions or strategic announcements are tabled, but none are signalled here."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.485,
+        "market_cap_aud": 364809674.07,
+        "shares_outstanding": 752184895,
+        "beta": 2.663,
+        "rsi_14": 43.96,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.36,
+        "avg_turnover_aud": 665155,
+        "liquid": true,
+        "avg_volume_20": 1310123,
+        "volume_change_pct": -64.0,
+        "pct_from_3m_high": -16.38,
+        "pct_from_3m_low": 21.25,
+        "pct_from_6m_high": -27.07,
+        "pct_from_6m_low": 21.25,
+        "pct_from_52w_high": -27.07,
+        "pct_from_52w_low": 32.88,
+        "high_52w": 0.665,
+        "low_52w": 0.365,
+        "high_3m": 0.58,
+        "low_3m": 0.4,
+        "high_6m": 0.665,
+        "low_6m": 0.4,
+        "month1_high": 0.58,
+        "month1_low": 0.47,
+        "month2_high": 0.575,
+        "month2_low": 0.42,
+        "month3_high": 0.495,
+        "month3_low": 0.4,
+        "range_position_3m": 0.472,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, STN traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 16.38% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVN",
+      "company": "AVANTIS GLOBAL EQUITY ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:54:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144851-2A1702003",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at an active ETF (AVN — Avantis Global Equity Active ETF) is an operational/governance event for the fund manager rather than a signal about the underlying portfolio; ETF directors typically serve at the responsible entity level and their departure does not affect the investment mandate or portfolio holdings.",
+        "The filing is not flagged market sensitive and no price action data is provided, consistent with the expectation that this is an administrative board change at the fund-management entity with no direct valuation implications for ETF unitholders.",
+        "Unitholders should monitor whether a replacement director is announced promptly to ensure compliance with the responsible entity's governance obligations, but absent any indication of broader management disruption, this is a routine board-maintenance event."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "Dividend/Distribution - SNC",
+      "time": "2026-10-06T00:54:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144850-2A1702002",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "A dividend announcement from Sandon Capital (a listed investment company/activist fund) is a direct, measurable cash return to shareholders — the 'so what' is yield certainty, which is the primary valuation driver for LIC investors alongside NTA performance.",
+        "With SNC only 2.65% off its 3-month high and median daily turnover of ~A$24,821/day (thinly traded), the stock is in a constructive technical posture; a dividend declaration here is unlikely to be a surprise to the market given SNC's regular distribution history, meaning the price impact will hinge on whether the quantum is in line with, above, or below prior periods.",
+        "For a thinly traded LIC near its recent high, a dividend in line with expectations is largely priced in; any upside surprise in quantum or a special distribution would be the incremental bullish catalyst, while a cut would be the key downside risk — the headline alone without quantum detail limits conviction."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.735,
+        "market_cap_aud": 114185288.49,
+        "shares_outstanding": 155354134,
+        "beta": 0.156,
+        "rsi_14": 48.38,
+        "volume_trend_ratio": 0.95,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 24821,
+        "liquid": false,
+        "avg_volume_20": 38296,
+        "volume_change_pct": -42.0,
+        "pct_from_3m_high": -2.65,
+        "pct_from_3m_low": 7.3,
+        "pct_from_6m_high": -9.82,
+        "pct_from_6m_low": 7.3,
+        "pct_from_52w_high": -24.23,
+        "pct_from_52w_low": 7.3,
+        "high_52w": 0.97,
+        "low_52w": 0.685,
+        "high_3m": 0.755,
+        "low_3m": 0.685,
+        "high_6m": 0.815,
+        "low_6m": 0.685,
+        "month1_high": 0.755,
+        "month1_low": 0.73,
+        "month2_high": 0.75,
+        "month2_low": 0.7,
+        "month3_high": 0.715,
+        "month3_low": 0.685,
+        "range_position_3m": 0.714,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.65% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$24,821/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the upper part of its 3-month range, 2.65% below the high of that period.",
+          "Treat all of that with care: it trades about A$24,821 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LHG",
+      "company": "LAKEHOUSE GLOBAL GROWTH FUND ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:51:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144849-2A1702001",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at Lakehouse Global Growth Fund Active ETF (LHG) is a governance/administrative event at the responsible entity level with no direct impact on the ETF's investment mandate, portfolio construction, or unit pricing.",
+        "The filing is not flagged market sensitive and no price action data is provided; consistent with ETF governance norms, board changes at the responsible entity are procedural unless accompanied by a broader management restructure or change-of-control event.",
+        "Unitholders should confirm a replacement appointment is made in a timely manner to preserve board quorum and regulatory compliance, but this is operationally immaterial to the fund's growth strategy or NAV."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HGC",
+      "company": "GCQ GLOBAL EQUITIES HEDGED COMPLEX ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:49:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144848-2A1702000",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at GCQ Global Equities Hedged Complex ETF (HGC) mirrors the pattern seen at AVN and LHG — a responsible-entity-level governance event with no portfolio or NAV implications for unitholders.",
+        "The filing is not flagged market sensitive and no price action data is provided; the 'complex ETF' designation (implying derivatives overlay or currency hedge) does not change the governance analysis — the investment strategy is managed separately from board composition at the RE.",
+        "The simultaneous resignations across multiple ETF vehicles (AVN, LHG, HGC) on the same day suggests a single individual or firm stepping down from multiple director roles — investors should monitor whether a common replacement is announced and whether this signals any broader organisational change at the responsible entity."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHM",
+      "company": "SHRIRO HOLDINGS LIMITED",
+      "headline": "Notification of cessation of securities - SHM",
+      "time": "2026-10-06T00:49:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144847-2A1701999",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities at SHM (Shriro Holdings) — most likely options lapsing unexercised or performance rights forfeiting — removes a future dilution overhang without any cash outflow, which is modestly constructive per L017's lesson: do not call bearish on cessation alone.",
+        "With 5-day volume at only 0.21x average into a stock with median daily turnover of ~A$7,475/day, the tape is extremely quiet — at this level of illiquidity the volume ratio is effectively noise and carries no directional signal; the low activity simply reflects a news-starved, thinly traded register.",
+        "The filing is not flagged market sensitive, consistent with its administrative nature; the key question is the quantum of securities lapsing relative to shares on issue — a meaningful reduction in the dilution overhang at a thinly traded stock can be a register-cleaning positive, but without that data the filing is neutral-to-constructive rather than a strong catalyst."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.75,
+        "market_cap_aud": 47958690.75,
+        "shares_outstanding": 63944921,
+        "beta": 0.011,
+        "rsi_14": 45.56,
+        "volume_trend_ratio": 0.21,
+        "volume_last_ratio": 0.2,
+        "avg_turnover_aud": 7475,
+        "liquid": false,
+        "avg_volume_20": 38609,
+        "volume_change_pct": -80.0,
+        "pct_from_3m_high": -7.98,
+        "pct_from_3m_low": 7.14,
+        "pct_from_6m_high": -8.54,
+        "pct_from_6m_low": 7.14,
+        "pct_from_52w_high": -10.18,
+        "pct_from_52w_low": 14.5,
+        "high_52w": 0.835,
+        "low_52w": 0.655,
+        "high_3m": 0.815,
+        "low_3m": 0.7,
+        "high_6m": 0.82,
+        "low_6m": 0.7,
+        "month1_high": 0.795,
+        "month1_low": 0.735,
+        "month2_high": 0.815,
+        "month2_low": 0.725,
+        "month3_high": 0.775,
+        "month3_low": 0.7,
+        "range_position_3m": 0.435,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.21x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,475/day",
+        "reading": [
+          "Going into this, SHM traded only 0.21x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 7.98% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,475 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARG",
+      "company": "ARGO INVESTMENTS LIMITED",
+      "headline": "Weekly NTA estimate - Fri 2.10.26",
+      "time": "2026-10-06T00:48:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144846-2A1701998",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Argo Investments' weekly NTA estimate is a routine, scheduled disclosure — it provides unitholders with a reference point for the premium/discount to NTA at which ARG trades, which is the primary valuation metric for a large listed investment company.",
+        "With ARG 4.7% off its 3-month high, the stock has pulled back modestly from recent strength; the NTA update's market impact depends entirely on whether the estimated NTA implies the current share price represents a material premium or discount — a widening discount would be constructive for value buyers, a premium would suggest limited upside.",
+        "This is a non-flagged, procedural weekly filing with no operational content; it does not alter the fundamental investment thesis for ARG and is unlikely to drive meaningful price movement on its own — sentiment is determined by the broader equity market's weekly performance captured in the NTA rather than by the act of disclosure itself."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 9.12,
+        "market_cap_aud": 6862631070.24,
+        "shares_outstanding": 752481477,
+        "beta": 0.518,
+        "rsi_14": 44.44,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 0.51,
+        "avg_turnover_aud": 2508871,
+        "liquid": true,
+        "avg_volume_20": 278581,
+        "volume_change_pct": -49.0,
+        "pct_from_3m_high": -4.7,
+        "pct_from_3m_low": 2.47,
+        "pct_from_6m_high": -4.7,
+        "pct_from_6m_low": 6.42,
+        "pct_from_52w_high": -4.7,
+        "pct_from_52w_low": 7.93,
+        "high_52w": 9.57,
+        "low_52w": 8.45,
+        "high_3m": 9.57,
+        "low_3m": 8.9,
+        "high_6m": 9.57,
+        "low_6m": 8.57,
+        "month1_high": 9.5,
+        "month1_low": 9.03,
+        "month2_high": 9.57,
+        "month2_low": 9.12,
+        "month3_high": 9.48,
+        "month3_low": 8.9,
+        "range_position_3m": 0.328,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.7% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 4.7% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLH",
+      "company": "GLOBAL HEALTH LIMITED",
+      "headline": "GHL 2026 AGM Date Announcement",
+      "time": "2026-10-06T00:48:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144845-3A703409",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM date announcement is purely procedural — no strategic content, financial update, or shareholder resolution detail is disclosed in this filing, making it content-free for investment purposes.",
+        "Price action context: GLH is 50.83% below its 12-month high with median daily turnover of approximately A$0/day — at this liquidity level, volume ratios (0.11x average) are effectively meaningless as a signal; the stock is functionally illiquid and price discovery is unreliable.",
+        "The AGM nonetheless creates a near-term governance window: institutional holders should monitor the notice of meeting (when released) for any resolutions touching capital structure, director elections, or executive remuneration, which could carry more signal than today's date-only announcement."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.059,
+        "market_cap_aud": 3468877.56,
+        "shares_outstanding": 58794535,
+        "beta": 0.08,
+        "rsi_14": 57.0,
+        "volume_trend_ratio": 0.11,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 9315,
+        "volume_change_pct": -45.0,
+        "pct_from_3m_high": -18.06,
+        "pct_from_3m_low": 28.26,
+        "pct_from_6m_high": -25.32,
+        "pct_from_6m_low": 28.26,
+        "pct_from_52w_high": -50.83,
+        "pct_from_52w_low": 28.26,
+        "high_52w": 0.12,
+        "low_52w": 0.046,
+        "high_3m": 0.072,
+        "low_3m": 0.046,
+        "high_6m": 0.079,
+        "low_6m": 0.046,
+        "month1_high": 0.064,
+        "month1_low": 0.046,
+        "month2_high": 0.065,
+        "month2_low": 0.05,
+        "month3_high": 0.072,
+        "month3_low": 0.061,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.11x its average",
+          "50.83% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, GLH traded only 0.11x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 18.06% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCQ",
+      "company": "GCQ GLOBAL EQUITIES COMPLEX ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:47:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144844-2A1701997",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at an ETF is structurally different from an operating company — the underlying portfolio is unaffected and the responsible entity (fund manager) retains operational continuity regardless of board composition changes.",
+        "For ETF investors, the key question is whether the departing director held a compliance or audit committee role; absent that detail in this filing, the governance impact is unclear but presumed modest given the passthrough nature of ETF structures.",
+        "No price action data is provided for this ETF vehicle; as a listed fund, the market price should remain anchored to NAV through the arbitrage mechanism, so directional price impact from a director departure is structurally constrained."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGG",
+      "company": "ENERO GROUP LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-10-06T00:45:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144843-2A1701996",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Notice of AGM and proxy form dispatch is a routine administrative filing — no financial results, strategic resolutions, or material business updates are disclosed, limiting its investment signal to zero in isolation.",
+        "EGG is 71.95% below its 12-month high — a severe de-rating that places it in the category where AGM governance events (director elections, remuneration reports) carry elevated activist or dissident shareholder risk; investors should scrutinise the full notice of meeting for any contested resolutions or board renewal proposals.",
+        "Median daily turnover of approximately A$5,257 is near-negligible; at this liquidity level the stock is highly susceptible to outsized moves on minimal volume around any AGM-related news, but the current filing itself provides no actionable catalyst."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.23,
+        "market_cap_aud": 20869077.83,
+        "shares_outstanding": 90735121,
+        "beta": 0.595,
+        "rsi_14": 40.39,
+        "volume_trend_ratio": 1.21,
+        "volume_last_ratio": 0.64,
+        "avg_turnover_aud": 5257,
+        "liquid": false,
+        "avg_volume_20": 38802,
+        "volume_change_pct": -36.0,
+        "pct_from_3m_high": -29.23,
+        "pct_from_3m_low": 2.22,
+        "pct_from_6m_high": -51.58,
+        "pct_from_6m_low": 2.22,
+        "pct_from_52w_high": -71.95,
+        "pct_from_52w_low": 2.22,
+        "high_52w": 0.82,
+        "low_52w": 0.225,
+        "high_3m": 0.325,
+        "low_3m": 0.225,
+        "high_6m": 0.475,
+        "low_6m": 0.225,
+        "month1_high": 0.265,
+        "month1_low": 0.225,
+        "month2_high": 0.325,
+        "month2_low": 0.225,
+        "month3_high": 0.32,
+        "month3_low": 0.2575,
+        "range_position_3m": 0.05,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "71.95% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,257/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 29.23% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,257 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Executive Chairman Terms of Appointment - Extension Update",
+      "time": "2026-10-06T00:42:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144842-3A703408",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An extension of the Executive Chairman's terms of appointment signals board-level continuity, which can be modestly constructive — it removes near-term leadership uncertainty and implies the incumbent is aligned with executing the current strategic plan through a defined further period.",
+        "Price context: ADS is at a 3-month high, but volume over the last 5 sessions is 0.0x average — meaning effective zero trading; at near-zero absolute liquidity (median turnover approximately A$0/day), the 3-month high is a price artefact rather than a reflection of broad buying conviction, and volume ratios are meaningless.",
+        "The filing is not market sensitive and contains no financial terms (remuneration quantum, performance conditions, tenure length) in the headline; without those details, the market cannot assess whether the extension is value-accretive or entrenchment — treat as neutral pending the full terms disclosure."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.001,
+        "market_cap_aud": 5970090.28,
+        "shares_outstanding": 5970090281,
+        "beta": -0.74,
+        "rsi_14": 43.53,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 119198,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": 0.0,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.002,
+        "low_52w": 0.001,
+        "high_3m": 0.001,
+        "low_3m": 0.001,
+        "high_6m": 0.001,
+        "low_6m": 0.001,
+        "month1_high": 0.001,
+        "month1_low": 0.001,
+        "month2_high": 0.001,
+        "month2_low": 0.001,
+        "month3_high": 0.001,
+        "month3_low": 0.001,
+        "range_position_3m": null,
+        "at_3m_high": true,
+        "at_3m_low": true,
+        "at_6m_high": true,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, ADS traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGU",
+      "company": "CLAREMONT GLOBAL FUND ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:42:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144841-2A1701995",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at an active ETF is an administrative governance event — the underlying portfolio management and investment mandate are unaffected by board composition changes at the listed vehicle level.",
+        "As with all ETF structures, the market price is mechanically anchored to NAV through the creation/redemption arbitrage; a director departure does not alter the fund's asset exposure, fee structure, or benchmark, so valuation impact is structurally negligible.",
+        "No price action data is provided; investors should monitor whether this resignation is part of a broader board restructure (noting a simultaneous resignation at the hedged share class CGH, filing [6]) — a coordinated departure across related vehicles may warrant a query to the responsible entity regarding governance continuity."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:41:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144840-2A1701994",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at CGH (the hedged share class of the Claremont Global Fund) mirrors the simultaneous filing at CGU (the unhedged class, filing [5]) — the coordinated nature of these departures suggests a single director held positions across both boards, which is common in dual-class ETF structures.",
+        "The simultaneous resignation across both share classes reduces the probability that either filing reflects a fund-specific governance dispute; the more likely explanation is a planned board refresh or the responsible entity consolidating its director roster.",
+        "No price action data is available; both share classes remain NAV-anchored through ETF arbitrage, so the practical price impact is negligible absent any disclosure of a concurrent change to the investment mandate or responsible entity."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDO",
+      "company": "CADENCE OPPORTUNITIES FUND LIMITED.",
+      "headline": "Notification of buy-back - CDO",
+      "time": "2026-10-06T00:36:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144839-2A1701993",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buy-back notification is a genuine capital allocation signal — management is committing to return capital to shareholders rather than deploying it operationally, which implies the board views the current share price as below intrinsic value and that the balance sheet can support the programme.",
+        "CDO trades with median daily turnover of approximately A$33,466 — low but non-negligible for a micro-cap; with 5-day volume running at 0.49x average (below normal), there is no evidence of pre-announcement accumulation, meaning the buy-back announcement is not being pre-positioned into and may generate a modest positive price reaction on the signal alone.",
+        "The key follow-up questions for institutional holders are: the buy-back quantum relative to market cap, whether it is on-market or off-market, and the maximum price limit — these terms determine whether the programme is substantive enough to act as a genuine price floor or is merely optically constructive."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 2.23,
+        "market_cap_aud": 40846479.61,
+        "shares_outstanding": 18316807,
+        "beta": 0.246,
+        "rsi_14": 44.39,
+        "volume_trend_ratio": 0.49,
+        "volume_last_ratio": 0.14,
+        "avg_turnover_aud": 33466,
+        "liquid": false,
+        "avg_volume_20": 24773,
+        "volume_change_pct": -86.0,
+        "pct_from_3m_high": -11.16,
+        "pct_from_3m_low": 5.69,
+        "pct_from_6m_high": -11.16,
+        "pct_from_6m_low": 10.4,
+        "pct_from_52w_high": -11.16,
+        "pct_from_52w_low": 24.58,
+        "high_52w": 2.51,
+        "low_52w": 1.79,
+        "high_3m": 2.51,
+        "low_3m": 2.11,
+        "high_6m": 2.51,
+        "low_6m": 2.02,
+        "month1_high": 2.44,
+        "month1_low": 2.11,
+        "month2_high": 2.34,
+        "month2_low": 2.17,
+        "month3_high": 2.51,
+        "month3_low": 2.18,
+        "range_position_3m": 0.3,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.49x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,466/day",
+        "reading": [
+          "Going into this, CDO traded only 0.49x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 11.16% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,466 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "L1H",
+      "company": "L1 CAPITAL INTERNATIONAL (HEDGED) ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:36:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144838-2A1701992",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at L1H (the hedged active ETF) follows the same structural logic as filings [2], [5], and [6] — board composition changes at a listed active ETF do not alter the underlying investment portfolio, mandate, or fee structure managed by L1 Capital.",
+        "The resignation is not flagged market sensitive and no price action data is provided; the ETF's NAV-anchoring mechanism constrains any price divergence from fundamentals, making this filing inconsequential for near-term unit price direction.",
+        "Investors should note the clustering of director resignations across multiple fund vehicles on the same day (L1H and L1I, filings [8] and [10], plus Claremont vehicles [5] and [6] and GCQ [2]) — this appears to be an industry-wide board administration day rather than a fund-specific governance event."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IKE",
+      "company": "IKEGPS GROUP LIMITED",
+      "headline": "Application for quotation of securities - IKE",
+      "time": "2026-10-06T00:36:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144837-3A703407",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities at IKE indicates a recently completed capital raise — new shares are being admitted to trading, meaning dilution has already occurred and the relevant question is now whether the proceeds fund a near-term named catalyst rather than whether to fear the dilution itself.",
+        "Price context: 5-day volume is running at 2.05x the 20-day average — elevated relative activity; however, median daily turnover is only approximately A$1,563, meaning the stock is near-illiquid and at this absolute level even a handful of trades can produce a 2x volume ratio; treat the ratio as directionally interesting but not statistically robust.",
+        "The filing is not flagged market sensitive and the headline contains no use-of-proceeds disclosure — under lesson L089, L027's funded-catalyst moderating logic requires a named operational catalyst to be visible in a companion filing before it can moderate the bearish dilution default; absent that companion disclosure, the filing leans bearish on the supply-overhang from fresh paper hitting a near-illiquid tape."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.87,
+        "market_cap_aud": 169641052.05,
+        "shares_outstanding": 194989715,
+        "beta": 0.133,
+        "rsi_14": 34.82,
+        "volume_trend_ratio": 2.05,
+        "volume_last_ratio": 1.04,
+        "avg_turnover_aud": 1563,
+        "liquid": false,
+        "avg_volume_20": 39272,
+        "volume_change_pct": 4.0,
+        "pct_from_3m_high": -14.71,
+        "pct_from_3m_low": 2.96,
+        "pct_from_6m_high": -19.07,
+        "pct_from_6m_low": 12.26,
+        "pct_from_52w_high": -24.35,
+        "pct_from_52w_low": 23.4,
+        "high_52w": 1.15,
+        "low_52w": 0.705,
+        "high_3m": 1.02,
+        "low_3m": 0.845,
+        "high_6m": 1.075,
+        "low_6m": 0.775,
+        "month1_high": 0.925,
+        "month1_low": 0.845,
+        "month2_high": 0.99,
+        "month2_low": 0.895,
+        "month3_high": 1.02,
+        "month3_low": 0.91,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.05x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,563/day",
+        "reading": [
+          "Going into this, IKE traded 2.05x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 14.71% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,563 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "L1I",
+      "company": "L1 CAPITAL INTERNATIONAL (UNHEDGED) ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:33:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144836-2A1701991",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at L1I (the unhedged companion class to L1H, filing [8]) is identical in governance structure and investment impact — the responsible entity and portfolio management team are unchanged, and the ETF's NAV-anchoring mechanism insulates the unit price from board-level personnel changes.",
+        "The simultaneous resignation across both L1 Capital ETF vehicles (L1H and L1I on the same day) strongly implies a single director held dual board positions — a routine structural feature of multi-share-class ETF governance that does not signal distress or strategic change.",
+        "No price action data is available; no investment action is warranted on this filing in isolation, and it is consistent with the broader administrative pattern of coordinated director departures across multiple fund managers observed across today's announcement cluster."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MFO",
+      "company": "MILFORD AUSTRALIAN ABSOLUTE GROWTH COMPLEX ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:32:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144835-2A1701990",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at an ETF wrapper (MFO) is an administrative governance event with no bearing on the underlying portfolio construction or NAV — the ETF's investment mandate and responsible entity structure remain intact regardless of board composition changes at this level.",
+        "For ETF vehicles listed on ASX, director changes at the trustee or responsible entity level are routine compliance filings; the absence of a market-sensitive flag confirms the exchange itself treats this as procedural, not material to unitholders.",
+        "Investors should monitor whether a replacement director is named promptly — a prolonged vacancy on a small ETF board could attract ASIC scrutiny, but at this stage there is no actionable signal for unitholders."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HJH",
+      "company": "HEJAZ HIGH INCOME ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:29:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144834-2A1701989",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at HJH (Hejaz High Income Active ETF) mirrors the same administrative pattern seen across the Hejaz fund suite today — likely a coordinated board restructure across multiple Hejaz-managed vehicles rather than an isolated governance concern.",
+        "The simultaneous resignation across multiple Hejaz ETFs (HJH, SKU, ISL) on the same day strongly implies a single director stepping down from all Hejaz-related board roles, which is a standard occurrence when a responsible entity rationalises its directorate — not a red flag for fund viability.",
+        "No market-sensitive flag and no companion announcement suggesting fund wind-up or strategy change; unitholders have no near-term valuation concern, but the Hejaz platform's governance depth (how many directors remain) warrants a brief check for those with meaningful allocations."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDM",
+      "company": "CADENCE CAPITAL LIMITED",
+      "headline": "Notification of buy-back - CDM",
+      "time": "2026-10-06T00:28:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144833-2A1701988",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CDM's buy-back notification is a capital management signal — Cadence Capital is communicating to the market that it intends to repurchase shares, which at a listed investment company (LIC) typically occurs when the board judges the shares to be trading at a discount to NTA, making buy-backs accretive to remaining shareholders.",
+        "For a LIC, an on-market buy-back is one of the most direct tools to narrow the NTA discount; it signals management confidence in the portfolio's intrinsic value and provides a visible price support mechanism, which is modestly constructive for sentiment even without a market-sensitive flag.",
+        "Investors should watch the pace and scale of the buy-back relative to CDM's average daily turnover — if the authorised quantum is material relative to liquidity, it can serve as a meaningful demand floor; however, without volume or quantum details in the headline, the conviction level on directionality remains limited."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.76,
+        "market_cap_aud": 227029208.68,
+        "shares_outstanding": 298722643,
+        "beta": 0.61,
+        "rsi_14": 39.21,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 1.02,
+        "avg_turnover_aud": 181077,
+        "liquid": true,
+        "avg_volume_20": 278567,
+        "volume_change_pct": 2.0,
+        "pct_from_3m_high": -8.43,
+        "pct_from_3m_low": 2.7,
+        "pct_from_6m_high": -11.63,
+        "pct_from_6m_low": 6.29,
+        "pct_from_52w_high": -12.64,
+        "pct_from_52w_low": 14.29,
+        "high_52w": 0.87,
+        "low_52w": 0.665,
+        "high_3m": 0.83,
+        "low_3m": 0.74,
+        "high_6m": 0.86,
+        "low_6m": 0.715,
+        "month1_high": 0.83,
+        "month1_low": 0.74,
+        "month2_high": 0.805,
+        "month2_low": 0.77,
+        "month3_high": 0.795,
+        "month3_low": 0.74,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 8.43% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKU",
+      "company": "HEJAZ SUKUK ACTIVE ETF",
+      "headline": "Directors Resignation",
+      "time": "2026-10-06T00:25:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144832-2A1701987",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A third simultaneous director resignation across the Hejaz ETF suite (SKU) on the same day further confirms this is a coordinated, platform-wide board event — not stock-specific distress — and should be read in that context rather than as isolated governance deterioration at the Sukuk fund.",
+        "Hejaz SKU invests in Sukuk (Islamic fixed income) instruments; a director departure has no bearing on the fund's coupon income, duration positioning, or credit quality of underlying holdings — NAV and distributions are unaffected by this filing.",
+        "The pattern across HJH, SKU, and ISL on a single day suggests the departing individual held a directorship across the entire Hejaz responsible entity structure; no further escalation is expected absent a follow-on announcement about fund restructuring."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ISL",
+      "company": "HEJAZ EQUITIES FUND ACTIVE ETF",
+      "headline": "Director Resignation",
+      "time": "2026-10-06T00:25:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144831-2A1701986",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The fourth Hejaz-vehicle director resignation on the same day (ISL — Hejaz Equities Fund Active ETF) confirms with near-certainty that a single board member has resigned from all roles held across the Hejaz platform simultaneously, which is entirely standard for a multi-fund responsible entity structure.",
+        "ISL's underlying equity mandate — Shariah-compliant equities — is unaffected by a board composition change at the responsible entity level; portfolio management, investment policy, and distribution mechanics remain unchanged.",
+        "For institutional holders across the Hejaz suite, the key follow-up question is whether the departing director held a specific compliance or investment committee role that requires replacement under ASIC's RG 133 obligations — but absent any regulatory action or market-sensitive flag, this remains a watch-and-wait item."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHK",
+      "company": "ARK MINES LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-10-06T00:23:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144830-2A1701985",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "A 'Results of Meeting' filing for ARK Mines (AHK) is a post-AGM compliance disclosure confirming how resolutions voted — with no market-sensitive flag and deeply suppressed pre-announcement volume (0.11x average into a near-zero-liquidity stock at ~A$7,532/day median turnover), these volume ratios are essentially meaningless as a directional signal in a stock this illiquid.",
+        "At 58.67% below its 12-month high, AHK is a deeply de-rated micro-cap explorer; AGM results are overwhelmingly procedural at juniors of this size — the key watch is whether any resolution failed (e.g. director election, remuneration report rejection, or capital authority), which would be a governance red flag, but the non-market-sensitive flag suggests all resolutions passed as expected.",
+        "No actionable catalyst emerges from a routine AGM result at a thinly traded explorer — investors should focus on the next operational announcement (drill results, resource work) rather than reading intent into this filing."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.31,
+        "market_cap_aud": 22424863.08,
+        "shares_outstanding": 72338268,
+        "beta": 0.045,
+        "rsi_14": 44.56,
+        "volume_trend_ratio": 0.11,
+        "volume_last_ratio": 0.04,
+        "avg_turnover_aud": 7532,
+        "liquid": false,
+        "avg_volume_20": 39197,
+        "volume_change_pct": -96.0,
+        "pct_from_3m_high": -26.19,
+        "pct_from_3m_low": 63.16,
+        "pct_from_6m_high": -26.19,
+        "pct_from_6m_low": 63.16,
+        "pct_from_52w_high": -58.67,
+        "pct_from_52w_low": 63.16,
+        "high_52w": 0.75,
+        "low_52w": 0.19,
+        "high_3m": 0.42,
+        "low_3m": 0.19,
+        "high_6m": 0.42,
+        "low_6m": 0.19,
+        "month1_high": 0.345,
+        "month1_low": 0.305,
+        "month2_high": 0.42,
+        "month2_low": 0.3,
+        "month3_high": 0.325,
+        "month3_low": 0.19,
+        "range_position_3m": 0.522,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.11x its average",
+          "58.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,532/day",
+        "reading": [
+          "Going into this, AHK traded only 0.11x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 26.19% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,532 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "DRP Price - Distribution month ending 30 September 2026",
+      "time": "2026-10-06T00:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144829-2A1701984",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The DRP (Distribution Reinvestment Plan) price announcement for BDC (Muzinich BDC Income Fund) for the September 2026 distribution month is a routine administrative filing — it sets the price at which reinvesting unitholders receive new units in lieu of cash, with no bearing on the fund's underlying portfolio performance or income generation.",
+        "For a BDC-focused income fund, the DRP price itself is a lagging indicator derived from recent NAV or VWAP; what matters to institutional investors is the absolute distribution quantum and yield sustainability, neither of which is disclosed in this filing type.",
+        "No market-sensitive flag; no valuation impact. This filing confirms the fund continues to operate its DRP normally — a modestly positive signal of operational continuity, but not a catalyst in any meaningful sense."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 30 Sept 2026",
+      "time": "2026-10-06T00:20:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144828-2A1701983",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The monthly redemptions and units-on-issue disclosure for BDC as at 30 September 2026 is a standard liquidity transparency filing required for active ETFs — it tells the market whether net fund flows are positive or negative for the month, which is a secondary indicator of investor demand for the BDC income strategy.",
+        "If net redemptions are material relative to total units on issue, it could signal institutional outflows from the BDC income theme; conversely, net issuance would confirm ongoing demand. Without the specific numbers visible in the headline, directional conviction is limited — this is a data point rather than a catalyst.",
+        "Taken alongside the DRP price filing (announcement [7]) on the same day, this is a routine end-of-month compliance cluster for BDC — no operational or valuation event is implied, and no market-sensitive designation has been applied."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "Director Resignation",
+      "time": "2026-10-06T00:20:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144827-2A1701982",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director resignation at NNW (Nanuk New World Fund, currency-hedged active ETF) is an administrative governance filing consistent with the pattern of ETF-wrapper board changes seen across today's filing batch — no market-sensitive flag and no companion announcement suggesting fund strategy or structure changes.",
+        "NNW's investment mandate (global new-economy equities, currency hedged) is managed by Nanuk Asset Management; a director departure at the ASX-listed ETF vehicle level does not affect the portfolio management team, hedging programme, or investment process.",
+        "No actionable signal for unitholders — monitor for a replacement director announcement within a reasonable timeframe as a compliance hygiene check, but no near-term NAV or distribution impact is implied."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "Phase 2 Drilling Underway at Mt Turner",
+      "time": "2026-10-06T00:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144826-6A1347874",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lightning Minerals (L1M) announces Phase 2 drilling has commenced at Mt Turner — this is a genuine operational catalyst (drill-start), but the filing is NOT flagged market sensitive, which meaningfully lowers the prior probability of a material price move and means the headline must make its own case; per L074 logic, absence of urgency language ('fast tracked', 'accelerated') in the headline removes the incremental bullish modifier that lesson provides.",
+        "Pre-announcement volume is suppressed at 0.47x average into a stock that is 80% below its 12-month high with median daily turnover of ~A$5,280 — at this liquidity level, the volume ratio is effectively noise (a handful of trades can swing the ratio materially), so there is no evidence of pre-positioning to unwind, which is modestly constructive in that there is no crowded long to sell against; however, the 80% de-rating means the market has heavily discounted the company's prospects and Phase 2 results will need to be materially better than Phase 1 to re-rate the stock.",
+        "The next binary event is the assay results from this Phase 2 programme — the drill-start itself is a mildly positive execution signal (capital is deployed, programme is live), but with no use-of-proceeds catalyst linked to a recent raise visible in this filing and no market-sensitive flag, the announcement is more of a 'keep the story alive' update than a re-rating trigger; institutional investors should wait for assay results before taking a directional position."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.012,
+        "market_cap_aud": 4561273.16,
+        "shares_outstanding": 380106097,
+        "beta": 1.039,
+        "rsi_14": 43.84,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 5280,
+        "liquid": false,
+        "avg_volume_20": 1535569,
+        "volume_change_pct": -67.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 9.09,
+        "pct_from_6m_high": -50.0,
+        "pct_from_6m_low": 9.09,
+        "pct_from_52w_high": -80.0,
+        "pct_from_52w_low": 9.09,
+        "high_52w": 0.06,
+        "low_52w": 0.011,
+        "high_3m": 0.018,
+        "low_3m": 0.011,
+        "high_6m": 0.024,
+        "low_6m": 0.011,
+        "month1_high": 0.018,
+        "month1_low": 0.012,
+        "month2_high": 0.015,
+        "month2_low": 0.012,
+        "month3_high": 0.016,
+        "month3_low": 0.011,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "80.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,280/day",
+        "reading": [
+          "Going into this, L1M traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,280 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Application for quotation of securities - 4DS",
+      "time": "2026-10-06T00:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144825-6A1347873",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities is a routine administrative filing — new shares are being brought to market, confirming a prior capital raise has completed; the dilution event itself is already done, not new news.",
+        "4DS sits 53.33% below its 12-month high on thin median turnover of ~A$13,900/day; at that liquidity level, volume ratios are close to meaningless as a directional signal, and the stock's deep de-rating means the market has already heavily discounted execution risk.",
+        "Per lesson L050, the key question is whether the raise proceeds fund a named near-term catalyst (e.g. interface layer development, partnership milestone); without confirmed use-of-proceeds tied to a specific operational step, this filing is procedural — but the funded-capital signal is modestly constructive rather than incrementally bearish, supporting a neutral default."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.007,
+        "market_cap_aud": 14426291.03,
+        "shares_outstanding": 2060898718,
+        "beta": 0.094,
+        "rsi_14": 32.76,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.04,
+        "avg_turnover_aud": 13900,
+        "liquid": false,
+        "avg_volume_20": 4846351,
+        "volume_change_pct": -96.0,
+        "pct_from_3m_high": -41.67,
+        "pct_from_3m_low": 7.69,
+        "pct_from_6m_high": -41.67,
+        "pct_from_6m_low": 7.69,
+        "pct_from_52w_high": -53.33,
+        "pct_from_52w_low": 7.69,
+        "high_52w": 0.015,
+        "low_52w": 0.0065,
+        "high_3m": 0.012,
+        "low_3m": 0.0065,
+        "high_6m": 0.012,
+        "low_6m": 0.0065,
+        "month1_high": 0.01,
+        "month1_low": 0.0065,
+        "month2_high": 0.012,
+        "month2_low": 0.008,
+        "month3_high": 0.011,
+        "month3_low": 0.011,
+        "range_position_3m": 0.091,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "53.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$13,900/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 41.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$13,900 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "DRP Price - Distribution quarter ending 30 September 2026",
+      "time": "2026-10-06T00:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144824-2A1701981",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DRP (Distribution Reinvestment Plan) pricing for the quarter ending 30 September 2026 is a standard administrative disclosure — it sets the price at which distributions are reinvested in units rather than paid as cash, with no new information on fund performance or NAV direction.",
+        "For an active ETF like WCM, DRP pricing is purely mechanical and reflects already-declared distribution entitlements; it carries no forward earnings signal and does not change the risk profile of the fund.",
+        "This is a compliance/housekeeping filing with zero market-moving content; institutional holders should note only that participation in the DRP at the declared price is an option, not a catalyst."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 30 Sept 2026",
+      "time": "2026-10-06T00:15:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144823-2A1701980",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly redemptions and units on issue data for WCM as at 30 September 2026 is a regulatory disclosure requirement for active ETFs — it provides transparency on fund flows but is not flagged market sensitive and carries no directional investment signal.",
+        "Net redemption trends are worth monitoring as a leading indicator of institutional sentiment toward the underlying global growth strategy, but the headline alone provides no detail on the direction or magnitude of flows this month.",
+        "Absent detail on whether redemptions accelerated or units on issue expanded (indicating net inflows), this is a neutral administrative filing; no price-action data is provided to contextualise the tape into this release."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "SKS Announces MEL2 contracted works rises to $66M",
+      "time": "2026-10-06T00:14:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144822-3A703406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MEL2 contracted works rising to $66M is a material revenue-backlog upgrade — the 'so what' is that this de-risks SKS's near-term revenue visibility and signals the client is expanding scope rather than pulling back, which is a strong execution endorsement.",
+        "With the stock only 2.32% off its 3-month high, the market has already partially anticipated positive momentum; the key question is whether $66M represents a step-change in the total contract pipeline or simply a rebase of a previously disclosed figure — size relative to SKS's run-rate revenue determines how much re-rating upside remains.",
+        "The market-sensitive flag lends credibility to the materiality of the upgrade; near-term watch points are margin guidance on the incremental works and whether MEL2 scope expansion signals additional precinct or grid-connection opportunities in the same client relationship."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 10.95,
+        "market_cap_aud": 1264125717.45,
+        "shares_outstanding": 115445271,
+        "beta": 1.247,
+        "rsi_14": 69.39,
+        "volume_trend_ratio": 0.81,
+        "volume_last_ratio": 0.31,
+        "avg_turnover_aud": 4355192,
+        "liquid": true,
+        "avg_volume_20": 799379,
+        "volume_change_pct": -69.0,
+        "pct_from_3m_high": -2.32,
+        "pct_from_3m_low": 70.83,
+        "pct_from_6m_high": -2.32,
+        "pct_from_6m_low": 137.53,
+        "pct_from_52w_high": -2.32,
+        "pct_from_52w_low": 249.84,
+        "high_52w": 11.21,
+        "low_52w": 3.13,
+        "high_3m": 11.21,
+        "low_3m": 6.41,
+        "high_6m": 11.21,
+        "low_6m": 4.61,
+        "month1_high": 11.21,
+        "month1_low": 7.4,
+        "month2_high": 9.94,
+        "month2_low": 7.5,
+        "month3_high": 9.495,
+        "month3_low": 6.41,
+        "range_position_3m": 0.946,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.32% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the upper part of its 3-month range, 2.32% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "DRP Price - Distribution month ending 30 September 2026",
+      "time": "2026-10-06T00:11:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144821-2A1701979",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DRP pricing for the distribution month ending 30 September 2026 is a routine mechanical disclosure for SWT — it sets reinvestment terms for already-declared income and contains no new information on portfolio performance or dividend growth trajectory.",
+        "For an income-focused active ETF, consistent DRP participation can signal holder conviction in the strategy, but the pricing announcement itself is purely administrative and not market sensitive.",
+        "No price-action data is available for SWT in this filing; this is a compliance disclosure with negligible near-term share-price impact."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - PCI",
+      "time": "2026-10-06T00:11:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144820-2A1701976",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "A distribution update for PCI (Perpetual Credit Income Trust) confirms the trust is maintaining its income payments — for a credit income vehicle, distribution continuity is the primary valuation anchor and any reduction would be the key bearish trigger; continuity is modestly constructive.",
+        "PCI is trading only 3.59% off its 3-month high, suggesting the market is already pricing in a stable distribution environment; this update is unlikely to materially reprice the units in either direction as income delivery appears in line with expectations.",
+        "Institutional holders in credit income products should confirm whether the distribution rate or yield has changed relative to prior periods — flat or higher is supportive of the current premium/discount to NTA; any step-down in the payout would be a negative re-rating signal that this headline alone does not confirm."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 253,
+        "last_close": 1.075,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.164,
+        "rsi_14": 39.5,
+        "volume_trend_ratio": 0.97,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 775158,
+        "liquid": true,
+        "avg_volume_20": 800032,
+        "volume_change_pct": -22.0,
+        "pct_from_3m_high": -3.59,
+        "pct_from_3m_low": 1.9,
+        "pct_from_6m_high": -3.59,
+        "pct_from_6m_low": 1.9,
+        "pct_from_52w_high": -11.89,
+        "pct_from_52w_low": 5.91,
+        "high_52w": 1.22,
+        "low_52w": 1.015,
+        "high_3m": 1.115,
+        "low_3m": 1.055,
+        "high_6m": 1.115,
+        "low_6m": 1.055,
+        "month1_high": 1.115,
+        "month1_low": 1.055,
+        "month2_high": 1.11,
+        "month2_low": 1.09,
+        "month3_high": 1.11,
+        "month3_low": 1.09,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.59% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 3.59% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEBBEDS GROUP LIMITED",
+      "headline": "Notification of cessation of securities - WEB",
+      "time": "2026-10-06T00:10:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144819-3A703405",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at WEB (WebBeds Group) most likely reflects the lapsing of options or performance rights — per lesson L017, cessation in isolation without a companion capital raise is a register-cleaning event that removes future dilution overhang rather than creating new supply.",
+        "For a travel technology business like WEB, the lapsing of unexercised options (particularly if out-of-the-money) is a marginally positive technical signal — it reduces the fully diluted share count and eliminates a potential earnings-per-share drag without any cash outflow.",
+        "This filing is not flagged market sensitive and carries no operational content; the so-what is modest dilution removal, which is neutral-to-benign rather than a tradeable event on its own."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 3.39,
+        "market_cap_aud": 1227482720.22,
+        "shares_outstanding": 362089298,
+        "beta": 2.162,
+        "rsi_14": 43.08,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 4438618,
+        "liquid": true,
+        "avg_volume_20": 1402447,
+        "volume_change_pct": -70.0,
+        "pct_from_3m_high": -13.52,
+        "pct_from_3m_low": 48.68,
+        "pct_from_6m_high": -13.52,
+        "pct_from_6m_low": 56.22,
+        "pct_from_52w_high": -32.74,
+        "pct_from_52w_low": 56.22,
+        "high_52w": 5.04,
+        "low_52w": 2.17,
+        "high_3m": 3.92,
+        "low_3m": 2.28,
+        "high_6m": 3.92,
+        "low_6m": 2.17,
+        "month1_high": 3.76,
+        "month1_low": 3.33,
+        "month2_high": 3.92,
+        "month2_low": 3.37,
+        "month3_high": 3.52,
+        "month3_low": 2.28,
+        "range_position_3m": 0.677,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the upper part of its 3-month range, 13.52% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Notional Derivatives Exposure - 30 September 2026",
+      "time": "2026-10-06T00:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144818-2A1701978",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Notional derivatives exposure disclosure for SWT as at 30 September 2026 is a mandatory regulatory filing for active ETFs using derivatives — it provides transparency on leverage and hedging levels but is purely administrative in nature.",
+        "The key institutional read is whether notional exposure has increased (implying a more aggressive positioning stance) or decreased (de-risking) — but the headline alone provides no directional detail, and the filing is not flagged market sensitive.",
+        "This is a compliance-driven periodic disclosure with no near-term price-action implications; no price data is available for SWT to contextualise the tape."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Broad Alteration and Sulphide Zone Logged at Wallah",
+      "time": "2026-10-06T00:09:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144817-3A703402",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Logging of broad alteration and sulphide zones at Wallah is a structural/pathfinder result rather than a resource-defining one — it confirms mineralised system presence but stops well short of grade or resource disclosure, which limits immediate re-rating power.",
+        "Pre-announcement volume is 0.3x average — well below normal — into a stock 66.67% below its 12-month high with median turnover of only ~A$1,525/day; at that level of illiquidity the volume ratio is essentially meaningless, and the suppressed activity implies the market was not pre-positioned for this news, reducing sell-the-news risk but also limiting the pool of buyers who will react.",
+        "The market-sensitive flag elevates this above a routine update, but absent grade intercepts or width data in the headline, the filing fits the pattern of a positive system-confirmation result that sustains the exploration thesis without providing the binary catalyst (assay grades) needed to drive sustained buying at a deeply de-rated stock — apply L058's caution and default to neutral."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.002,
+        "market_cap_aud": 8684524.97,
+        "shares_outstanding": 4342262487,
+        "beta": 1.368,
+        "rsi_14": 50.25,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 1525,
+        "liquid": false,
+        "avg_volume_20": 2013199,
+        "volume_change_pct": -62.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 100.0,
+        "pct_from_6m_high": -33.33,
+        "pct_from_6m_low": 100.0,
+        "pct_from_52w_high": -66.67,
+        "pct_from_52w_low": 100.0,
+        "high_52w": 0.006,
+        "low_52w": 0.001,
+        "high_3m": 0.003,
+        "low_3m": 0.001,
+        "high_6m": 0.003,
+        "low_6m": 0.001,
+        "month1_high": 0.0025,
+        "month1_low": 0.001,
+        "month2_high": 0.003,
+        "month2_low": 0.002,
+        "month3_high": 0.003,
+        "month3_low": 0.002,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average",
+          "66.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,525/day",
+        "reading": [
+          "Going into this, NAE traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,525 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 30 Sept 2026",
+      "time": "2026-10-06T00:08:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144816-2A1701977",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly units on issue and redemptions data for SWT as at 30 September 2026 is a standard active ETF regulatory disclosure — net flow direction (redemptions vs. new issuance) is the only signal embedded in this filing, but the headline provides no quantitative detail.",
+        "For a dividend growth strategy ETF, persistent net redemptions would signal holder disengagement with the income mandate; net issuance would indicate ongoing demand — neither can be confirmed from the headline alone.",
+        "This is an administrative compliance filing with no market-sensitive flag; it warrants no directional call and carries negligible near-term price impact absent a material anomaly in flow data."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T00:05:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144815-3A703404",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for PTX (Prescient Therapeutics) is directionally ambiguous from the headline alone — it could reflect acquisition (constructive) or disposal (bearish); per lesson L031, direction must be confirmed before leaning either way.",
+        "PTX is a clinical-stage healthcare company; director buying at current levels would be a meaningful insider confidence signal given the binary nature of clinical-stage valuation, while disposal would carry a more negative read — the headline does not specify which.",
+        "No price-action data is provided for this filing; without confirmation of direction, the appropriate default per L031 is neutral, and institutional investors should review the body of the notice to determine whether this represents accumulation or reduction before acting."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.064,
+        "market_cap_aud": 73206398.02,
+        "shares_outstanding": 1143849969,
+        "beta": 1.14,
+        "rsi_14": 38.08,
+        "volume_trend_ratio": 1.33,
+        "volume_last_ratio": 0.22,
+        "avg_turnover_aud": 85398,
+        "liquid": true,
+        "avg_volume_20": 1133419,
+        "volume_change_pct": -78.0,
+        "pct_from_3m_high": -32.63,
+        "pct_from_3m_low": 1.59,
+        "pct_from_6m_high": -32.63,
+        "pct_from_6m_low": 28.0,
+        "pct_from_52w_high": -48.8,
+        "pct_from_52w_low": 56.1,
+        "high_52w": 0.125,
+        "low_52w": 0.041,
+        "high_3m": 0.095,
+        "low_3m": 0.063,
+        "high_6m": 0.095,
+        "low_6m": 0.05,
+        "month1_high": 0.073,
+        "month1_low": 0.063,
+        "month2_high": 0.089,
+        "month2_low": 0.064,
+        "month3_high": 0.095,
+        "month3_low": 0.069,
+        "range_position_3m": 0.031,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 32.63% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T00:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144814-3A703403",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Change of Director's Interest Notice filed for PTX on the same day suggests either a different director or a follow-on filing — two simultaneous notices can indicate coordinated insider activity (either purchases or disposals across the board), which amplifies the directional signal relative to a single filing.",
+        "The clustering of two director interest notices on the same day is worth flagging as a pattern: coordinated buying by multiple directors is a meaningfully stronger bullish insider signal than a single transaction; coordinated selling is the inverse; the headline does not confirm direction for either.",
+        "Per lesson L031, without directional confirmation from the filing body, the neutral default applies — but the dual-notice pattern elevates the importance of reading the actual transactions; institutional investors should treat this pair as a higher-priority review item than a standalone director notice."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.064,
+        "market_cap_aud": 73206398.02,
+        "shares_outstanding": 1143849969,
+        "beta": 1.14,
+        "rsi_14": 38.08,
+        "volume_trend_ratio": 1.33,
+        "volume_last_ratio": 0.22,
+        "avg_turnover_aud": 85398,
+        "liquid": true,
+        "avg_volume_20": 1133419,
+        "volume_change_pct": -78.0,
+        "pct_from_3m_high": -32.63,
+        "pct_from_3m_low": 1.59,
+        "pct_from_6m_high": -32.63,
+        "pct_from_6m_low": 28.0,
+        "pct_from_52w_high": -48.8,
+        "pct_from_52w_low": 56.1,
+        "high_52w": 0.125,
+        "low_52w": 0.041,
+        "high_3m": 0.095,
+        "low_3m": 0.063,
+        "high_6m": 0.095,
+        "low_6m": 0.05,
+        "month1_high": 0.073,
+        "month1_low": 0.063,
+        "month2_high": 0.089,
+        "month2_low": 0.064,
+        "month3_high": 0.095,
+        "month3_low": 0.069,
+        "range_position_3m": 0.031,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 32.63% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T00:03:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144813-3A703401",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Direction of the interest change is undisclosed in the headline — per lesson L031, do not default to bearish; the filing could represent director acquisition, which at a clinical-stage biotech is a constructive insider-confidence signal rather than a distribution event.",
+        "PTX is a pre-revenue healthcare company where director transactions carry outsized informational weight relative to larger-cap peers; a purchase would signal insider conviction ahead of potential clinical milestones, while a disposal would raise execution-risk concerns — direction confirmation from the filing body is essential before drawing conclusions.",
+        "Without accompanying market-sensitive flagging or a companion capital raise filing, this is most likely a routine administrative update; institutional investors should verify direction and quantum before repositioning, and treat this as a monitoring event rather than an actionable signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 0.064,
+        "market_cap_aud": 73206398.02,
+        "shares_outstanding": 1143849969,
+        "beta": 1.14,
+        "rsi_14": 38.08,
+        "volume_trend_ratio": 1.33,
+        "volume_last_ratio": 0.22,
+        "avg_turnover_aud": 85398,
+        "liquid": true,
+        "avg_volume_20": 1133419,
+        "volume_change_pct": -78.0,
+        "pct_from_3m_high": -32.63,
+        "pct_from_3m_low": 1.59,
+        "pct_from_6m_high": -32.63,
+        "pct_from_6m_low": 28.0,
+        "pct_from_52w_high": -48.8,
+        "pct_from_52w_low": 56.1,
+        "high_52w": 0.125,
+        "low_52w": 0.041,
+        "high_3m": 0.095,
+        "low_3m": 0.063,
+        "high_6m": 0.095,
+        "low_6m": 0.05,
+        "month1_high": 0.073,
+        "month1_low": 0.063,
+        "month2_high": 0.089,
+        "month2_low": 0.064,
+        "month3_high": 0.095,
+        "month3_low": 0.069,
+        "range_position_3m": 0.031,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the lower part of its 3-month range, 32.63% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPH",
+      "company": "LOFTUS PEAK GLOBAL DISRUPTION HEDGED ACTIVE ETF",
+      "headline": "Director Resignation",
+      "time": "2026-10-06T00:01:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144812-2A1701975",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation at an active ETF (LPH) is structurally less impactful on NAV or investment strategy than at an operating company, since the portfolio manager and investment mandate — not the board — drive returns; however, it warrants scrutiny if the departing director held a risk, compliance, or responsible entity governance role.",
+        "LPH is a hedged global disruption ETF, meaning the board's primary fiduciary function relates to oversight of the responsible entity and currency-hedging framework rather than stock selection; a single resignation does not impair the investment process unless it triggers a board-minimum or RE-licence threshold issue.",
+        "The filing carries no market-sensitive flag and no accompanying explanation of cause — investors should monitor for any subsequent ASX notice addressing board composition compliance or responsible entity continuity obligations, which would be the real risk indicator here."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-10-06T00:01:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144811-2A1701974",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A daily NTA statement is a routine compliance filing for a listed investment trust; the 'so what' is the NTA-to-price relationship — if the current unit price is at a premium or discount to NTA, it signals relative value or redemption pressure, but the filing itself is procedural and not a catalyst.",
+        "PCI is sitting 3.59% off its 3-month high, indicating a modestly retreating tape with no material run-up to unwind — this means a neutral-to-constructive NTA print would not be significantly 'priced in', but equally the pullback is too shallow to signal distress or forced selling in the credit portfolio.",
+        "For a credit income trust, the key forward-looking variable is portfolio yield spread compression or widening in response to RBA rate expectations; the daily NTA filing itself provides no new directional credit-quality information, so it should be treated as a data point within the broader fixed-income macro context rather than a standalone catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 253,
+        "last_close": 1.075,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.164,
+        "rsi_14": 39.5,
+        "volume_trend_ratio": 0.97,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 775158,
+        "liquid": true,
+        "avg_volume_20": 800032,
+        "volume_change_pct": -22.0,
+        "pct_from_3m_high": -3.59,
+        "pct_from_3m_low": 1.9,
+        "pct_from_6m_high": -3.59,
+        "pct_from_6m_low": 1.9,
+        "pct_from_52w_high": -11.89,
+        "pct_from_52w_low": 5.91,
+        "high_52w": 1.22,
+        "low_52w": 1.015,
+        "high_3m": 1.115,
+        "low_3m": 1.055,
+        "high_6m": 1.115,
+        "low_6m": 1.055,
+        "month1_high": 1.115,
+        "month1_low": 1.055,
+        "month2_high": 1.11,
+        "month2_low": 1.09,
+        "month3_high": 1.11,
+        "month3_low": 1.09,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.59% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "The price sat in the middle part of its 3-month range, 3.59% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T23:59:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144810-3A703400",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt at a 3-month high is the classic precursor to a capital raise, M&A announcement, or material corporate development — the elevated price level means any placement, if forthcoming, would likely be at or near current prices, limiting dilution severity for existing holders.",
+        "SCP is thinly traded with median turnover of ~A$11,444/day, so even a modest institutional transaction or strategic announcement can produce outsized price moves on resumption; the combination of a 3-month high and a trading halt means the market was in an accumulative posture before the halt, which is constructive for whatever news emerges.",
+        "Direction is unresolvable until the halt lifts — outcome distribution spans bullish (M&A, strategic deal, strong result) to bearish (emergency capital raise, material adverse event); the 3-month-high context slightly tilts the balance toward a positive catalyst since distressed raises typically occur at multi-month lows, not highs."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-10-05",
+        "bars": 254,
+        "last_close": 4.39,
+        "market_cap_aud": 15900667.8,
+        "shares_outstanding": 3622020,
+        "beta": -0.372,
+        "rsi_14": 71.21,
+        "volume_trend_ratio": 0.81,
+        "volume_last_ratio": 1.28,
+        "avg_turnover_aud": 11444,
+        "liquid": false,
+        "avg_volume_20": 3490,
+        "volume_change_pct": 28.0,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 68.85,
+        "pct_from_6m_high": -18.7,
+        "pct_from_6m_low": 78.46,
+        "pct_from_52w_high": -49.54,
+        "pct_from_52w_low": 78.46,
+        "high_52w": 8.7,
+        "low_52w": 2.46,
+        "high_3m": 4.39,
+        "low_3m": 2.6,
+        "high_6m": 5.4,
+        "low_6m": 2.46,
+        "month1_high": 4.39,
+        "month1_low": 3.47,
+        "month2_high": 3.77,
+        "month2_low": 2.6,
+        "month3_high": 3.6,
+        "month3_low": 2.94,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$11,444/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-05 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$11,444 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CLU",
       "company": "CLUEY LTD",
