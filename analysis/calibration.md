@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4892 graded calls
+- Window: last 20 trading days, 4923 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-05T10:50:17.583940+00:00
+- Generated: 2026-10-06T07:02:36.802869+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **56.9%** correct on 1029 graded calls.
+Directional calls (bullish/bearish): **56.1%** correct on 1035 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 728 | 58.5% |
-| bearish | 301 | 52.8% |
+| bullish | 727 | 58.3% |
+| bearish | 308 | 51% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **54.4%** of the time (n=3379). Every graded announcement moved 59% of the time.
+Stocks called neutral moved 1% or more anyway **53.4%** of the time (n=3406). Every graded announcement moved 58.1% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 601 | 59.4% |
-| Not flagged | 428 | 53.3% |
+| Market sensitive | 598 | 58.9% |
+| Not flagged | 437 | 52.4% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 822 | 58.8% |
-| Substantial Holding | 87 | 50.6% |
-| Results | 42 | 47.6% |
+| Market Update | 831 | 57.9% |
+| Substantial Holding | 93 | 49.5% |
+| Results | 36 | 50% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
