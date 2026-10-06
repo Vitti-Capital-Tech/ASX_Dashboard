@@ -1,9 +1,271 @@
 {
   "date": "2026-10-07",
-  "total": 294,
+  "total": 300,
   "market_sensitive_count": 75,
-  "generated_at": "2026-10-06T23:51:00.058829+00:00",
+  "generated_at": "2026-10-06T23:57:31.087881+00:00",
   "announcements": [
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T23:51:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145429-6A1348075",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for NTI is filed without a market-sensitive flag, meaning the direction of the transaction (acquisition vs. disposal) is not disclosed in the headline — per lesson L031, the bearish default should not be applied without confirmation of direction.",
+        "NTI operates in the healthcare/neurology space; insider buying at a depressed price would be constructive, while a disposal into weakness would be a cautionary signal — the filing alone cannot resolve which scenario applies, limiting its informational value.",
+        "Without price action data or a disclosed transaction direction, the appropriate stance is neutral: institutional investors should review the filed notice body to confirm whether this is an acquisition (bullish signal) or a disposal (bearish signal) before acting."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 254,
+        "last_close": 0.014,
+        "market_cap_aud": 22624979.5,
+        "shares_outstanding": 1616069964,
+        "beta": 0.457,
+        "rsi_14": 50.87,
+        "volume_trend_ratio": 0.73,
+        "volume_last_ratio": 1.86,
+        "avg_turnover_aud": 37143,
+        "liquid": false,
+        "avg_volume_20": 4098813,
+        "volume_change_pct": 86.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 21.74,
+        "pct_from_6m_high": -33.33,
+        "pct_from_6m_low": 27.27,
+        "pct_from_52w_high": -36.36,
+        "pct_from_52w_low": 40.0,
+        "high_52w": 0.022,
+        "low_52w": 0.01,
+        "high_3m": 0.021,
+        "low_3m": 0.0115,
+        "high_6m": 0.021,
+        "low_6m": 0.011,
+        "month1_high": 0.015,
+        "month1_low": 0.0115,
+        "month2_high": 0.016,
+        "month2_low": 0.012,
+        "month3_high": 0.021,
+        "month3_low": 0.014,
+        "range_position_3m": 0.263,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$37,143/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-06 close.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$37,143 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG1",
+      "company": "GREEN & GOLD MINERALS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T23:51:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145428-2A1702493",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "One of three simultaneous Change of Director's Interest Notices filed by GG1 on the same date — the cluster of filings across multiple directors on a single day is unusual and may indicate a coordinated transaction such as a placement, options grant, or performance rights issuance rather than individual open-market trades.",
+        "The filing is not market sensitive and no direction is disclosed in the headline; per L031, direction ambiguity at a non-extended stock means the bearish default should not be applied, and the cluster pattern slightly elevates the probability of a structured securities event (e.g. options vesting) over open-market selling.",
+        "No price action data is provided for GG1, so volume and tape context cannot be assessed; investors should cross-reference the three filed notices to determine whether a common transaction type and direction (consistent acquisition or consistent disposal) emerges across all directors before assigning directional conviction."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG1",
+      "company": "GREEN & GOLD MINERALS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T23:51:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145427-2A1702492",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Second of three concurrent GG1 director interest notices filed on the same day — the simultaneous multi-director filing pattern strongly suggests a structured corporate event (options grant, rights issue participation, or incentive plan vesting) rather than independent open-market activity by a single director.",
+        "Not flagged market sensitive, and headline direction is undisclosed; L031 instructs against defaulting to bearish without directional confirmation, and the structured-event hypothesis (options grant) would make this procedural rather than a sell signal.",
+        "The key analytical question is whether the common transaction across directors represents incoming shares (constructive, aligns management interests) or outgoing shares (distributional pressure) — until the filing body is reviewed, neutral is the appropriate classification."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG1",
+      "company": "GREEN & GOLD MINERALS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-10-06T23:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145426-2A1702491",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Third and final of the three simultaneous GG1 director interest notices — the triple-filing cluster on a single day now firmly points to a coordinated corporate securities event affecting the entire board or a subset thereof, most likely options/performance rights issuance or a concurrent participation in a capital raise.",
+        "If the underlying event is an options grant or rights issuance (the most common explanation for same-day multi-director filings), the notice is administrative and carries no immediate price impact; if it reflects coordinated open-market buying, it would be mildly constructive as a collective insider accumulation signal.",
+        "Absent market sensitivity flag and directional disclosure, and consistent with L031 guidance, neutral remains the appropriate call; however, the three-filing cluster slightly tilts the probability distribution toward a structured/administrative event rather than directional insider activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Letter to Shareholders - Annual General Meeting",
+      "time": "2026-10-06T23:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145425-3A703529",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "NAE's AGM letter to shareholders is filed into a deeply de-rated stock (66.67% below its 12-month high) with suppressed volume (0.36x average) and near-zero liquidity (median turnover ~A$1,344/day) — at this liquidity level, volume ratios are close to meaningless as signals of informed positioning and should not be over-interpreted.",
+        "Per lesson L048, an AGM notice at a deeply de-rated junior with near-zero median turnover can carry latent governance significance if the director nomination deadline creates a pathway for activist or strategic appointment — at ~A$1,344/day median turnover, even a single informed buyer could be material, though no specific activist signal is visible here from the headline alone.",
+        "The filing itself is procedural and not market sensitive; however, the 66.67% de-rating flags NAE as a potential activist target shape — institutional investors should review the AGM agenda for any contested resolutions, board renewal items, or strategic review disclosures that could catalyse a re-rating beyond the administrative baseline."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 254,
+        "last_close": 0.002,
+        "market_cap_aud": 8684524.97,
+        "shares_outstanding": 4342262487,
+        "beta": 1.365,
+        "rsi_14": 50.25,
+        "volume_trend_ratio": 0.36,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 1344,
+        "liquid": false,
+        "avg_volume_20": 1936956,
+        "volume_change_pct": -70.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 100.0,
+        "pct_from_6m_high": -33.33,
+        "pct_from_6m_low": 100.0,
+        "pct_from_52w_high": -66.67,
+        "pct_from_52w_low": 100.0,
+        "high_52w": 0.006,
+        "low_52w": 0.001,
+        "high_3m": 0.003,
+        "low_3m": 0.001,
+        "high_6m": 0.003,
+        "low_6m": 0.001,
+        "month1_high": 0.0025,
+        "month1_low": 0.001,
+        "month2_high": 0.003,
+        "month2_low": 0.002,
+        "month3_high": 0.003,
+        "month3_low": 0.002,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.36x its average",
+          "66.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,344/day",
+        "reading": [
+          "Going into this, NAE traded only 0.36x its usual daily volume over the last 5 sessions — measured to the 2026-10-06 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,344 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SET",
+      "company": "SOLARIS AUSTRALIAN EQUITY INCOME PLUS LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-10-06T23:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145424-2A1702490",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A routine Net Tangible Asset (NTA) backing disclosure from Solaris Australian Equity Income Plus (SET), a listed investment vehicle — NTA releases are periodic and administrative, but the NTA figure relative to the current share price determines whether the stock trades at a discount or premium, which is the key valuation signal for LIC investors.",
+        "SET is filing from a 3-month low, which contextually means either the NTA has declined (confirming underlying portfolio weakness) or the discount to NTA has widened (potentially a valuation opportunity) — the filing is not market sensitive and the headline alone does not resolve which scenario applies, but the 3-month low backdrop adds a mild negative inference to the tape.",
+        "For institutional LIC investors, the actionable question is whether the reported NTA is above or below the current share price: a widening discount at a 3-month low could attract value-oriented buyers, while an NTA decline confirming the price fall removes that support — investors should read the NTA figure against the 2026-10-06 close before assigning directional conviction."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 112,
+        "last_close": 2.05,
+        "market_cap_aud": 193103073.05,
+        "shares_outstanding": 94196621,
+        "beta": 0.001,
+        "rsi_14": 37.66,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 0.95,
+        "avg_turnover_aud": 207639,
+        "liquid": true,
+        "avg_volume_20": 110421,
+        "volume_change_pct": -5.0,
+        "pct_from_3m_high": -8.89,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -8.89,
+        "pct_from_6m_low": 4.59,
+        "pct_from_52w_high": -8.89,
+        "pct_from_52w_low": 4.59,
+        "high_52w": 2.25,
+        "low_52w": 1.96,
+        "high_3m": 2.25,
+        "low_3m": 2.05,
+        "high_6m": 2.25,
+        "low_6m": 1.96,
+        "month1_high": 2.19,
+        "month1_low": 2.05,
+        "month2_high": 2.25,
+        "month2_low": 2.09,
+        "month3_high": 2.22,
+        "month3_low": 2.12,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-06 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NAE",
       "company": "NEW AGE EXPLORATION LIMITED",
