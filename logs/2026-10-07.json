@@ -1,9 +1,185 @@
 {
   "date": "2026-10-07",
-  "total": 290,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-10-06T23:42:33.693015+00:00",
+  "total": 294,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-10-06T23:51:00.058829+00:00",
   "announcements": [
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-10-06T23:47:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145423-3A703528",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM notice at a deeply de-rated micro-cap (66.67% below 12-month high) flagged market sensitive — the market-sensitive designation is unusual for a routine AGM filing and warrants scrutiny for any embedded resolution that could signal a strategic shift, capital action, or board restructure.",
+        "Pre-announcement volume at 0.36x average in a stock with median daily turnover of only ~A$1,344/day renders the volume ratio effectively meaningless as a signal — at this liquidity level, one or two small trades dominate the ratio, so no directional intent should be inferred from the tape alone.",
+        "Per lesson L048, an AGM notice at a deeply de-rated, near-zero-liquidity junior can carry governance optionality — the director nomination deadline opens a pathway for activist or strategic board intervention; however, with volume suppressed rather than elevated, there is no accumulation signal to reinforce that thesis, leaving the filing as procedurally neutral absent visibility into the specific resolutions."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 254,
+        "last_close": 0.002,
+        "market_cap_aud": 8684524.97,
+        "shares_outstanding": 4342262487,
+        "beta": 1.365,
+        "rsi_14": 50.25,
+        "volume_trend_ratio": 0.36,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 1344,
+        "liquid": false,
+        "avg_volume_20": 1936956,
+        "volume_change_pct": -70.0,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 100.0,
+        "pct_from_6m_high": -33.33,
+        "pct_from_6m_low": 100.0,
+        "pct_from_52w_high": -66.67,
+        "pct_from_52w_low": 100.0,
+        "high_52w": 0.006,
+        "low_52w": 0.001,
+        "high_3m": 0.003,
+        "low_3m": 0.001,
+        "high_6m": 0.003,
+        "low_6m": 0.001,
+        "month1_high": 0.0025,
+        "month1_low": 0.001,
+        "month2_high": 0.003,
+        "month2_low": 0.002,
+        "month3_high": 0.003,
+        "month3_low": 0.002,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.36x its average",
+          "66.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,344/day",
+        "reading": [
+          "Going into this, NAE traded only 0.36x its usual daily volume over the last 5 sessions — measured to the 2026-10-06 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,344 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALF",
+      "company": "VANECK AUSTRALIAN LONG SHORT COMPLEX ETF",
+      "headline": "Monthly Performance Update - September 2026",
+      "time": "2026-10-06T23:46:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145422-2A1702489",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly performance update for September 2026 from an actively managed long-short ETF is a routine disclosure — the absence of a market-sensitive flag confirms the filing is informational rather than event-driven, and the actual signal value depends entirely on the performance figures disclosed in the body.",
+        "For a long-short strategy ETF, the September 2026 update will be read against the broader market tape for that month — if the fund generated positive absolute or relative returns during a volatile period, it validates the active management premium; if it underperformed, it raises questions about strategy efficacy that could drive incremental outflows.",
+        "Without a market-sensitive designation and no price action data provided, this filing is procedurally low-impact in the near term — monthly performance updates for ETFs rarely move secondary market prices materially unless the disclosed return is a significant outlier relative to NAV expectations or the benchmark."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Qala Shallows Project Update and 2027 Outlook",
+      "time": "2026-10-06T23:44:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145421-3A703527",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive project update combined with a 2027 outlook at the Qala Shallows Project is a substantive operational filing — the dual-horizon framing (current update + forward guidance) suggests management is attempting to re-anchor market expectations, which at a 63% de-rating from the 12-month high implies the bar for a positive re-rate is low but the risk of a disappointment-driven further leg down is real.",
+        "Per lesson L058, a generic project-update headline flagged market sensitive — where the title names only the project and not a specific positive milestone (resource, permit, funding, first gold, capex revision) — carries equal probability of containing neutral-to-negative operational news as genuinely bullish news; the '2027 Outlook' suffix adds a forward-looking element but does not by itself confirm a positive catalyst.",
+        "At 63% below the 12-month high, the stock is deeply distressed and any credible pathway to production or funding confirmation could trigger a sharp technical re-rating from a low base; however, without price action data and absent a specific milestone in the headline, the appropriate default per L058 is neutral — conviction requires reading the body of the announcement for a named, dateable catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-10-06",
+        "bars": 254,
+        "last_close": 0.37,
+        "market_cap_aud": 160910784.44,
+        "shares_outstanding": 434894012,
+        "beta": 2.495,
+        "rsi_14": 34.64,
+        "volume_trend_ratio": 1.04,
+        "volume_last_ratio": 1.11,
+        "avg_turnover_aud": 235978,
+        "liquid": true,
+        "avg_volume_20": 584118,
+        "volume_change_pct": 11.0,
+        "pct_from_3m_high": -28.85,
+        "pct_from_3m_low": 4.23,
+        "pct_from_6m_high": -44.78,
+        "pct_from_6m_low": 4.23,
+        "pct_from_52w_high": -63.0,
+        "pct_from_52w_low": 4.23,
+        "high_52w": 1.0,
+        "low_52w": 0.355,
+        "high_3m": 0.52,
+        "low_3m": 0.355,
+        "high_6m": 0.67,
+        "low_6m": 0.355,
+        "month1_high": 0.45,
+        "month1_low": 0.37,
+        "month2_high": 0.52,
+        "month2_low": 0.4,
+        "month3_high": 0.43,
+        "month3_low": 0.355,
+        "range_position_3m": 0.091,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "63.0% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-06 close.",
+          "The price sat in the lower part of its 3-month range, 28.85% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHI",
+      "company": "AUSBIL GBL ESSENTIAL INFRA FUND (HDG) - ACTIVE ETF",
+      "headline": "Final distribution - September 2026",
+      "time": "2026-10-06T23:42:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03145420-2A1702486",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A final distribution announcement for the September 2026 quarter is a scheduled, income-positive event for unitholders — for an active ETF tracking global essential infrastructure, a confirmed distribution signals the underlying portfolio generated sufficient income to support a payout, which is a mild positive for yield-focused investors.",
+        "The market-sensitive flag on a distribution announcement is noteworthy for an ETF structure — it likely reflects ASX compliance requirements around price-sensitive income disclosures (distribution quantum not yet publicly known), and the actual distribution per unit will be the key datapoint; a distribution above trailing yield expectations would be modestly bullish, below would be mildly bearish.",
+        "Infrastructure-focused active ETFs with regular distributions typically see minimal secondary market price volatility around distribution announcements beyond the mechanical ex-distribution adjustment — any price dip on the ex-date is structural, not sentiment-driven, and the net-of-distribution valuation is what matters for ongoing investors."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BUX",
       "company": "BUXTON RESOURCES LIMITED",
