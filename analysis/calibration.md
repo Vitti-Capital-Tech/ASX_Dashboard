@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4953 graded calls
+- Window: last 20 trading days, 4948 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-06T10:49:17.244552+00:00
+- Generated: 2026-10-07T07:01:56.946347+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **56.1%** correct on 1035 graded calls.
+Directional calls (bullish/bearish): **56.4%** correct on 1036 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 727 | 58.3% |
-| bearish | 308 | 51% |
+| bullish | 709 | 59.5% |
+| bearish | 327 | 49.5% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **53.1%** of the time (n=3429). Every graded announcement moved 57.7% of the time.
+Stocks called neutral moved 1% or more anyway **53.2%** of the time (n=3441). Every graded announcement moved 57.9% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 598 | 58.9% |
-| Not flagged | 437 | 52.4% |
+| Market sensitive | 591 | 58% |
+| Not flagged | 445 | 54.2% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 831 | 57.9% |
-| Substantial Holding | 93 | 49.5% |
-| Results | 36 | 50% |
+| Market Update | 830 | 58% |
+| Substantial Holding | 95 | 49.5% |
+| Results | 37 | 54.1% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -52,8 +52,8 @@ than shown with a caveat. They will appear as the sample fills in.
 | BC8 | bullish | -25.7% | FY27 Guidance & Outlook |
 | MEK | bullish | -25.5% | Institutional Placement Funding The Next Phase of Growth |
 | IMA | bullish | -25.4% | Reinstatement to Quotation |
-| 1AD | bullish | -25.1% | EW-001 JDC milestone approvals |
-| M2R | bearish | +24.7% | $1.25M Placement to Advance Gidji JV Gold Project |
+| LUX | bullish | -25.3% | First holes intersect zones of visual copper mineralisation |
+| GLL | bearish | +25.1% | Prospectus |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
