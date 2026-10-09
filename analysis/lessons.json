@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T08:56:07.310291+00:00",
+  "updated_at": "2026-10-09T10:49:45.617378+00:00",
   "next_id": 147,
   "lessons": [
     {
@@ -9,21 +9,21 @@
       "rule": "When volume has been running hot into a substantial holding change, treat the direction of the change as the critical unknown — a reduction by a substantial holder into strength is a material bearish signal, not a neutral procedural event. If you cannot confirm the direction is an increase, default to bearish when the tape is already extended.",
       "created": "2026-09-14",
       "last_seen": "2026-10-09",
-      "times_seen": 11,
+      "times_seen": 12,
       "examples": [
-        {
-          "date": "2026-09-22",
-          "ticker": "LMG",
-          "headline": "LMG Successful Equity Raise",
-          "called": "bullish",
-          "abnormal_pct": -21.35
-        },
         {
           "date": "2026-09-28",
           "ticker": "3DA",
           "headline": "Notification of cessation of securities - 3DA",
           "called": "neutral",
           "abnormal_pct": -11.6
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "BOE",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -10.58
         },
         {
           "date": "2026-10-09",
@@ -54,21 +54,21 @@
       "rule": "An announcement that drilling has commenced or is underway is a programme statement, not a result — it tells the market only that money is being spent. Do not call bullish on activity-commencement announcements alone; wait for assay data. Flag as neutral until results are released.",
       "created": "2026-09-14",
       "last_seen": "2026-10-09",
-      "times_seen": 11,
+      "times_seen": 12,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "MQR",
-          "headline": "DRILLING TO COMMENCE AT YINDI GOLD PROJECT",
-          "called": "neutral",
-          "abnormal_pct": -14.56
-        },
         {
           "date": "2026-09-16",
           "ticker": "MRR",
           "headline": "Minrex Commences Maiden Greenfield Drilling at Tlamino",
           "called": "neutral",
           "abnormal_pct": -7.42
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "DAL",
+          "headline": "Dalaroo plans follow up of Discovery Hole",
+          "called": "bullish",
+          "abnormal_pct": -8.64
         },
         {
           "date": "2026-10-09",
@@ -1901,7 +1901,7 @@
       "rule": "An AI or semiconductor webinar for a company with a named proprietary technology is not equivalent to a generic junior-explorer awareness filing — the audience is sector-informed and the act of presenting in an active thematic (AI, semiconductors) can itself trigger accumulation by thematic investors; before calling neutral, ask whether the sector theme is actively re-rating and whether the company's technology is the type that attracts thematic inflows independent of fundamentals; if yes, lean neutral-to-bullish rather than neutral, because thematic buying is not contingent on new fundamental disclosures.",
       "created": "2026-09-18",
       "last_seen": "2026-10-09",
-      "times_seen": 8,
+      "times_seen": 9,
       "examples": [
         {
           "date": "2026-10-08",
@@ -1911,11 +1911,11 @@
           "abnormal_pct": 17.43
         },
         {
-          "date": "2026-10-08",
-          "ticker": "4DS",
-          "headline": "Date of AGM & Closing Date for Director Nominations",
+          "date": "2026-10-09",
+          "ticker": "ACR",
+          "headline": "Webinar, Monday 12 October 2026 - Female Testosterone MDTS",
           "called": "neutral",
-          "abnormal_pct": 17.43
+          "abnormal_pct": 9.36
         },
         {
           "date": "2026-10-09",
@@ -2419,18 +2419,11 @@
       "trigger": "Market-sensitive project-update announcement (titled '[Project Name] Update' with no specific milestone in the headline) at a stock at a multi-month low with thin liquidity and no volume data available",
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
-      "last_seen": "2026-10-08",
-      "times_seen": 20,
+      "last_seen": "2026-10-09",
+      "times_seen": 21,
       "examples": [
         {
           "date": "2026-10-08",
-          "ticker": "AGR",
-          "headline": "Progress report at Tres Estradas",
-          "called": "neutral",
-          "abnormal_pct": -7.57
-        },
-        {
-          "date": "2026-10-08",
           "ticker": "SRJ",
           "headline": "Advances Asset Integrity Strategy with Multiple Milestones",
           "called": "neutral",
@@ -2456,6 +2449,13 @@
           "headline": "Progress report at Tres Estradas",
           "called": "neutral",
           "abnormal_pct": -7.57
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "TZL",
+          "headline": "Business and Funding Update",
+          "called": "neutral",
+          "abnormal_pct": -13.98
         }
       ]
     },
@@ -5197,7 +5197,7 @@
       "rule": "Before calling bearish on a cleansing-notice-plus-quotation cluster at a distressed stock, check whether the quotation filing implies only a small raise quantum relative to the stock's implied market cap — if the raise is small and the stock is already severely de-rated, the market may read the completed raise as a funded-survival signal rather than a dilution event, and the correct call is neutral rather than bearish. L089's bearish default requires confirmed absence of any funded-catalyst signal; when the raise has already closed and the stock is priced for near-insolvency, the asymmetry may favour neutral.",
       "created": "2026-10-06",
       "last_seen": "2026-10-09",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-10-07",
@@ -5207,11 +5207,11 @@
           "abnormal_pct": 12.59
         },
         {
-          "date": "2026-10-07",
-          "ticker": "LSR",
-          "headline": "Proposed issue of securities - LSR",
+          "date": "2026-10-09",
+          "ticker": "M24",
+          "headline": "Cleansing Statement",
           "called": "bearish",
-          "abnormal_pct": 12.59
+          "abnormal_pct": 20.11
         },
         {
           "date": "2026-10-09",
@@ -5456,21 +5456,21 @@
       "rule": "A standalone unquoted-securities notification without a companion quotation application can signal that previously issued but unquoted shares (e.g. from a prior private placement) are about to become quotable — the prospective arrival of new freely tradeable paper into a thinly traded, deeply de-rated register is a dilution-overhang signal; lean bearish rather than neutral when no operational catalyst accompanies the filing, because the dominant near-term mechanic is supply arriving into a thin market.",
       "created": "2026-10-08",
       "last_seen": "2026-10-09",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-10-09",
-          "ticker": "EGY",
-          "headline": "Notification regarding unquoted securities - EGY",
-          "called": "neutral",
-          "abnormal_pct": -17.31
-        },
         {
           "date": "2026-10-09",
           "ticker": "AGY",
           "headline": "Notification regarding unquoted securities - AGY",
           "called": "neutral",
           "abnormal_pct": -11.36
+        },
+        {
+          "date": "2026-10-09",
+          "ticker": "EGY",
+          "headline": "Notification regarding unquoted securities - EGY",
+          "called": "neutral",
+          "abnormal_pct": -17.31
         },
         {
           "date": "2026-10-09",
@@ -5587,8 +5587,15 @@
       "rule": "An SPP completion crystallises dilution at the exact moment the offer closes — any overhang uncertainty during the open period resolves into confirmed new supply hitting the register simultaneously; before calling neutral on SPP completion, ask whether the raise quantum is likely to have been scaled back (indicating weak demand) or fully subscribed, because a scaled-back SPP at a uranium developer signals insufficient retail conviction and the completion announcement itself is the moment sellers who had been waiting for the close begin to exit; default to bearish rather than neutral when no price action data is available to confirm the stock held above the SPP offer price during the offer period, because a SPP completion without market-sensitive flagging and without disclosed full-subscription confirmation more commonly reflects a partially filled raise that removes the bullish optionality without adding the funded-catalyst signal.",
       "created": "2026-10-09",
       "last_seen": "2026-10-09",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-09",
+          "ticker": "BMN",
+          "headline": "Share Purchase Plan Completes",
+          "called": "neutral",
+          "abnormal_pct": -8.02
+        },
         {
           "date": "2026-10-09",
           "ticker": "BMN",
@@ -5618,8 +5625,15 @@
       "rule": "A schedule update headline at a deeply de-rated stock with elevated volume into the filing is more likely to contain a delay or deferral than an acceleration — the elevated volume may reflect holders front-running a negative schedule disclosure rather than accumulation ahead of a positive one. When the headline is not market-sensitive, names only a schedule change, and volume is elevated, lean bearish rather than neutral, because the filing shape (schedule, not results) combined with elevated pre-announcement activity is the classic distribution-ahead-of-bad-news pattern.",
       "created": "2026-10-09",
       "last_seen": "2026-10-09",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-09",
+          "ticker": "NES",
+          "headline": "Yarri Gold Project - Drilling Schedule Update",
+          "called": "neutral",
+          "abnormal_pct": -20.64
+        },
         {
           "date": "2026-10-09",
           "ticker": "NES",
@@ -5642,8 +5656,15 @@
       "rule": "At a stock at a multi-month high with suppressed volume and near-zero liquidity, a director interest notice carries an asymmetric bearish risk: the director is the most informed seller into strength, and in a near-zero-liquidity stock even a small disclosed sale is disproportionately large relative to normal float; lean bearish rather than neutral when the stock is at a recent high, volume is suppressed (not elevated, ruling out broad distribution already underway), and the filing type is a director interest notice, because the informed-seller-into-strength base rate dominates the constructive-purchase interpretation at extended prices.",
       "created": "2026-10-09",
       "last_seen": "2026-10-09",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-09",
+          "ticker": "CSX",
+          "headline": "Change of Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": -16.64
+        },
         {
           "date": "2026-10-09",
           "ticker": "CSX",
@@ -5666,8 +5687,15 @@
       "rule": "An Initial Director's Interest Notice discloses what a director already holds at the point of appointment or first disclosure — it is not necessarily a fresh purchase and may reveal a pre-existing holding with no cash committed at current prices; do not treat it as constructive insider buying without confirming the acquisition date and price are recent and at-market; default to neutral, and lean bearish rather than neutral at near-zero-liquidity stocks where even a small disclosed holding creates a prospective supply overhang if the director chooses to sell.",
       "created": "2026-10-09",
       "last_seen": "2026-10-09",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-09",
+          "ticker": "GGR",
+          "headline": "Initial Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": -13.98
+        },
         {
           "date": "2026-10-09",
           "ticker": "GGR",
