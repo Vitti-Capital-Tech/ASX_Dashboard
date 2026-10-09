@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4996 graded calls
+- Window: last 20 trading days, 5009 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-08T10:49:18.741256+00:00
+- Generated: 2026-10-09T07:04:28.012474+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **54.9%** correct on 1000 graded calls.
+Directional calls (bullish/bearish): **55.3%** correct on 987 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 667 | 57.9% |
-| bearish | 333 | 48.9% |
+| bullish | 657 | 58.4% |
+| bearish | 330 | 49.1% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **51.7%** of the time (n=3514). Every graded announcement moved 56.4% of the time.
+Stocks called neutral moved 1% or more anyway **52.2%** of the time (n=3549). Every graded announcement moved 56.7% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 563 | 56.1% |
-| Not flagged | 437 | 53.3% |
+| Market sensitive | 560 | 56.6% |
+| Not flagged | 427 | 53.6% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 790 | 56.7% |
-| Substantial Holding | 100 | 49% |
-| Results | 37 | 51.4% |
+| Market Update | 778 | 56.9% |
+| Substantial Holding | 100 | 50% |
+| Results | 38 | 52.6% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
