@@ -6,7 +6,7 @@ here is hand-written; edit `calibration.py` if a finding is wrong.
 
 - Window: last 20 trading days, 5023 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-12T07:23:05.895751+00:00
+- Generated: 2026-10-12T08:11:21.099985+00:00
 
 ## Headline
 
