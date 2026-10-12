@@ -1,9 +1,165 @@
 {
   "date": "2026-10-13",
-  "total": 258,
+  "total": 261,
   "market_sensitive_count": 85,
-  "generated_at": "2026-10-12T23:53:05.078380+00:00",
+  "generated_at": "2026-10-12T23:59:50.967574+00:00",
   "announcements": [
+    {
+      "ticker": "JRE",
+      "company": "JPMORGAN GLOBAL RESEARCH EN INDEX EQTY ACTIVE ETF",
+      "headline": "Outstanding ETF Securities and Monthly Redemptions",
+      "time": "2026-10-12T23:55:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03147603-2A1703688",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly ETF unit count and redemption disclosure — a compliance-driven filing with no operational signal; the key watch item is whether net redemptions are accelerating, which would imply outflows from the active global equity strategy, but no directional data is available from the headline alone.",
+        "Not flagged market sensitive, and for an ETF this filing class is purely administrative — outstanding unit counts fluctuate with creation/redemption activity driven by authorised participants, not by underlying portfolio performance or manager skill signals.",
+        "Institutional relevance is limited to tracking whether JRE is experiencing structural outflows relative to peers in the active global equity ETF segment; a single monthly redemption notice provides no statistical basis for that conclusion without a series of comparable prior disclosures."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRO",
+      "company": "XERO LIMITED",
+      "headline": "Notification of cessation of securities - XRO",
+      "time": "2026-10-12T23:54:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03147602-3A703954",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Xero most likely reflects lapsing of employee performance rights or options — per lesson L017, this is a register-cleaning event that removes future dilution overhang without a cash outflow, which is modestly constructive rather than negative.",
+        "The stock is 62% below its 12-month high — a deeply de-rated position for a large-cap SaaS name — meaning any reduction in dilution overhang, however modest, is incrementally positive against a register that has already absorbed significant mark-to-market pain; the filing is not flagged market sensitive and carries no standalone valuation impact.",
+        "No companion capital raise filing is noted, which satisfies L017's condition for avoiding a bearish call; the practical 'so what' is that unvested incentives tied to performance hurdles that were never met are now extinguished, slightly tightening the fully diluted share count — directionally neutral-to-marginally constructive but not a trading catalyst."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-09",
+        "bars": 253,
+        "last_close": 59.81,
+        "market_cap_aud": 10566128561.51,
+        "shares_outstanding": 176661571,
+        "beta": 1.039,
+        "rsi_14": 41.99,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 55225500,
+        "liquid": true,
+        "avg_volume_20": 1092716,
+        "volume_change_pct": -31.0,
+        "pct_from_3m_high": -33.2,
+        "pct_from_3m_low": 8.57,
+        "pct_from_6m_high": -33.31,
+        "pct_from_6m_low": 8.57,
+        "pct_from_52w_high": -62.14,
+        "pct_from_52w_low": 8.57,
+        "high_52w": 157.965,
+        "low_52w": 55.09,
+        "high_3m": 89.54,
+        "low_3m": 55.09,
+        "high_6m": 89.69,
+        "low_6m": 55.09,
+        "month1_high": 70.2,
+        "month1_low": 55.09,
+        "month2_high": 89.54,
+        "month2_low": 68.68,
+        "month3_high": 79.67,
+        "month3_low": 61.45,
+        "range_position_3m": 0.137,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "62.14% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-09 close.",
+          "The price sat in the lower part of its 3-month range, 33.2% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "Update - Notification of buy-back - LF1",
+      "time": "2026-10-12T23:53:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03147601-2A1703687",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buy-back update at a private credit fund trading within 3% of its 3-month high signals management is actively returning capital to unitholders at or near recent peak pricing — this is incrementally supportive of NAV discipline and suggests the fund is not under liquidity stress, which is the primary risk market participants price for private credit vehicles.",
+        "Volume over the last five sessions ran 1.65x the 20-day average into this announcement; for a fund like LF1 — which typically trades with thin secondary market liquidity — this volume elevation is noteworthy and may reflect institutional positioning ahead of the buy-back update or broader rotation into private credit income strategies, though at these liquidity levels the ratio should be weighted with some caution.",
+        "The combination of a near-3-month high, elevated relative volume, and a buy-back update (not flagged market sensitive) paints a picture of orderly demand rather than distress — the 'so what' for investors is that management's willingness to buy back units near the high implies confidence in underlying portfolio asset quality and a view that units are not overvalued; this is a mild positive signal for existing holders but offers limited re-rating upside given the already-elevated price level."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-12",
+        "bars": 253,
+        "last_close": 1.885,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.193,
+        "rsi_14": 52.47,
+        "volume_trend_ratio": 1.65,
+        "volume_last_ratio": 1.74,
+        "avg_turnover_aud": 189238,
+        "liquid": true,
+        "avg_volume_20": 119520,
+        "volume_change_pct": 74.0,
+        "pct_from_3m_high": -2.84,
+        "pct_from_3m_low": 3.29,
+        "pct_from_6m_high": -3.08,
+        "pct_from_6m_low": 3.29,
+        "pct_from_52w_high": -6.68,
+        "pct_from_52w_low": 3.29,
+        "high_52w": 2.02,
+        "low_52w": 1.825,
+        "high_3m": 1.94,
+        "low_3m": 1.825,
+        "high_6m": 1.945,
+        "low_6m": 1.825,
+        "month1_high": 1.91,
+        "month1_low": 1.825,
+        "month2_high": 1.915,
+        "month2_low": 1.865,
+        "month3_high": 1.94,
+        "month3_low": 1.865,
+        "range_position_3m": 0.522,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.65x its 20-day average",
+          "2.84% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, LF1 traded 1.65x its usual daily volume over the last 5 sessions — measured to the 2026-10-12 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 2.84% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BTI",
       "company": "BAILADOR TECHNOLOGY INVESTMENTS LIMITED",
