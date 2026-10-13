@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T19:55:43.061465+11:00",
+  "generated_at": "2026-10-13T21:50:27.021158+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -16,25 +16,25 @@
       "bearish": {
         "scored": 31,
         "correct": 18,
-        "wrong": 3,
-        "flat": 10,
-        "hit_rate": 85.7,
-        "avg_abnormal_pct": -3.32
+        "wrong": 4,
+        "flat": 9,
+        "hit_rate": 81.8,
+        "avg_abnormal_pct": -3.23
       },
       "neutral": {
-        "scored": 160,
+        "scored": 159,
         "correct": 62,
-        "wrong": 98,
+        "wrong": 97,
         "flat": 0,
-        "hit_rate": 38.8,
-        "avg_abnormal_pct": -0.96
+        "hit_rate": 39.0,
+        "avg_abnormal_pct": -0.91
       }
     },
-    "spread_pct": 2.4,
-    "directional_hit_rate": 56.9,
-    "directional_scored": 65,
+    "spread_pct": 2.31,
+    "directional_hit_rate": 56.1,
+    "directional_scored": 66,
     "pending": 0,
-    "no_data": 34,
+    "no_data": 35,
     "conflicts": 2
   },
   "intraday_stats": {
@@ -53,22 +53,22 @@
         "wrong": 5,
         "flat": 9,
         "hit_rate": 77.3,
-        "avg_abnormal_pct": -3.12
+        "avg_abnormal_pct": -3.04
       },
       "neutral": {
-        "scored": 160,
+        "scored": 159,
         "correct": 76,
-        "wrong": 84,
+        "wrong": 83,
         "flat": 0,
-        "hit_rate": 47.5,
-        "avg_abnormal_pct": -0.67
+        "hit_rate": 47.8,
+        "avg_abnormal_pct": -0.66
       }
     },
-    "spread_pct": -0.42,
+    "spread_pct": -0.5,
     "directional_hit_rate": 38.5,
     "directional_scored": 65,
     "pending": 0,
-    "no_data": 34,
+    "no_data": 35,
     "conflicts": 2
   },
   "highlights": {
@@ -2635,12 +2635,12 @@
       "vwap": 0.019,
       "gap_pct": 5.56,
       "intraday_verdict": "correct",
-      "close": 0.018,
-      "return_pct": 0.0,
-      "open_close_pct": -5.26,
+      "close": 0.0185,
+      "return_pct": 2.78,
+      "open_close_pct": -2.63,
       "index_return_pct": 0.01,
-      "abnormal_pct": -0.01,
-      "verdict": "flat",
+      "abnormal_pct": 2.77,
+      "verdict": "wrong",
       "announcements": 3,
       "also": [
         "Notification regarding unquoted securities - TZN",
@@ -4520,18 +4520,18 @@
       "avg_volume_20": null,
       "rsi_14": null,
       "market_cap_aud": null,
-      "session_date": "2026-10-13",
-      "prev_close": 0.35,
-      "open": 0.325,
-      "vwap": 0.3117,
-      "gap_pct": -7.14,
-      "intraday_verdict": "wrong",
-      "close": 0.32,
-      "return_pct": -8.57,
-      "open_close_pct": -1.54,
-      "index_return_pct": 0.01,
-      "abnormal_pct": -8.58,
-      "verdict": "wrong",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 2,
       "also": [
         "AGM Director Nominations"

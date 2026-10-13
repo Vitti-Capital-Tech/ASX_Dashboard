@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13T08:57:51.560336+00:00",
-  "next_id": 156,
+  "updated_at": "2026-10-13T10:52:03.305455+00:00",
+  "next_id": 157,
   "lessons": [
     {
       "id": "L001",
@@ -234,7 +234,7 @@
       "rule": "When a contract announcement omits revenue value entirely, treat the omission as a material qualifier — the market cannot size the earnings impact and often re-rates the stock down as the news fails to meet the implicit expectation set by the market-sensitive flag. Do not call bullish on a contract win without a disclosed or estimable dollar value; default to neutral until quantum is known.",
       "created": "2026-09-14",
       "last_seen": "2026-10-13",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-09-24",
@@ -244,13 +244,6 @@
           "abnormal_pct": -11.78
         },
         {
-          "date": "2026-09-24",
-          "ticker": "SP8",
-          "headline": "Noodlecake Signs Mobile Publishing Agreement",
-          "called": "bullish",
-          "abnormal_pct": -11.78
-        },
-        {
           "date": "2026-09-28",
           "ticker": "MX1",
           "headline": "MX1 - DHS CT Baggage Scanner Contract Extension",
@@ -263,6 +256,13 @@
           "headline": "MX1 - DHS CT Baggage Scanner Contract Extension",
           "called": "bullish",
           "abnormal_pct": -9.06
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "PCK",
+          "headline": "PainChek expands Sabra contracts to 23 US communities",
+          "called": "bullish",
+          "abnormal_pct": -13.14
         },
         {
           "date": "2026-10-13",
@@ -1220,7 +1220,7 @@
       "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
       "created": "2026-09-16",
       "last_seen": "2026-10-13",
-      "times_seen": 14,
+      "times_seen": 15,
       "examples": [
         {
           "date": "2026-09-21",
@@ -1230,13 +1230,6 @@
           "abnormal_pct": 8.69
         },
         {
-          "date": "2026-09-21",
-          "ticker": "LOT",
-          "headline": "Change in substantial holding",
-          "called": "neutral",
-          "abnormal_pct": 8.69
-        },
-        {
           "date": "2026-10-13",
           "ticker": "CTT",
           "headline": "Becoming a substantial holder",
@@ -1249,6 +1242,13 @@
           "headline": "Becoming a substantial holder",
           "called": "neutral",
           "abnormal_pct": 24.99
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "CTT",
+          "headline": "Becoming a substantial holder",
+          "called": "neutral",
+          "abnormal_pct": 16.66
         },
         {
           "date": "2026-10-13",
@@ -1468,8 +1468,8 @@
       "trigger": "Market-sensitive tenement application announcement (new ground, additional block, adjacent tenure) at a junior explorer with 5-day volume running >1.5x average, with no price-position data indicating the stock is near a multi-month high",
       "rule": "A market-sensitive tenement application is not merely an activity statement — management and their advisers have judged it material, which implies the ground is strategically significant (district consolidation, blocking a competitor, covering a known geophysical anomaly); do not default to neutral on a flagged tenement announcement into elevated volume; lean neutral-to-bullish when the market-sensitive designation is present, because the flag is itself the signal that the tenure has identifiable value beyond routine acreage.",
       "created": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "times_seen": 4,
+      "last_seen": "2026-10-13",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1498,6 +1498,13 @@
           "headline": "Application to secure another key iron ore tenement",
           "called": "neutral",
           "abnormal_pct": 17.23
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "OR3",
+          "headline": "Kal East Gold Project Tenure Expanded By 55%",
+          "called": "bullish",
+          "abnormal_pct": -12.91
         }
       ]
     },
@@ -1545,15 +1552,8 @@
       "rule": "An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.",
       "created": "2026-09-17",
       "last_seen": "2026-10-13",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-17",
-          "ticker": "BGE",
-          "headline": "Response to ASX Price Query",
-          "called": "neutral",
-          "abnormal_pct": 10.7
-        },
         {
           "date": "2026-09-17",
           "ticker": "BGE",
@@ -1574,6 +1574,13 @@
           "headline": "Response to ASX Price Query",
           "called": "bullish",
           "abnormal_pct": -20.96
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "IMA",
+          "headline": "Response to ASX Price Query",
+          "called": "neutral",
+          "abnormal_pct": 14.81
         },
         {
           "date": "2026-10-13",
@@ -2427,28 +2434,28 @@
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
       "last_seen": "2026-10-13",
-      "times_seen": 22,
+      "times_seen": 23,
       "examples": [
-        {
-          "date": "2026-10-08",
-          "ticker": "SRJ",
-          "headline": "Advances Asset Integrity Strategy with Multiple Milestones",
-          "called": "neutral",
-          "abnormal_pct": -19.23
-        },
-        {
-          "date": "2026-10-08",
-          "ticker": "AGR",
-          "headline": "Progress report at Tres Estradas",
-          "called": "neutral",
-          "abnormal_pct": -7.57
-        },
         {
           "date": "2026-10-09",
           "ticker": "TZL",
           "headline": "Business and Funding Update",
           "called": "neutral",
           "abnormal_pct": -13.98
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "WC1",
+          "headline": "Exploration Update",
+          "called": "neutral",
+          "abnormal_pct": -23.54
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "PR2",
+          "headline": "Cerro Chacon Exploration Update",
+          "called": "neutral",
+          "abnormal_pct": -10.53
         },
         {
           "date": "2026-10-13",
@@ -3674,16 +3681,9 @@
       "trigger": "Cleansing notice for a share placement at a stock 80%+ below its 12-month high, where the headline specifies 'Share Placement' (not a rights issue) and no use-of-proceeds information is available, but L027's funded-catalyst moderating logic is invoked to reach neutral rather than bearish",
       "rule": "L027's funded-catalyst moderating logic requires a named operational use of proceeds to be visible — when the headline contains only 'Cleansing Notice - Share Placement' with no companion announcement disclosing proceeds deployment, the funded-catalyst condition is unmet and the default should revert to bearish (per L011), not neutral; do not apply L027 as a moderator unless a named catalyst is explicitly linked to the proceeds in an accessible companion filing.",
       "created": "2026-09-25",
-      "last_seen": "2026-10-06",
-      "times_seen": 13,
+      "last_seen": "2026-10-13",
+      "times_seen": 14,
       "examples": [
-        {
-          "date": "2026-10-05",
-          "ticker": "ADN",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": -7.74
-        },
         {
           "date": "2026-10-05",
           "ticker": "ADN",
@@ -3711,6 +3711,13 @@
           "headline": "Application for quotation of securities - 4DS",
           "called": "neutral",
           "abnormal_pct": -14.85
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "KAL",
+          "headline": "Application for quotation of securities - KAL",
+          "called": "neutral",
+          "abnormal_pct": -10.01
         }
       ]
     },
@@ -3782,7 +3789,7 @@
       "rule": "A result-season investor presentation flagged market sensitive is not an awareness-marketing filing under L010 — it is the company's primary forward-guidance and recovery-narrative document accompanying a reported financial period; when the stock is deeply de-rated and the market-sensitive flag is present, the presentation likely contains new guidance, cost targets, or strategic pivots that can re-rate the stock independently of the underlying result; lean neutral-to-bullish rather than neutral, because the combination of a named financial year, a market-sensitive flag, and a severely de-rated price creates asymmetric upside if the content signals a credible recovery path.",
       "created": "2026-09-28",
       "last_seen": "2026-10-13",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-28",
@@ -3804,6 +3811,13 @@
           "headline": "Synlait FY26 Investor Presentation",
           "called": "neutral",
           "abnormal_pct": 13.16
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "BBN",
+          "headline": "2026 AGM Presentation",
+          "called": "neutral",
+          "abnormal_pct": 11.27
         },
         {
           "date": "2026-10-13",
@@ -3851,16 +3865,9 @@
       "rule": "Elevated volume into a statutory accounts filing at a junior explorer is more likely to reflect holders selling ahead of an expected going-concern qualification or poor cash position disclosure than informed accumulation — the accounts are a scheduled event and sophisticated holders who have reviewed the cash burn trajectory will have advance read on the likely auditor commentary; do not dismiss the volume signal as noise when the filing type is accounts rather than an operational release; lean bearish rather than neutral when volume is elevated into a compliance-only accounts filing at a de-rated junior, because the elevated activity more likely reflects distribution than accumulation.",
       "created": "2026-09-28",
       "last_seen": "2026-10-13",
-      "times_seen": 15,
+      "times_seen": 16,
       "examples": [
         {
-          "date": "2026-10-05",
-          "ticker": "EAU",
-          "headline": "Annual General Meeting Information",
-          "called": "neutral",
-          "abnormal_pct": -7.46
-        },
-        {
           "date": "2026-10-07",
           "ticker": "MHK",
           "headline": "Appendix 4G and Corporate Governance Statement",
@@ -3887,6 +3894,13 @@
           "headline": "September Quarterly Activities & Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": -29.14
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "IXR",
+          "headline": "September Quarterly Activities & Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -18.19
         }
       ]
     },
@@ -5999,8 +6013,15 @@
       "rule": "When an appointee's credentials are tied to a specific named prior transaction that is publicly known (e.g. MOD Resources acquisition), the market can immediately verify the track record and attach a deal-optionality premium — treat this as a credible corporate-action signal rather than a generic board filing; lean neutral-to-bullish rather than neutral when the appointee's background implies a specific transaction type (M&A, asset sale, JV) and the stock is priced for near-zero recovery, because the appointment signals the company is pursuing that transaction type.",
       "created": "2026-10-13",
       "last_seen": "2026-10-13",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-13",
+          "ticker": "TXR",
+          "headline": "Talonx Appoints Former MOD Resources Executive Director",
+          "called": "neutral",
+          "abnormal_pct": 19.99
+        },
         {
           "date": "2026-10-13",
           "ticker": "TXR",
@@ -6023,8 +6044,15 @@
       "rule": "Before calling bullish on a qualitative revenue-acceleration headline at a near-zero-liquidity consumer micro-cap, ask whether the headline discloses an actual number (revenue figure, gross margin percentage, cash runway quarter count) that the market can use to update its going-concern or dilution model — 'accelerate' and 'improve' are directional descriptors, not quantitative anchors; if the headline contains only qualitative momentum language without a disclosed metric, default to neutral rather than bullish, because the market at this de-rating level requires a number to close the gap between the current price and any recovery thesis, and qualitative language alone frequently disappoints implicit expectations.",
       "created": "2026-10-13",
       "last_seen": "2026-10-13",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-13",
+          "ticker": "EXL",
+          "headline": "Elixinol Hemp Sales and Gross Profit Accelerate",
+          "called": "bullish",
+          "abnormal_pct": -14.29
+        },
         {
           "date": "2026-10-13",
           "ticker": "EXL",
@@ -6040,8 +6068,15 @@
       "rule": "A technical due diligence commencement on a named well or asset at an oil and gas junior implies a potential acquisition, farm-in, or transaction decision is being evaluated — it is not a pure programme statement under L002 but a pre-transaction assessment signal; when the stock is at a 12-month low and volume is suppressed, lean neutral-to-bullish rather than neutral, because the due diligence framing implies a named asset and a named decision window that the market may not have priced, and the suppressed volume removes sell-the-news risk.",
       "created": "2026-10-13",
       "last_seen": "2026-10-13",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-13",
+          "ticker": "BUY",
+          "headline": "LB-32 TECHNICAL DUE DILIGENCE PROGRAM COMMENCES",
+          "called": "neutral",
+          "abnormal_pct": 14.28
+        },
         {
           "date": "2026-10-13",
           "ticker": "BUY",
@@ -6057,7 +6092,7 @@
       "rule": "For a profitable, operationally active company (as distinct from a junior explorer), a market-sensitive quarterly trading report at a multi-month low carries asymmetric upside — the stock is already pricing deterioration, and a report that merely confirms stable or growing revenue functions as a floor-setting catalyst; apply L092-style asymmetric logic to quarterly trading reports at operationally sound companies at depressed prices, leaning neutral-to-bullish rather than neutral, because the flag confirms the numbers moved in a direction management deems reportable and the downside is already largely priced.",
       "created": "2026-10-13",
       "last_seen": "2026-10-13",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-13",
@@ -6065,6 +6100,30 @@
           "headline": "September 2026 Quarterly Trading Report",
           "called": "neutral",
           "abnormal_pct": 12.38
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "XRF",
+          "headline": "September 2026 Quarterly Trading Report",
+          "called": "neutral",
+          "abnormal_pct": 12.38
+        }
+      ]
+    },
+    {
+      "id": "L156",
+      "trigger": "'Becoming a substantial holder' filing by a named global custodian bank (e.g. MUFG, Citibank, HSBC, BNP Paribas) rather than a named fund manager or strategic investor, at a junior miner or explorer with no price action data available",
+      "rule": "A custodian bank crossing the 5% threshold is almost always a passive aggregation of client positions rather than a discretionary investment decision — do not apply L029's bullish prior to custodian-bank substantial-holder filings; default to neutral, because the 'becoming' language reflects administrative threshold-crossing by a nominee structure rather than informed accumulation, and the market may actually read the filing as a signal that a prior raise has just settled and new supply is entering the register.",
+      "created": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-13",
+          "ticker": "VMM",
+          "headline": "Becoming a substantial holder from MUFG",
+          "called": "neutral",
+          "abnormal_pct": -10.84
         }
       ]
     }
