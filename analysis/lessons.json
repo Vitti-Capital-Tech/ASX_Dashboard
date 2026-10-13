@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13T07:08:12.463238+00:00",
-  "next_id": 152,
+  "updated_at": "2026-10-13T07:58:19.019872+00:00",
+  "next_id": 153,
   "lessons": [
     {
       "id": "L001",
@@ -1220,7 +1220,7 @@
       "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
       "created": "2026-09-16",
       "last_seen": "2026-10-13",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
         {
           "date": "2026-09-21",
@@ -1244,11 +1244,11 @@
           "abnormal_pct": 8.69
         },
         {
-          "date": "2026-09-21",
-          "ticker": "LOT",
-          "headline": "Change in substantial holding",
+          "date": "2026-10-13",
+          "ticker": "CTT",
+          "headline": "Becoming a substantial holder",
           "called": "neutral",
-          "abnormal_pct": 8.69
+          "abnormal_pct": 24.99
         },
         {
           "date": "2026-10-13",
@@ -1779,16 +1779,9 @@
       "trigger": "Investor presentation at a named investor forum (e.g. 'Metals Investor Forum', 'RIU', 'Noosa Mining') by a junior explorer, not flagged market sensitive, with no price action data available",
       "rule": "Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.",
       "created": "2026-09-18",
-      "last_seen": "2026-10-01",
-      "times_seen": 5,
+      "last_seen": "2026-10-13",
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-09-18",
-          "ticker": "USL",
-          "headline": "Metals Investor Forum Presentation",
-          "called": "bearish",
-          "abnormal_pct": 13.22
-        },
         {
           "date": "2026-09-18",
           "ticker": "TVN",
@@ -1816,6 +1809,13 @@
           "headline": "Company Presentation - A Strategic European Asset",
           "called": "bearish",
           "abnormal_pct": 18.66
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "ALV",
+          "headline": "Webinar Invitation - Bluebush IAC HREE Project Brazil",
+          "called": "neutral",
+          "abnormal_pct": 22.85
         }
       ]
     },
@@ -2247,7 +2247,7 @@
       "rule": "A headline describing what was hit (mineralisation type, distance from resource) rather than how much (grade, width) is structurally an extension result without economic quantification — apply L018's logic regardless of volume data when grade and width are absent from the headline; call neutral rather than bullish, because the market cannot size the value addition without grade data and the filing confirms presence but not economics.",
       "created": "2026-09-21",
       "last_seen": "2026-10-13",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-21",
@@ -2271,11 +2271,11 @@
           "abnormal_pct": -9.69
         },
         {
-          "date": "2026-09-21",
-          "ticker": "KLI",
-          "headline": "Killi Hits Coarse Magnetite 600m Outside Current Resource",
+          "date": "2026-10-13",
+          "ticker": "SNM",
+          "headline": "Northern drilling extends mineralisation beyond current MRE",
           "called": "bullish",
-          "abnormal_pct": -9.69
+          "abnormal_pct": -27.28
         },
         {
           "date": "2026-10-13",
@@ -2579,7 +2579,7 @@
       "rule": "A 'first drill hole intersects' headline without disclosed grade and width is structurally equivalent to a footprint-expansion result under L054 — the market cannot price economic value from mineralisation presence alone; before calling bullish on a maiden intercept, require that grade and width appear in the headline or are clearly implied by the market-sensitive flag and filing body; default to neutral rather than bullish when the headline names only mineralisation type and not economic parameters, because the result confirms geological presence but not project value.",
       "created": "2026-09-21",
       "last_seen": "2026-10-13",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
           "date": "2026-10-07",
@@ -2603,11 +2603,11 @@
           "abnormal_pct": -25.28
         },
         {
-          "date": "2026-10-07",
-          "ticker": "LUX",
-          "headline": "First holes intersect zones of visual copper mineralisation",
+          "date": "2026-10-13",
+          "ticker": "AQX",
+          "headline": "Horn Island Drilling Completed with All Holes Mineralised",
           "called": "bullish",
-          "abnormal_pct": -25.28
+          "abnormal_pct": -14.29
         },
         {
           "date": "2026-10-13",
@@ -3837,7 +3837,7 @@
       "rule": "Elevated volume into a statutory accounts filing at a junior explorer is more likely to reflect holders selling ahead of an expected going-concern qualification or poor cash position disclosure than informed accumulation — the accounts are a scheduled event and sophisticated holders who have reviewed the cash burn trajectory will have advance read on the likely auditor commentary; do not dismiss the volume signal as noise when the filing type is accounts rather than an operational release; lean bearish rather than neutral when volume is elevated into a compliance-only accounts filing at a de-rated junior, because the elevated activity more likely reflects distribution than accumulation.",
       "created": "2026-09-28",
       "last_seen": "2026-10-13",
-      "times_seen": 14,
+      "times_seen": 15,
       "examples": [
         {
           "date": "2026-10-05",
@@ -3847,13 +3847,6 @@
           "abnormal_pct": -7.46
         },
         {
-          "date": "2026-10-05",
-          "ticker": "EAU",
-          "headline": "Annual General Meeting Information",
-          "called": "neutral",
-          "abnormal_pct": -7.46
-        },
-        {
           "date": "2026-10-07",
           "ticker": "MHK",
           "headline": "Appendix 4G and Corporate Governance Statement",
@@ -3866,6 +3859,13 @@
           "headline": "Appendix 4G and Corporate Governance Statement",
           "called": "neutral",
           "abnormal_pct": -8.24
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "IXR",
+          "headline": "September Quarterly Activities & Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -29.14
         },
         {
           "date": "2026-10-13",
@@ -4386,15 +4386,8 @@
       "rule": "At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.",
       "created": "2026-10-01",
       "last_seen": "2026-10-13",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
-        {
-          "date": "2026-10-06",
-          "ticker": "CMO",
-          "headline": "Change in substantial holding from GBR",
-          "called": "bearish",
-          "abnormal_pct": 24.43
-        },
         {
           "date": "2026-10-06",
           "ticker": "CMO",
@@ -4422,6 +4415,13 @@
           "headline": "Change in substantial holding",
           "called": "neutral",
           "abnormal_pct": -20.01
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "CYV",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -15.39
         }
       ]
     },
@@ -4645,15 +4645,8 @@
       "rule": "When median daily turnover is effectively zero and the volume ratio is extreme (>3x) purely because the denominator is near-zero, do not treat the volume spike as a directional signal at all — the ratio is arithmetically unstable and reflects the absence of a trading history rather than informed activity; default to neutral-to-bearish on an ambiguous substantial-holder change at near-zero liquidity, because the dominant base rate at effectively untradeable stocks is holder exit rather than strategic accumulation, and the volume data cannot distinguish between them.",
       "created": "2026-10-01",
       "last_seen": "2026-10-13",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-10-01",
-          "ticker": "EAX",
-          "headline": "Change in substantial holding Myers",
-          "called": "neutral",
-          "abnormal_pct": -10.51
-        },
         {
           "date": "2026-10-09",
           "ticker": "EGY",
@@ -4681,6 +4674,13 @@
           "headline": "Change in substantial holding",
           "called": "neutral",
           "abnormal_pct": -15.39
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "GLL",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -20.01
         }
       ]
     },
@@ -5691,7 +5691,7 @@
       "rule": "At a stock at a multi-month high with suppressed volume and near-zero liquidity, a director interest notice carries an asymmetric bearish risk: the director is the most informed seller into strength, and in a near-zero-liquidity stock even a small disclosed sale is disproportionately large relative to normal float; lean bearish rather than neutral when the stock is at a recent high, volume is suppressed (not elevated, ruling out broad distribution already underway), and the filing type is a director interest notice, because the informed-seller-into-strength base rate dominates the constructive-purchase interpretation at extended prices.",
       "created": "2026-10-09",
       "last_seen": "2026-10-13",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-09",
@@ -5713,6 +5713,13 @@
           "headline": "Change of Director's Interest Notice",
           "called": "neutral",
           "abnormal_pct": -16.64
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "AUV",
+          "headline": "Change of Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": -14.29
         },
         {
           "date": "2026-10-13",
@@ -5812,7 +5819,7 @@
       "rule": "A 'Drilling Update' headline without disclosed grade or width at near-zero absolute liquidity is structurally equivalent to L058's generic project-update pattern — the market-sensitive flag does not substitute for absent economic data; lean bearish rather than neutral when the headline names only a project and a process ('drilling update') without a positive milestone descriptor, because the dominant reason to issue a non-specific flagged update at a deeply de-rated, near-zero-liquidity stock is to disclose disappointing or inconclusive results rather than a positive intercept, which would have been headlined with grade and width.",
       "created": "2026-10-12",
       "last_seen": "2026-10-13",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-10-12",
@@ -5822,18 +5829,18 @@
           "abnormal_pct": -20.76
         },
         {
-          "date": "2026-10-12",
-          "ticker": "M2R",
-          "headline": "Gidji JV Project - Gold Drilling Update",
+          "date": "2026-10-13",
+          "ticker": "PR2",
+          "headline": "Cerro Chacon Exploration Update",
           "called": "neutral",
-          "abnormal_pct": -20.76
+          "abnormal_pct": -19.06
         },
         {
-          "date": "2026-10-12",
-          "ticker": "M2R",
-          "headline": "Gidji JV Project - Gold Drilling Update",
+          "date": "2026-10-13",
+          "ticker": "WC1",
+          "headline": "Exploration Update",
           "called": "neutral",
-          "abnormal_pct": -20.76
+          "abnormal_pct": -18.76
         },
         {
           "date": "2026-10-13",
@@ -5933,15 +5940,8 @@
       "rule": "When volume is deeply suppressed (not merely flat) into an AGM notice at a distressed, near-zero-liquidity stock, the absence of any buyer interest is itself a bearish signal — the register is disengaged and the AGM creates no near-term catalyst; lean bearish rather than neutral, because a non-flagged procedural filing into a silent, distressed tape more commonly precedes a dilutive resolution or a going-concern update at the meeting than a positive outcome.",
       "created": "2026-10-12",
       "last_seen": "2026-10-13",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
-        {
-          "date": "2026-10-12",
-          "ticker": "AMN",
-          "headline": "Notice of Annual General Meeting",
-          "called": "neutral",
-          "abnormal_pct": -8.93
-        },
         {
           "date": "2026-10-12",
           "ticker": "RIE",
@@ -5969,6 +5969,30 @@
           "headline": "Notice of 2026 Annual General Meeting and Proxy",
           "called": "neutral",
           "abnormal_pct": -14.29
+        },
+        {
+          "date": "2026-10-13",
+          "ticker": "COS",
+          "headline": "Notice of 2026 Annual General Meeting and Proxy",
+          "called": "neutral",
+          "abnormal_pct": -14.29
+        }
+      ]
+    },
+    {
+      "id": "L152",
+      "trigger": "Named senior executive appointment at a stock 80%+ below its 12-month high with near-zero absolute liquidity (median daily turnover effectively A$0/day) and deeply suppressed pre-announcement volume (<0.1x average), where the appointee brings credentials from a named prior transaction (M&A, takeover, or development deal) that is publicly known and verifiable",
+      "rule": "When an appointee's credentials are tied to a specific named prior transaction that is publicly known (e.g. MOD Resources acquisition), the market can immediately verify the track record and attach a deal-optionality premium — treat this as a credible corporate-action signal rather than a generic board filing; lean neutral-to-bullish rather than neutral when the appointee's background implies a specific transaction type (M&A, asset sale, JV) and the stock is priced for near-zero recovery, because the appointment signals the company is pursuing that transaction type.",
+      "created": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-13",
+          "ticker": "TXR",
+          "headline": "Talonx Appoints Former MOD Resources Executive Director",
+          "called": "neutral",
+          "abnormal_pct": 19.99
         }
       ]
     }
