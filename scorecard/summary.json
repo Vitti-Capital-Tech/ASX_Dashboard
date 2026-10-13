@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-13T18:56:04.920977+11:00",
+  "generated_at": "2026-10-13T19:55:43.226546+11:00",
   "days_scored": 47,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
       "scored": 2567,
-      "correct": 1039,
-      "wrong": 686,
-      "flat": 842,
-      "hit_rate": 60.2,
-      "avg_abnormal_pct": 1.83
+      "correct": 1043,
+      "wrong": 684,
+      "flat": 840,
+      "hit_rate": 60.4,
+      "avg_abnormal_pct": 1.85
     },
     "bearish": {
       "scored": 853,
       "correct": 281,
-      "wrong": 248,
-      "flat": 324,
-      "hit_rate": 53.1,
+      "wrong": 245,
+      "flat": 327,
+      "hit_rate": 53.4,
       "avg_abnormal_pct": -0.42
     },
     "neutral": {
       "scored": 6502,
-      "correct": 2962,
-      "wrong": 3540,
+      "correct": 2981,
+      "wrong": 3521,
       "flat": 0,
-      "hit_rate": 45.6,
-      "avg_abnormal_pct": 0.26
+      "hit_rate": 45.8,
+      "avg_abnormal_pct": 0.28
     }
   },
-  "spread_pct": 2.25,
-  "directional_hit_rate": 58.6,
-  "directional_scored": 2254,
+  "spread_pct": 2.27,
+  "directional_hit_rate": 58.8,
+  "directional_scored": 2253,
   "intraday": {
     "by_sentiment": {
       "bullish": {
@@ -66,12 +66,12 @@
   "by_document_type": [
     {
       "document_type": "Market Update",
-      "scored": 1768,
-      "hit_rate": 60.2,
+      "scored": 1769,
+      "hit_rate": 60.4,
       "intraday_scored": 1610,
       "intraday_hit_rate": 46.8,
       "intraday_avg_as_called": 0.04,
-      "avg_as_called": 1.7
+      "avg_as_called": 1.72
     },
     {
       "document_type": "Substantial Holding",
@@ -84,21 +84,21 @@
     },
     {
       "document_type": "Results",
-      "scored": 138,
-      "hit_rate": 54.3,
+      "scored": 136,
+      "hit_rate": 55.1,
       "intraday_scored": 127,
       "intraday_hit_rate": 45.7,
       "intraday_avg_as_called": -0.86,
-      "avg_as_called": 0.73
+      "avg_as_called": 0.71
     },
     {
       "document_type": "Capital Raise",
-      "scored": 55,
-      "hit_rate": 50.9,
+      "scored": 54,
+      "hit_rate": 50.0,
       "intraday_scored": 49,
       "intraday_hit_rate": 53.1,
       "intraday_avg_as_called": 1.23,
-      "avg_as_called": 0.77
+      "avg_as_called": 0.66
     },
     {
       "document_type": "Dividend",
@@ -125,16 +125,16 @@
       "intraday_scored": 19,
       "intraday_hit_rate": 73.7,
       "intraday_avg_as_called": 1.18,
-      "avg_as_called": 2.24
+      "avg_as_called": 2.14
     },
     {
       "document_type": "Annual Report",
-      "scored": 16,
-      "hit_rate": 31.2,
+      "scored": 17,
+      "hit_rate": 35.3,
       "intraday_scored": 9,
       "intraday_hit_rate": 33.3,
       "intraday_avg_as_called": -0.7,
-      "avg_as_called": -0.51
+      "avg_as_called": -0.24
     },
     {
       "document_type": "Half Yearly Report",
@@ -535,9 +535,9 @@
     },
     {
       "date": "2026-10-13",
-      "hit_rate": 50.0,
-      "scored": 66,
-      "spread_pct": 1.56,
+      "hit_rate": 56.9,
+      "scored": 65,
+      "spread_pct": 2.4,
       "intraday_hit_rate": 38.5,
       "intraday_scored": 65
     }
