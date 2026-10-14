@@ -1,9 +1,80 @@
 {
   "date": "2026-10-15",
-  "total": 285,
+  "total": 286,
   "market_sensitive_count": 103,
-  "generated_at": "2026-10-14T23:46:49.929268+00:00",
+  "generated_at": "2026-10-14T23:53:31.060433+00:00",
   "announcements": [
+    {
+      "ticker": "GLH",
+      "company": "GLOBAL HEALTH LIMITED",
+      "headline": "Application for quotation of securities - GLH",
+      "time": "2026-10-14T23:45:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148756-3A704172",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities indicates a completed capital raise or security issuance event — new shares or options are being admitted to trading, which introduces a supply overhang risk; however, GLH is a healthcare technology company (not a thematic-sector junior), so the L050 uranium/thematic-sector carve-out does not apply directly, and the standard dilution concern holds.",
+        "Price action is essentially unreadable: the stock is trading at near-zero median daily turnover (A$0/day median) with 0.0x five-session volume versus average, meaning the tape is completely dark — no meaningful intent can be inferred from volume, and the stock sitting ~51% below its 12-month high simply reflects a deeply de-rated register with no active sponsorship.",
+        "Not flagged market sensitive and carrying no named catalyst in the headline, this is a procedural compliance filing; absent a companion announcement disclosing the purpose or use of proceeds from the relevant raise, the net effect is administrative — the primary near-term risk is the incremental dilution of the newly quoted securities entering a near-illiquid register with no buyers evident on the tape."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-14",
+        "bars": 254,
+        "last_close": 0.059,
+        "market_cap_aud": 3468877.56,
+        "shares_outstanding": 58794535,
+        "beta": 0.08,
+        "rsi_14": 57.0,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 5331,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -18.06,
+        "pct_from_3m_low": 28.26,
+        "pct_from_6m_high": -25.32,
+        "pct_from_6m_low": 28.26,
+        "pct_from_52w_high": -50.83,
+        "pct_from_52w_low": 28.26,
+        "high_52w": 0.12,
+        "low_52w": 0.046,
+        "high_3m": 0.072,
+        "low_3m": 0.046,
+        "high_6m": 0.079,
+        "low_6m": 0.046,
+        "month1_high": 0.064,
+        "month1_low": 0.048,
+        "month2_high": 0.062,
+        "month2_low": 0.046,
+        "month3_high": 0.072,
+        "month3_low": 0.06,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "50.83% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, GLH traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-10-14 close.",
+          "The price sat in the middle part of its 3-month range, 18.06% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TM1",
       "company": "TERRA METALS LIMITED",
