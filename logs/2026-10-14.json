@@ -1,9 +1,1216 @@
 {
   "date": "2026-10-14",
-  "total": 311,
+  "total": 346,
   "market_sensitive_count": 87,
-  "generated_at": "2026-10-14T00:53:39.255974+00:00",
+  "generated_at": "2026-10-14T01:29:37.561033+00:00",
   "announcements": [
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-10-14T01:25:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148194-2A1703969",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A daily NTA statement for a listed credit income trust is a routine, scheduled compliance filing — it conveys no new strategic, operational, or credit-event information and carries no market-sensitive flag, consistent with its purely administrative nature.",
+        "With the stock only 4.04% off its 3-month high, the trust is trading near recent fair value; the NTA update serves as a minor reference point for discount/premium-to-NTA monitoring but is unlikely to shift that dynamic materially on its own.",
+        "For institutional holders, the actionable check is whether today's NTA implies a widening or narrowing of the market-price discount — if the unit price is at or above NTA, redemption pressure is low; if at a discount, activist or buyback catalysts remain dormant. No new catalyst present in this filing."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-12",
+        "bars": 252,
+        "last_close": 1.07,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.173,
+        "rsi_14": 40.71,
+        "volume_trend_ratio": 0.84,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 712030,
+        "liquid": true,
+        "avg_volume_20": 734896,
+        "volume_change_pct": -50.0,
+        "pct_from_3m_high": -4.04,
+        "pct_from_3m_low": 1.9,
+        "pct_from_6m_high": -4.04,
+        "pct_from_6m_low": 1.9,
+        "pct_from_52w_high": -12.3,
+        "pct_from_52w_low": 5.42,
+        "high_52w": 1.22,
+        "low_52w": 1.015,
+        "high_3m": 1.115,
+        "low_3m": 1.05,
+        "high_6m": 1.115,
+        "low_6m": 1.05,
+        "month1_high": 1.115,
+        "month1_low": 1.05,
+        "month2_high": 1.11,
+        "month2_low": 1.095,
+        "month3_high": 1.11,
+        "month3_low": 1.09,
+        "range_position_3m": 0.308,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.04% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-12 close.",
+          "The price sat in the lower part of its 3-month range, 4.04% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HGC",
+      "company": "GCQ GLOBAL EQUITIES HEDGED COMPLEX ETF",
+      "headline": "Monthly Portfolio & Performance Update - September 2026",
+      "time": "2026-10-14T01:24:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148193-2A1703968",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly portfolio and performance update for a hedged global equities complex ETF is a standard transparency disclosure — no market-sensitive flag, no new investment decision required, and the September 2026 data is already one to two weeks stale by filing date.",
+        "For an ETF structure, the key institutional read from a monthly update is tracking error vs. benchmark and the effectiveness of the hedging overlay; without those figures disclosed in the headline, this filing provides no incremental directional signal.",
+        "No price action data is provided, so no tape-based assessment is possible. The filing is procedural and its impact on unit price is negligible — the iNAV mechanism continuously arbitrages any pricing gap in an ETF structure."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORG",
+      "company": "ORIGIN ENERGY LIMITED",
+      "headline": "2026 Annual General Meeting - Results of Meeting",
+      "time": "2026-10-14T01:22:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148192-2A1703967",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM results filing for a major ASX-listed energy company (Origin Energy) is a governance compliance event — the critical institutional read is whether any resolutions were defeated or faced material dissent (>25% against), particularly on remuneration, director elections, or any strategic resolutions, which could signal shareholder discontent.",
+        "Origin's AGM results carry more weight than a junior's given its index weight and institutional ownership base; a remuneration report defeat ('second strike') or a closely contested director election would be a governance negative that some ESG-mandated funds would be required to note, but the absence of a market-sensitive flag suggests no resolution outcome was unexpected or contested to a degree management deemed price-moving.",
+        "No price action data is provided for this announcement. With no market-sensitive flag and no headline indicator of a contested vote, the base case is a clean AGM pass-through — routine governance completion with no actionable catalyst for near-term price movement."
+      ],
+      "tags": [
+        "AGM",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 11.55,
+        "market_cap_aud": 19897735600.05,
+        "shares_outstanding": 1722747671,
+        "beta": 0.021,
+        "rsi_14": 58.95,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 1.08,
+        "avg_turnover_aud": 35945149,
+        "liquid": true,
+        "avg_volume_20": 3612391,
+        "volume_change_pct": 8.0,
+        "pct_from_3m_high": -5.64,
+        "pct_from_3m_low": 12.46,
+        "pct_from_6m_high": -9.55,
+        "pct_from_6m_low": 15.27,
+        "pct_from_52w_high": -10.05,
+        "pct_from_52w_low": 15.27,
+        "high_52w": 12.84,
+        "low_52w": 10.02,
+        "high_3m": 12.24,
+        "low_3m": 10.27,
+        "high_6m": 12.77,
+        "low_6m": 10.02,
+        "month1_high": 12.1,
+        "month1_low": 10.78,
+        "month2_high": 12.24,
+        "month2_low": 11.125,
+        "month3_high": 12.1,
+        "month3_low": 10.27,
+        "range_position_3m": 0.65,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 5.64% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCQ",
+      "company": "GCQ GLOBAL EQUITIES COMPLEX ETF",
+      "headline": "Monthly Portfolio & Performance Update - September 2026",
+      "time": "2026-10-14T01:21:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148191-2A1703966",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "As with its hedged counterpart (HGC, filing [3]), this is a scheduled monthly transparency disclosure for an unhedged global equities complex ETF — September 2026 performance data, no market-sensitive flag, and no new investment decision embedded in the filing.",
+        "The distinction between GCQ (unhedged) and HGC (hedged) is material for institutional holders managing FX exposure: the unhedged version's September performance will reflect both underlying equity returns and AUD/USD movements over the month, but no headline figures are disclosed here to assess either component.",
+        "No price action data is provided. In an ETF structure, continuous iNAV arbitrage limits sustained mispricing; this filing has no capacity to move the unit price independently of underlying portfolio value."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GC1",
+      "company": "GLENNON SMALL COMPANIES LIMITED",
+      "headline": "September Monthly NTA and Investment Report",
+      "time": "2026-10-14T01:21:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148190-2A1703965",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly NTA and investment report for Glennon Small Companies (a listed investment company focused on ASX small-caps) is a standard transparency filing — the key institutional read is the reported NTA per share relative to the current market price, which determines the discount or premium at which GC1 is trading.",
+        "If September's NTA reflects broader ASX small-cap weakness (which was a feature of Q3 2026 market conditions for many small-cap LICs), the report may confirm a widening discount-to-NTA — a potential value signal for contrarian buyers but not an immediate catalyst without a buyback or discount-management programme in place.",
+        "No price action data is provided and no market-sensitive flag is present, consistent with a routine monthly update. The filing generates no new directional catalyst; its value is as a reference data point for discount-to-NTA monitors."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.41,
+        "market_cap_aud": 20107220.82,
+        "shares_outstanding": 49042002,
+        "beta": 0.223,
+        "rsi_14": 45.77,
+        "volume_trend_ratio": 1.33,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3858,
+        "liquid": false,
+        "avg_volume_20": 17858,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -10.87,
+        "pct_from_3m_low": 7.89,
+        "pct_from_6m_high": -10.87,
+        "pct_from_6m_low": 10.81,
+        "pct_from_52w_high": -23.36,
+        "pct_from_52w_low": 10.81,
+        "high_52w": 0.535,
+        "low_52w": 0.37,
+        "high_3m": 0.46,
+        "low_3m": 0.38,
+        "high_6m": 0.46,
+        "low_6m": 0.37,
+        "month1_high": 0.44,
+        "month1_low": 0.4,
+        "month2_high": 0.46,
+        "month2_low": 0.395,
+        "month3_high": 0.44,
+        "month3_low": 0.38,
+        "range_position_3m": 0.375,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,858/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 10.87% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,858 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Issue Supplement",
+      "time": "2026-10-14T01:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148189-2A1703964",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Issue Supplement' filing for AF9 relates to a structured debt or note issuance programme — this is a legal/regulatory document that supplements a base prospectus with terms specific to a new tranche of notes, and is a compliance filing rather than a discretionary corporate action announcement.",
+        "Filed alongside a Note Deed Poll ([8]) and a General Security Deed ([9]) on the same day, the cluster of three documents confirms AF9 is completing a new note issuance — the tripartite filing is characteristic of a secured fixed-income raise being documented for quotation on the ASX debt market.",
+        "No price action data is provided and no market-sensitive flag is present. For existing noteholders, the security deed ([9]) is the most material document as it defines collateral ranking; for equity holders (if any), a secured debt raise adds leverage but is a routine funding mechanism for a structured finance vehicle."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Note Deed Poll",
+      "time": "2026-10-14T01:18:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148188-2A1703963",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Note Deed Poll is the foundational legal instrument creating the rights and obligations of noteholders under a debt programme — filed alongside an Issue Supplement ([7]) and General Security Deed ([9]), it confirms AF9 is executing a formal, legally documented note issuance rather than an ad hoc raise.",
+        "For institutional fixed-income investors evaluating the new notes, the Deed Poll will contain the covenant package, events of default, acceleration triggers, and noteholder meeting provisions — these are the credit-risk-defining terms that determine relative value versus comparable ASX-listed debt securities.",
+        "No market-sensitive flag and no headline catalyst signal a change in credit quality or terms. This is a procedural legal filing; its market impact is limited to investors actively participating in or evaluating the current note tranche."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "General Security Deed",
+      "time": "2026-10-14T01:17:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148187-2A1703962",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A General Security Deed establishes the security interest (collateral) that backs the AF9 note issuance — filed as part of the three-document cluster with the Issue Supplement ([7]) and Note Deed Poll ([8]), it defines what assets noteholders have recourse to in an event of default.",
+        "The nature and quality of the secured collateral is the critical credit variable: a general security over all present and after-acquired property of the issuer provides broad but potentially illiquid protection, whereas specific asset security would offer more predictable recovery. The headline alone does not disclose collateral composition.",
+        "No price action data is provided and no market-sensitive flag is present. For equity holders, the creation of a security interest ranks noteholders ahead of equity in a wind-up scenario, which is a structural subordination of equity — but this is an expected and pre-disclosed feature of a secured debt programme rather than a new risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Pre-Quotation Disclosure Announcement",
+      "time": "2026-10-14T01:17:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148186-6A1349160",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Pre-Quotation Disclosure Announcement signals that Overwatch Technologies (OWL) is preparing to list or has recently listed on the ASX — this filing satisfies ASX Listing Rule disclosure requirements prior to securities being admitted to trading, and is a compliance gateway rather than an operational update.",
+        "For investors evaluating a new entrant, the key questions embedded in the pre-quotation document are: the post-money capitalisation, use-of-IPO proceeds, and the composition of the register on day one (i.e., escrow proportions and free float) — the headline discloses none of these, making the filing directionally inert without reading the body.",
+        "No market-sensitive flag is present and no price action data is available (consistent with pre-listing status). The name 'Overwatch Technologies' suggests a technology or surveillance/security sector focus; without proceeds deployment or revenue visibility disclosed in the headline, sentiment on the listing itself is neutral pending prospectus review."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Master Security Trust Deed",
+      "time": "2026-10-14T01:15:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148185-2A1703960",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Filing of a Master Security Trust Deed is a structural legal document typically associated with a new fund, debt program, or structured finance vehicle — this is foundational infrastructure for AF9, suggesting the entity is in early-stage establishment or restructuring of its trust architecture.",
+        "The absence of a market-sensitive flag and the purely administrative nature of the document means no immediate valuation signal is present; this is compliance/legal scaffolding rather than an operational or financial disclosure.",
+        "Investors should watch for companion filings (Information Memorandum, Appendix 1B) on the same day — which are indeed present in this batch — as the combined cluster will define the nature and scope of AF9's capital market structure and whether any raise or listing is imminent."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Master Trust Deed",
+      "time": "2026-10-14T01:13:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148184-2A1703959",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Master Trust Deed filing, distinct from but complementary to the Master Security Trust Deed, indicates AF9 is establishing dual-layer trust documentation — a common structure for managed funds, ETFs, or structured credit vehicles seeking ASX quotation.",
+        "Filed without market-sensitive designation, this is a procedural governance document; it carries no standalone price signal but is a necessary precondition for a product to operate and distribute returns to unitholders.",
+        "The simultaneous cluster of trust deeds, an Information Memorandum, and an Appendix 1B strongly suggests AF9 is in the process of listing a new fund or product — the trust deed pair sets the legal container; the next material signal will be the IM's disclosed strategy and fee structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHJ",
+      "company": "SHINE JUSTICE LTD",
+      "headline": "AGM Chairman's Address and CEO Presentation",
+      "time": "2026-10-14T01:13:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148183-2A1703961",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM Chairman's Address and CEO Presentation not flagged market sensitive is unlikely to contain new material earnings guidance or operational catalysts — the non-sensitive flag suggests management has deliberately kept disclosures within previously communicated parameters.",
+        "Volume into this announcement was deeply suppressed at 0.24x average on a stock that is itself thinly traded (median daily turnover ~A$14,455); at this liquidity level, volume ratios are close to meaningless as a signal — there is no institutional repositioning visible on the tape, and the quiet pre-announcement period suggests no leaked catalyst.",
+        "For a litigation-funding and plaintiff law firm like Shine Justice, the AGM address most commonly reiterates case pipeline health, funding capacity, and fee recovery outlook; without market-sensitive designation or a companion operational update, the strategic read-through is neutral — watch for any commentary on cash collections or case settlement rates as the operative forward indicators."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.63,
+        "market_cap_aud": 106715949.48,
+        "shares_outstanding": 169390396,
+        "beta": 0.348,
+        "rsi_14": 40.62,
+        "volume_trend_ratio": 0.24,
+        "volume_last_ratio": 0.4,
+        "avg_turnover_aud": 14455,
+        "liquid": false,
+        "avg_volume_20": 31336,
+        "volume_change_pct": -60.0,
+        "pct_from_3m_high": -18.18,
+        "pct_from_3m_low": 6.78,
+        "pct_from_6m_high": -18.18,
+        "pct_from_6m_low": 11.5,
+        "pct_from_52w_high": -18.18,
+        "pct_from_52w_low": 11.5,
+        "high_52w": 0.77,
+        "low_52w": 0.565,
+        "high_3m": 0.77,
+        "low_3m": 0.59,
+        "high_6m": 0.77,
+        "low_6m": 0.565,
+        "month1_high": 0.77,
+        "month1_low": 0.625,
+        "month2_high": 0.73,
+        "month2_low": 0.59,
+        "month3_high": 0.655,
+        "month3_low": 0.59,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.24x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,455/day",
+        "reading": [
+          "Going into this, SHJ traded only 0.24x its usual daily volume over the last 5 sessions — measured to the 2026-10-13 close.",
+          "The price sat in the lower part of its 3-month range, 18.18% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,455 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Change of Director's Interest Notice - HJ",
+      "time": "2026-10-14T01:13:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148182-6A1349159",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for ENP (Entropy Neurodynamics) provides no directional signal from the headline alone — 'HJ' identifies the director but does not disclose whether the movement is an acquisition or disposal, which is the critical variable.",
+        "Applying lesson L031: without confirmation of direction, and absent evidence that the stock is near a multi-month high, the default is neutral rather than bearish — insider buying at a depressed price would be constructive, while a sale into weakness would be mildly negative; the filing must be read for direction before any lean is warranted.",
+        "No price action data is provided for ENP, limiting the ability to assess tape context; the absence of a market-sensitive flag further reduces the informational content of this filing — treat as administrative until the body of the notice confirms acquisition or disposal."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.037,
+        "market_cap_aud": 60442968.71,
+        "shares_outstanding": 1633593749,
+        "beta": 0.678,
+        "rsi_14": 40.55,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.46,
+        "avg_turnover_aud": 33482,
+        "liquid": false,
+        "avg_volume_20": 1150340,
+        "volume_change_pct": -54.0,
+        "pct_from_3m_high": -13.95,
+        "pct_from_3m_low": 8.82,
+        "pct_from_6m_high": -13.95,
+        "pct_from_6m_low": 32.14,
+        "pct_from_52w_high": -13.95,
+        "pct_from_52w_low": 48.0,
+        "high_52w": 0.043,
+        "low_52w": 0.025,
+        "high_3m": 0.043,
+        "low_3m": 0.034,
+        "high_6m": 0.043,
+        "low_6m": 0.028,
+        "month1_high": 0.042,
+        "month1_low": 0.036,
+        "month2_high": 0.043,
+        "month2_low": 0.036,
+        "month3_high": 0.038,
+        "month3_low": 0.034,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$33,482/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 13.95% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,482 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Top 20 Holders",
+      "time": "2026-10-14T01:11:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148180-6A1349158",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Top 20 Holders disclosure for Overwatch Technologies (OWL) is a standard registry transparency filing, typically released post-listing or post-capital raise to show the concentration of the register — it carries no intrinsic valuation signal.",
+        "The key analytical read is register concentration: a heavily concentrated top-20 (e.g., top holders controlling >80% of shares) implies thin free float and potential liquidity constraints, while a dispersed register suggests broader market participation; without the actual data disclosed here, the filing is informationally neutral.",
+        "For a micro-cap technology company like OWL, the Top 20 filing is most useful as context for interpreting future volume spikes — if a small number of holders dominate, any unusual volume is more likely to reflect register-level activity than genuine market discovery."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Information Memorandum",
+      "time": "2026-10-14T01:11:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148181-2A1703958",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Information Memorandum filing for AF9 is the primary investor-facing disclosure document for the proposed fund or structured product — it will contain the investment mandate, risk factors, fee structure, and subscription mechanics, making it the most substantive filing in today's AF9 cluster.",
+        "As the IM is not flagged market sensitive and AF9 appears to be a new or restructuring entity, this is a pre-launch or launch disclosure rather than a mid-life update; the key read for prospective investors will be the stated return objective, liquidity terms, and management fee relative to comparable listed products.",
+        "The companion filings (Trust Deeds, Appendix 1B, Listing Rule Waivers) confirm AF9 is seeking ASX quotation; the IM is the document that will determine whether institutional allocators find the product competitively structured — no price signal until the product is quoted and trades."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Distribution Schedule",
+      "time": "2026-10-14T01:10:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148179-6A1349156",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Distribution Schedule filing for Overwatch Technologies (OWL) indicates the company has declared or is confirming a distribution to holders — unusual for a micro-cap technology company, which raises the question of whether this is a return of capital, income distribution from a specific asset, or a trust-related payment rather than a traditional dividend.",
+        "Without a market-sensitive flag, the quantum of the distribution is either already known or immaterial relative to market cap; the filing is primarily a registry and compliance document ensuring holders and brokers can process the payment correctly.",
+        "The combination of a Top 20 Holders filing and a Distribution Schedule on the same day suggests OWL may have a trust or fund-like structure — investors should cross-reference the two filings to understand whether the distribution is broadly held or concentrated among a small number of register participants."
+      ],
+      "tags": [
+        "Dividend",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-10-14T01:10:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148178-6A1349157",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Cleansing Notice for ENP (Entropy Neurodynamics) confirms that a capital raise — most likely a placement — has just been completed; the notice is required under s708A of the Corporations Act to allow on-sale of placement shares without a full prospectus, meaning new shares are now in the hands of placees and will shortly be freely tradeable.",
+        "Applying lesson L020: a standalone cleansing notice without an accompanying investor presentation reduces the mitigating 'funded catalyst' signal — there is no visible use-of-proceeds marketing document in this filing cluster, which means the dilution signal is less offset than it would be with a companion IM or presentation.",
+        "The director interest notice filed on the same day (filing [4]) may relate to the same capital raise if the director participated; investors should cross-reference the two filings to determine whether insider participation (constructive) or exclusion (neutral to negative) characterises the placement structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.037,
+        "market_cap_aud": 60442968.71,
+        "shares_outstanding": 1633593749,
+        "beta": 0.678,
+        "rsi_14": 40.55,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.46,
+        "avg_turnover_aud": 33482,
+        "liquid": false,
+        "avg_volume_20": 1150340,
+        "volume_change_pct": -54.0,
+        "pct_from_3m_high": -13.95,
+        "pct_from_3m_low": 8.82,
+        "pct_from_6m_high": -13.95,
+        "pct_from_6m_low": 32.14,
+        "pct_from_52w_high": -13.95,
+        "pct_from_52w_low": 48.0,
+        "high_52w": 0.043,
+        "low_52w": 0.025,
+        "high_3m": 0.043,
+        "low_3m": 0.034,
+        "high_6m": 0.043,
+        "low_6m": 0.028,
+        "month1_high": 0.042,
+        "month1_low": 0.036,
+        "month2_high": 0.043,
+        "month2_low": 0.036,
+        "month3_high": 0.038,
+        "month3_low": 0.034,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$33,482/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 13.95% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,482 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Appendix 1B, Information Form and Checklist",
+      "time": "2026-10-14T01:09:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148177-2A1703957",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 1B filing (Application for Quotation of Securities) confirms AF9 is formally applying to have securities quoted on the ASX — this is the definitive listing step, and combined with the trust deeds and IM filed today, the full suite of pre-listing documentation is now lodged.",
+        "The Appendix 1B will specify the class and number of securities seeking quotation, the issue price, and the expected commencement date — these are the operative parameters that define dilution, float size, and initial liquidity for prospective investors.",
+        "No market-sensitive flag is expected at this stage since quotation itself is procedural; the price signal will emerge at first trading, where the IM's disclosed strategy and fee structure will be tested against comparable listed products' market pricing."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "ASX Listing Rule Waivers Disclosure",
+      "time": "2026-10-14T01:08:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148176-2A1703956",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An ASX Listing Rule Waivers Disclosure confirms that AF9 has sought and received one or more formal waivers from ASX's standard listing rules — this is common for non-standard fund structures (e.g., debt securities, hybrid instruments, or foreign-domiciled trusts) where standard equity listing rules are not directly applicable.",
+        "The granting of waivers is a constructive signal in the sense that ASX has engaged and approved the structure rather than rejecting it; however, the specific waivers granted matter — waivers related to continuous disclosure, financial reporting, or related-party provisions would carry different risk implications than purely mechanical waivers (e.g., spread requirements).",
+        "As the final procedural filing in today's AF9 cluster, the waivers disclosure closes the pre-quotation documentation loop; institutional investors considering allocation to AF9 should review the specific waiver terms as they may materially affect ongoing disclosure obligations and investor protections post-listing."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Application for quotation of securities - ENP",
+      "time": "2026-10-14T01:07:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148175-6A1349155",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of new securities is a post-raise administrative step — the capital event has already occurred, so this filing signals dilution already absorbed rather than imminent dilution risk.",
+        "Not flagged market sensitive and carries no operational catalyst in the headline; the filing is purely compliance-driven to admit new shares to trading, with no new information about cash deployment or project milestones.",
+        "Watch for any companion operational announcement or investor presentation filed on the same day that might signal how proceeds are being deployed; in isolation this filing has near-zero informational content for near-term price direction."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.037,
+        "market_cap_aud": 60442968.71,
+        "shares_outstanding": 1633593749,
+        "beta": 0.678,
+        "rsi_14": 40.55,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.46,
+        "avg_turnover_aud": 33482,
+        "liquid": false,
+        "avg_volume_20": 1150340,
+        "volume_change_pct": -54.0,
+        "pct_from_3m_high": -13.95,
+        "pct_from_3m_low": 8.82,
+        "pct_from_6m_high": -13.95,
+        "pct_from_6m_low": 32.14,
+        "pct_from_52w_high": -13.95,
+        "pct_from_52w_low": 48.0,
+        "high_52w": 0.043,
+        "low_52w": 0.025,
+        "high_3m": 0.043,
+        "low_3m": 0.034,
+        "high_6m": 0.043,
+        "low_6m": 0.028,
+        "month1_high": 0.042,
+        "month1_low": 0.036,
+        "month2_high": 0.043,
+        "month2_low": 0.036,
+        "month3_high": 0.038,
+        "month3_low": 0.034,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$33,482/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 13.95% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,482 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF9",
+      "company": "AF9",
+      "headline": "Admission and Commencement as an ASX Debt Listing",
+      "time": "2026-10-14T01:07:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148174-2A1703955",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AF9's admission as an ASX Debt Listing marks the commencement of trading for a fixed-income instrument rather than equity — price dynamics will be driven by credit spreads and yield appetite, not equity re-rating momentum.",
+        "Not flagged market sensitive; this is a procedural commencement notice confirming the debt security is now live on-market, with no new terms, coupon changes, or issuer credit events disclosed in the headline.",
+        "For debt market participants, the key next step is monitoring secondary market liquidity and spread behaviour relative to comparable ASX-listed bonds; the admission itself is neutral to the issuer's equity position and purely informational for debt investors."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Trading Policy",
+      "time": "2026-10-14T01:04:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148173-6A1349154",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Trading Policy filing is a mandatory governance disclosure required under ASX Listing Rules — it governs when directors and employees may trade in company securities and carries no information about operational or financial performance.",
+        "This filing is part of a cluster of compliance documents lodged by Overwatch Technologies Limited (OWL) on the same day, consistent with a newly listing or recently admitted company completing its governance documentation suite.",
+        "No near-term price catalyst is embedded in a trading policy; the filing's sole significance is confirming the company has a compliant insider-trading framework in place, which is a baseline listing obligation rather than a market-moving event."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Share Purchase Plan Issue Price",
+      "time": "2026-10-14T01:03:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148171-3A704063",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Share Purchase Plan (SPP) issue price announcement at a stock 54.76% below its 12-month high is a participatory capital raise event — existing shareholders are being offered the ability to maintain or build their position, which distinguishes this from a placement and limits the pure dilution read (see L041).",
+        "The stock is thinly traded at a median turnover of approximately A$162/day, meaning volume signals are close to meaningless as a sentiment indicator — even trivial order flow can distort any volume-based read on holder conviction ahead of this announcement.",
+        "The key question for holders is whether the SPP price is set at, near, or below the prevailing market price: a discount SPP price at a deeply de-rated stock can serve as a floor-setting signal and a funded-catalyst event if proceeds address a named operational need; absent that context, the filing is neutral-to-slightly constructive given its participatory structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.019,
+        "market_cap_aud": 11468590.51,
+        "shares_outstanding": 603610027,
+        "beta": -0.031,
+        "rsi_14": 47.44,
+        "volume_trend_ratio": 0.99,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 162,
+        "liquid": false,
+        "avg_volume_20": 82701,
+        "volume_change_pct": -79.0,
+        "pct_from_3m_high": -20.83,
+        "pct_from_3m_low": 11.76,
+        "pct_from_6m_high": -54.76,
+        "pct_from_6m_low": 90.0,
+        "pct_from_52w_high": -54.76,
+        "pct_from_52w_low": 90.0,
+        "high_52w": 0.042,
+        "low_52w": 0.01,
+        "high_3m": 0.024,
+        "low_3m": 0.017,
+        "high_6m": 0.042,
+        "low_6m": 0.01,
+        "month1_high": 0.023,
+        "month1_low": 0.017,
+        "month2_high": 0.023,
+        "month2_low": 0.021,
+        "month3_high": 0.024,
+        "month3_low": 0.02,
+        "range_position_3m": 0.286,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "54.76% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$162/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the lower part of its 3-month range, 20.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$162 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-10-14T01:03:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148172-6A1349153",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Corporate Governance Statement is a mandatory annual disclosure under ASX Corporate Governance Principles — it confirms the company's compliance posture against the eight core principles but contains no financial or operational information.",
+        "Filed as part of OWL's apparent listing-day or early-admission compliance cluster alongside the Trading Policy, Constitution, Annual Report, Interim Report, Prospectus, and Incentive Plan — the simultaneous lodgement of multiple governance documents strongly suggests OWL is a newly admitted or very recently listed entity completing its regulatory documentation.",
+        "Zero near-term price catalyst; institutional investors should treat this as administrative confirmation that governance infrastructure is in place, not as an information event — attention should be directed to the Replacement Prospectus and financial reports filed concurrently."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Employee Incentive Securities Plan",
+      "time": "2026-10-14T01:02:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148170-6A1349152",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Employee Incentive Securities Plan filing establishes the framework for equity-based remuneration — it is dilutive in principle but the actual dilution quantum is unknown without the plan document details, and at listing stage this is a standard governance requirement rather than a surprise capital event.",
+        "For a newly listing company, the existence of an incentive plan is expected and broadly market-neutral; the more material question is the maximum plan size as a percentage of issued capital and the performance hurdles attached, neither of which is disclosed in the headline.",
+        "Filed as part of OWL's listing-day compliance cluster — institutional focus should remain on the Replacement Prospectus for operational and financial substance; the incentive plan in isolation has no directional signal for near-term price movement."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Annual Report 30 June 2026",
+      "time": "2026-10-14T01:01:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148169-6A1349151",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "An Annual Report for the year ended 30 June 2026, not flagged market sensitive, carries the key risk of containing a going-concern qualification or weaker-than-expected cash position — particularly relevant for a company that appears to be newly listing and filing all compliance documents simultaneously, suggesting limited operating history on-market.",
+        "The absence of a market-sensitive flag means ASX has not been notified of price-sensitive content, but per lesson L097, a going-concern note or adverse auditor commentary can still function as a silent negative catalyst — especially for a pre-revenue or early-stage technology company such as OWL.",
+        "Investors should examine the auditor's report, cash flow statement, and going-concern disclosures as first priority; if the balance sheet reflects the proceeds of the concurrent Replacement Prospectus raise, the cash position may be adequate, but if the accounts pre-date the raise, the reported cash runway could look thin."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Interim Report - 31 December 2025",
+      "time": "2026-10-14T00:59:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148168-6A1349150",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Interim Report for the half-year ended 31 December 2025, filed without a market-sensitive flag alongside the full-year annual report and prospectus, suggests OWL is back-filing or catching up on periodic reporting obligations as part of its listing process rather than releasing new financial news to an already-trading register.",
+        "The informational content of a six-month-old interim report at listing is limited for near-term price discovery — holders will derive more signal from the Annual Report (FY2026) and the Replacement Prospectus, which should contain more current financial data and forward-looking statements.",
+        "Key items to extract: revenue run-rate, cash burn, and any material change in business model between the December 2025 half and the prospectus date — a deteriorating trajectory between the two periods would be a mild bearish signal; an improving one would support the prospectus narrative."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Constitution",
+      "time": "2026-10-14T00:58:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148167-6A1349148",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Filing of the company's Constitution is a foundational governance document required at or around admission — it sets out shareholder rights, voting mechanisms, and director powers, but contains no financial or operational information and is not a market-moving event.",
+        "As with the other OWL compliance filings lodged concurrently, this confirms the company is progressing through or has just completed its ASX admission process; the Constitution's specific provisions (e.g. quorum thresholds, takeover protections, share class rights) may be relevant in a future M&A or activist scenario but have no near-term price implication.",
+        "Institutional investors assessing OWL should redirect analytical effort to the Replacement Prospectus for business model, use of proceeds, financial projections, and key risk factors — the Constitution is administrative scaffolding."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Replacement Prospectus",
+      "time": "2026-10-14T00:57:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148166-6A1349147",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A Replacement Prospectus is the most informationally significant document in today's OWL filing cluster — it supersedes an earlier prospectus and typically signals a material change to offer terms, risk factors, financial disclosures, or use of proceeds that required regulatory correction; the reason for replacement is the critical detail investors must identify immediately.",
+        "Not flagged market sensitive, but per lesson L041, the structure of the offer matters: if this is an entitlement or rights-style offer at a company where existing holders can participate, it is less bearish than a pure placement to outsiders; if the replacement was driven by a downward revision to financials or a new material risk disclosure, that is a negative signal regardless of offer structure.",
+        "The Replacement Prospectus effectively resets the offer and may extend the closing date — for institutional investors the key next steps are: (i) identify what changed from the original prospectus, (ii) assess whether the replacement reflects adverse developments or merely administrative corrections, and (iii) determine the final offer price relative to any available market price as a guide to likely take-up and post-listing supply overhang."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Information Form and Checklist",
+      "time": "2026-10-14T00:56:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148165-6A1349146",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Information Form and Checklist is a pre-admission administrative filing required by ASX as part of the official quotation process — it carries no operational content and no investment signal in isolation.",
+        "Filed alongside Appendix 1A and an Admission and Quotation notice (announcements [2] and [3]), this represents a cluster of IPO/listing mechanics filings for OWL, confirming the company is at the final bureaucratic stage of gaining ASX admission rather than disclosing any business development.",
+        "No price action data is available, and the filing is not market sensitive — the 'so what' here is purely procedural: OWL is about to begin trading, meaning any investment thesis rests entirely on the prospectus disclosed earlier, not on this document."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Appendix 1A",
+      "time": "2026-10-14T00:55:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148164-6A1349145",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 1A is the formal ASX application for admission to the official list — a purely mechanical filing that is a prerequisite for quotation and carries no standalone informational value about the company's operational or financial position.",
+        "Together with the Information Form and Checklist ([1]) and Admission and Quotation notice ([3]) filed on the same day, this confirms OWL is completing the final regulatory steps to list on ASX — the cluster of three compliance filings in one session is standard listing-day procedure.",
+        "Investors should note that the investment case for a newly listing entity is entirely backward-looking to the prospectus terms (offer price, use of proceeds, capital structure); this filing adds nothing incremental to that picture and warrants no directional revision."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OWL",
+      "company": "OVERWATCH TECHNOLOGIES LIMITED",
+      "headline": "Admission and Quotation",
+      "time": "2026-10-14T00:53:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148163-6A1349144",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Admission and Quotation notice is the formal confirmation that ASX has granted OWL permission to commence trading — this is the culmination of the listing process evidenced by the same-day cluster of filings ([1] and [2]) and marks the transition from pre-IPO to publicly traded status.",
+        "For a newly admitted security, the first days of trading are typically characterised by elevated volatility driven by IPO allocation dynamics, selling by flippers, and price discovery rather than by fundamental newsflow — institutional investors should not conflate listing-day volume with durable demand.",
+        "No market-sensitive content is present and no price action data is available; the directional read on OWL's debut will be determined by IPO pricing relative to sector comparables and the quality of the prospectus disclosure, neither of which is assessable from this administrative notice alone."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGD",
+      "company": "PEREGRINE GOLD LTD",
+      "headline": "Change in substantial holding - Yandal Investments Pty Ltd",
+      "time": "2026-10-14T00:53:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148162-6A1349149",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding by Yandal Investments (a vehicle associated with Mark Creasy, a prominent Australian resources investor) at a 3-month low signals active position management by a sophisticated, resource-sector-focused holder — direction of the change is the critical unknown and must be confirmed from the filing body before drawing conclusions.",
+        "Volume at 2.43x the 20-day average sounds elevated, but with median daily turnover of only ~A$5,022/day, the absolute dollar value remains near-zero; at this liquidity level, the volume ratio is close to meaningless as a signal of broad institutional interest and likely reflects a handful of Yandal-related transactions rather than a shift in market sentiment.",
+        "Applying lesson L031: without confirmed direction, a substantial-holder notice into a depressed, thinly traded stock should not default to bearish — if Yandal is increasing its stake at a 3-month low, that is insider-adjacent accumulation at a distressed price and would be modestly constructive; if reducing, it raises going-concern questions for a near-zero-liquidity junior. Neutral pending direction confirmation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.125,
+        "market_cap_aud": 14222912.88,
+        "shares_outstanding": 113783303,
+        "beta": 1.677,
+        "rsi_14": 33.68,
+        "volume_trend_ratio": 2.43,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5022,
+        "liquid": false,
+        "avg_volume_20": 131839,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -35.9,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -45.65,
+        "pct_from_6m_low": 37.36,
+        "pct_from_52w_high": -59.68,
+        "pct_from_52w_low": 37.36,
+        "high_52w": 0.31,
+        "low_52w": 0.091,
+        "high_3m": 0.195,
+        "low_3m": 0.125,
+        "high_6m": 0.23,
+        "low_6m": 0.091,
+        "month1_high": 0.165,
+        "month1_low": 0.125,
+        "month2_high": 0.18,
+        "month2_low": 0.145,
+        "month3_high": 0.195,
+        "month3_low": 0.155,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.43x its 20-day average",
+          "at a 3-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,022/day",
+        "reading": [
+          "Going into this, PGD traded 2.43x its usual daily volume over the last 5 sessions — measured to the 2026-10-13 close, before this announcement was public.",
+          "It was at the bottom of its 3-month range, already falling into this.",
+          "Treat all of that with care: it trades about A$5,022 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Update on DEP-Requisitioned General Meetings",
+      "time": "2026-10-14T00:52:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148161-2A1703954",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An update on DEP-requisitioned general meetings at Citigold signals an active minority shareholder (DEP) is exercising statutory rights to convene meetings — this is a governance escalation event that typically precedes board removal motions, director appointments, or strategic resolutions, making it materially more significant than a routine AGM notice.",
+        "The filing is not flagged market sensitive, but requisitioned meetings at junior gold companies frequently serve as a vehicle for activist or strategic parties to force a change of control dynamic — the 'update' framing suggests procedural developments (dates set, resolutions disclosed, or legal challenges filed) rather than a resolution of the dispute, keeping uncertainty elevated.",
+        "Applying lesson [L048]: even without volume data, a requisitioned-meeting update at a company with an identifiable activist party (DEP) is a governance catalyst that can attract speculative interest or strategic posturing; the meeting outcome (whether DEP succeeds in changing the board composition) is a binary event that warrants a watchlist flag rather than a dismissal as routine compliance."
+      ],
+      "tags": [
+        "AGM",
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.015,
+        "market_cap_aud": 45000000.0,
+        "shares_outstanding": 3000000000,
+        "beta": 0.537,
+        "rsi_14": 45.79,
+        "volume_trend_ratio": 1.25,
+        "volume_last_ratio": 0.1,
+        "avg_turnover_aud": 9808,
+        "liquid": false,
+        "avg_volume_20": 1469632,
+        "volume_change_pct": -90.0,
+        "pct_from_3m_high": -21.05,
+        "pct_from_3m_low": 50.0,
+        "pct_from_6m_high": -37.5,
+        "pct_from_6m_low": 87.5,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 87.5,
+        "high_52w": 0.024,
+        "low_52w": 0.008,
+        "high_3m": 0.019,
+        "low_3m": 0.01,
+        "high_6m": 0.024,
+        "low_6m": 0.008,
+        "month1_high": 0.0175,
+        "month1_low": 0.014,
+        "month2_high": 0.019,
+        "month2_low": 0.012,
+        "month3_high": 0.015,
+        "month3_low": 0.01,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$9,808/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 21.05% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,808 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-10-14T00:51:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148160-2A1703953",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Net Tangible Asset (NTA) backing filing for Ironbark Balanced Income Limited (IBC) is a routine periodic disclosure required of listed investment companies and closed-end funds — it confirms the per-share NTA as of the reporting date and is the primary valuation reference for LIC investors assessing the premium or discount to market price.",
+        "Price action context is relevant here: IBC is just 4.44% off its 3-month high at the time of this filing, which is a relatively tight discount to peak — if the reported NTA is at or near recent levels, this confirms the portfolio has held value and may lend modest support; however, with median daily turnover of approximately A$0/day, the stock is effectively non-tradeable and any volume-based signal is meaningless.",
+        "For a near-zero liquidity LIC trading close to its 3-month high, the NTA release is an administrative confirmation rather than a catalyst — the market cannot efficiently arbitrage any NTA discount or premium given the illiquidity, and near-term price impact is negligible regardless of the NTA figure disclosed."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-13",
+        "bars": 254,
+        "last_close": 0.43,
+        "market_cap_aud": 43009804.86,
+        "shares_outstanding": 100022802,
+        "beta": 0.143,
+        "rsi_14": 47.61,
+        "volume_trend_ratio": 1.18,
+        "volume_last_ratio": 3.25,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 12752,
+        "volume_change_pct": 225.0,
+        "pct_from_3m_high": -4.44,
+        "pct_from_3m_low": 2.38,
+        "pct_from_6m_high": -4.44,
+        "pct_from_6m_low": 2.38,
+        "pct_from_52w_high": -4.44,
+        "pct_from_52w_low": 3.61,
+        "high_52w": 0.45,
+        "low_52w": 0.415,
+        "high_3m": 0.45,
+        "low_3m": 0.42,
+        "high_6m": 0.45,
+        "low_6m": 0.42,
+        "month1_high": 0.435,
+        "month1_low": 0.42,
+        "month2_high": 0.445,
+        "month2_low": 0.425,
+        "month3_high": 0.45,
+        "month3_low": 0.43,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.44% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-13 close.",
+          "The price sat in the middle part of its 3-month range, 4.44% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RRL",
       "company": "REGIS RESOURCES LIMITED",
