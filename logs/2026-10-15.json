@@ -1,9 +1,77 @@
 {
   "date": "2026-10-15",
-  "total": 284,
+  "total": 285,
   "market_sensitive_count": 103,
-  "generated_at": "2026-10-14T23:40:26.510071+00:00",
+  "generated_at": "2026-10-14T23:46:49.929268+00:00",
   "announcements": [
+    {
+      "ticker": "TM1",
+      "company": "TERRA METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - TM1",
+      "time": "2026-10-14T23:41:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148755-6A1349386",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a routine administrative filing notifying the exchange of unquoted securities (likely options, performance rights, or unlisted warrants) — it carries no operational content and no market-sensitive flag, meaning the ASX itself assessed it as immaterial to valuation.",
+        "With the stock sitting 64.89% below its 12-month high, context matters: this filing does nothing to address the structural de-rating, and any unquoted securities overhang (if options or performance rights are involved) is a latent dilution concern at a price level where exercise is unlikely — which paradoxically limits near-term dilution risk but signals management incentive structures are deeply underwater.",
+        "No volume data is provided, so volume-based signals cannot be applied here; the filing should be treated as pure compliance housekeeping — the 'so what' is simply that institutional investors should monitor whether a companion capital raise or cessation-of-securities filing follows, as that would be the more meaningful event at a stock this deeply de-rated."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-14",
+        "bars": 254,
+        "last_close": 0.165,
+        "market_cap_aud": 170096238.18,
+        "shares_outstanding": 1030886292,
+        "beta": 3.258,
+        "rsi_14": 44.86,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 4.35,
+        "avg_turnover_aud": 168692,
+        "liquid": true,
+        "avg_volume_20": 1440926,
+        "volume_change_pct": 335.0,
+        "pct_from_3m_high": -36.54,
+        "pct_from_3m_low": 13.79,
+        "pct_from_6m_high": -60.24,
+        "pct_from_6m_low": 13.79,
+        "pct_from_52w_high": -64.89,
+        "pct_from_52w_low": 66.67,
+        "high_52w": 0.47,
+        "low_52w": 0.099,
+        "high_3m": 0.26,
+        "low_3m": 0.145,
+        "high_6m": 0.415,
+        "low_6m": 0.145,
+        "month1_high": 0.205,
+        "month1_low": 0.145,
+        "month2_high": 0.255,
+        "month2_low": 0.195,
+        "month3_high": 0.26,
+        "month3_low": 0.195,
+        "range_position_3m": 0.174,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "64.89% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-14 close.",
+          "The price sat in the lower part of its 3-month range, 36.54% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TM1",
       "company": "TERRA METALS LIMITED",
