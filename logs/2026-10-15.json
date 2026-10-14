@@ -1,9 +1,116 @@
 {
   "date": "2026-10-15",
-  "total": 278,
-  "market_sensitive_count": 101,
-  "generated_at": "2026-10-14T23:25:58.642628+00:00",
+  "total": 281,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-10-14T23:33:23.902901+00:00",
   "announcements": [
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "All Conditions Finalised for AngloGold Ashanti Option",
+      "time": "2026-10-14T23:31:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148751-6A1349381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "All conditions now finalised for the AngloGold Ashanti option is a concrete, headline-level milestone — not a vague project update — placing a tier-1 major's optionality directly over MAT's assets; this is the archetypal funded-catalyst signal at a deeply de-rated junior, and the market-sensitive flag reinforces that the board views this as price-moving information.",
+        "The stock sits approximately 70% below its 12-month high with median daily turnover of effectively zero, meaning the register is largely inert and even modest institutional or retail interest from AngloGold-related news flow could produce an outsized percentage move on thin supply; the near-zero liquidity cuts both ways — price impact per share is high, but sustainable volume is uncertain.",
+        "The key next step is understanding the option structure: exercise price, timeline, work commitments, and whether AGA's exercise would trigger a cash payment or scrip arrangement — if the option terms include a premium exercise price or a defined work programme, MAT holders gain both a valuation floor and a near-term exploration catalyst funded by a major, which is materially de-risking at the current share price."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-14",
+        "bars": 254,
+        "last_close": 0.047,
+        "market_cap_aud": 45646032.37,
+        "shares_outstanding": 971192178,
+        "beta": 2.023,
+        "rsi_14": 41.46,
+        "volume_trend_ratio": null,
+        "volume_last_ratio": null,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 0,
+        "volume_change_pct": null,
+        "pct_from_3m_high": -29.85,
+        "pct_from_3m_low": 34.29,
+        "pct_from_6m_high": -50.53,
+        "pct_from_6m_low": 34.29,
+        "pct_from_52w_high": -69.68,
+        "pct_from_52w_low": 34.29,
+        "high_52w": 0.155,
+        "low_52w": 0.035,
+        "high_3m": 0.067,
+        "low_3m": 0.035,
+        "high_6m": 0.095,
+        "low_6m": 0.035,
+        "month1_high": 0.047,
+        "month1_low": 0.047,
+        "month2_high": 0.049,
+        "month2_low": 0.045,
+        "month3_high": 0.067,
+        "month3_low": 0.035,
+        "range_position_3m": 0.375,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.68% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-14 close.",
+          "The price sat in the middle part of its 3-month range, 29.85% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAV",
+      "company": "LONGWAVE AUS SMALL COMPANIES FUND - ACTIVE ETF",
+      "headline": "September 2026 Investment Update",
+      "time": "2026-10-14T23:31:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148750-2A1704227",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly investment update for an active ETF is a routine, compliance-driven NAV and portfolio commentary filing — it carries no fund-level corporate event (no distribution, no structural change, no manager commentary flagged as market sensitive), so the informational content for near-term price direction is negligible.",
+        "As an active ETF, WAV's unit price tracks NAV continuously during the session; a September investment update published in October tells the market what it largely already knows via daily iNAV — the update is backward-looking and any portfolio positioning disclosed is stale by at least two weeks.",
+        "The absence of a market-sensitive flag is consistent with the filing being purely informational; institutional holders of WAV should focus on the underlying small-cap portfolio composition for any actionable insight, but the filing itself provides no new catalyst and warrants no directional trading response."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "Investment Update 30 September 2026",
+      "time": "2026-10-14T23:28:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03148749-2A1704226",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 30 September investment update for a BDC (Business Development Company) income ETF is a scheduled, backward-looking NAV and portfolio snapshot — not flagged market sensitive, with no named catalyst in the headline, making this a purely administrative disclosure with no new price-forming information.",
+        "BDC's underlying exposure to private credit and income-generating assets means the September update will reflect interest income accruals and any credit events in the loan book; without specific disclosure of impairments or a distribution change, the filing is procedural and the market will not reprice units on this alone.",
+        "Investors should note that the meaningful forward signal for BDC units is the distribution rate and any changes to credit quality in the underlying portfolio — neither of which is signalled in this headline; await the next distribution announcement or any flagged credit event before forming a directional view."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SFX",
       "company": "SHEFFIELD RESOURCES LIMITED",
