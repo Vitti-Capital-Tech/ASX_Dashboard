@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15T07:00:09.999192+00:00",
-  "next_id": 166,
+  "updated_at": "2026-10-15T07:49:48.147040+00:00",
+  "next_id": 167,
   "lessons": [
     {
       "id": "L001",
@@ -2178,7 +2178,7 @@
       "rule": "A board rejection of a further-revised offer, when the stock is already near its high on elevated volume, signals that M&A optionality is fully priced and the rejection increases deal-collapse risk rather than bump probability — the market interprets the rejection as the acquirer's limit being reached rather than as leverage for a higher bid; call bearish rather than bullish when this is a second-or-subsequent rejection into an extended, pre-positioned tape.",
       "created": "2026-09-21",
       "last_seen": "2026-10-15",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-21",
@@ -2202,11 +2202,11 @@
           "abnormal_pct": -15.11
         },
         {
-          "date": "2026-09-21",
-          "ticker": "PPT",
-          "headline": "Perpetual rejects further revised proposal from EQT",
+          "date": "2026-10-15",
+          "ticker": "INA",
+          "headline": "Update on Further Revised Non-Binding Indicative Offer",
           "called": "bullish",
-          "abnormal_pct": -15.11
+          "abnormal_pct": -11.48
         },
         {
           "date": "2026-10-15",
@@ -2261,16 +2261,9 @@
       "rule": "A headline describing what was hit (mineralisation type, distance from resource) rather than how much (grade, width) is structurally an extension result without economic quantification — apply L018's logic regardless of volume data when grade and width are absent from the headline; call neutral rather than bullish, because the market cannot size the value addition without grade data and the filing confirms presence but not economics.",
       "created": "2026-09-21",
       "last_seen": "2026-10-15",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
-          "date": "2026-10-13",
-          "ticker": "SNM",
-          "headline": "Northern drilling extends mineralisation beyond current MRE",
-          "called": "bullish",
-          "abnormal_pct": -27.28
-        },
-        {
           "date": "2026-10-14",
           "ticker": "EG1",
           "headline": "Final Aircore Results,4 Defined Gold Prospects at Mt Monger",
@@ -2290,6 +2283,13 @@
           "headline": "Final Aircore Results,4 Defined Gold Prospects at Mt Monger",
           "called": "bullish",
           "abnormal_pct": -11.86
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "CPM",
+          "headline": "RC Drilling Intersects Broad Cu at Attina and Ardmore North",
+          "called": "bullish",
+          "abnormal_pct": -10.43
         },
         {
           "date": "2026-10-15",
@@ -2440,16 +2440,9 @@
       "trigger": "Market-sensitive project-update announcement (titled '[Project Name] Update' with no specific milestone in the headline) at a stock at a multi-month low with thin liquidity and no volume data available",
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
-      "last_seen": "2026-10-14",
-      "times_seen": 25,
+      "last_seen": "2026-10-15",
+      "times_seen": 26,
       "examples": [
-        {
-          "date": "2026-10-13",
-          "ticker": "PR2",
-          "headline": "Cerro Chacon Exploration Update",
-          "called": "neutral",
-          "abnormal_pct": -10.53
-        },
         {
           "date": "2026-10-13",
           "ticker": "WC1",
@@ -2477,6 +2470,13 @@
           "headline": "Update on Kirkalocka Toll Milling & Tuckanarra Joint Venture",
           "called": "neutral",
           "abnormal_pct": -10.08
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "WC1",
+          "headline": "Salazar Scandium Beneficiation Testwork Underway",
+          "called": "neutral",
+          "abnormal_pct": -13.24
         }
       ]
     },
@@ -3945,7 +3945,7 @@
       "rule": "An amendment to a lead manager mandate is a pre-raise administrative signal that a capital event is imminent — but the amendment itself, rather than the subsequent raise announcement, is when the market already knows dilution is coming; at a 12-month low on extreme relative volume, the dominant read is that holders are front-running dilution by selling before the placement is announced and the stock re-prices to the issue discount; lean bearish rather than neutral on a lead-manager-mandate amendment into extreme volume at a 12-month low, because the filing confirms a raise is in progress and the elevated volume more likely reflects exit ahead of dilution than accumulation ahead of a funded catalyst.",
       "created": "2026-09-28",
       "last_seen": "2026-10-15",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-28",
@@ -3967,6 +3967,13 @@
           "headline": "Amendment to lead manager mandate",
           "called": "neutral",
           "abnormal_pct": -8.5
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "GW1",
+          "headline": "Proposed issue of securities - GW1",
+          "called": "neutral",
+          "abnormal_pct": -9.91
         },
         {
           "date": "2026-10-15",
@@ -4287,7 +4294,7 @@
       "rule": "A guidance announcement is directionally ambiguous without knowing whether the disclosed numbers beat or miss prior consensus or management signals — 'guidance issued' is not the same as 'guidance beat'; before calling bullish on a guidance filing, require either (a) explicit beat language in the headline, (b) a disclosed metric that can be compared to a prior anchor, or (c) price action confirming the tape was not already positioned for positive news; when none of these are available, default to neutral rather than bullish, because disappointing guidance at an extended valuation is as probable as a beat and the downside is asymmetrically large.",
       "created": "2026-09-30",
       "last_seen": "2026-10-15",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-30",
@@ -4311,11 +4318,11 @@
           "abnormal_pct": -25.66
         },
         {
-          "date": "2026-09-30",
-          "ticker": "BC8",
-          "headline": "FY27 Guidance & Outlook",
-          "called": "bullish",
-          "abnormal_pct": -25.66
+          "date": "2026-10-15",
+          "ticker": "CIA",
+          "headline": "FY2027 Q2 Preliminary Results & Notice of Final Results",
+          "called": "neutral",
+          "abnormal_pct": -9.57
         },
         {
           "date": "2026-10-15",
@@ -4462,16 +4469,9 @@
       "trigger": "Change of substantial holder interest (direction ambiguous, not 'becoming') at a stock 85%+ below its 12-month high with suppressed pre-announcement volume (<0.7x average) and near-zero median daily turnover, where the direction of the change is not disclosed in the headline",
       "rule": "At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.",
       "created": "2026-10-01",
-      "last_seen": "2026-10-13",
-      "times_seen": 11,
+      "last_seen": "2026-10-15",
+      "times_seen": 12,
       "examples": [
-        {
-          "date": "2026-10-06",
-          "ticker": "CMO",
-          "headline": "Change in substantial holding from GBR",
-          "called": "bearish",
-          "abnormal_pct": 24.43
-        },
         {
           "date": "2026-10-06",
           "ticker": "CMO",
@@ -4499,6 +4499,13 @@
           "headline": "Change in substantial holding",
           "called": "neutral",
           "abnormal_pct": -15.39
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "HAS",
+          "headline": "Change of Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": -11.02
         }
       ]
     },
@@ -4653,7 +4660,7 @@
       "rule": "Before calling bullish on a compound headline that pairs an intercept descriptor ('major intercepts') with an operational unlock ('access cleared'), confirm that the intercept component contains disclosed grade and width data — 'major' is a marketing qualifier, not a grade disclosure; if grade and width are absent from the headline, apply L054's neutral default to the intercept component and treat the compound framing as potentially obscuring the absence of economic data rather than amplifying the positive signal.",
       "created": "2026-10-01",
       "last_seen": "2026-10-15",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-01",
@@ -4675,6 +4682,13 @@
           "headline": "Major Intercepts & Access Cleared for Resource Drilling",
           "called": "bullish",
           "abnormal_pct": -9.44
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "ITM",
+          "headline": "High-Grade Antimony and Deeper Gold at Falchion",
+          "called": "bullish",
+          "abnormal_pct": -10.78
         },
         {
           "date": "2026-10-15",
@@ -5330,7 +5344,7 @@
       "rule": "Before calling bearish on a cleansing-notice-plus-quotation cluster at a distressed stock, check whether the quotation filing implies only a small raise quantum relative to the stock's implied market cap — if the raise is small and the stock is already severely de-rated, the market may read the completed raise as a funded-survival signal rather than a dilution event, and the correct call is neutral rather than bearish. L089's bearish default requires confirmed absence of any funded-catalyst signal; when the raise has already closed and the stock is priced for near-insolvency, the asymmetry may favour neutral.",
       "created": "2026-10-06",
       "last_seen": "2026-10-15",
-      "times_seen": 11,
+      "times_seen": 12,
       "examples": [
         {
           "date": "2026-10-09",
@@ -5354,11 +5368,11 @@
           "abnormal_pct": 20.11
         },
         {
-          "date": "2026-10-09",
-          "ticker": "M24",
-          "headline": "Cleansing Statement",
+          "date": "2026-10-15",
+          "ticker": "AZ9",
+          "headline": "Cleansing Notice",
           "called": "bearish",
-          "abnormal_pct": 20.11
+          "abnormal_pct": 21.52
         },
         {
           "date": "2026-10-15",
@@ -5809,8 +5823,8 @@
       "trigger": "Change of Director's Interest Notice at a stock at or near a multi-month high (within 5% of 3-month high) with suppressed pre-announcement volume (<0.5x average) and near-zero absolute liquidity (median daily turnover <A$10,000/day), where no direction is disclosed in the headline",
       "rule": "At a stock at a multi-month high with suppressed volume and near-zero liquidity, a director interest notice carries an asymmetric bearish risk: the director is the most informed seller into strength, and in a near-zero-liquidity stock even a small disclosed sale is disproportionately large relative to normal float; lean bearish rather than neutral when the stock is at a recent high, volume is suppressed (not elevated, ruling out broad distribution already underway), and the filing type is a director interest notice, because the informed-seller-into-strength base rate dominates the constructive-purchase interpretation at extended prices.",
       "created": "2026-10-09",
-      "last_seen": "2026-10-13",
-      "times_seen": 5,
+      "last_seen": "2026-10-15",
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-10-09",
@@ -5827,13 +5841,6 @@
           "abnormal_pct": -16.64
         },
         {
-          "date": "2026-10-09",
-          "ticker": "CSX",
-          "headline": "Change of Director's Interest Notice",
-          "called": "neutral",
-          "abnormal_pct": -16.64
-        },
-        {
           "date": "2026-10-13",
           "ticker": "AUV",
           "headline": "Change of Director's Interest Notice",
@@ -5846,6 +5853,13 @@
           "headline": "Change of Director's Interest Notice",
           "called": "neutral",
           "abnormal_pct": -14.29
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "NPM",
+          "headline": "Change of Director's Interest Notice - Mason",
+          "called": "neutral",
+          "abnormal_pct": 12.59
         }
       ]
     },
@@ -5854,18 +5868,11 @@
       "trigger": "Initial Director's Interest Notice (not a change notice — a first disclosure of an opening position) at a deeply de-rated junior (>50% below 12-month high) with near-zero or zero liquidity and no market-sensitive flag",
       "rule": "An Initial Director's Interest Notice discloses what a director already holds at the point of appointment or first disclosure — it is not necessarily a fresh purchase and may reveal a pre-existing holding with no cash committed at current prices; do not treat it as constructive insider buying without confirming the acquisition date and price are recent and at-market; default to neutral, and lean bearish rather than neutral at near-zero-liquidity stocks where even a small disclosed holding creates a prospective supply overhang if the director chooses to sell.",
       "created": "2026-10-09",
-      "last_seen": "2026-10-12",
-      "times_seen": 6,
+      "last_seen": "2026-10-15",
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-10-12",
-          "ticker": "BEZ",
-          "headline": "Initial Director's Interest Notice",
-          "called": "neutral",
-          "abnormal_pct": -9.21
-        },
-        {
-          "date": "2026-10-12",
           "ticker": "ADR",
           "headline": "Appointment of Chief Financial Officer",
           "called": "neutral",
@@ -5891,6 +5898,13 @@
           "headline": "Initial Director's Interest Notice",
           "called": "neutral",
           "abnormal_pct": -9.21
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "CAZ",
+          "headline": "Change of Director's Interest Notice 3Y Byass",
+          "called": "neutral",
+          "abnormal_pct": -11.02
         }
       ]
     },
@@ -6059,21 +6073,21 @@
       "rule": "When volume is deeply suppressed (not merely flat) into an AGM notice at a distressed, near-zero-liquidity stock, the absence of any buyer interest is itself a bearish signal — the register is disengaged and the AGM creates no near-term catalyst; lean bearish rather than neutral, because a non-flagged procedural filing into a silent, distressed tape more commonly precedes a dilutive resolution or a going-concern update at the meeting than a positive outcome.",
       "created": "2026-10-12",
       "last_seen": "2026-10-15",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
         {
-          "date": "2026-10-14",
-          "ticker": "NGX",
-          "headline": "Notice of Annual General Meeting/Proxy Form",
+          "date": "2026-10-15",
+          "ticker": "LNQ",
+          "headline": "Letter to Shareholders - Annual General Meeting",
           "called": "neutral",
-          "abnormal_pct": -9.62
+          "abnormal_pct": -18.09
         },
         {
-          "date": "2026-10-14",
-          "ticker": "ATT",
-          "headline": "Notification of cessation of securities - ATT",
+          "date": "2026-10-15",
+          "ticker": "NNL",
+          "headline": "Letter to Shareholders, Notice of AGM and Proxy Form",
           "called": "neutral",
-          "abnormal_pct": -19.36
+          "abnormal_pct": -11.02
         },
         {
           "date": "2026-10-15",
@@ -6486,7 +6500,7 @@
       "rule": "Before calling bullish on a production record at a deeply de-rated producer, ask whether the record translates into economic value at current commodity prices — a volume record at a below-breakeven realised price is not a re-rating catalyst; require disclosure of cash cost per unit or operating cash flow alongside the production figure before calling bullish, and default to neutral when only the production quantum is named.",
       "created": "2026-10-15",
       "last_seen": "2026-10-15",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-15",
@@ -6494,6 +6508,30 @@
           "headline": "Sept Qtr Delivers Milestone & 100,000oz Ag Production Record",
           "called": "bullish",
           "abnormal_pct": -12.41
+        },
+        {
+          "date": "2026-10-15",
+          "ticker": "BHM",
+          "headline": "Sept Qtr Delivers Milestone & 100,000oz Ag Production Record",
+          "called": "bullish",
+          "abnormal_pct": -12.41
+        }
+      ]
+    },
+    {
+      "id": "L166",
+      "trigger": "Change of Director's Interest Notice at a deeply de-rated, near-zero-liquidity stock with deeply suppressed pre-announcement volume (<0.4x average), where direction is undisclosed in the headline and the stock has no near-term catalyst visible",
+      "rule": "When both de-rating and volume suppression are extreme and no companion operational filing is present, the absence of any buyer activity removes the constructive insider-buying argument — a director transacting quietly into a silent, distressed, illiquid register is statistically more likely to be a small disposal than an accumulation; lean bearish rather than neutral when volume is deeply suppressed, the stock is severely de-rated, and no operational catalyst accompanies the notice.",
+      "created": "2026-10-15",
+      "last_seen": "2026-10-15",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-15",
+          "ticker": "PER",
+          "headline": "Change of Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": 14.38
         }
       ]
     }
