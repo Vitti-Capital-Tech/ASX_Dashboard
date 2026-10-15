@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-10-15T18:48:13.120791+11:00",
+  "generated_at": "2026-10-15T19:50:28.751048+11:00",
   "days_scored": 49,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 2679,
+      "scored": 2683,
       "correct": 1088,
       "wrong": 726,
-      "flat": 865,
+      "flat": 869,
       "hit_rate": 60.0,
       "avg_abnormal_pct": 1.79
     },
     "bearish": {
-      "scored": 941,
+      "scored": 943,
       "correct": 313,
       "wrong": 268,
-      "flat": 360,
+      "flat": 362,
       "hit_rate": 53.9,
-      "avg_abnormal_pct": -0.41
+      "avg_abnormal_pct": -0.4
     },
     "neutral": {
-      "scored": 6828,
-      "correct": 3111,
-      "wrong": 3717,
+      "scored": 6843,
+      "correct": 3124,
+      "wrong": 3719,
       "flat": 0,
-      "hit_rate": 45.6,
+      "hit_rate": 45.7,
       "avg_abnormal_pct": 0.22
     }
   },
-  "spread_pct": 2.2,
+  "spread_pct": 2.19,
   "directional_hit_rate": 58.5,
   "directional_scored": 2395,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 2679,
+        "scored": 2683,
         "correct": 735,
         "wrong": 940,
-        "flat": 1004,
+        "flat": 1008,
         "hit_rate": 43.9,
         "avg_abnormal_pct": -0.16
       },
       "bearish": {
-        "scored": 941,
+        "scored": 943,
         "correct": 295,
         "wrong": 204,
-        "flat": 442,
+        "flat": 444,
         "hit_rate": 59.1,
         "avg_abnormal_pct": -0.54
       },
       "neutral": {
-        "scored": 6828,
-        "correct": 3435,
+        "scored": 6843,
+        "correct": 3450,
         "wrong": 3393,
         "flat": 0,
-        "hit_rate": 50.3,
+        "hit_rate": 50.4,
         "avg_abnormal_pct": -0.13
       }
     },
@@ -142,8 +142,8 @@
       "hit_rate": 63.6,
       "intraday_scored": 9,
       "intraday_hit_rate": 33.3,
-      "intraday_avg_as_called": -0.93,
-      "avg_as_called": -0.56
+      "intraday_avg_as_called": -0.89,
+      "avg_as_called": -0.54
     },
     {
       "document_type": "Half Yearly Report",
@@ -553,7 +553,7 @@
       "date": "2026-10-15",
       "hit_rate": 50.7,
       "scored": 75,
-      "spread_pct": 2.6,
+      "spread_pct": 2.45,
       "intraday_hit_rate": 43.8,
       "intraday_scored": 64
     }
