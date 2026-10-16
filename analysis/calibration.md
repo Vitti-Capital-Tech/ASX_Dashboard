@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5150 graded calls
+- Window: last 20 trading days, 5176 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-15T10:47:47.922147+00:00
+- Generated: 2026-10-16T07:00:15.405800+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **54%** correct on 1032 graded calls.
+Directional calls (bullish/bearish): **53.8%** correct on 1038 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 687 | 54.7% |
-| bearish | 345 | 52.5% |
+| bullish | 701 | 54.9% |
+| bearish | 337 | 51.3% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **54.1%** of the time (n=3627). Every graded announcement moved 58.2% of the time.
+Stocks called neutral moved 1% or more anyway **55.4%** of the time (n=3640). Every graded announcement moved 59.2% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 582 | 54.8% |
-| Not flagged | 450 | 52.9% |
+| Market sensitive | 586 | 55.3% |
+| Not flagged | 452 | 51.8% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 809 | 54.3% |
-| Substantial Holding | 107 | 52.3% |
-| Results | 37 | 56.8% |
+| Market Update | 810 | 54.2% |
+| Substantial Holding | 105 | 53.3% |
+| Results | 38 | 57.9% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
