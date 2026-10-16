@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:46:42.808900+11:00",
+  "generated_at": "2026-10-16T19:50:01.824658+11:00",
   "days_scored": 50,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
@@ -13,23 +13,23 @@
       "avg_abnormal_pct": 1.8
     },
     "bearish": {
-      "scored": 965,
+      "scored": 968,
       "correct": 316,
       "wrong": 278,
-      "flat": 371,
+      "flat": 374,
       "hit_rate": 53.2,
-      "avg_abnormal_pct": -0.33
+      "avg_abnormal_pct": -0.34
     },
     "neutral": {
-      "scored": 7028,
-      "correct": 3196,
-      "wrong": 3832,
+      "scored": 7048,
+      "correct": 3215,
+      "wrong": 3833,
       "flat": 0,
-      "hit_rate": 45.5,
+      "hit_rate": 45.6,
       "avg_abnormal_pct": 0.24
     }
   },
-  "spread_pct": 2.13,
+  "spread_pct": 2.14,
   "directional_hit_rate": 58.4,
   "directional_scored": 2437,
   "intraday": {
@@ -43,19 +43,19 @@
         "avg_abnormal_pct": -0.14
       },
       "bearish": {
-        "scored": 965,
+        "scored": 968,
         "correct": 300,
         "wrong": 214,
-        "flat": 451,
+        "flat": 454,
         "hit_rate": 58.4,
         "avg_abnormal_pct": -0.47
       },
       "neutral": {
-        "scored": 7028,
-        "correct": 3541,
+        "scored": 7048,
+        "correct": 3561,
         "wrong": 3487,
         "flat": 0,
-        "hit_rate": 50.4,
+        "hit_rate": 50.5,
         "avg_abnormal_pct": -0.12
       }
     },
@@ -124,8 +124,8 @@
       "hit_rate": 71.4,
       "intraday_scored": 21,
       "intraday_hit_rate": 71.4,
-      "intraday_avg_as_called": 1.03,
-      "avg_as_called": 1.7
+      "intraday_avg_as_called": 0.98,
+      "avg_as_called": 1.67
     },
     {
       "document_type": "Annual Report",
@@ -561,7 +561,7 @@
       "date": "2026-10-16",
       "hit_rate": 52.4,
       "scored": 42,
-      "spread_pct": -0.02,
+      "spread_pct": 0.42,
       "intraday_hit_rate": 52.6,
       "intraday_scored": 38
     }
