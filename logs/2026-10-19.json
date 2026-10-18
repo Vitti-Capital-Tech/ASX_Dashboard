@@ -1,9 +1,79 @@
 {
   "date": "2026-10-19",
-  "total": 301,
+  "total": 302,
   "market_sensitive_count": 97,
-  "generated_at": "2026-10-18T23:30:23.281176+00:00",
+  "generated_at": "2026-10-18T23:38:57.138114+00:00",
   "announcements": [
+    {
+      "ticker": "CPM",
+      "company": "COOPER METALS LIMITED",
+      "headline": "Application for quotation of securities - CPM",
+      "time": "2026-10-18T23:36:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149900-6A1349876",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities signals a recently completed capital raise — the dilution event has already occurred, so the key question is whether the new capital is tied to a named near-term operational catalyst (drill programme, resource work) that could re-rate the stock; without that detail in the headline, the filing is procedurally administrative rather than directionally informative.",
+        "Volume running at 2.6x its 20-day average sounds elevated, but with median daily turnover of only ~A$6,667/day, this stock is near-zero liquidity — at that level, a handful of retail trades can distort the ratio dramatically, making the volume signal close to meaningless as an indicator of informed accumulation or distribution; it should not be read as institutional positioning in either direction.",
+        "Per lesson L050, quotation-of-securities at a thinly traded junior in an active thematic sector (Cooper Metals operates in copper, a critical minerals thematic attracting policy and fund inflows) is not uniformly bearish — the raise is done, and if proceeds fund a named catalyst the funded-certainty signal may outweigh the supply-overhang concern; absent headline-level catalyst specificity, the appropriate default is neutral rather than bearish."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-16",
+        "bars": 253,
+        "last_close": 0.072,
+        "market_cap_aud": 8279608.46,
+        "shares_outstanding": 114994562,
+        "beta": 0.467,
+        "rsi_14": 36.39,
+        "volume_trend_ratio": 2.6,
+        "volume_last_ratio": 3.63,
+        "avg_turnover_aud": 6667,
+        "liquid": false,
+        "avg_volume_20": 242935,
+        "volume_change_pct": 263.0,
+        "pct_from_3m_high": -31.43,
+        "pct_from_3m_low": 35.85,
+        "pct_from_6m_high": -31.43,
+        "pct_from_6m_low": 56.52,
+        "pct_from_52w_high": -31.43,
+        "pct_from_52w_low": 71.43,
+        "high_52w": 0.105,
+        "low_52w": 0.042,
+        "high_3m": 0.105,
+        "low_3m": 0.053,
+        "high_6m": 0.105,
+        "low_6m": 0.046,
+        "month1_high": 0.105,
+        "month1_low": 0.067,
+        "month2_high": 0.1,
+        "month2_low": 0.066,
+        "month3_high": 0.071,
+        "month3_low": 0.053,
+        "range_position_3m": 0.365,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.6x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$6,667/day",
+        "reading": [
+          "Going into this, CPM traded 2.6x its usual daily volume over the last 5 sessions — measured to the 2026-10-16 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 31.43% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,667 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IVX",
       "company": "INVION LIMITED",
