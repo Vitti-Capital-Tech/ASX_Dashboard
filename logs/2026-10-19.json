@@ -1,9 +1,28 @@
 {
   "date": "2026-10-19",
-  "total": 308,
+  "total": 309,
   "market_sensitive_count": 98,
-  "generated_at": "2026-10-18T23:46:16.330949+00:00",
+  "generated_at": "2026-10-18T23:52:16.748197+00:00",
   "announcements": [
+    {
+      "ticker": "KOA",
+      "company": "THE KOALA COMPANY LIMITED",
+      "headline": "Notification of cessation of securities - KOA",
+      "time": "2026-10-18T23:48:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149907-2A1704791",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities filing (options lapsing unexercised or performance rights forfeited) is a register-cleaning event — it removes future dilution overhang without any cash outflow, which under lesson L017 is the key constructive read on this filing type.",
+        "No price action data is provided, so volume and tape context cannot be assessed; the filing is not flagged market sensitive, consistent with a routine compliance notification rather than a material operational event.",
+        "With no companion capital raise filing visible, the standalone cessation should be read as modestly constructive (dilution overhang reduced) rather than a negative signal — the practical 'so what' is that fewer options/rights now hang over the register, marginally improving the per-share economics for existing holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BDX",
       "company": "BCAL DIAGNOSTICS LIMITED",
