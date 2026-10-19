@@ -1,9 +1,514 @@
 {
   "date": "2026-10-20",
-  "total": 270,
-  "market_sensitive_count": 99,
-  "generated_at": "2026-10-19T23:29:10.232446+00:00",
+  "total": 281,
+  "market_sensitive_count": 101,
+  "generated_at": "2026-10-19T23:40:54.821330+00:00",
   "announcements": [
+    {
+      "ticker": "MYS",
+      "company": "MYSTATE LIMITED",
+      "headline": "Chair and CEO Addresses to Shareholders",
+      "time": "2026-10-19T23:38:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150485-3A704491",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive Chair and CEO addresses at an AGM carry real information weight — these speeches are the primary vehicle for forward guidance, strategic priorities, and any profit commentary that management chooses to make public, making this a genuine price-discovery event rather than a procedural formality.",
+        "With MYS trading only 3.62% off its 3-month high, the stock is entering this announcement from a position of relative strength — meaning any positive surprise is likely already partially priced in, while a cautious or downgraded outlook could trigger a disproportionate negative reaction given limited further upside buffer.",
+        "Key watch points for institutional holders: any commentary on net interest margin trajectory, mortgage book growth versus the major banks, and whether management reaffirms or softens prior earnings guidance — the market-sensitive flag suggests at least one of these levers is being moved."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 5.06,
+        "market_cap_aud": 865630164.3,
+        "shares_outstanding": 171073155,
+        "beta": 0.571,
+        "rsi_14": 61.46,
+        "volume_trend_ratio": 1.36,
+        "volume_last_ratio": 1.0,
+        "avg_turnover_aud": 699783,
+        "liquid": true,
+        "avg_volume_20": 165383,
+        "volume_change_pct": 0.0,
+        "pct_from_3m_high": -3.62,
+        "pct_from_3m_low": 9.05,
+        "pct_from_6m_high": -3.62,
+        "pct_from_6m_low": 18.22,
+        "pct_from_52w_high": -3.62,
+        "pct_from_52w_low": 21.93,
+        "high_52w": 5.25,
+        "low_52w": 4.15,
+        "high_3m": 5.25,
+        "low_3m": 4.64,
+        "high_6m": 5.25,
+        "low_6m": 4.28,
+        "month1_high": 5.09,
+        "month1_low": 4.8,
+        "month2_high": 5.25,
+        "month2_low": 4.64,
+        "month3_high": 4.96,
+        "month3_low": 4.65,
+        "range_position_3m": 0.689,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.62% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-19 close.",
+          "The price sat in the upper part of its 3-month range, 3.62% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHL",
+      "company": "SONIC HEALTHCARE LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-10-19T23:36:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150484-2A1705040",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "A Notice of AGM for Sonic Healthcare is a standard procedural filing — it sets the meeting date, distributes proxy forms, and opens the formal shareholder voting window, with no operational or financial content embedded in the headline.",
+        "The filing is not flagged market sensitive, consistent with its purely administrative nature; for a large-cap, well-covered healthcare company like SHL, an AGM notice carries no independent price-discovery value and the market will have already formed its view on the underlying business from earnings releases and management guidance.",
+        "Institutional holders should treat this as a diary entry rather than a trading signal — the relevant event is the AGM itself, where Chair and CEO addresses, any profit commentary, and remuneration report voting outcomes will be the actual price-relevant disclosures."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 18.53,
+        "market_cap_aud": 9158229269.09,
+        "shares_outstanding": 494237953,
+        "beta": 0.573,
+        "rsi_14": 40.1,
+        "volume_trend_ratio": 1.08,
+        "volume_last_ratio": 0.86,
+        "avg_turnover_aud": 32681732,
+        "liquid": true,
+        "avg_volume_20": 1749027,
+        "volume_change_pct": -14.0,
+        "pct_from_3m_high": -21.93,
+        "pct_from_3m_low": 2.32,
+        "pct_from_6m_high": -21.93,
+        "pct_from_6m_low": 2.32,
+        "pct_from_52w_high": -23.65,
+        "pct_from_52w_low": 2.32,
+        "high_52w": 24.27,
+        "low_52w": 18.11,
+        "high_3m": 23.735,
+        "low_3m": 18.11,
+        "high_6m": 23.735,
+        "low_6m": 18.11,
+        "month1_high": 19.47,
+        "month1_low": 18.11,
+        "month2_high": 21.68,
+        "month2_low": 18.4,
+        "month3_high": 23.735,
+        "month3_low": 20.62,
+        "range_position_3m": 0.075,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-19 close.",
+          "The price sat in the lower part of its 3-month range, 21.93% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-10-19T23:33:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150483-3A704490",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder notice signals that a single entity has crossed the 5% ownership threshold in MBK — this is a structurally constructive signal, as it indicates a buyer has accumulated a meaningful stake, often a precursor to further accumulation, strategic engagement, or board-level influence.",
+        "MBK is 68.75% below its 12-month high and has median daily turnover of approximately A$1,069/day — at this liquidity level, crossing 5% requires only a modest absolute capital commitment, so the signal of intent is more meaningful than the dollar size; however, volume ratios are close to meaningless in this context and should not be used to infer pace of accumulation.",
+        "The absence of a market-sensitive flag is consistent with the filing being purely declaratory (the buyer has already acted), but the register impact is real — a new substantial holder at a deeply de-rated micro-cap tightens effective free float and can reduce near-term selling pressure, lending a modestly bullish bias to price discovery."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 0.01,
+        "market_cap_aud": 9118578.63,
+        "shares_outstanding": 911857863,
+        "beta": 1.312,
+        "rsi_14": 45.2,
+        "volume_trend_ratio": 1.36,
+        "volume_last_ratio": 1.27,
+        "avg_turnover_aud": 1069,
+        "liquid": false,
+        "avg_volume_20": 298932,
+        "volume_change_pct": 27.0,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 25.0,
+        "pct_from_6m_high": -50.0,
+        "pct_from_6m_low": 25.0,
+        "pct_from_52w_high": -68.75,
+        "pct_from_52w_low": 25.0,
+        "high_52w": 0.032,
+        "low_52w": 0.008,
+        "high_3m": 0.013,
+        "low_3m": 0.008,
+        "high_6m": 0.02,
+        "low_6m": 0.008,
+        "month1_high": 0.012,
+        "month1_low": 0.008,
+        "month2_high": 0.013,
+        "month2_low": 0.011,
+        "month3_high": 0.013,
+        "month3_low": 0.011,
+        "range_position_3m": 0.4,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "68.75% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,069/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-19 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,069 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PA7",
+      "company": "PANORAMA AUTO TRUST 2026-1",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-10-19T23:32:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150482-2A1705039",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Panorama Auto Trust 2026-1 is an asset-backed securities vehicle — its annual report is a compliance obligation under ASX listing rules for structured finance trusts and contains no equity price discovery relevant to a common equity investor thesis.",
+        "These ABS trust annual reports disclose pool performance metrics (arrears rates, prepayment speeds, credit enhancement levels) that are relevant to note holders and ratings analysts, not equity investors; there is no ordinary share capital at risk and therefore no share-price sentiment applicable.",
+        "The filing is not flagged market sensitive, consistent with its purely administrative and regulatory character — institutional equity desks can disregard this filing entirely."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cashflow Report",
+      "time": "2026-10-19T23:32:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150481-3A704489",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A market-sensitive quarterly activities and Appendix 5B filing at a stock 73.12% below its 12-month high is a high-stakes disclosure — the market-sensitive flag indicates management believes the content moves the needle, and at this de-rating level the most likely triggers are a material cash burn rate, a going-concern risk signal, or an unexpected operational development either way.",
+        "Pre-announcement volume at 0.38x average is materially suppressed — at ADC's near-zero liquidity (median A$274/day), volume ratios are close to meaningless as an indicator of informed positioning; the suppressed tape simply confirms the register is largely disengaged, meaning the Appendix 5B cash position and runway figure will be the primary price catalyst with no crowded long to absorb a miss.",
+        "Key risk for holders: a quarterly cash burn that implies less than two quarters of runway at a stock already priced for distress would likely accelerate selling, while a funded-catalyst signal (capital secured, drill programme confirmed) could trigger an outsized upside reaction given the extreme de-rating and suppressed starting volume — the market-sensitive flag makes the directional read binary and dependent entirely on the body of the filing."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 0.043,
+        "market_cap_aud": 5166201.72,
+        "shares_outstanding": 120144226,
+        "beta": 0.636,
+        "rsi_14": 41.72,
+        "volume_trend_ratio": 0.38,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 274,
+        "liquid": false,
+        "avg_volume_20": 35862,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -21.82,
+        "pct_from_3m_low": 4.88,
+        "pct_from_6m_high": -37.68,
+        "pct_from_6m_low": 16.22,
+        "pct_from_52w_high": -73.12,
+        "pct_from_52w_low": 16.22,
+        "high_52w": 0.16,
+        "low_52w": 0.037,
+        "high_3m": 0.055,
+        "low_3m": 0.041,
+        "high_6m": 0.069,
+        "low_6m": 0.037,
+        "month1_high": 0.055,
+        "month1_low": 0.042,
+        "month2_high": 0.047,
+        "month2_low": 0.042,
+        "month3_high": 0.047,
+        "month3_low": 0.041,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.38x its average",
+          "73.12% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$274/day",
+        "reading": [
+          "Going into this, ADC traded only 0.38x its usual daily volume over the last 5 sessions — measured to the 2026-10-19 close.",
+          "The price sat in the lower part of its 3-month range, 21.82% below the high of that period.",
+          "Treat all of that with care: it trades about A$274 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "Notification regarding unquoted securities - MBK",
+      "time": "2026-10-19T23:30:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150480-3A704488",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Notification regarding unquoted securities' for MBK is most commonly an administrative filing disclosing the existence or terms of options, performance rights, or other unquoted securities classes — it is a compliance disclosure rather than an operational announcement and is not flagged market sensitive.",
+        "Viewed alongside the same-day substantial holder notice (Announcement 2), this filing may relate to securities issued to the new substantial holder (e.g. options as part of a placement or agreement) — if so, it is worth checking whether the unquoted securities carry a conversion feature that would affect the effective dilution calculation at current depressed prices.",
+        "At MBK's liquidity level (median A$1,069/day) and 68.75% de-rating, any option issuance to a strategic holder is an ambiguous signal — it could represent incentive alignment or a discounted entry point for a connected party; absent confirmation of purpose, this filing is procedural and does not independently alter the price outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 0.01,
+        "market_cap_aud": 9118578.63,
+        "shares_outstanding": 911857863,
+        "beta": 1.312,
+        "rsi_14": 45.2,
+        "volume_trend_ratio": 1.36,
+        "volume_last_ratio": 1.27,
+        "avg_turnover_aud": 1069,
+        "liquid": false,
+        "avg_volume_20": 298932,
+        "volume_change_pct": 27.0,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 25.0,
+        "pct_from_6m_high": -50.0,
+        "pct_from_6m_low": 25.0,
+        "pct_from_52w_high": -68.75,
+        "pct_from_52w_low": 25.0,
+        "high_52w": 0.032,
+        "low_52w": 0.008,
+        "high_3m": 0.013,
+        "low_3m": 0.008,
+        "high_6m": 0.02,
+        "low_6m": 0.008,
+        "month1_high": 0.012,
+        "month1_low": 0.008,
+        "month2_high": 0.013,
+        "month2_low": 0.011,
+        "month3_high": 0.013,
+        "month3_low": 0.011,
+        "range_position_3m": 0.4,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "68.75% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,069/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-19 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,069 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PA6",
+      "company": "PANORAMA AUTO TRUST 2025-3",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-10-19T23:29:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150479-2A1705038",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Panorama Auto Trust 2025-3 is a structured finance ABS vehicle — its annual report is a mandatory compliance filing for ASX-listed trusts and contains no equity investment content relevant to ordinary share price formation.",
+        "As with other Panorama Auto Trust series, the disclosure covers note-holder metrics such as pool arrears, excess spread, and credit enhancement adequacy — these are credit analytics, not equity analytics, and the filing has no price-sentiment implication for equity investors.",
+        "Not flagged market sensitive; institutional equity desks should treat this as administrative noise and file accordingly."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEZ",
+      "company": "MERIDIAN ENERGY LIMITED",
+      "headline": "Annual Shareholder Meeting Voting Results",
+      "time": "2026-10-19T23:28:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150478-2A1705037",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Annual meeting voting results for Meridian Energy are a post-AGM compliance disclosure — the key read is whether any ordinary resolutions (remuneration report, director elections) failed or attracted a material protest vote (>25% against), which would represent a governance red flag for a regulated utility.",
+        "The filing is not flagged market sensitive, suggesting the voting outcomes were uncontroversial and all resolutions passed comfortably — a clean AGM result removes a short-term governance overhang and is mildly supportive for an infrastructure/utility stock where investor confidence in board stability matters.",
+        "With 5-day volume at 0.53x average heading into the announcement, the tape was already quietening post-AGM — below-average volume into a results-of-AGM filing at a utility is consistent with no adverse surprise, and institutional holders should take no action on this filing absent a disclosed contested vote or failed resolution."
+      ],
+      "tags": [
+        "AGM",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 4.4,
+        "market_cap_aud": 11694278129.6,
+        "shares_outstanding": 2657790484,
+        "beta": 0.315,
+        "rsi_14": 48.55,
+        "volume_trend_ratio": 0.53,
+        "volume_last_ratio": 0.45,
+        "avg_turnover_aud": 64237,
+        "liquid": true,
+        "avg_volume_20": 13811,
+        "volume_change_pct": -55.0,
+        "pct_from_3m_high": -9.09,
+        "pct_from_3m_low": 4.76,
+        "pct_from_6m_high": -11.65,
+        "pct_from_6m_low": 4.76,
+        "pct_from_52w_high": -16.82,
+        "pct_from_52w_low": 4.76,
+        "high_52w": 5.29,
+        "low_52w": 4.2,
+        "high_3m": 4.84,
+        "low_3m": 4.2,
+        "high_6m": 4.98,
+        "low_6m": 4.2,
+        "month1_high": 4.57,
+        "month1_low": 4.3,
+        "month2_high": 4.69,
+        "month2_low": 4.2,
+        "month3_high": 4.84,
+        "month3_low": 4.55,
+        "range_position_3m": 0.313,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.53x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MEZ traded only 0.53x its usual daily volume over the last 5 sessions — measured to the 2026-10-19 close.",
+          "The price sat in the lower part of its 3-month range, 9.09% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PA5",
+      "company": "PANORAMA AUTO TRUST 2025-1",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-10-19T23:27:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150477-2A1705036",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Panorama Auto Trust 2025-1 is a structured finance ABS vehicle — its annual report is a mandatory regulatory filing with no equity price-discovery content for ordinary shareholders or equity-focused institutional investors.",
+        "Pool performance data within the report (delinquency rates, prepayment speeds, subordination levels) is relevant only to rated noteholders and credit analysts assessing the quality of Australian auto loan collateral; no equity capital is at risk.",
+        "Not flagged market sensitive; this filing is administrative in nature and carries no share-price sentiment implication."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PA4",
+      "company": "PANORAMA AUTO TRUST 2024-3",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-10-19T23:26:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150476-2A1705035",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Panorama Auto Trust 2024-3 is a structured finance ABS vehicle — its annual report is a compliance filing for ASX-listed trust securities and contains no content relevant to equity price formation or institutional equity strategy.",
+        "As the oldest series in the Panorama Auto Trust family filing today, the 2024-3 pool is further advanced in its amortisation schedule — any declining pool balance or elevated prepayment data may be of interest to ABS credit analysts tracking collateral runoff but is irrelevant to equity investors.",
+        "Not flagged market sensitive; institutional equity desks should disregard this filing — it has no share-price sentiment implication."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PA2",
+      "company": "PANORAMA AUTO TRUST 2024-1",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-10-19T23:25:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150475-2A1705034",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Panorama Auto Trust 2024-1 is an asset-backed securities (ABS) vehicle, not an operating company — its 'share price' is effectively the traded price of notes/certificates, meaning this annual report is a compliance disclosure for noteholders rather than an equity catalyst event.",
+        "Annual reports for ABS trusts typically disclose portfolio performance metrics including delinquency rates, prepayment speeds, loss experience, and credit enhancement levels — any deterioration in arrears or loss triggers within the auto loan pool would be the key risk signal to extract from the body of this document.",
+        "No market-sensitive flag and no operational headline; this is a routine regulatory filing. Institutional holders of PA2 notes should review underlying collateral performance data for signs of consumer credit stress in the Australian auto loan sector, but no price-moving catalyst is signalled by the filing itself."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PWH",
       "company": "PWR HOLDINGS LIMITED",
