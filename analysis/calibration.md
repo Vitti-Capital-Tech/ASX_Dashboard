@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5239 graded calls
+- Window: last 20 trading days, 5267 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-19T07:59:25.654402+00:00
+- Generated: 2026-10-19T08:55:50.432236+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **53.5%** correct on 1054 graded calls.
+Directional calls (bullish/bearish): **53.5%** correct on 1055 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
 | bullish | 711 | 54.6% |
-| bearish | 343 | 51.3% |
+| bearish | 344 | 51.2% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **56.2%** of the time (n=3671). Every graded announcement moved 59.8% of the time.
+Stocks called neutral moved 1% or more anyway **56%** of the time (n=3691). Every graded announcement moved 59.6% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -31,14 +31,14 @@ against the label. Part of it is not.
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
 | Market sensitive | 591 | 55.7% |
-| Not flagged | 463 | 50.8% |
+| Not flagged | 464 | 50.6% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 819 | 53.6% |
+| Market Update | 820 | 53.5% |
 | Substantial Holding | 104 | 52.9% |
 | Results | 38 | 60.5% |
 
