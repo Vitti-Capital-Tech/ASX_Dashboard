@@ -1,9 +1,77 @@
 {
   "date": "2026-10-20",
-  "total": 281,
+  "total": 282,
   "market_sensitive_count": 101,
-  "generated_at": "2026-10-19T23:40:54.821330+00:00",
+  "generated_at": "2026-10-19T23:47:10.021161+00:00",
   "announcements": [
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-10-19T23:44:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03150486-2A1705041",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3C is an application for quotation of new securities — a purely administrative ASX compliance filing confirming new shares or options have been issued and are being admitted to trading; it carries no operational signal on its own.",
+        "NWS is trading just 4.04% off its 3-month high, suggesting the tape is constructive and not distressed — however, that proximity to a recent high means any dilutive securities being admitted to quotation (e.g. from an option exercise or placement) face a modestly elevated supply-overhang risk into strength rather than into a depressed register.",
+        "With no market-sensitive flag and no named catalyst in the headline, this filing is procedural by nature; the key question for follow-up is the instrument type and quantum being quoted — option exercises are broadly neutral to mildly positive (cash received, dilution already anticipated), while new placement shares admitted here without a companion raise announcement warrant scrutiny for undisclosed capital activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-19",
+        "bars": 254,
+        "last_close": 47.32,
+        "market_cap_aud": 25492707811.48,
+        "shares_outstanding": 538730089,
+        "beta": 0.256,
+        "rsi_14": 59.94,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 0.79,
+        "avg_turnover_aud": 5401880,
+        "liquid": true,
+        "avg_volume_20": 196725,
+        "volume_change_pct": -21.0,
+        "pct_from_3m_high": -4.04,
+        "pct_from_3m_low": 15.02,
+        "pct_from_6m_high": -4.04,
+        "pct_from_6m_low": 19.04,
+        "pct_from_52w_high": -4.73,
+        "pct_from_52w_low": 31.41,
+        "high_52w": 49.67,
+        "low_52w": 36.01,
+        "high_3m": 49.31,
+        "low_3m": 41.14,
+        "high_6m": 49.31,
+        "low_6m": 39.75,
+        "month1_high": 47.98,
+        "month1_low": 41.14,
+        "month2_high": 49.23,
+        "month2_low": 43.36,
+        "month3_high": 49.31,
+        "month3_low": 42.42,
+        "range_position_3m": 0.756,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.04% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-19 close.",
+          "The price sat in the upper part of its 3-month range, 4.04% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MYS",
       "company": "MYSTATE LIMITED",
