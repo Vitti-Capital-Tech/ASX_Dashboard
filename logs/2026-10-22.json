@@ -1,9 +1,79 @@
 {
   "date": "2026-10-22",
-  "total": 283,
+  "total": 284,
   "market_sensitive_count": 104,
-  "generated_at": "2026-10-21T23:52:24.553305+00:00",
+  "generated_at": "2026-10-21T23:58:59.351552+00:00",
   "announcements": [
+    {
+      "ticker": "FLX",
+      "company": "FELIX GROUP HOLDINGS LTD",
+      "headline": "Application for quotation of securities - FLX",
+      "time": "2026-10-21T23:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03151640-2A1705539",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities signals a completed capital raise — new shares are being admitted to trading, meaning dilution has already occurred; the key question is whether the proceeds are tied to a named operational catalyst, which is not disclosed in this headline-only filing, leaving the funded-catalyst moderating logic (L027/L050) unconfirmed.",
+        "FLX sits 84% below its 12-month high with median daily turnover of only ~A$3,740 — at this liquidity level, the 2.19x volume ratio is statistically unreliable as a directional signal; a handful of trades can distort the ratio, so elevated volume here should not be read as informed accumulation or distribution with any confidence.",
+        "Without a named use of proceeds or companion announcement linking the new capital to a specific near-term milestone (drill programme, resource study, partnership), the supply overhang from fresh paper at a deeply distressed stock is the dominant near-term consideration — per L089, the funded-catalyst condition is unmet and the default reverts to bearish rather than neutral."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-21",
+        "bars": 254,
+        "last_close": 0.035,
+        "market_cap_aud": 12825388.07,
+        "shares_outstanding": 366439659,
+        "beta": -0.106,
+        "rsi_14": 49.09,
+        "volume_trend_ratio": 2.19,
+        "volume_last_ratio": 0.97,
+        "avg_turnover_aud": 3740,
+        "liquid": false,
+        "avg_volume_20": 261582,
+        "volume_change_pct": -3.0,
+        "pct_from_3m_high": -30.0,
+        "pct_from_3m_low": 29.63,
+        "pct_from_6m_high": -58.33,
+        "pct_from_6m_low": 29.63,
+        "pct_from_52w_high": -84.09,
+        "pct_from_52w_low": 29.63,
+        "high_52w": 0.22,
+        "low_52w": 0.027,
+        "high_3m": 0.05,
+        "low_3m": 0.027,
+        "high_6m": 0.084,
+        "low_6m": 0.027,
+        "month1_high": 0.037,
+        "month1_low": 0.027,
+        "month2_high": 0.05,
+        "month2_low": 0.034,
+        "month3_high": 0.05,
+        "month3_low": 0.048,
+        "range_position_3m": 0.348,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.19x its 20-day average",
+          "84.09% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,740/day",
+        "reading": [
+          "Going into this, FLX traded 2.19x its usual daily volume over the last 5 sessions — measured to the 2026-10-21 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 30.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,740 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MHJ",
       "company": "MICHAEL HILL INTERNATIONAL LIMITED",
