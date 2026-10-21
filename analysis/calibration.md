@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5320 graded calls
+- Window: last 20 trading days, 5330 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-20T10:46:35.841961+00:00
+- Generated: 2026-10-21T07:01:24.276805+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **52.7%** correct on 1066 graded calls.
+Directional calls (bullish/bearish): **53.5%** correct on 1050 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 716 | 53.8% |
-| bearish | 350 | 50.6% |
+| bullish | 709 | 54.7% |
+| bearish | 341 | 51% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **55.7%** of the time (n=3698). Every graded announcement moved 59% of the time.
+Stocks called neutral moved 1% or more anyway **56%** of the time (n=3714). Every graded announcement moved 59% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 597 | 54.6% |
-| Not flagged | 469 | 50.3% |
+| Market sensitive | 592 | 55.9% |
+| Not flagged | 458 | 50.4% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 832 | 53.4% |
-| Substantial Holding | 98 | 52% |
-| Results | 37 | 59.5% |
+| Market Update | 812 | 53.7% |
+| Substantial Holding | 98 | 53.1% |
+| Results | 35 | 60% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
