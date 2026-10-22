@@ -1,9 +1,78 @@
 {
   "date": "2026-10-23",
-  "total": 346,
+  "total": 347,
   "market_sensitive_count": 97,
-  "generated_at": "2026-10-22T23:38:49.068204+00:00",
+  "generated_at": "2026-10-22T23:44:29.674866+00:00",
   "announcements": [
+    {
+      "ticker": "CU6",
+      "company": "CLARITY PHARMACEUTICALS LTD",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-10-22T23:39:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152232-2A1705797",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Procedural AGM notice at a stock 67% below its 12-month high — the filing is purely administrative and carries no operational content; per lesson L151, when a non-market-sensitive AGM notice arrives at a materially de-rated stock with no accompanying positive catalyst, the default is neutral-to-bearish rather than constructive, as AGMs at distressed biotechs frequently table dilutive resolutions (option grants, share issuance authorisations) that weigh on the register.",
+        "Clarity Pharmaceuticals is a clinical-stage copper-theranostics play; with no revenue and ongoing trial expenditure, the AGM is the key near-term governance event where shareholders will scrutinise cash runway, burn rate, and any new equity incentive plans — these are the real market-moving details that will only become visible when the proxy circular is read in full, not from the headline alone.",
+        "No volume data is provided, so tape signals cannot be assessed; the 67% de-rating from the 12-month high is the dominant contextual signal — at this level, any dilutive resolution tabled at the AGM (option repricing, new placement authority) is likely to be read negatively by a register already under stress, while a clean agenda with no new issuance authority would be modestly constructive; investors should review the full proxy before the meeting date."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-22",
+        "bars": 254,
+        "last_close": 1.675,
+        "market_cap_aud": 624911060.25,
+        "shares_outstanding": 373081230,
+        "beta": 2.157,
+        "rsi_14": 31.97,
+        "volume_trend_ratio": 1.1,
+        "volume_last_ratio": 1.47,
+        "avg_turnover_aud": 4576352,
+        "liquid": true,
+        "avg_volume_20": 2489325,
+        "volume_change_pct": 47.0,
+        "pct_from_3m_high": -43.41,
+        "pct_from_3m_low": 1.21,
+        "pct_from_6m_high": -48.14,
+        "pct_from_6m_low": 1.21,
+        "pct_from_52w_high": -67.41,
+        "pct_from_52w_low": 1.21,
+        "high_52w": 5.14,
+        "low_52w": 1.655,
+        "high_3m": 2.96,
+        "low_3m": 1.655,
+        "high_6m": 3.23,
+        "low_6m": 1.655,
+        "month1_high": 2.15,
+        "month1_low": 1.655,
+        "month2_high": 2.55,
+        "month2_low": 2.01,
+        "month3_high": 2.96,
+        "month3_low": 2.03,
+        "range_position_3m": 0.015,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "67.41% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-22 close.",
+          "The price sat in the lower part of its 3-month range, 43.41% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WBT",
       "company": "WEEBIT NANO LTD",
