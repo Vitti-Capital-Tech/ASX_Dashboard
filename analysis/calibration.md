@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5360 graded calls
+- Window: last 20 trading days, 5334 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-21T10:47:08.194079+00:00
+- Generated: 2026-10-22T07:01:31.271677+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **53.5%** correct on 1050 graded calls.
+Directional calls (bullish/bearish): **52.5%** correct on 1061 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 709 | 54.7% |
-| bearish | 341 | 51% |
+| bullish | 712 | 53.8% |
+| bearish | 349 | 49.9% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **55.8%** of the time (n=3729). Every graded announcement moved 58.7% of the time.
+Stocks called neutral moved 1% or more anyway **56.5%** of the time (n=3683). Every graded announcement moved 59.2% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 592 | 55.9% |
-| Not flagged | 458 | 50.4% |
+| Market sensitive | 599 | 54.9% |
+| Not flagged | 462 | 49.4% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 812 | 53.7% |
-| Substantial Holding | 98 | 53.1% |
-| Results | 35 | 60% |
+| Market Update | 816 | 53.3% |
+| Substantial Holding | 86 | 53.5% |
+| Results | 37 | 54.1% |
+| Annual General Meeting | 31 | 38.7% |
+| Quarterly Report | 31 | 48.4% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
