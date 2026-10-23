@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:50:26.271959+11:00",
+  "generated_at": "2026-10-23T21:44:34.331621+11:00",
   "days_scored": 55,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
@@ -10,7 +10,7 @@
       "wrong": 830,
       "flat": 1004,
       "hit_rate": 59.2,
-      "avg_abnormal_pct": 1.69
+      "avg_abnormal_pct": 1.68
     },
     "bearish": {
       "scored": 1240,
@@ -29,7 +29,7 @@
       "avg_abnormal_pct": 0.16
     }
   },
-  "spread_pct": 2.15,
+  "spread_pct": 2.14,
   "directional_hit_rate": 57.9,
   "directional_scored": 2767,
   "intraday": {
@@ -116,7 +116,7 @@
       "intraday_scored": 47,
       "intraday_hit_rate": 40.4,
       "intraday_avg_as_called": -0.18,
-      "avg_as_called": 0.59
+      "avg_as_called": 0.58
     },
     {
       "document_type": "Merger & Acquisition",
@@ -601,7 +601,7 @@
       "date": "2026-10-23",
       "hit_rate": 68.4,
       "scored": 76,
-      "spread_pct": 3.56,
+      "spread_pct": 3.53,
       "intraday_hit_rate": 64.6,
       "intraday_scored": 65
     }

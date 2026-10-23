@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T08:52:28.149773+00:00",
+  "updated_at": "2026-10-23T10:47:13.573434+00:00",
   "next_id": 210,
   "lessons": [
     {
@@ -2050,7 +2050,7 @@
       "rule": "When pre-announcement volume is suppressed (below 0.6x average) rather than elevated, the L010 pre-raise-marketing bearish logic is weakened — there is no evidence of active marketing-into-accumulation, and the low volume may simply reflect a news-starved register waiting for a briefing catalyst; before defaulting to bearish on a non-flagged briefing at a de-rated junior, ask whether the company has a specific government or policy nexus (critical minerals designation, named project in a national programme) that makes the briefing content strategically credible rather than purely dilution-preparatory; if yes, default to neutral rather than bearish, reserving bearish only for briefings with elevated volume (evidence of active distribution) or explicit placement language.",
       "created": "2026-09-18",
       "last_seen": "2026-10-23",
-      "times_seen": 18,
+      "times_seen": 19,
       "examples": [
         {
           "date": "2026-10-14",
@@ -2060,11 +2060,11 @@
           "abnormal_pct": 20.64
         },
         {
-          "date": "2026-10-14",
-          "ticker": "A8G",
-          "headline": "Investor Presentation",
-          "called": "bearish",
-          "abnormal_pct": 20.64
+          "date": "2026-10-23",
+          "ticker": "BOA",
+          "headline": "BOA Investor Webinar Presentation",
+          "called": "neutral",
+          "abnormal_pct": -12.02
         },
         {
           "date": "2026-10-23",
@@ -2095,21 +2095,21 @@
       "rule": "An application for quotation at a 12-month low on a uranium or active-thematic junior is not uniformly bearish — the raise has already completed and the new capital may fund the next operational step in a sector where thematic inflows are active; before calling bearish on quotation-of-securities at a thematic junior, ask whether the proceeds enable a named near-term catalyst (drill start, resource work, offtake) and whether the sector theme is attracting specialist fund inflows that make fresh paper absorbable; if both conditions hold, default to neutral rather than bearish, because the dilution is already done and the funded-catalyst signal may dominate the supply-overhang concern.",
       "created": "2026-09-18",
       "last_seen": "2026-10-23",
-      "times_seen": 28,
+      "times_seen": 29,
       "examples": [
-        {
-          "date": "2026-10-13",
-          "ticker": "KAL",
-          "headline": "Application for quotation of securities - KAL",
-          "called": "neutral",
-          "abnormal_pct": -10.01
-        },
         {
           "date": "2026-10-14",
           "ticker": "PER",
           "headline": "Application for quotation of securities - PER",
           "called": "neutral",
           "abnormal_pct": -24.36
+        },
+        {
+          "date": "2026-10-23",
+          "ticker": "UM1",
+          "headline": "Application for quotation of securities - UM1",
+          "called": "neutral",
+          "abnormal_pct": -9.11
         },
         {
           "date": "2026-10-23",
@@ -4561,7 +4561,7 @@
       "rule": "At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.",
       "created": "2026-10-01",
       "last_seen": "2026-10-23",
-      "times_seen": 20,
+      "times_seen": 21,
       "examples": [
         {
           "date": "2026-10-21",
@@ -4571,11 +4571,11 @@
           "abnormal_pct": 10.95
         },
         {
-          "date": "2026-10-21",
-          "ticker": "MBK",
+          "date": "2026-10-23",
+          "ticker": "ASL",
           "headline": "Change in substantial holding",
           "called": "neutral",
-          "abnormal_pct": 10.95
+          "abnormal_pct": -9.27
         },
         {
           "date": "2026-10-23",
@@ -5449,28 +5449,28 @@
       "rule": "Before calling bearish on a cleansing-notice-plus-quotation cluster at a distressed stock, check whether the quotation filing implies only a small raise quantum relative to the stock's implied market cap — if the raise is small and the stock is already severely de-rated, the market may read the completed raise as a funded-survival signal rather than a dilution event, and the correct call is neutral rather than bearish. L089's bearish default requires confirmed absence of any funded-catalyst signal; when the raise has already closed and the stock is priced for near-insolvency, the asymmetry may favour neutral.",
       "created": "2026-10-06",
       "last_seen": "2026-10-23",
-      "times_seen": 17,
+      "times_seen": 18,
       "examples": [
         {
-          "date": "2026-10-15",
-          "ticker": "AZ9",
+          "date": "2026-10-23",
+          "ticker": "TAL",
+          "headline": "Cleansing Statement",
+          "called": "bearish",
+          "abnormal_pct": 19.02
+        },
+        {
+          "date": "2026-10-23",
+          "ticker": "TAL",
+          "headline": "Cleansing Statement",
+          "called": "bearish",
+          "abnormal_pct": 19.02
+        },
+        {
+          "date": "2026-10-23",
+          "ticker": "3DA",
           "headline": "Cleansing Notice",
           "called": "bearish",
-          "abnormal_pct": 21.52
-        },
-        {
-          "date": "2026-10-23",
-          "ticker": "TAL",
-          "headline": "Cleansing Statement",
-          "called": "bearish",
-          "abnormal_pct": 19.02
-        },
-        {
-          "date": "2026-10-23",
-          "ticker": "TAL",
-          "headline": "Cleansing Statement",
-          "called": "bearish",
-          "abnormal_pct": 19.02
+          "abnormal_pct": 8.8
         },
         {
           "date": "2026-10-23",
@@ -7501,14 +7501,14 @@
       "rule": "L151's bearish default requires confirmed suppressed volume as the key signal of a disengaged register; when no volume data is available, the suppression condition is unverified and L151 should not be applied — default to neutral rather than bearish when the AGM notice is the only filing and volume data is absent, because the bearish inference depends on a condition you cannot observe.",
       "created": "2026-10-20",
       "last_seen": "2026-10-23",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
-          "date": "2026-10-22",
-          "ticker": "SRR",
-          "headline": "Results of Annual General Meeting",
-          "called": "bearish",
-          "abnormal_pct": 21.26
+          "date": "2026-10-23",
+          "ticker": "HCH",
+          "headline": "Notice of Annual General Meeting/Proxy Form",
+          "called": "neutral",
+          "abnormal_pct": -8.62
         },
         {
           "date": "2026-10-23",
@@ -7519,10 +7519,10 @@
         },
         {
           "date": "2026-10-23",
-          "ticker": "HCH",
-          "headline": "Notice of Annual General Meeting/Proxy Form",
-          "called": "neutral",
-          "abnormal_pct": -8.62
+          "ticker": "YUG",
+          "headline": "Letter to Shareholders - Notice of AGM",
+          "called": "bearish",
+          "abnormal_pct": 10.39
         },
         {
           "date": "2026-10-23",
@@ -7722,15 +7722,8 @@
       "rule": "Before defaulting to neutral on a market-sensitive quarterly financial result at a commercial pharma company with no price action data, ask whether the company has a known consensus revenue or earnings estimate that the result will either beat or miss — a market-sensitive quarterly at a commercial-stage pharma is directionally asymmetric: a miss at a stock with institutional following can produce sharp selling as models are revised; when no price action data is available to assess whether a beat is already priced, default to bearish rather than neutral for market-sensitive quarterly results at commercial-stage pharma where analyst consensus exists and the filing type is a financial-performance report rather than a clinical update, because the downside from a miss is asymmetrically large relative to an in-line result.",
       "created": "2026-10-21",
       "last_seen": "2026-10-23",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
-        {
-          "date": "2026-10-22",
-          "ticker": "OCC",
-          "headline": "Q1 FY27 OCC Investor Presentation",
-          "called": "neutral",
-          "abnormal_pct": -12.07
-        },
         {
           "date": "2026-10-22",
           "ticker": "CXZ",
@@ -7744,6 +7737,13 @@
           "headline": "2026 AGM Chair and CEO Addresses and Presentation Slides",
           "called": "neutral",
           "abnormal_pct": -9.09
+        },
+        {
+          "date": "2026-10-23",
+          "ticker": "ZIP",
+          "headline": "1Q FY27 results update",
+          "called": "bullish",
+          "abnormal_pct": -29.49
         },
         {
           "date": "2026-10-23",
@@ -7891,7 +7891,7 @@
       "rule": "A combined activities-and-cashflow quarterly flagged market sensitive at a deeply de-rated, near-zero-liquidity junior is not symmetric — the cashflow component introduces a hard negative asymmetry (going-concern qualification, sub-two-quarter runway) that the activities component rarely offsets; lean bearish rather than neutral when the stock is 60%+ below its high, liquidity is near-zero, and the quarterly bundles both operational and financial data under a market-sensitive flag, because the financial data is the dominant risk and the flag confirms the quantum is material.",
       "created": "2026-10-22",
       "last_seen": "2026-10-23",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
         {
           "date": "2026-10-23",
@@ -8201,8 +8201,15 @@
       "rule": "A late-iteration supplementary target's statement (sixth supplement implies the process has been protracted and contested) most commonly signals the target board is exhausting its defensive arguments rather than receiving a higher offer — each successive supplement reduces the probability of a bump and increases deal-fatigue selling; default to bearish rather than bullish when the supplement count is high (≥4) and the stock is already elevated on anticipation of a bump that has not materialised.",
       "created": "2026-10-23",
       "last_seen": "2026-10-23",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-10-23",
+          "ticker": "ZNC",
+          "headline": "Sixth Supplementary Target's Statement",
+          "called": "bullish",
+          "abnormal_pct": -10.28
+        },
         {
           "date": "2026-10-23",
           "ticker": "ZNC",
@@ -8232,8 +8239,15 @@
       "rule": "A mass simultaneous initial director disclosure (7 or more) at a distressed junior is not a neutral governance filing — it is more likely to accompany a deed of company arrangement exit, recapitalisation, or administration emergence where a new controlling group has taken over; lean bearish rather than neutral because the incoming board's first act is often a dilutive recapitalisation to fund the restructured entity, and the absence of a market-sensitive flag signals no positive operational content is being disclosed alongside the governance reset.",
       "created": "2026-10-23",
       "last_seen": "2026-10-23",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-23",
+          "ticker": "WMC",
+          "headline": "Initial Director's Interest Notice x7",
+          "called": "neutral",
+          "abnormal_pct": -11.63
+        },
         {
           "date": "2026-10-23",
           "ticker": "WMC",
@@ -8256,8 +8270,15 @@
       "rule": "An earnings conference call presentation flagged market sensitive is a vehicle for guidance revision, not a result — before calling neutral, ask whether the presentation contains disclosed guidance metrics (production, revenue, cost) that can be benchmarked against prior consensus or management signals; if such metrics are present or strongly implied by the market-sensitive flag, apply L192-style asymmetric logic and default to bearish rather than neutral when no beat language appears in the headline, because guidance disappointments at covered companies are asymmetrically large relative to in-line results.",
       "created": "2026-10-23",
       "last_seen": "2026-10-23",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-23",
+          "ticker": "ALK",
+          "headline": "Q1 FY27 Earnings Conference Call Presentation",
+          "called": "neutral",
+          "abnormal_pct": -10.9
+        },
         {
           "date": "2026-10-23",
           "ticker": "ALK",
