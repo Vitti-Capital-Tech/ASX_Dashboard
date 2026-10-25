@@ -1,9 +1,28 @@
 {
   "date": "2026-10-26",
-  "total": 364,
-  "market_sensitive_count": 148,
-  "generated_at": "2026-10-25T23:53:18.438104+00:00",
+  "total": 365,
+  "market_sensitive_count": 149,
+  "generated_at": "2026-10-25T23:59:57.687009+00:00",
   "announcements": [
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - PCI",
+      "time": "2026-10-25T23:57:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152995-2A1706070",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) is a listed investment trust focused on fixed income and credit assets — a dividend/distribution announcement confirms income is being returned to unitholders, which is the core value proposition and primary total-return driver for this vehicle, making it the most important recurring signal for holder retention and new buyer interest.",
+        "The market-sensitive flag on a distribution announcement is notable: for a credit-focused LIT, this typically signals either a change in distribution quantum (cut or increase) or a special/variable component, rather than a routine in-line payment — investors should scrutinise the per-unit amount relative to prior periods to determine whether the yield profile is improving, stable, or deteriorating under current credit and rate conditions.",
+        "With global credit spreads and RBA rate expectations directly influencing PCI's portfolio income, any reduction in distribution would raise questions about portfolio credit quality or reinvestment risk, while a maintained or increased distribution in the current elevated-rate environment would reinforce the trust's defensive income appeal and support the unit price relative to NTA — the direction of the distribution quantum is the key catalyst to watch from this filing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AIQ",
       "company": "ALTERNATIVE INVESTMENT TRUST",
