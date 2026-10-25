@@ -1,9 +1,251 @@
 {
   "date": "2026-10-26",
-  "total": 342,
-  "market_sensitive_count": 142,
-  "generated_at": "2026-10-25T23:13:48.448960+00:00",
+  "total": 347,
+  "market_sensitive_count": 143,
+  "generated_at": "2026-10-25T23:24:34.222056+00:00",
   "announcements": [
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "Notice of General Meeting/Letter to Shareholders/Proxy Form",
+      "time": "2026-10-25T23:22:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152977-3A704932",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Notice of General Meeting with accompanying letter and proxy form is a procedural governance filing — not flagged market sensitive — and the headline discloses no specific resolution content (e.g. capital raise, consolidation, director change), which makes it structurally impossible to infer a directional price impact without reading the resolutions.",
+        "The 'so what?' depends entirely on what resolutions are tabled: if the GM includes a placement, consolidation, or substantial option grant, the market will read it as dilutive; if it is limited to routine administrative matters, it is content-free; the absence of a market-sensitive flag suggests the ASX and the company do not regard the resolutions as materially price-moving, which is a mild moderating signal against a strong directional call.",
+        "No price action data is provided for MBK, so no tape-based inference is possible; without visibility on resolution specifics, the correct posture is neutral and procedural — investors should review the full meeting notice for any capital or governance resolutions before forming a view."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 23 Oct 26",
+      "time": "2026-10-25T23:22:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152976-2A1706060",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a CitiFirst MINIs stop-loss cash settlement notice — a pure administrative filing confirming that specific structured product series have triggered their stop-loss levels and are being cash-settled; it carries no direct information about the underlying securities beyond the implied observation that those underlyings moved through the relevant barrier levels.",
+        "The 'so what?' for ASX equity investors is minimal: the cash settlement mechanics of expired MINIs do not alter the fundamental outlook of any underlying company, and the filing reflects an event that has already occurred in the structured product market rather than signalling anything prospective about the underlying.",
+        "No price action data is provided and no issuer-specific catalyst is present; this is a routine Citi structured products administrative notice with no actionable signal for equity holders — purely procedural and content-free from a valuation standpoint."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "Change of Share Registry",
+      "time": "2026-10-25T23:20:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152975-6A1351296",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change of share registry is a purely administrative operational filing — it signals ECT has switched its registry service provider, which is a back-office decision with zero direct impact on cash flow, capital structure, or operational outlook; the non-market-sensitive flag is consistent with this reading.",
+        "With ECT already 54% below its 12-month high, the stock is in a significantly de-rated state, but this filing provides no new fundamental information that would alter that trajectory in either direction — registry changes occasionally accompany or precede corporate actions (e.g. a restructure or capital raise that benefits from a new registry relationship), but there is no evidence of that here and reading intent into a registry change without companion filings is speculative.",
+        "No volume data is provided for ECT, so pre-announcement positioning cannot be assessed; the correct stance is firmly neutral — this is a compliance/administrative notice and should not be traded as a catalyst in either direction, regardless of the stock's depressed price level."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-23",
+        "bars": 253,
+        "last_close": 0.087,
+        "market_cap_aud": 31219013.1,
+        "shares_outstanding": 358839231,
+        "beta": 1.414,
+        "rsi_14": 39.39,
+        "volume_trend_ratio": 0.72,
+        "volume_last_ratio": 0.88,
+        "avg_turnover_aud": 60626,
+        "liquid": true,
+        "avg_volume_20": 758391,
+        "volume_change_pct": -12.0,
+        "pct_from_3m_high": -40.0,
+        "pct_from_3m_low": 6.1,
+        "pct_from_6m_high": -40.0,
+        "pct_from_6m_low": 6.1,
+        "pct_from_52w_high": -54.21,
+        "pct_from_52w_low": 16.0,
+        "high_52w": 0.19,
+        "low_52w": 0.075,
+        "high_3m": 0.145,
+        "low_3m": 0.082,
+        "high_6m": 0.145,
+        "low_6m": 0.082,
+        "month1_high": 0.12,
+        "month1_low": 0.082,
+        "month2_high": 0.145,
+        "month2_low": 0.095,
+        "month3_high": 0.14,
+        "month3_low": 0.11,
+        "range_position_3m": 0.079,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "54.21% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-23 close.",
+          "The price sat in the lower part of its 3-month range, 40.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "headline": "Weekly Estimate NTA for 23.10.2026",
+      "time": "2026-10-25T23:18:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152974-2A1706059",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RF1's weekly NTA estimate is a routine, non-market-sensitive disclosure that is structurally informative only insofar as the NTA level implies a premium or discount to the current trading price — if the estimated NTA is above the prevailing market price, it represents an implied value support; if below, it confirms overvaluation relative to underlying assets.",
+        "The notable context here is elevated volume: the 5-session volume ran at 1.67x the 20-day average into this announcement — for a listed investment fund, elevated volume ahead of a weekly NTA is worth flagging, as it may reflect institutional repositioning around the NTA disclosure (buying if market price is at a discount, trimming if at a premium); however, without knowing the absolute liquidity level of RF1, the volume ratio alone cannot confirm whether this is meaningful accumulation or simply a modestly active week on a thin register.",
+        "The filing itself is procedural and content-free beyond the NTA figure — the directional signal, if any, comes from comparing the disclosed NTA to the current trading price and assessing the discount/premium dynamic; absent that comparison, the correct default is neutral, with the elevated volume a flag to monitor for continued positioning rather than a standalone catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-23",
+        "bars": 253,
+        "last_close": 2.96,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.832,
+        "rsi_14": 31.89,
+        "volume_trend_ratio": 1.67,
+        "volume_last_ratio": 2.36,
+        "avg_turnover_aud": 546019,
+        "liquid": true,
+        "avg_volume_20": 209965,
+        "volume_change_pct": 136.0,
+        "pct_from_3m_high": -22.11,
+        "pct_from_3m_low": 4.23,
+        "pct_from_6m_high": -22.51,
+        "pct_from_6m_low": 4.23,
+        "pct_from_52w_high": -22.51,
+        "pct_from_52w_low": 4.23,
+        "high_52w": 3.82,
+        "low_52w": 2.84,
+        "high_3m": 3.8,
+        "low_3m": 2.84,
+        "high_6m": 3.82,
+        "low_6m": 2.84,
+        "month1_high": 3.59,
+        "month1_low": 2.84,
+        "month2_high": 3.68,
+        "month2_low": 3.3,
+        "month3_high": 3.8,
+        "month3_low": 3.47,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.67x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, RF1 traded 1.67x its usual daily volume over the last 5 sessions — measured to the 2026-10-23 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 22.11% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-10-25T23:15:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152973-6A1351294",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive quarterly cash flow report at a stock already 61% below its 12-month high — the flag elevates signal value materially, as KAU's cash position, burn rate, and any operational surprises will be the immediate market focus; a cash runway concern or production shortfall could accelerate the de-rating, while a beat on operating cash or a funding update could provide a meaningful relief bounce from deeply depressed levels.",
+        "The 'so what?' for institutional holders is the Appendix 5B cash flow detail: net operating cash flow, closing cash balance, and any undrawn facilities will determine whether KAU has a credible path to the next operational milestone without a dilutive raise — at a 61% discount to the 12-month high, the market is already pricing significant distress, so any confirmation of adequate runway is relatively high-impact on a low base.",
+        "With the stock deeply de-rated and no volume data provided to assess pre-announcement positioning, the filing should be read on its own merits rather than through a tape-positioning lens; the market-sensitive flag is necessary but not sufficient for direction — actual cash figures will determine whether this is a stabilising event or a further catalyst for selling, and investors should await the Appendix 5B numbers before committing directional capital."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-23",
+        "bars": 253,
+        "last_close": 0.16,
+        "market_cap_aud": 96851583.84,
+        "shares_outstanding": 605322399,
+        "beta": 2.399,
+        "rsi_14": 27.63,
+        "volume_trend_ratio": 1.12,
+        "volume_last_ratio": 1.74,
+        "avg_turnover_aud": 195280,
+        "liquid": true,
+        "avg_volume_20": 1094832,
+        "volume_change_pct": 74.0,
+        "pct_from_3m_high": -36.0,
+        "pct_from_3m_low": 6.67,
+        "pct_from_6m_high": -41.82,
+        "pct_from_6m_low": 6.67,
+        "pct_from_52w_high": -61.45,
+        "pct_from_52w_low": 6.67,
+        "high_52w": 0.415,
+        "low_52w": 0.15,
+        "high_3m": 0.25,
+        "low_3m": 0.15,
+        "high_6m": 0.275,
+        "low_6m": 0.15,
+        "month1_high": 0.215,
+        "month1_low": 0.15,
+        "month2_high": 0.2425,
+        "month2_low": 0.215,
+        "month3_high": 0.25,
+        "month3_low": 0.18,
+        "range_position_3m": 0.1,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "61.45% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-23 close.",
+          "The price sat in the lower part of its 3-month range, 36.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AUZ",
       "company": "AUSTRALIAN MINES LIMITED",
