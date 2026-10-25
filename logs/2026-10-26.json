@@ -1,9 +1,98 @@
 {
   "date": "2026-10-26",
-  "total": 362,
-  "market_sensitive_count": 147,
-  "generated_at": "2026-10-25T23:40:42.743479+00:00",
+  "total": 364,
+  "market_sensitive_count": 148,
+  "generated_at": "2026-10-25T23:53:18.438104+00:00",
   "announcements": [
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "AIQ NTA Factsheet September 2026",
+      "time": "2026-10-25T23:47:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152994-2A1706069",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An NTA factsheet is a routine monthly disclosure for a listed investment trust — it reveals the net tangible assets per unit as at month-end (September 2026) and serves primarily as a reference point for holders to assess premium/discount to NTA, carrying no operational or strategic signal in itself.",
+        "The filing is explicitly not market sensitive, which is consistent with its procedural nature; NTA updates for LITs/LICs rarely move the unit price materially unless the NTA reveals a dramatic shift in the underlying portfolio value, and even then the market typically has proxies through observable underlying asset prices.",
+        "The relevant 'so what?' for institutional holders is whether the September NTA implies a widening or narrowing discount to market price — if AIQ is trading at a material discount to NTA, the factsheet may quietly reinforce a value case, but without price action data provided here, no directional inference can be drawn; this is a monitor-and-file disclosure rather than a trading catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FGH",
+      "company": "FORESTA GROUP HOLDINGS LIMITED",
+      "headline": "Quarterly Activities Report and Appendix 4C",
+      "time": "2026-10-25T23:46:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03152993-2A1706068",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive quarterly 4C filing is the primary event here, but the 'so what?' hinges entirely on cash burn versus cash on hand — for a micro-cap with median daily turnover of only ~A$2,610/day, the cash runway disclosed will be the single most actionable data point; if the quarter shows receipts declining or operating outflows accelerating, the stock faces an acute funding question that the thin register cannot absorb easily.",
+        "Volume has run at roughly 1.94x its 20-day average into this announcement, but given the near-zero absolute liquidity (~A$2,610/day median), these ratios are close to meaningless in terms of inferring informed positioning — a handful of small trades can distort the ratio entirely; the 5% proximity to the 3-month high is modestly notable, suggesting a recent re-rating attempt, but it is fragile at this liquidity level and vulnerable to reversal on any disappointing cash-flow data.",
+        "Lesson L058 applies directionally: a quarterly activities report flagged market-sensitive carries equal probability of containing disappointing operational progress or a cash-burn warning as a positive milestone update — the market-sensitive flag alone does not confer a bullish bias; without visibility into whether the quarter delivered revenue growth, a named operational milestone, or a comfortable cash runway (typically >2 quarters), the correct posture is neutral pending detail."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-23",
+        "bars": 253,
+        "last_close": 0.0095,
+        "market_cap_aud": 27151746.83,
+        "shares_outstanding": 2858078614,
+        "beta": -0.003,
+        "rsi_14": 61.47,
+        "volume_trend_ratio": 1.94,
+        "volume_last_ratio": 0.91,
+        "avg_turnover_aud": 2610,
+        "liquid": false,
+        "avg_volume_20": 604654,
+        "volume_change_pct": -9.0,
+        "pct_from_3m_high": -5.0,
+        "pct_from_3m_low": 18.75,
+        "pct_from_6m_high": -54.76,
+        "pct_from_6m_low": 35.71,
+        "pct_from_52w_high": -78.89,
+        "pct_from_52w_low": 35.71,
+        "high_52w": 0.045,
+        "low_52w": 0.007,
+        "high_3m": 0.01,
+        "low_3m": 0.008,
+        "high_6m": 0.021,
+        "low_6m": 0.007,
+        "month1_high": 0.01,
+        "month1_low": 0.008,
+        "month2_high": 0.01,
+        "month2_low": 0.008,
+        "month3_high": 0.01,
+        "month3_low": 0.008,
+        "range_position_3m": 0.75,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.94x its 20-day average",
+          "5.0% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,610/day",
+        "reading": [
+          "Going into this, FGH traded 1.94x its usual daily volume over the last 5 sessions — measured to the 2026-10-23 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 5.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,610 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EXP",
       "company": "EXPERIENCE CO LIMITED",
