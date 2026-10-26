@@ -1,9 +1,165 @@
 {
   "date": "2026-10-27",
-  "total": 349,
-  "market_sensitive_count": 146,
-  "generated_at": "2026-10-26T23:52:43.905258+00:00",
+  "total": 352,
+  "market_sensitive_count": 147,
+  "generated_at": "2026-10-26T23:58:38.003909+00:00",
   "announcements": [
+    {
+      "ticker": "PRB",
+      "company": "PARBO RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-10-26T23:54:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03153640-6A1351621",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A market-sensitive quarterly activities report is the highest-signal filing type for a junior resources company — cash burn rate, closing cash balance, and receipts from customers will determine whether PRB has adequate runway to fund its next operational phase or is approaching a capital raise decision point; the market-sensitive flag elevates urgency but direction depends entirely on the cash position disclosed.",
+        "Key metrics to watch: if closing cash is below two quarters of operating expenditure at the current burn rate, the market will price in a near-term dilutive raise; conversely, a cash balance that funds 12+ months of activity removes going-concern risk and is modestly constructive, particularly for a micro-cap where existential risk is the dominant pricing factor.",
+        "Without visibility into the body of the filing, the market-sensitive flag on a quarterly report most commonly reflects either a materially low cash balance (bearish trigger) or a significant operational development disclosed within the activities narrative — the asymmetry of outcomes and the flag together justify close reading of the 5B cash flows before taking a position; default to neutral pending detail, acknowledging the flag adds genuine directional uncertainty rather than resolving it."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASV",
+      "company": "ASSET VISION CO LTD",
+      "headline": "Change of Director's Interest Notice - Luke Donnellan",
+      "time": "2026-10-26T23:54:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03153639-3A705056",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Lesson L031 applies directly here: this is a director interest notice into deeply suppressed volume (0.3x average on an already thinly traded stock with median turnover of roughly A$1,507/day), and the headline does not disclose direction — the director could be acquiring or disposing, and insider buying at a non-extended price is constructive while a sale is not; direction cannot be assumed from the headline alone.",
+        "At this liquidity level (median ~A$1,507/day), the volume ratio of 0.3x is effectively meaningless as a signal — even a single small retail trade can move the ratio materially, so there is no evidence of either accumulation or distribution to inform a directional lean; the tape is simply silent.",
+        "The filing is not flagged market sensitive, is procedural in nature, and lacks any disclosed milestone — per the track record data, unflagged filings must make their own case before earning a directional call, and this one does not; default to neutral and require confirmation of the direction of the interest change before leaning either way."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-26",
+        "bars": 254,
+        "last_close": 0.042,
+        "market_cap_aud": 31546685.73,
+        "shares_outstanding": 751111565,
+        "beta": -0.067,
+        "rsi_14": 42.26,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 1.26,
+        "avg_turnover_aud": 1507,
+        "liquid": false,
+        "avg_volume_20": 96310,
+        "volume_change_pct": 26.0,
+        "pct_from_3m_high": -16.0,
+        "pct_from_3m_low": 10.53,
+        "pct_from_6m_high": -16.0,
+        "pct_from_6m_low": 110.0,
+        "pct_from_52w_high": -16.0,
+        "pct_from_52w_low": 110.0,
+        "high_52w": 0.05,
+        "low_52w": 0.02,
+        "high_3m": 0.05,
+        "low_3m": 0.038,
+        "high_6m": 0.05,
+        "low_6m": 0.02,
+        "month1_high": 0.047,
+        "month1_low": 0.04,
+        "month2_high": 0.049,
+        "month2_low": 0.04,
+        "month3_high": 0.05,
+        "month3_low": 0.038,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,507/day",
+        "reading": [
+          "Going into this, ASV traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-10-26 close.",
+          "The price sat in the middle part of its 3-month range, 16.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,507 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Shareholder and Noteholder Briefing",
+      "time": "2026-10-26T23:51:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03153638-2A1706335",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A combined shareholder and noteholder briefing at Clime Capital — a listed investment company with both equity and debt capital on issue — is structurally more informative than a pure equity briefing, as it signals management is addressing two distinct capital constituencies simultaneously; however, the filing is not flagged market sensitive, which per track record data materially reduces the probability of a directional outcome (unflagged filings are right directionally only ~52% of the time).",
+        "Pre-announcement volume is deeply suppressed at 0.28x average — consistent with a disengaged register and no evidence of informed positioning ahead of the briefing; lesson L049 is relevant here, noting that suppressed volume weakens any bearish pre-raise-marketing inference, but equally there is no accumulation signal to support a bullish read; the tape is inert.",
+        "For a listed investment company, a noteholder briefing most commonly covers NAV performance, portfolio positioning, and debt facility compliance — none of which are inherently directional without the content; absent a market-sensitive flag, a named catalyst, or any volume evidence of pre-positioning, the correct call is neutral pending briefing content."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-10-26",
+        "bars": 254,
+        "last_close": 0.615,
+        "market_cap_aud": 84300382.69,
+        "shares_outstanding": 137073793,
+        "beta": 0.177,
+        "rsi_14": 39.01,
+        "volume_trend_ratio": 0.28,
+        "volume_last_ratio": 0.16,
+        "avg_turnover_aud": 82151,
+        "liquid": true,
+        "avg_volume_20": 285742,
+        "volume_change_pct": -84.0,
+        "pct_from_3m_high": -10.87,
+        "pct_from_3m_low": 4.24,
+        "pct_from_6m_high": -12.77,
+        "pct_from_6m_low": 4.24,
+        "pct_from_52w_high": -15.17,
+        "pct_from_52w_low": 4.24,
+        "high_52w": 0.725,
+        "low_52w": 0.59,
+        "high_3m": 0.69,
+        "low_3m": 0.59,
+        "high_6m": 0.705,
+        "low_6m": 0.59,
+        "month1_high": 0.67,
+        "month1_low": 0.59,
+        "month2_high": 0.685,
+        "month2_low": 0.665,
+        "month3_high": 0.69,
+        "month3_low": 0.67,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.28x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, CAM traded only 0.28x its usual daily volume over the last 5 sessions — measured to the 2026-10-26 close.",
+          "The price sat in the lower part of its 3-month range, 10.87% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BFL",
       "company": "BSP FINANCIAL GROUP LIMITED",
