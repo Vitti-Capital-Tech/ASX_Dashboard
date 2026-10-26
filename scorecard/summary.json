@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-26T18:12:29.684558+11:00",
+  "generated_at": "2026-10-26T18:59:53.231952+11:00",
   "days_scored": 56,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 3105,
+      "scored": 3104,
       "correct": 1242,
-      "wrong": 841,
+      "wrong": 840,
       "flat": 1022,
-      "hit_rate": 59.6,
+      "hit_rate": 59.7,
       "avg_abnormal_pct": 1.71
     },
     "bearish": {
@@ -21,8 +21,8 @@
       "avg_abnormal_pct": -0.46
     },
     "neutral": {
-      "scored": 8161,
-      "correct": 3678,
+      "scored": 8160,
+      "correct": 3677,
       "wrong": 4483,
       "flat": 0,
       "hit_rate": 45.1,
@@ -31,13 +31,13 @@
   },
   "spread_pct": 2.17,
   "directional_hit_rate": 58.1,
-  "directional_scored": 2838,
+  "directional_scored": 2837,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 3105,
+        "scored": 3104,
         "correct": 847,
-        "wrong": 1086,
+        "wrong": 1085,
         "flat": 1172,
         "hit_rate": 43.8,
         "avg_abnormal_pct": -0.21
@@ -51,8 +51,8 @@
         "avg_abnormal_pct": -0.46
       },
       "neutral": {
-        "scored": 8161,
-        "correct": 4061,
+        "scored": 8160,
+        "correct": 4060,
         "wrong": 4100,
         "flat": 0,
         "hit_rate": 49.8,
@@ -61,16 +61,16 @@
     },
     "spread_pct": 0.25,
     "directional_hit_rate": 47.6,
-    "directional_scored": 2582
+    "directional_scored": 2581
   },
   "by_document_type": [
     {
       "document_type": "Market Update",
-      "scored": 2172,
+      "scored": 2171,
       "hit_rate": 59.7,
-      "intraday_scored": 1975,
+      "intraday_scored": 1974,
       "intraday_hit_rate": 47.1,
-      "intraday_avg_as_called": 0.0,
+      "intraday_avg_as_called": 0.01,
       "avg_as_called": 1.63
     },
     {
@@ -607,11 +607,11 @@
     },
     {
       "date": "2026-10-26",
-      "hit_rate": 64.8,
-      "scored": 71,
-      "spread_pct": 3.27,
-      "intraday_hit_rate": 53.6,
-      "intraday_scored": 69
+      "hit_rate": 65.7,
+      "scored": 70,
+      "spread_pct": 3.41,
+      "intraday_hit_rate": 54.4,
+      "intraday_scored": 68
     }
   ]
 }

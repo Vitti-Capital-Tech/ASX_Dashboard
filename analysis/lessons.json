@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T07:14:23.634989+00:00",
-  "next_id": 213,
+  "updated_at": "2026-10-26T08:03:16.691989+00:00",
+  "next_id": 215,
   "lessons": [
     {
       "id": "L001",
@@ -2448,15 +2448,8 @@
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
       "last_seen": "2026-10-26",
-      "times_seen": 30,
+      "times_seen": 31,
       "examples": [
-        {
-          "date": "2026-10-15",
-          "ticker": "WC1",
-          "headline": "Salazar Scandium Beneficiation Testwork Underway",
-          "called": "neutral",
-          "abnormal_pct": -13.24
-        },
         {
           "date": "2026-10-15",
           "ticker": "WC1",
@@ -2477,6 +2470,13 @@
           "headline": "Cote D Ivoire Strategic Gold Portfolio Investor Presentation",
           "called": "neutral",
           "abnormal_pct": -8.66
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "VR8",
+          "headline": "VR8 Advances DFI Funding Preparation & DFS Workstreams",
+          "called": "neutral",
+          "abnormal_pct": -20.17
         },
         {
           "date": "2026-10-26",
@@ -4561,7 +4561,7 @@
       "rule": "At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.",
       "created": "2026-10-01",
       "last_seen": "2026-10-26",
-      "times_seen": 22,
+      "times_seen": 23,
       "examples": [
         {
           "date": "2026-10-23",
@@ -4585,11 +4585,11 @@
           "abnormal_pct": -9.27
         },
         {
-          "date": "2026-10-23",
-          "ticker": "ASL",
+          "date": "2026-10-26",
+          "ticker": "VUL",
           "headline": "Change in substantial holding",
-          "called": "neutral",
-          "abnormal_pct": -9.27
+          "called": "bearish",
+          "abnormal_pct": 10.46
         },
         {
           "date": "2026-10-26",
@@ -5228,15 +5228,8 @@
       "rule": "Acceleration language in a market-sensitive headline at a near-zero-liquidity technology micro-cap is a qualitative claim, not a quantitative result — 'accelerating US implementation' and 'strong UK' describe directional sentiment rather than disclosed revenue, contract, or customer data; before calling bullish on acceleration language, require either a named customer, a disclosed revenue metric, or a contract win in the headline or body; if only qualitative momentum descriptors are present without quantitative anchors, default to neutral rather than bullish, because the market will discount unverifiable qualitative claims at a deeply de-rated, illiquid stock and the sell-the-news risk is material when the headline delivers sentiment rather than data.",
       "created": "2026-10-05",
       "last_seen": "2026-10-26",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-10-05",
-          "ticker": "IOD",
-          "headline": "Investor Update-Accelerating US Implementation and Strong UK",
-          "called": "bullish",
-          "abnormal_pct": -6.64
-        },
         {
           "date": "2026-10-05",
           "ticker": "IOD",
@@ -5257,6 +5250,13 @@
           "headline": "NOL8 Releases Commercial Software V2.0 Ahead of Schedule",
           "called": "bullish",
           "abnormal_pct": -8.56
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "X2M",
+          "headline": "X2M Smart Energy Launches at McMahons Place Echuca",
+          "called": "bullish",
+          "abnormal_pct": -20.17
         },
         {
           "date": "2026-10-26",
@@ -6917,7 +6917,7 @@
       "rule": "L037 establishes a bullish prior for market-sensitive query responses at multi-month lows into volume spikes, but the bullish prior depends on the volume spike confirming informed accumulation; when no volume data is available and the company is a clinical-stage biotech where an adverse trial update is a plausible negative catalyst, the query may have been triggered by a price decline rather than a price rise — default to bearish rather than neutral when the stock is at a 12-month low, the company is clinical-stage, and no volume data is available to confirm the query was triggered by upward rather than downward anomalous movement, because downward-query responses at clinical biotechs carry a materially higher base rate of negative disclosure.",
       "created": "2026-10-16",
       "last_seen": "2026-10-26",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-10-16",
@@ -6941,11 +6941,11 @@
           "abnormal_pct": -21.0
         },
         {
-          "date": "2026-10-16",
-          "ticker": "ATX",
+          "date": "2026-10-26",
+          "ticker": "STK",
           "headline": "Response to ASX Price Query",
           "called": "neutral",
-          "abnormal_pct": -21.0
+          "abnormal_pct": -29.8
         },
         {
           "date": "2026-10-26",
@@ -7559,23 +7559,9 @@
       "trigger": "Market-sensitive quarterly report at a stock with zero recorded volume (0.0x ratio) and near-zero or zero median daily turnover, where the filing is the primary periodic operational update",
       "rule": "When a quarterly report is flagged market sensitive at a completely dormant, zero-liquidity stock, the flag is the dominant signal — the company has judged the content price-relevant, and in a register with no active sellers the asymmetry favours a relief-buying response to any non-catastrophic disclosure; lean neutral-to-bullish rather than neutral, because L016's zero-volume logic (no motivated sellers) combines with the market-sensitive flag to create asymmetric upside.",
       "created": "2026-10-20",
-      "last_seen": "2026-10-22",
-      "times_seen": 8,
+      "last_seen": "2026-10-26",
+      "times_seen": 9,
       "examples": [
-        {
-          "date": "2026-10-21",
-          "ticker": "IVG",
-          "headline": "Quarterly Activities Report and Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": 18.48
-        },
-        {
-          "date": "2026-10-21",
-          "ticker": "ODA",
-          "headline": "Quarterly Update",
-          "called": "bearish",
-          "abnormal_pct": 15.91
-        },
         {
           "date": "2026-10-21",
           "ticker": "NNL",
@@ -7596,6 +7582,20 @@
           "headline": "Quarterly Report",
           "called": "neutral",
           "abnormal_pct": 9.52
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "VKA",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 10.94
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "VMC",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 10.94
         }
       ]
     },
@@ -7622,7 +7622,7 @@
       "rule": "A market-sensitive strategic pivot to a named thematic commodity (tin, lithium, uranium) at a deeply de-rated stock is not merely a project update — the pivot itself reframes the investment thesis and can function as a re-rating catalyst independent of milestone specificity; do not apply L058's neutral default when the filing is market-sensitive and the pivot names a specific large-scale opportunity in an active thematic, because the narrative reset at a stock priced for maximum pessimism on its prior thesis creates asymmetric upside even without disclosed economic parameters; lean neutral-to-bullish rather than neutral in this configuration.",
       "created": "2026-10-21",
       "last_seen": "2026-10-26",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-10-21",
@@ -7646,11 +7646,11 @@
           "abnormal_pct": 22.06
         },
         {
-          "date": "2026-10-21",
-          "ticker": "PGM",
-          "headline": "PGM broadens strategy with large-scale NT Tin Opportunity",
+          "date": "2026-10-26",
+          "ticker": "IPT",
+          "headline": "Impact Minerals announces new strategy built on HPA focus",
           "called": "neutral",
-          "abnormal_pct": 22.06
+          "abnormal_pct": 18.01
         },
         {
           "date": "2026-10-26",
@@ -7912,8 +7912,22 @@
       "rule": "A combined activities-and-cashflow quarterly flagged market sensitive at a deeply de-rated, near-zero-liquidity junior is not symmetric — the cashflow component introduces a hard negative asymmetry (going-concern qualification, sub-two-quarter runway) that the activities component rarely offsets; lean bearish rather than neutral when the stock is 60%+ below its high, liquidity is near-zero, and the quarterly bundles both operational and financial data under a market-sensitive flag, because the financial data is the dominant risk and the flag confirms the quantum is material.",
       "created": "2026-10-22",
       "last_seen": "2026-10-26",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
+        {
+          "date": "2026-10-26",
+          "ticker": "VMC",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 10.94
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "MHM",
+          "headline": "September 2026 Quarterly Activities & Cashflow Report",
+          "called": "neutral",
+          "abnormal_pct": -10.17
+        },
         {
           "date": "2026-10-26",
           "ticker": "MAY",
@@ -7927,20 +7941,6 @@
           "headline": "Quarterly Activities Report & Appendix 4C Cashflow Report",
           "called": "neutral",
           "abnormal_pct": 16.88
-        },
-        {
-          "date": "2026-10-26",
-          "ticker": "VKA",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": 10.94
-        },
-        {
-          "date": "2026-10-26",
-          "ticker": "VMC",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": 10.94
         },
         {
           "date": "2026-10-26",
@@ -8322,8 +8322,15 @@
       "rule": "Parse the two components independently: if the strategic review update uses language short of a binding outcome ('progressing', 'ongoing', 'no update') while the trading update is the hard data layer, treat the trading update as the market-moving element and default to bearish rather than neutral when no beat language appears in the headline, because a non-concluded strategic review removes the deal-optionality premium without the trading update necessarily compensating — apply L192-style asymmetric logic to the trading component.",
       "created": "2026-10-26",
       "last_seen": "2026-10-26",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-26",
+          "ticker": "OFX",
+          "headline": "Strategic Review Update and 2Q27 Trading Update",
+          "called": "neutral",
+          "abnormal_pct": -24.68
+        },
         {
           "date": "2026-10-26",
           "ticker": "OFX",
@@ -8339,8 +8346,15 @@
       "rule": "Shareholder approval of an acquisition resolves deal-break risk but simultaneously removes the primary option-value component that drove the pre-vote run — the stock is now a completion play rather than an approval-probability play; call bearish rather than bullish when the stock is at a multi-month high on approval day, because the market has already priced the approval and the next catalyst (completion, integration, earnings accretion) is months away with no near-term re-rating trigger.",
       "created": "2026-10-26",
       "last_seen": "2026-10-26",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-26",
+          "ticker": "AKA",
+          "headline": "Overwhelming Shareholder Support for HGH Acquisition",
+          "called": "bullish",
+          "abnormal_pct": -15.32
+        },
         {
           "date": "2026-10-26",
           "ticker": "AKA",
@@ -8356,7 +8370,7 @@
       "rule": "A novation completion is a contract restructuring event whose direction (positive or negative) depends entirely on whether the incoming party is a stronger or weaker counterparty than the outgoing one — when that identity is absent from the headline, the market-sensitive flag combined with the word 'completion' is more likely to signal a positive resolution (a stronger party has stepped in, the company chose to announce) than an adverse one; lean neutral-to-bullish rather than neutral when the filing confirms completion rather than merely commencement of a novation process, because companies do not typically flag the completion of a rescue novation as market sensitive without intending a positive narrative.",
       "created": "2026-10-26",
       "last_seen": "2026-10-26",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-26",
@@ -8364,6 +8378,47 @@
           "headline": "Completion of Novation Agreement",
           "called": "neutral",
           "abnormal_pct": 15.22
+        },
+        {
+          "date": "2026-10-26",
+          "ticker": "A11",
+          "headline": "Completion of Novation Agreement",
+          "called": "neutral",
+          "abnormal_pct": 15.22
+        }
+      ]
+    },
+    {
+      "id": "L213",
+      "trigger": "Non-market-sensitive 'drilling advancement' or 'drilling progress' operational update (no assay, no resource, no permit) at a stock at a 12-month low with near-zero absolute liquidity (median daily turnover <A$5,000/day) and no pre-announcement volume data available, where the headline names a specific drilling operation by project name",
+      "rule": "At a 12-month low with near-zero absolute liquidity and no volume data, a named drilling progress update — even without assay data — can function as the first operational signal a completely dormant register has seen, producing a relief-buying response disproportionate to the information content; do not default to neutral purely on L058 grounds when absolute liquidity is near-zero and the stock is at its worst price level, because the bar for a positive surprise in a dormant register is lower than in a normally traded stock; lean neutral-to-bullish when the headline names an active drilling operation at a stock at its 12-month low with effectively no trading history.",
+      "created": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-26",
+          "ticker": "TG1",
+          "headline": "El Donna RC Drilling Advancement",
+          "called": "neutral",
+          "abnormal_pct": 14.12
+        }
+      ]
+    },
+    {
+      "id": "L214",
+      "trigger": "Notice of AGM filing (not flagged market sensitive) at a stock where no de-rating data is available (distance from 12-month high is unknown) and pre-announcement volume is modestly elevated (1.4–1.7x average) at a thinly traded micro-cap with identifiable liquidity (median daily turnover A$20,000–A$50,000/day)",
+      "rule": "When neither the stock's price position (near high vs near low) nor the direction of elevated volume is known, the AGM-notice filing is genuinely direction-indeterminate — do not apply either L048's neutral-to-bullish or L099's bearish default without first establishing whether the stock is extended or depressed; call neutral and flag the price-position as the missing discriminator, because applying either directional rule without that anchor inverts the logic for half the cases.",
+      "created": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-26",
+          "ticker": "SCP",
+          "headline": "Notice of Annual General Meeting/Proxy Form",
+          "called": "neutral",
+          "abnormal_pct": -13.79
         }
       ]
     }
