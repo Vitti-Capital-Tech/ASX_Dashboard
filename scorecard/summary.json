@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-27T18:51:12.633742+11:00",
+  "generated_at": "2026-10-27T19:53:31.984118+11:00",
   "days_scored": 57,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 3161,
-      "correct": 1264,
+      "scored": 3159,
+      "correct": 1263,
       "wrong": 858,
-      "flat": 1039,
-      "hit_rate": 59.6,
+      "flat": 1038,
+      "hit_rate": 59.5,
       "avg_abnormal_pct": 1.69
     },
     "bearish": {
-      "scored": 1338,
+      "scored": 1340,
       "correct": 422,
       "wrong": 362,
-      "flat": 554,
+      "flat": 556,
       "hit_rate": 53.8,
       "avg_abnormal_pct": -0.49
     },
     "neutral": {
-      "scored": 8383,
-      "correct": 3778,
+      "scored": 8389,
+      "correct": 3784,
       "wrong": 4605,
       "flat": 0,
       "hit_rate": 45.1,
@@ -31,28 +31,28 @@
   },
   "spread_pct": 2.18,
   "directional_hit_rate": 58.0,
-  "directional_scored": 2906,
+  "directional_scored": 2905,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 3161,
-        "correct": 868,
+        "scored": 3159,
+        "correct": 867,
         "wrong": 1102,
-        "flat": 1191,
-        "hit_rate": 44.1,
+        "flat": 1190,
+        "hit_rate": 44.0,
         "avg_abnormal_pct": -0.21
       },
       "bearish": {
-        "scored": 1338,
+        "scored": 1340,
         "correct": 396,
         "wrong": 278,
-        "flat": 664,
+        "flat": 666,
         "hit_rate": 58.8,
         "avg_abnormal_pct": -0.48
       },
       "neutral": {
-        "scored": 8383,
-        "correct": 4181,
+        "scored": 8389,
+        "correct": 4187,
         "wrong": 4202,
         "flat": 0,
         "hit_rate": 49.9,
@@ -61,7 +61,7 @@
     },
     "spread_pct": 0.27,
     "directional_hit_rate": 47.8,
-    "directional_scored": 2644
+    "directional_scored": 2643
   },
   "by_document_type": [
     {
@@ -75,12 +75,12 @@
     },
     {
       "document_type": "Substantial Holding",
-      "scored": 191,
-      "hit_rate": 46.1,
-      "intraday_scored": 179,
-      "intraday_hit_rate": 49.2,
-      "intraday_avg_as_called": -0.1,
-      "avg_as_called": -0.28
+      "scored": 190,
+      "hit_rate": 45.8,
+      "intraday_scored": 178,
+      "intraday_hit_rate": 48.9,
+      "intraday_avg_as_called": -0.12,
+      "avg_as_called": -0.29
     },
     {
       "document_type": "Results",
@@ -98,7 +98,7 @@
       "intraday_scored": 64,
       "intraday_hit_rate": 56.2,
       "intraday_avg_as_called": 0.25,
-      "avg_as_called": 1.02
+      "avg_as_called": 1.01
     },
     {
       "document_type": "Capital Raise",
@@ -615,11 +615,11 @@
     },
     {
       "date": "2026-10-27",
-      "hit_rate": 53.0,
-      "scored": 66,
-      "spread_pct": 2.26,
-      "intraday_hit_rate": 55.7,
-      "intraday_scored": 61
+      "hit_rate": 52.3,
+      "scored": 65,
+      "spread_pct": 2.21,
+      "intraday_hit_rate": 55.0,
+      "intraday_scored": 60
     }
   ]
 }
