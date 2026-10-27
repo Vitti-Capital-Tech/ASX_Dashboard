@@ -1,9 +1,344 @@
 {
   "date": "2026-10-28",
-  "total": 356,
-  "market_sensitive_count": 180,
-  "generated_at": "2026-10-27T23:17:50.327850+00:00",
+  "total": 363,
+  "market_sensitive_count": 181,
+  "generated_at": "2026-10-27T23:24:44.585225+00:00",
   "announcements": [
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Information Memorandum",
+      "time": "2026-10-27T23:21:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154318-2A1706602",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SH1 is filing an Information Memorandum, which is a foundational document for a new debt listing rather than an announcement of any operational development — this is an administrative/disclosure obligation with no direct valuation implication for equity holders.",
+        "The filing is not flagged market sensitive and the headline contains no named catalyst, milestone, or financial figure; as a procedural document accompanying an ASX debt listing process, it is content-free from a price-signal perspective.",
+        "No price action data is provided for SH1, precluding any tape-based inference; the appropriate posture is purely neutral given the administrative nature of the filing and the absence of any substantive headline content."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Appendix 1B and Information Form and Checklist",
+      "time": "2026-10-27T23:20:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154317-2A1706601",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 1B and Information Form and Checklist is a standard ASX administrative filing required for debt securities admission — it contains no investment-relevant content and is purely a compliance obligation.",
+        "Filing this document in conjunction with the Information Memorandum (announcement [2]) confirms SH1 is progressing through the standard ASX debt listing onboarding process; no surprises or red flags are signalled by this document type.",
+        "No price action data is available, and the filing is not flagged market sensitive — there is no basis for a directional call; this is a procedural step that institutional investors can treat as administrative noise."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Admission and Commencement as an ASX Debt Listing",
+      "time": "2026-10-27T23:20:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154316-2A1706600",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX confirmation of admission and commencement as a debt listing for SH1 is the formal conclusion of the debt-listing process flagged in announcements [2] and [3] — it is a process milestone, not a financial event, and carries no direct valuation implication.",
+        "For debt investors, this is the go-live signal confirming the securities are now tradeable on ASX; for equity-oriented institutional investors, it is informational only and does not alter the equity risk profile unless the debt structure was previously unknown and introduces new seniority claims.",
+        "Not flagged market sensitive and no price action data provided — treat as procedurally neutral; the three SH1 filings together ([2], [3], [4]) form a coherent debt-listing completion sequence with no surprise content."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Notification of cessation of securities - PCX",
+      "time": "2026-10-27T23:19:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154315-2A1706604",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities at PCX (Pengana Global Private Credit Trust) most likely reflects options or performance rights lapsing unexercised or rights/units being cancelled — per lesson L017, this is a register-cleaning event that removes a future dilution overhang, which is modestly constructive rather than bearish.",
+        "The stock is at a 3-month low, which means any residual dilution concern from the now-ceased securities had likely already weighed on price; removal of that overhang at a depressed level is a mild positive signal, not a negative one.",
+        "The filing is not flagged market sensitive, consistent with its procedural nature; no price volume data beyond the 3-month low context is available, so the key takeaway is the combination of distressed price level plus dilution removal — lean neutral-to-modestly-constructive rather than bearish."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-26",
+        "bars": 253,
+        "last_close": 1.95,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.043,
+        "rsi_14": 42.37,
+        "volume_trend_ratio": 0.83,
+        "volume_last_ratio": 0.98,
+        "avg_turnover_aud": 249841,
+        "liquid": true,
+        "avg_volume_20": 141903,
+        "volume_change_pct": -2.0,
+        "pct_from_3m_high": -5.8,
+        "pct_from_3m_low": 0.52,
+        "pct_from_6m_high": -5.8,
+        "pct_from_6m_low": 2.63,
+        "pct_from_52w_high": -5.8,
+        "pct_from_52w_low": 2.63,
+        "high_52w": 2.07,
+        "low_52w": 1.9,
+        "high_3m": 2.07,
+        "low_3m": 1.94,
+        "high_6m": 2.07,
+        "low_6m": 1.9,
+        "month1_high": 2.0,
+        "month1_low": 1.94,
+        "month2_high": 2.02,
+        "month2_low": 1.97,
+        "month3_high": 2.07,
+        "month3_low": 1.97,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-26 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGT",
+      "company": "MAGNETITE MINES LIMITED.",
+      "headline": "Proposed issue of securities - MGT",
+      "time": "2026-10-27T23:18:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154314-6A1351946",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed issue of securities' filing for MGT is the standard Appendix 3B companion notice to the $1.32M capital raise announced in [1] — this is an administrative disclosure of the share issuance mechanics and contains no incremental investment-relevant information beyond what was already communicated.",
+        "The filing is not flagged market sensitive, consistent with its procedural role; the substantive signal from this raise has already been captured in announcement [1], and this notice should be treated as the back-office confirmation of that event.",
+        "Pre-announcement volume was 0.2x average on median daily turnover of ~A$2,589/day — as noted for [1], volume ratios on this stock are close to meaningless given near-zero liquidity; do not read intent into the suppressed volume figure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.014,
+        "market_cap_aud": 3190931.91,
+        "shares_outstanding": 227923708,
+        "beta": 0.522,
+        "rsi_14": 43.86,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 2589,
+        "liquid": false,
+        "avg_volume_20": 447379,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -30.0,
+        "pct_from_3m_low": 7.69,
+        "pct_from_6m_high": -57.58,
+        "pct_from_6m_low": 7.69,
+        "pct_from_52w_high": -79.1,
+        "pct_from_52w_low": 7.69,
+        "high_52w": 0.067,
+        "low_52w": 0.013,
+        "high_3m": 0.02,
+        "low_3m": 0.013,
+        "high_6m": 0.033,
+        "low_6m": 0.013,
+        "month1_high": 0.016,
+        "month1_low": 0.013,
+        "month2_high": 0.02,
+        "month2_low": 0.014,
+        "month3_high": 0.02,
+        "month3_low": 0.017,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average",
+          "79.1% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,589/day",
+        "reading": [
+          "Going into this, MGT traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the lower part of its 3-month range, 30.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,589 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGT",
+      "company": "MAGNETITE MINES LIMITED.",
+      "headline": "MGT Raises $1.32M through Fully Subscribed SPP and Placement",
+      "time": "2026-10-27T23:18:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154313-6A1351924",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "MGT has raised $1.32M through a fully subscribed SPP and placement, which is a modest but meaningful funded-catalyst signal for a stock sitting 79.1% below its 12-month high — the 'fully subscribed' descriptor confirms genuine investor demand rather than a shortfall raise, which is constructive at this distress level.",
+        "The quantum is small relative to what a major iron ore project typically requires, so this likely buys near-term working capital and keeps the company alive rather than funding a transformative milestone; investors should interrogate the disclosed use of proceeds carefully to assess whether this extends runway materially or is a bridge to a larger raise.",
+        "Pre-announcement volume was only 0.2x average on a stock with median daily turnover of ~A$2,589/day — at that liquidity level, volume ratios are close to meaningless as a signal of informed accumulation. The market-sensitive flag and fully subscribed result are the substantive signals here; per L027, a named operational use of proceeds would shift this toward bullish, but absent that clarity the dilution-vs-funded-catalyst balance warrants a neutral-to-bullish read rather than a strong directional call."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.014,
+        "market_cap_aud": 3190931.91,
+        "shares_outstanding": 227923708,
+        "beta": 0.522,
+        "rsi_14": 43.86,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 2589,
+        "liquid": false,
+        "avg_volume_20": 447379,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -30.0,
+        "pct_from_3m_low": 7.69,
+        "pct_from_6m_high": -57.58,
+        "pct_from_6m_low": 7.69,
+        "pct_from_52w_high": -79.1,
+        "pct_from_52w_low": 7.69,
+        "high_52w": 0.067,
+        "low_52w": 0.013,
+        "high_3m": 0.02,
+        "low_3m": 0.013,
+        "high_6m": 0.033,
+        "low_6m": 0.013,
+        "month1_high": 0.016,
+        "month1_low": 0.013,
+        "month2_high": 0.02,
+        "month2_low": 0.014,
+        "month3_high": 0.02,
+        "month3_low": 0.017,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average",
+          "79.1% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,589/day",
+        "reading": [
+          "Going into this, MGT traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the lower part of its 3-month range, 30.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,589 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "FOS - 2026 AGM Presentation",
+      "time": "2026-10-27T23:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154312-3A705183",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "FOS Capital's AGM Presentation filing sits at the intersection of multiple lesson flags: the stock is 57.14% below its 12-month high (deeply de-rated), the filing is not flagged market sensitive, and pre-announcement volume ran at 1.6x the 20-day average — per L048, elevated volume into an AGM notice on a deeply de-rated, near-zero-liquidity stock (~A$315/day median turnover) is a governance signal worth examining for activist or contested-appointment dynamics.",
+        "However, this is an AGM Presentation (content delivered at the meeting) rather than an AGM date/nomination deadline filing — the lesson L048 activist-accumulation logic is most powerful when a nomination window is open; an AGM presentation is closer to a disclosure obligation, and without reading the presentation content it is unclear whether it contains strategy updates, capital management signals, or dilutive resolution details that could explain the volume spike.",
+        "At near-zero absolute liquidity (~A$315/day), the 1.6x volume ratio could reflect a single informed participant rather than broad interest — treat the elevated volume as a weak signal at best; the non-flagged, procedural nature of an AGM presentation without a named catalyst defaults to neutral, but the combination of deep de-rating and elevated relative volume warrants monitoring for activist or resolution-driven activity per L048."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.12,
+        "market_cap_aud": 10074953.76,
+        "shares_outstanding": 83957948,
+        "beta": 0.339,
+        "rsi_14": 48.54,
+        "volume_trend_ratio": 1.6,
+        "volume_last_ratio": 7.2,
+        "avg_turnover_aud": 315,
+        "liquid": false,
+        "avg_volume_20": 118048,
+        "volume_change_pct": 620.0,
+        "pct_from_3m_high": -20.0,
+        "pct_from_3m_low": 14.29,
+        "pct_from_6m_high": -20.0,
+        "pct_from_6m_low": 26.32,
+        "pct_from_52w_high": -57.14,
+        "pct_from_52w_low": 26.32,
+        "high_52w": 0.28,
+        "low_52w": 0.095,
+        "high_3m": 0.15,
+        "low_3m": 0.105,
+        "high_6m": 0.15,
+        "low_6m": 0.095,
+        "month1_high": 0.13,
+        "month1_low": 0.11,
+        "month2_high": 0.15,
+        "month2_low": 0.115,
+        "month3_high": 0.14,
+        "month3_low": 0.105,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.6x its 20-day average",
+          "57.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$315/day",
+        "reading": [
+          "Going into this, FOS traded 1.6x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 20.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$315 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AQD",
       "company": "AUSQUEST LIMITED",
