@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T10:51:04.473738+00:00",
-  "next_id": 217,
+  "updated_at": "2026-10-27T07:02:41.887560+00:00",
+  "next_id": 221,
   "lessons": [
     {
       "id": "L001",
@@ -53,8 +53,8 @@
       "trigger": "Drilling activity announcement (programme start, follow-up drilling underway) with no assay results disclosed",
       "rule": "An announcement that drilling has commenced or is underway is a programme statement, not a result — it tells the market only that money is being spent. Do not call bullish on activity-commencement announcements alone; wait for assay data. Flag as neutral until results are released.",
       "created": "2026-09-14",
-      "last_seen": "2026-10-19",
-      "times_seen": 14,
+      "last_seen": "2026-10-27",
+      "times_seen": 15,
       "examples": [
         {
           "date": "2026-10-09",
@@ -71,13 +71,6 @@
           "abnormal_pct": -8.64
         },
         {
-          "date": "2026-10-09",
-          "ticker": "DAL",
-          "headline": "Dalaroo plans follow up of Discovery Hole",
-          "called": "bullish",
-          "abnormal_pct": -8.64
-        },
-        {
           "date": "2026-10-19",
           "ticker": "CUE",
           "headline": "Palm Valley Appraisal Well PV15 Commences",
@@ -90,6 +83,13 @@
           "headline": "Palm Valley Appraisal Well PV15 Commences",
           "called": "bullish",
           "abnormal_pct": -7.66
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "ZEU",
+          "headline": "Drilling Contract Executed - Diaguili Drilling to Commence",
+          "called": "bullish",
+          "abnormal_pct": -17.12
         }
       ]
     },
@@ -233,16 +233,9 @@
       "trigger": "Single contract win announcement (no dollar value disclosed) for a thinly traded micro-cap services or technology company, flagged market sensitive",
       "rule": "When a contract announcement omits revenue value entirely, treat the omission as a material qualifier — the market cannot size the earnings impact and often re-rates the stock down as the news fails to meet the implicit expectation set by the market-sensitive flag. Do not call bullish on a contract win without a disclosed or estimable dollar value; default to neutral until quantum is known.",
       "created": "2026-09-14",
-      "last_seen": "2026-10-19",
-      "times_seen": 11,
+      "last_seen": "2026-10-27",
+      "times_seen": 12,
       "examples": [
-        {
-          "date": "2026-09-28",
-          "ticker": "MX1",
-          "headline": "MX1 - DHS CT Baggage Scanner Contract Extension",
-          "called": "bullish",
-          "abnormal_pct": -9.06
-        },
         {
           "date": "2026-09-28",
           "ticker": "MX1",
@@ -270,6 +263,13 @@
           "headline": "Results of EGM",
           "called": "neutral",
           "abnormal_pct": -7.59
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "RGT",
+          "headline": "RGT Executes Global Licence for Non-Core Cannabis Genetics",
+          "called": "bullish",
+          "abnormal_pct": -14.25
         }
       ]
     },
@@ -413,16 +413,9 @@
       "trigger": "Generic 'Investor Presentation' filing by a junior explorer or pre-revenue company, not flagged market sensitive, with no specific catalyst disclosed in the headline",
       "rule": "An investor presentation without a named catalyst (resource estimate, drilling result, funding announcement) is most commonly awareness-building ahead of a capital raise — which is dilutive. Default to bearish rather than neutral when no substantive content is signalled in the headline, because the filing implicitly flags that management is actively marketing stock.",
       "created": "2026-09-14",
-      "last_seen": "2026-10-22",
-      "times_seen": 16,
+      "last_seen": "2026-10-27",
+      "times_seen": 17,
       "examples": [
-        {
-          "date": "2026-10-08",
-          "ticker": "LSR",
-          "headline": "October 2026 Investor Presentation",
-          "called": "neutral",
-          "abnormal_pct": -21.46
-        },
         {
           "date": "2026-10-08",
           "ticker": "LSR",
@@ -450,6 +443,13 @@
           "headline": "Cote D Ivoire Strategic Gold Portfolio Investor Presentation",
           "called": "neutral",
           "abnormal_pct": -8.66
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "EGA",
+          "headline": "Investor Presentation",
+          "called": "neutral",
+          "abnormal_pct": -13.79
         }
       ]
     },
@@ -738,16 +738,9 @@
       "trigger": "Gold assay results described as 'extending' mineralisation (rather than upgrading grade or defining resource boundaries) at an explorer 60%+ below its 12-month high, with volume running materially above average into the announcement",
       "rule": "When volume is elevated ahead of assay results at a deeply de-rated explorer, the market has already partially priced the news — an 'extension' result (which adds strike length but not necessarily grade or resource quantum) is structurally weaker than a resource-upgrade result and is vulnerable to a sell-the-news reaction into the pre-positioned volume. Call bearish rather than neutral on extension-only assay announcements into elevated volume at stocks with severe prior de-ratings.",
       "created": "2026-09-15",
-      "last_seen": "2026-10-06",
-      "times_seen": 17,
+      "last_seen": "2026-10-27",
+      "times_seen": 18,
       "examples": [
-        {
-          "date": "2026-10-06",
-          "ticker": "SHN",
-          "headline": "Gold mineralisation footprint extended at Sybil",
-          "called": "neutral",
-          "abnormal_pct": -15.72
-        },
         {
           "date": "2026-10-06",
           "ticker": "WMG",
@@ -775,6 +768,13 @@
           "headline": "Significant Extension to Gold-Antimony Shoots at Sabre",
           "called": "neutral",
           "abnormal_pct": -8.26
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "HWK",
+          "headline": "Cactus Corridor Drills Strong Copper-Gold-Silver Assays Utah",
+          "called": "bullish",
+          "abnormal_pct": -14.74
         }
       ]
     },
@@ -1309,17 +1309,10 @@
       "trigger": "Change of Director's Interest Notice filed into elevated volume (5-day volume >1.5x average) at a stock that is NOT near a multi-month high, with no direction disclosed in the headline",
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
-      "last_seen": "2026-10-21",
-      "times_seen": 27,
+      "last_seen": "2026-10-27",
+      "times_seen": 28,
       "examples": [
         {
-          "date": "2026-10-12",
-          "ticker": "SHE",
-          "headline": "Appendix 3Y - Michael McFadyen",
-          "called": "neutral",
-          "abnormal_pct": 8.33
-        },
-        {
           "date": "2026-10-14",
           "ticker": "SIS",
           "headline": "Change of directors' interest notice - Diab",
@@ -1346,6 +1339,13 @@
           "headline": "Change of Director's Interest Notice - David Williams",
           "called": "neutral",
           "abnormal_pct": 8.41
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "EVE",
+          "headline": "Change of Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": 17.73
         }
       ]
     },
@@ -1793,16 +1793,9 @@
       "trigger": "Investor presentation at a named investor forum (e.g. 'Metals Investor Forum', 'RIU', 'Noosa Mining') by a junior explorer, not flagged market sensitive, with no price action data available",
       "rule": "Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.",
       "created": "2026-09-18",
-      "last_seen": "2026-10-21",
-      "times_seen": 12,
+      "last_seen": "2026-10-27",
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-10-14",
-          "ticker": "CP8",
-          "headline": "OTC Company Presentation",
-          "called": "bearish",
-          "abnormal_pct": 14.92
-        },
         {
           "date": "2026-10-14",
           "ticker": "CP8",
@@ -1830,6 +1823,13 @@
           "headline": "Australian Microcap Investment Conference Presentation",
           "called": "neutral",
           "abnormal_pct": -14.56
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "SVY",
+          "headline": "Conference Presentation - IMARC",
+          "called": "neutral",
+          "abnormal_pct": 17.73
         }
       ]
     },
@@ -6350,16 +6350,9 @@
       "trigger": "Market-sensitive quarterly trading report at a profitable, revenue-generating industrial or technology company (not a junior explorer) where the stock is at a multi-month low (3-month or 12-month), no price action volume data is emphasised, and the report covers a named calendar quarter",
       "rule": "For a profitable, operationally active company (as distinct from a junior explorer), a market-sensitive quarterly trading report at a multi-month low carries asymmetric upside — the stock is already pricing deterioration, and a report that merely confirms stable or growing revenue functions as a floor-setting catalyst; apply L092-style asymmetric logic to quarterly trading reports at operationally sound companies at depressed prices, leaning neutral-to-bullish rather than neutral, because the flag confirms the numbers moved in a direction management deems reportable and the downside is already largely priced.",
       "created": "2026-10-13",
-      "last_seen": "2026-10-26",
-      "times_seen": 12,
+      "last_seen": "2026-10-27",
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-10-20",
-          "ticker": "STH",
-          "headline": "Quarterly Update",
-          "called": "neutral",
-          "abnormal_pct": 8.66
-        },
         {
           "date": "2026-10-22",
           "ticker": "BAP",
@@ -6387,6 +6380,13 @@
           "headline": "Quarterly Activities Report & Appendix 4C Cashflow Report",
           "called": "neutral",
           "abnormal_pct": 16.88
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "SCX",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 14.76
         }
       ]
     },
@@ -7514,18 +7514,11 @@
       "trigger": "Notice of AGM filing at a stock 60-75% below its 12-month high with near-zero absolute liquidity and no volume data available (volume ratio cannot be computed), where L151 was applied but the absence of volume data means the key L151 condition ('suppressed volume') cannot be confirmed",
       "rule": "L151's bearish default requires confirmed suppressed volume as the key signal of a disengaged register; when no volume data is available, the suppression condition is unverified and L151 should not be applied — default to neutral rather than bearish when the AGM notice is the only filing and volume data is absent, because the bearish inference depends on a condition you cannot observe.",
       "created": "2026-10-20",
-      "last_seen": "2026-10-23",
-      "times_seen": 11,
+      "last_seen": "2026-10-27",
+      "times_seen": 12,
       "examples": [
         {
           "date": "2026-10-23",
-          "ticker": "HCH",
-          "headline": "Notice of Annual General Meeting/Proxy Form",
-          "called": "neutral",
-          "abnormal_pct": -8.62
-        },
-        {
-          "date": "2026-10-23",
           "ticker": "BH6",
           "headline": "Notice of Annual General Meeting/Proxy Form",
           "called": "neutral",
@@ -7551,6 +7544,13 @@
           "headline": "Letter to Shareholders - Notice of AGM",
           "called": "bearish",
           "abnormal_pct": 10.39
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "VR8",
+          "headline": "Notice of Annual General Meeting/Proxy Form/Notice of Access",
+          "called": "neutral",
+          "abnormal_pct": 20.38
         }
       ]
     },
@@ -7559,18 +7559,11 @@
       "trigger": "Market-sensitive quarterly report at a stock with zero recorded volume (0.0x ratio) and near-zero or zero median daily turnover, where the filing is the primary periodic operational update",
       "rule": "When a quarterly report is flagged market sensitive at a completely dormant, zero-liquidity stock, the flag is the dominant signal — the company has judged the content price-relevant, and in a register with no active sellers the asymmetry favours a relief-buying response to any non-catastrophic disclosure; lean neutral-to-bullish rather than neutral, because L016's zero-volume logic (no motivated sellers) combines with the market-sensitive flag to create asymmetric upside.",
       "created": "2026-10-20",
-      "last_seen": "2026-10-26",
-      "times_seen": 11,
+      "last_seen": "2026-10-27",
+      "times_seen": 12,
       "examples": [
         {
           "date": "2026-10-26",
-          "ticker": "VMC",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": 10.94
-        },
-        {
-          "date": "2026-10-26",
           "ticker": "VKA",
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
@@ -7596,6 +7589,13 @@
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 10.94
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "1CG",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "bearish",
+          "abnormal_pct": 13.83
         }
       ]
     },
@@ -7911,23 +7911,9 @@
       "trigger": "Market-sensitive combined quarterly activities and cashflow report at a junior with 60%+ de-rating and near-zero absolute liquidity, where the cashflow component introduces going-concern or runway risk that the activities component cannot offset",
       "rule": "A combined activities-and-cashflow quarterly flagged market sensitive at a deeply de-rated, near-zero-liquidity junior is not symmetric — the cashflow component introduces a hard negative asymmetry (going-concern qualification, sub-two-quarter runway) that the activities component rarely offsets; lean bearish rather than neutral when the stock is 60%+ below its high, liquidity is near-zero, and the quarterly bundles both operational and financial data under a market-sensitive flag, because the financial data is the dominant risk and the flag confirms the quantum is material.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-26",
-      "times_seen": 12,
+      "last_seen": "2026-10-27",
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-10-26",
-          "ticker": "MAY",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": -25.17
-        },
-        {
-          "date": "2026-10-26",
-          "ticker": "MHM",
-          "headline": "September 2026 Quarterly Activities & Cashflow Report",
-          "called": "neutral",
-          "abnormal_pct": -10.17
-        },
         {
           "date": "2026-10-26",
           "ticker": "MAY",
@@ -7948,6 +7934,20 @@
           "headline": "September 2026 Quarterly Activities & Cashflow Report",
           "called": "neutral",
           "abnormal_pct": -10.17
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "ERL",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 19.54
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "AUQ",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -15.66
         }
       ]
     },
@@ -8070,16 +8070,9 @@
       "trigger": "Results of Meeting filing (not AGM results — a named EGM or general meeting result) at a stock where no price action data is available and no market-sensitive flag is present, where contested or capital-authority resolutions were plausibly on the agenda",
       "rule": "Before calling neutral on a Results of Meeting filing, check whether the underlying notice of meeting (which should be identifiable from prior filings) contained capital-authority resolutions (placement capacity, share consolidation, name change) — if contested or materially dilutive resolutions were on the agenda, a failed resolution is bearish and a passed resolution enables near-term supply; when no price action data is available and capital resolutions were plausibly on the agenda, default to bearish rather than neutral, because the base rate for Results of Meeting filings containing value-relevant outcomes (passed dilution authority or failed critical resolution) is higher than the neutral default assumes.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-26",
-      "times_seen": 7,
+      "last_seen": "2026-10-27",
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-10-22",
-          "ticker": "KLV",
-          "headline": "Results of Meeting",
-          "called": "neutral",
-          "abnormal_pct": -8.5
-        },
         {
           "date": "2026-10-22",
           "ticker": "KLV",
@@ -8107,6 +8100,13 @@
           "headline": "Notice of General Meeting/Letter to Shareholders/Proxy Form",
           "called": "neutral",
           "abnormal_pct": -10.17
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "GRS",
+          "headline": "Results of Meeting",
+          "called": "neutral",
+          "abnormal_pct": -14.13
         }
       ]
     },
@@ -8187,8 +8187,8 @@
       "trigger": "Market-sensitive investor presentation filed on the same day as a quarterly cashflow report (4C) by a clinical-stage or pre-revenue biotech at a 12-month low, where the presentation is the narrative companion to the 4C rather than a standalone strategic update",
       "rule": "When a market-sensitive investor presentation and a quarterly cashflow report are filed simultaneously, treat the 4C as the dominant document — the presentation is the spin layer and the cashflow is the hard data; do not call neutral on the presentation in isolation when the companion 4C introduces going-concern or runway risk that the presentation cannot offset, and lean bearish when the 4C is the primary price-moving document.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "times_seen": 1,
+      "last_seen": "2026-10-27",
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-22",
@@ -8196,6 +8196,13 @@
           "headline": "Q1 FY27 OCC Investor Presentation",
           "called": "neutral",
           "abnormal_pct": -12.07
+        },
+        {
+          "date": "2026-10-27",
+          "ticker": "BOT",
+          "headline": "Botanix Quarterly Activities Report and Appendix 4C Q1 FY27",
+          "called": "neutral",
+          "abnormal_pct": -15.84
         }
       ]
     },
@@ -8532,7 +8539,75 @@
           "abnormal_pct": -20.17
         }
       ]
+    },
+    {
+      "id": "L217",
+      "trigger": "Named asset divestment (with disclosed headline consideration up to a stated maximum plus a royalty) flagged market sensitive at a deeply de-rated junior (50%+ below 12-month high) with suppressed pre-announcement volume (<0.5x average), where the divested asset is a non-core or geographically distinct project and the seller retains a royalty stream",
+      "rule": "A market-sensitive asset sale with a disclosed headline consideration (even if contingent) plus a retained NSR royalty is categorically different from L007's undisclosed-terms distress-signal — the disclosed maximum consideration and the retained royalty stream together signal managed strategic rationalisation with ongoing upside participation; lean bullish rather than neutral when both elements are present, the filing is market-sensitive, and pre-announcement volume is suppressed (no crowded long to unwind), because the combination of cash proceeds and retained royalty at a deeply de-rated stock creates asymmetric upside the neutral call misses.",
+      "created": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-27",
+          "ticker": "DM1",
+          "headline": "Sale of Tengrela Project for up to A$5 million and 1% NSR",
+          "called": "neutral",
+          "abnormal_pct": 28.12
+        }
+      ]
+    },
+    {
+      "id": "L218",
+      "trigger": "Results of General Meeting (EGM or GM, not AGM) filing at a stock at a 12-month low with near-zero absolute liquidity and no market-sensitive flag, where the meeting agenda plausibly included capital-structure or strategic resolutions",
+      "rule": "Apply L201's logic to GM results at 12-month lows: before calling neutral, check whether the underlying notice of meeting contained capital-authority or strategic resolutions (consolidation, name change, placement ratification); if such resolutions were on the agenda and the stock is at its lowest price with near-zero liquidity, the passage of a strategic resolution is the re-rating catalyst a disengaged register was waiting for — lean neutral-to-bullish rather than neutral when the meeting agenda was substantively strategic rather than purely procedural.",
+      "created": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-27",
+          "ticker": "ATT",
+          "headline": "Results of 2026 General Meeting",
+          "called": "neutral",
+          "abnormal_pct": 24.54
+        }
+      ]
+    },
+    {
+      "id": "L219",
+      "trigger": "Market-sensitive geological mapping result ('thick clays mapped', 'clay horizon confirmed') at a junior HREE or ionic-adsorption-clay explorer where no price action data is available, where confirmation of the correct host lithology is the de-risking milestone but no resource tonnage, grade, or drill plan accompanies it",
+      "rule": "Confirming host lithology (clay thickness, clay type) is a necessary-but-not-sufficient de-risking step for ionic-adsorption HREE projects — apply L135's mineralogical-confirmation logic by analogy and default to neutral rather than bullish when no resource tonnage, grade, or drill start date accompanies the mapping result, because the market will immediately ask 'how much?' and the filing cannot answer.",
+      "created": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-27",
+          "ticker": "ALV",
+          "headline": "Thick Clays Mapped at Boa Vista Bluebush HREE Project",
+          "called": "bullish",
+          "abnormal_pct": -21.39
+        }
+      ]
+    },
+    {
+      "id": "L220",
+      "trigger": "Market-sensitive quarterly activities and cashflow report at a stock near a multi-month high (within 5% of its 3-month high) with deeply suppressed pre-announcement volume (<0.3x average) and near-zero absolute liquidity, where the quarterly is the primary periodic operational update for a small energy or resources company",
+      "rule": "When a market-sensitive quarterly lands at a stock near its recent high with deeply suppressed volume, the market has not pre-positioned for a positive surprise — the stock's proximity to its high means the quarterly must substantively beat implied expectations or the tape will pull back from holders who ran the stock in anticipation; lean bearish rather than neutral when the stock is near a recent high, volume is deeply suppressed, and the quarterly headline names no specific positive milestone, because the absence of pre-announcement accumulation combined with an extended price level creates asymmetric downside if the content merely confirms the status quo.",
+      "created": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-27",
+          "ticker": "SER",
+          "headline": "September 2026 Quarterly Activities & Cashflow Report",
+          "called": "neutral",
+          "abnormal_pct": -12.96
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-10-26"
+  "last_reflected": "2026-10-27"
 }
