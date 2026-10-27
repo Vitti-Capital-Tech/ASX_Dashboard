@@ -1,9 +1,435 @@
 {
   "date": "2026-10-28",
-  "total": 363,
-  "market_sensitive_count": 181,
-  "generated_at": "2026-10-27T23:24:44.585225+00:00",
+  "total": 372,
+  "market_sensitive_count": 183,
+  "generated_at": "2026-10-27T23:31:53.422114+00:00",
   "announcements": [
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-10-27T23:28:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154327-2A1706610",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Applying lesson L151: this is a non-flagged AGM notice at a stock 51.67% below its 12-month high, with pre-announcement volume deeply suppressed at 0.3x average — that combination of distress and disengaged register is structurally bearish under the lesson framework, as the AGM creates no near-term catalyst and the silent tape signals no informed buying.",
+        "At median daily turnover of only A$635/day the register is near-dormant; the 0.3x volume ratio is close to but not quite the <0.3x threshold for the most bearish read under L151, making this a borderline case — but the 51%+ de-rating and non-flagged procedural nature of the filing together still lean toward a negative or indifferent market response.",
+        "Key AGM risk flags to monitor: any resolutions involving new share issuance, option grants, or ratification of prior placements — these are the most likely sources of selling pressure at a distressed AGM where the register has no demonstrated conviction, and institutional holders may use the meeting as an exit catalyst."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.87,
+        "market_cap_aud": 4193985.51,
+        "shares_outstanding": 4820673,
+        "beta": 0.022,
+        "rsi_14": 45.93,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 0.82,
+        "avg_turnover_aud": 635,
+        "liquid": false,
+        "avg_volume_20": 9001,
+        "volume_change_pct": -18.0,
+        "pct_from_3m_high": -13.86,
+        "pct_from_3m_low": 117.5,
+        "pct_from_6m_high": -37.86,
+        "pct_from_6m_low": 117.5,
+        "pct_from_52w_high": -51.67,
+        "pct_from_52w_low": 117.5,
+        "high_52w": 1.8,
+        "low_52w": 0.4,
+        "high_3m": 1.01,
+        "low_3m": 0.4,
+        "high_6m": 1.4,
+        "low_6m": 0.4,
+        "month1_high": 1.01,
+        "month1_low": 0.81,
+        "month2_high": 1.0,
+        "month2_low": 0.8,
+        "month3_high": 1.0,
+        "month3_low": 0.4,
+        "range_position_3m": 0.77,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average",
+          "51.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$635/day",
+        "reading": [
+          "Going into this, ID8 traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the upper part of its 3-month range, 13.86% below the high of that period.",
+          "Treat all of that with care: it trades about A$635 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AFA",
+      "company": "ASF GROUP LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-10-27T23:28:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154326-2A1706609",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive Appendix 4C at a 12-month low with 3.21x volume surge is the most consequential signal here — but at near-zero median daily turnover (A$0/day), those volume ratios are close to meaningless in absolute terms; a handful of trades can spike the ratio on a near-dormant register.",
+        "The market-sensitive flag on a quarterly cash flow report typically signals a material burn-rate revelation, going-concern disclosure, or significant receipts movement — at a 12-month low, the base case is that the market already fears bad news, meaning a genuinely catastrophic cash position is partially priced, but any positive cash flow surprise (receipts beat, cost reduction) could disproportionately re-rate the stock.",
+        "Key watch items: cash runway (quarters of funding remaining), customer receipts trajectory, and any going-concern note — if runway is under two quarters with no disclosed raise pipeline, the stock is likely to extend its lows regardless of the volume spike into the announcement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.04,
+        "market_cap_aud": 31673303.04,
+        "shares_outstanding": 791832576,
+        "beta": 0.278,
+        "rsi_14": 0.69,
+        "volume_trend_ratio": 3.21,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 588,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -42.86,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -42.86,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -88.57,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.35,
+        "low_52w": 0.04,
+        "high_3m": 0.07,
+        "low_3m": 0.04,
+        "high_6m": 0.07,
+        "low_6m": 0.04,
+        "month1_high": 0.047,
+        "month1_low": 0.04,
+        "month2_high": 0.06,
+        "month2_low": 0.047,
+        "month3_high": 0.07,
+        "month3_low": 0.06,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 3.21x its 20-day average",
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, AFA traded 3.21x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close, before this announcement was public.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Notification of cessation of securities - PCG",
+      "time": "2026-10-27T23:27:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154325-2A1706608",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Applying lesson L017: a cessation of securities filing (options or performance rights lapsing) at Pengana Capital Group, which is only 3.98% off its 3-month high — importantly, this is not a distressed stock, making the register-cleaning read more straightforwardly neutral rather than modestly constructive.",
+        "The cessation removes a future dilution overhang without cash outflow, which is a minor positive for existing holders — but at a stock near a multi-month high with below-average volume (0.26x, though near-zero absolute liquidity at A$7,837/day makes the ratio unreliable), there is no evidence of positioning ahead of this filing, suggesting it is genuinely procedural.",
+        "For Pengana as a listed fund manager, options or performance rights lapsing may also carry a secondary signal about staff retention or performance hurdles not being met — if the cessation relates to senior investment staff failing to meet performance conditions, that is a soft negative for AUM growth expectations, but requires the filing body to confirm."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.845,
+        "market_cap_aud": 81950848.78,
+        "shares_outstanding": 96983253,
+        "beta": 0.133,
+        "rsi_14": 75.02,
+        "volume_trend_ratio": 0.26,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 7837,
+        "liquid": false,
+        "avg_volume_20": 52259,
+        "volume_change_pct": -98.0,
+        "pct_from_3m_high": -3.98,
+        "pct_from_3m_low": 30.0,
+        "pct_from_6m_high": -16.34,
+        "pct_from_6m_low": 30.0,
+        "pct_from_52w_high": -16.34,
+        "pct_from_52w_low": 30.0,
+        "high_52w": 1.01,
+        "low_52w": 0.65,
+        "high_3m": 0.88,
+        "low_3m": 0.65,
+        "high_6m": 1.01,
+        "low_6m": 0.65,
+        "month1_high": 0.88,
+        "month1_low": 0.665,
+        "month2_high": 0.71,
+        "month2_low": 0.665,
+        "month3_high": 0.735,
+        "month3_low": 0.65,
+        "range_position_3m": 0.848,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.26x its average",
+          "3.98% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,837/day",
+        "reading": [
+          "Going into this, PCG traded only 0.26x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the upper part of its 3-month range, 3.98% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,837 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IME",
+      "company": "IMEXHS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-10-27T23:27:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154324-3A705185",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Zero pre-announcement volume on a thinly traded stock (median A$0/day) renders any volume-based signal entirely uninformative — the register is effectively dormant and there is no market-moving positioning to read into this filing.",
+        "A market-sensitive Appendix 4C from a health-technology SaaS company (IMEXHS provides cloud-based radiology and imaging software) with zero trading activity is an unusual pairing — the market-sensitive flag most likely reflects a material cash position update, either a meaningful improvement in recurring revenue or a deterioration requiring disclosure under continuous obligations.",
+        "With no price action to calibrate against and a completely silent tape, the filing must stand on its own content: focus on ARR/MRR growth, cash receipts from customers versus operating outflows, and whether the company has disclosed a funding need — a funded, growing SaaS at a zero-volume stock could represent deep mispricing, but the absence of any buyer activity is itself a risk signal."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.32,
+        "market_cap_aud": 17406627.84,
+        "shares_outstanding": 54395712,
+        "beta": -0.303,
+        "rsi_14": 53.65,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 16243,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -9.86,
+        "pct_from_3m_low": 14.29,
+        "pct_from_6m_high": -20.99,
+        "pct_from_6m_low": 16.36,
+        "pct_from_52w_high": -31.91,
+        "pct_from_52w_low": 30.61,
+        "high_52w": 0.47,
+        "low_52w": 0.245,
+        "high_3m": 0.355,
+        "low_3m": 0.28,
+        "high_6m": 0.405,
+        "low_6m": 0.275,
+        "month1_high": 0.34,
+        "month1_low": 0.3,
+        "month2_high": 0.355,
+        "month2_low": 0.28,
+        "month3_high": 0.35,
+        "month3_low": 0.305,
+        "range_position_3m": 0.533,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, IME traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the middle part of its 3-month range, 9.86% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Waiver disclosure statement",
+      "time": "2026-10-27T23:26:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154323-2A1706607",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Waiver disclosure statement' from SH1 is a structured finance or debt instrument administrative filing — SH1 appears to be a structured product or note issuer on ASX, and waiver disclosures relate to conditions precedent or covenant waivers in a trust or security deed.",
+        "No price action data is available for this filing, and the non-market-sensitive flag confirms this is a procedural compliance document — the waiver itself may relate to a technical breach or modification of terms in a note or security programme, but without issuer financials in scope, this has no direct equity sentiment implication.",
+        "Investors in SH1-linked structured products should review the waiver terms for any modification of repayment conditions, interest deferral, or security ranking changes — those would be material to noteholder value even if not flagged as market sensitive."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Series Notice",
+      "time": "2026-10-27T23:25:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154322-2A1706606",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Series Notice' from SH1 is a standard structured product disclosure — it formally establishes the terms of a new series of notes, securities, or certificates under a master programme, and is an administrative document required by ASX Listing Rules for structured product issuers.",
+        "No price action data is available, and the non-market-sensitive flag is consistent with the routine nature of programme issuance documentation — this filing has no directional implication for any underlying equity or the issuer's financial position.",
+        "The relevant 'so what' for sophisticated investors is whether the series notice establishes a new product with novel underlying exposure or modified terms — if it introduces leverage, new asset class exposure, or modified capital protection features, that warrants review of the series-specific term sheet rather than the filing headline alone."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Security Trust Deed",
+      "time": "2026-10-27T23:23:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154321-2A1706605",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Security Trust Deed' filing by SH1 is foundational legal infrastructure for a structured product programme — it establishes the trust framework under which noteholders hold security interests over assets, and is a prerequisite for programme establishment or amendment.",
+        "No price action data is available and the non-market-sensitive designation is appropriate — this is a legal document lodgement with no operational or financial content that would move a price; it is analogous to a constitution or deed of establishment filing.",
+        "The relevant read for institutional investors in SH1 products is whether this deed is a new filing (indicating a new programme or restructure) or a re-lodgement of an existing deed — a new deed could signal programme expansion or a change in trustee/custodian, which has counterparty risk implications for existing noteholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXL",
+      "company": "ELIXINOL WELLNESS LIMITED",
+      "headline": "The Healthy Chef Targets Creatine & Womens Wellness Market",
+      "time": "2026-10-27T23:23:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154320-3A705184",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A non-flagged product launch announcement from Elixinol's 'The Healthy Chef' brand targeting creatine and women's wellness — at 68.18% below its 12-month high with volume at 0.48x average (though near-zero absolute liquidity at A$980/day makes the ratio unreliable), this is a deeply de-rated stock with a disengaged register and no evidence of informed positioning.",
+        "Creatine has genuine clinical backing for women's wellness (muscle retention, cognitive function), making this a credible category entry rather than a pure trend-chase — however, the wellness supplement market is intensely competitive and Elixinol's core CBD/hemp business has been under sustained pressure, so a sub-brand product launch without disclosed revenue projections or distribution agreements is insufficient to shift the fundamental narrative.",
+        "The absence of a market-sensitive flag, specific revenue figures, or named retail/distribution partners means this announcement is awareness-building rather than catalyst-grade — it reads as investor relations content at a distressed stock, and without evidence of commercial traction (purchase orders, channel listings), the filing is unlikely to attract meaningful buying from institutional holders."
+      ],
+      "tags": [
+        "Retail",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-10-27",
+        "bars": 254,
+        "last_close": 0.007,
+        "market_cap_aud": 3178785.2,
+        "shares_outstanding": 454112171,
+        "beta": -0.798,
+        "rsi_14": 49.83,
+        "volume_trend_ratio": 0.48,
+        "volume_last_ratio": 1.4,
+        "avg_turnover_aud": 980,
+        "liquid": false,
+        "avg_volume_20": 308481,
+        "volume_change_pct": 40.0,
+        "pct_from_3m_high": -12.5,
+        "pct_from_3m_low": 16.67,
+        "pct_from_6m_high": -68.18,
+        "pct_from_6m_low": 16.67,
+        "pct_from_52w_high": -68.18,
+        "pct_from_52w_low": 16.67,
+        "high_52w": 0.022,
+        "low_52w": 0.006,
+        "high_3m": 0.008,
+        "low_3m": 0.006,
+        "high_6m": 0.022,
+        "low_6m": 0.006,
+        "month1_high": 0.008,
+        "month1_low": 0.006,
+        "month2_high": 0.008,
+        "month2_low": 0.007,
+        "month3_high": 0.007,
+        "month3_low": 0.006,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.48x its average",
+          "68.18% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$980/day",
+        "reading": [
+          "Going into this, EXL traded only 0.48x its usual daily volume over the last 5 sessions — measured to the 2026-10-27 close.",
+          "The price sat in the middle part of its 3-month range, 12.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$980 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SH1",
+      "company": "SH1",
+      "headline": "Master Trust Deed",
+      "time": "2026-10-27T23:22:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03154319-2A1706603",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Master Trust Deed' filing by SH1 is the foundational document for a structured product or note issuance programme — it governs the overarching trust relationship between the issuer, trustee, and security holders across all series issued under the programme.",
+        "No price action data is available and the non-market-sensitive flag is entirely appropriate — master trust deed lodgements are legal compliance filings with no earnings, cash flow, or operational content that would generate a directional price move.",
+        "Taken together with the concurrent Series Notice, Waiver Disclosure Statement, and Security Trust Deed filings on the same day, this cluster of SH1 documents suggests the establishment or restructuring of a structured product programme — institutional investors should read the suite of documents together to assess whether a new note series is being launched, an existing programme is being amended, or a trustee substitution is occurring."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SH1",
       "company": "SH1",
