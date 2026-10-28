@@ -1,9 +1,167 @@
 {
   "date": "2026-10-29",
-  "total": 406,
-  "market_sensitive_count": 225,
-  "generated_at": "2026-10-28T23:45:43.060867+00:00",
+  "total": 409,
+  "market_sensitive_count": 228,
+  "generated_at": "2026-10-28T23:52:45.400008+00:00",
   "announcements": [
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Pause in Trading",
+      "time": "2026-10-28T23:46:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03155087-6A1352327",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Pause in Trading' market update is the strongest possible short-term negative signal — it is typically filed at the company's request immediately preceding a material announcement the market cannot yet absorb, such as a capital raise, asset sale, regulatory action, or restructuring event; the market-sensitive flag confirms the pending disclosure is price-moving.",
+        "The critical unknown is the direction of the catalyst behind the halt: CLA operates the Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines, a jurisdiction with permitting and political risk, so the pending news could range from a funding update or offtake deal (constructive) to a permit suspension or financing failure (destructive) — investors have no information edge until the halt lifts.",
+        "Standard ASX protocol requires the company to release the underlying announcement within two trading sessions; until that filing hits, position-holders are locked and the stock cannot be traded — the appropriate posture is to wait for the substantive disclosure before forming a directional view, as the halt itself carries no signal on direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Quarterly Activities Report - 30 Sept 2026",
+      "time": "2026-10-28T23:45:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03155086-6A1352326",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A market-sensitive quarterly activities report at a 12-month low with volume running at 1.65x the 20-day average is a meaningful combination — the market-sensitive flag confirms management regards the content as price-moving, but at a 12-month low the stock is already pricing considerable deterioration, creating asymmetric upside if the report is operationally stable or better; however, lesson L197 cautions that for deeply de-rated juniors, the cashflow component can introduce going-concern risk that dominates the activities narrative.",
+        "With median daily turnover of approximately A$13,201/day, AM5 sits at the extreme low end of liquidity — while volume is running elevated at 1.65x average, in absolute dollar terms this still represents a very thin tape, meaning the volume ratio should be treated as a weak signal rather than a reliable indicator of informed accumulation or distribution; price reaction will be highly sensitive to the substance of the cashflow section.",
+        "The key variables institutional investors should extract from the filing are: cash and equivalents at 30 September, quarterly cash outflows, and implied runway in quarters — if runway is sub-two-quarters or a capital raise is flagged as imminent, the market-sensitive flag is most likely a going-concern warning and the bearish case dominates; if runway is adequate and operational milestones were achieved, the depressed price offers a floor-setting read."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-10-28",
+        "bars": 254,
+        "last_close": 0.004,
+        "market_cap_aud": 4280514.49,
+        "shares_outstanding": 1070128622,
+        "beta": 1.849,
+        "rsi_14": 32.96,
+        "volume_trend_ratio": 1.65,
+        "volume_last_ratio": 1.56,
+        "avg_turnover_aud": 13201,
+        "liquid": false,
+        "avg_volume_20": 3792222,
+        "volume_change_pct": 56.0,
+        "pct_from_3m_high": -50.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -50.0,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -66.67,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.012,
+        "low_52w": 0.004,
+        "high_3m": 0.008,
+        "low_3m": 0.004,
+        "high_6m": 0.008,
+        "low_6m": 0.004,
+        "month1_high": 0.007,
+        "month1_low": 0.004,
+        "month2_high": 0.0065,
+        "month2_low": 0.004,
+        "month3_high": 0.008,
+        "month3_low": 0.0055,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.65x its 20-day average",
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$13,201/day",
+        "reading": [
+          "Going into this, AM5 traded 1.65x its usual daily volume over the last 5 sessions — measured to the 2026-10-28 close, before this announcement was public.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$13,201 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AVA",
+      "company": "AVA RISK GROUP LIMITED",
+      "headline": "Annual General Meeting - Addresses and Presentation",
+      "time": "2026-10-28T23:42:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03155085-3A705308",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM address and presentation flagged market sensitive at a stock more than 55% below its 12-month high is noteworthy — the market-sensitive flag signals management is disclosing something beyond boilerplate AGM rhetoric, most likely a trading update, strategic pivot, material contract, or capital plans; at this level of de-rating, the bar for a positive re-rating catalyst is low, but the flag alone does not confirm direction.",
+        "With median daily turnover of approximately A$1,031/day, AVA Risk Group sits at near-zero absolute liquidity — the thinly traded designation means any volume signals are essentially meaningless, and even a modest institutional order could move the stock materially in either direction; price action post-release will be driven almost entirely by the content of the presentation rather than pre-positioning.",
+        "AVA operates in physical security technology (perimeter intrusion detection and asset monitoring), a sector with defence and critical infrastructure tailwinds — if the AGM presentation includes a revenue or contract update that demonstrates operational momentum, the combination of a market-sensitive flag and a deeply de-rated price creates genuine asymmetric upside; conversely, if the flag relates to a capital raise or earnings downgrade, the illiquid tape amplifies downside risk."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-10-28",
+        "bars": 254,
+        "last_close": 0.041,
+        "market_cap_aud": 11935062.36,
+        "shares_outstanding": 291099082,
+        "beta": 0.718,
+        "rsi_14": 45.85,
+        "volume_trend_ratio": 1.4,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1031,
+        "liquid": false,
+        "avg_volume_20": 73450,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -18.0,
+        "pct_from_3m_low": 5.13,
+        "pct_from_6m_high": -31.67,
+        "pct_from_6m_low": 32.26,
+        "pct_from_52w_high": -55.43,
+        "pct_from_52w_low": 32.26,
+        "high_52w": 0.092,
+        "low_52w": 0.031,
+        "high_3m": 0.05,
+        "low_3m": 0.039,
+        "high_6m": 0.06,
+        "low_6m": 0.031,
+        "month1_high": 0.048,
+        "month1_low": 0.04,
+        "month2_high": 0.045,
+        "month2_low": 0.039,
+        "month3_high": 0.05,
+        "month3_low": 0.04,
+        "range_position_3m": 0.182,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "55.43% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,031/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-10-28 close.",
+          "The price sat in the lower part of its 3-month range, 18.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,031 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EUR",
       "company": "EUROPEAN LITHIUM LIMITED",
