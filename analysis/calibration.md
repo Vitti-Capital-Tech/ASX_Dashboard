@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5651 graded calls
+- Window: last 20 trading days, 5626 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-27T10:48:52.053662+00:00
+- Generated: 2026-10-28T06:49:54.830537+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **54%** correct on 1159 graded calls.
+Directional calls (bullish/bearish): **54.2%** correct on 1208 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 741 | 55.3% |
-| bearish | 418 | 51.7% |
+| bullish | 753 | 56.6% |
+| bearish | 455 | 50.3% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **57%** of the time (n=3780). Every graded announcement moved 59% of the time.
+Stocks called neutral moved 1% or more anyway **58%** of the time (n=3700). Every graded announcement moved 59.9% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 636 | 55.3% |
-| Not flagged | 523 | 52.4% |
+| Market sensitive | 663 | 56.3% |
+| Not flagged | 545 | 51.7% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 844 | 54.3% |
-| Substantial Holding | 81 | 50.6% |
-| Annual General Meeting | 70 | 58.6% |
-| Quarterly Report | 52 | 48.1% |
-| Results | 39 | 56.4% |
+| Market Update | 862 | 54.4% |
+| Substantial Holding | 85 | 49.4% |
+| Annual General Meeting | 79 | 60.8% |
+| Quarterly Report | 69 | 49.3% |
+| Results | 39 | 59% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -53,8 +53,8 @@ than shown with a caveat. They will appear as the sample fills in.
 | --- | --- | ---: | --- |
 | ZIP | bullish | -29.5% | 1Q FY27 results update |
 | ZNO | bearish | +28.5% | Quarterly Activities/Appendix 4C Cash Flow Report |
+| SGA | bearish | +28.1% | IMARC Revised Investor Presentation |
 | POL | bullish | -26.3% | UML Development commences |
-| BC8 | bullish | -25.7% | FY27 Guidance & Outlook |
 | 1AD | bullish | -25.4% | RDTI receipt, Advanced Overseas Finding |
 
 Moves beyond ±30% are excluded from this list. At that size the
