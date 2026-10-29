@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5684 graded calls
+- Window: last 20 trading days, 5730 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-28T10:42:04.701779+00:00
+- Generated: 2026-10-29T06:50:35.491265+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **54.3%** correct on 1209 graded calls.
+Directional calls (bullish/bearish): **54.9%** correct on 1214 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 754 | 56.6% |
-| bearish | 455 | 50.3% |
+| bullish | 728 | 55.8% |
+| bearish | 486 | 53.5% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **57.5%** of the time (n=3730). Every graded announcement moved 59.3% of the time.
+Stocks called neutral moved 1% or more anyway **57.1%** of the time (n=3740). Every graded announcement moved 58.8% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 663 | 56.3% |
-| Not flagged | 546 | 51.8% |
+| Market sensitive | 689 | 56.5% |
+| Not flagged | 525 | 52.8% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 863 | 54.5% |
-| Substantial Holding | 85 | 49.4% |
-| Annual General Meeting | 79 | 60.8% |
-| Quarterly Report | 69 | 49.3% |
-| Results | 39 | 59% |
+| Market Update | 826 | 54.7% |
+| Quarterly Report | 116 | 54.3% |
+| Annual General Meeting | 85 | 62.4% |
+| Substantial Holding | 84 | 48.8% |
+| Results | 40 | 57.5% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
