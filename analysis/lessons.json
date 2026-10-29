@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T07:42:24.385855+00:00",
+  "updated_at": "2026-10-29T08:45:20.693926+00:00",
   "next_id": 242,
   "lessons": [
     {
@@ -2313,15 +2313,8 @@
       "rule": "A name-change resolution in an AGM notice at a deeply de-rated micro-cap is a leading indicator of a strategic pivot (new commodity, new geography, or post-restructure rebrand) that often precedes an operational announcement or capital raise; do not treat as purely administrative — lean neutral-to-bullish rather than neutral, because the name change signals management has already decided on a new direction and the AGM is the formal gate for executing it.",
       "created": "2026-09-21",
       "last_seen": "2026-10-29",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
-        {
-          "date": "2026-10-01",
-          "ticker": "CCE",
-          "headline": "2026 AGM Key Dates",
-          "called": "neutral",
-          "abnormal_pct": 7.55
-        },
         {
           "date": "2026-10-19",
           "ticker": "DWG",
@@ -2335,6 +2328,13 @@
           "headline": "Notice of Annual General Meeting and Proxy Form",
           "called": "bearish",
           "abnormal_pct": 12.83
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "AUZ",
+          "headline": "Australian Mines Proposes Name Change to First Scandium",
+          "called": "neutral",
+          "abnormal_pct": 28.66
         },
         {
           "date": "2026-10-29",
@@ -4295,7 +4295,7 @@
       "rule": "Before calling bullish on a scoping study at a de-rated junior, ask whether the commodity price used in the study's base-case NPV is consistent with the prevailing spot price — scoping studies use a fixed commodity price assumption that may be materially above current spot, which means the disclosed NPV overstates real-world project economics at the time of announcement and the market will immediately haircut the headline number; if the commodity is in a known adverse price trend, default to neutral rather than bullish on a scoping study result, because the NPV-to-market-cap re-rating logic depends on the commodity price assumption being credible.",
       "created": "2026-09-29",
       "last_seen": "2026-10-29",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
           "date": "2026-10-05",
@@ -4312,11 +4312,11 @@
           "abnormal_pct": -6.61
         },
         {
-          "date": "2026-10-05",
-          "ticker": "VR8",
-          "headline": "V-Iron Plant Scoping Study Supports Progression to DFS",
+          "date": "2026-10-29",
+          "ticker": "AHK",
+          "headline": "Sandy Mitchell Rare Earths Scoping Study - A$883M NPV",
           "called": "bullish",
-          "abnormal_pct": -6.61
+          "abnormal_pct": -12.78
         },
         {
           "date": "2026-10-29",
@@ -5059,7 +5059,7 @@
       "rule": "A CEO transition at a revenue-generating technology or financial services company with a known growth or M&A strategy is not uniformly bearish — the incoming CEO may signal acceleration of the strategic agenda or a positive reset of management credibility; before defaulting to bearish on any CEO transition, ask whether the company is profitable and strategically active, because the base rate for positive market reactions to CEO changes at growing, profitable companies is materially higher than at distressed or operationally challenged companies; default to neutral rather than bearish when the company is operationally sound and the transition is framed as planned rather than forced.",
       "created": "2026-10-02",
       "last_seen": "2026-10-29",
-      "times_seen": 13,
+      "times_seen": 14,
       "examples": [
         {
           "date": "2026-10-21",
@@ -5076,11 +5076,11 @@
           "abnormal_pct": 12.66
         },
         {
-          "date": "2026-10-21",
-          "ticker": "NTD",
-          "headline": "Appointment of Chief Operating and Financial Officer",
+          "date": "2026-10-29",
+          "ticker": "MAD",
+          "headline": "Chief Financial Officer Transition",
           "called": "neutral",
-          "abnormal_pct": 12.66
+          "abnormal_pct": -11.22
         },
         {
           "date": "2026-10-29",
@@ -6445,7 +6445,7 @@
       "rule": "A custodian bank crossing the 5% threshold is almost always a passive aggregation of client positions rather than a discretionary investment decision — do not apply L029's bullish prior to custodian-bank substantial-holder filings; default to neutral, because the 'becoming' language reflects administrative threshold-crossing by a nominee structure rather than informed accumulation, and the market may actually read the filing as a signal that a prior raise has just settled and new supply is entering the register.",
       "created": "2026-10-13",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-10-13",
@@ -6453,6 +6453,13 @@
           "headline": "Becoming a substantial holder from MUFG",
           "called": "neutral",
           "abnormal_pct": -10.84
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "JRL",
+          "headline": "Initial Substantial Holder Notices",
+          "called": "bullish",
+          "abnormal_pct": -11.61
         },
         {
           "date": "2026-10-29",
@@ -8188,8 +8195,8 @@
       "trigger": "AGM combined with a named trading update, flagged market sensitive, at a deeply de-rated (>60% below 12-month high) consumer retail or services company with an identifiable institutional following, where the trading update is the substantive element and the stock's de-rating reflects operational deterioration already known to the market",
       "rule": "At a deeply de-rated retailer or services company, an AGM trading update flagged market sensitive is asymmetrically skewed toward a positive surprise relative to expectations already embedded in the price — the stock is pricing significant ongoing deterioration, so a trading update that merely confirms stabilisation or any improvement versus the implied bear case functions as a floor-setting catalyst; do not default to bearish purely because the vehicle is an AGM at a distressed stock; lean neutral-to-bullish when the trading update component is the named substantive element and the de-rating already prices a severe outcome.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "times_seen": 3,
+      "last_seen": "2026-10-29",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-10-22",
@@ -8211,6 +8218,13 @@
           "headline": "2026 Annual General Meeting and Trading Update",
           "called": "bearish",
           "abnormal_pct": 13.98
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "IDX",
+          "headline": "AGM - Chair & CEO Presentations",
+          "called": "neutral",
+          "abnormal_pct": -15.17
         }
       ]
     },
@@ -9109,7 +9123,7 @@
       "rule": "When context is entirely absent (no sector, no price position, no volume, no liquidity), do not apply L197's bearish default — L197 requires confirmed de-rating and near-zero liquidity to fire; without those conditions verified, the market-sensitive flag is the only signal and it is symmetric; call neutral and require at least one contextual anchor (de-rating level or sector) before leaning directional.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9117,6 +9131,20 @@
           "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": -21.22
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "JNS",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -21.22
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "REC",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 17.68
         },
         {
           "date": "2026-10-29",
@@ -9140,7 +9168,7 @@
       "rule": "L197's bearish default was built for junior mineral explorers where the cashflow component dominates and the activities section cannot offset it; when the company has any commercial revenue, named product, or technology application, the activities component may contain a revenue or contract milestone that is the actual market-moving event; do not apply L197 mechanically to non-explorer micro-caps at 12-month lows with elevated volume — default to neutral rather than bearish, and reserve bearish for confirmed going-concern language in the filing body.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9148,6 +9176,13 @@
           "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
           "called": "bearish",
           "abnormal_pct": 20.93
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "IOV",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 15.97
         },
         {
           "date": "2026-10-29",
@@ -9162,6 +9197,13 @@
           "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 15.97
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "ADO",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "bearish",
+          "abnormal_pct": 13.78
         }
       ]
     },
@@ -9171,8 +9213,15 @@
       "rule": "When no sector, volume, or company context is available beyond a 12-month-low price position and near-zero liquidity, L197's bearish default should not be applied — the bearish inference requires knowing that the cashflow component dominates, which depends on the company being a cash-burning junior without revenue; absent that confirmation, call neutral and flag the 12-month low as the sole bearish anchor rather than applying L197 mechanically.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "PLC",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 19.5
+        },
         {
           "date": "2026-10-29",
           "ticker": "PLC",
@@ -9195,8 +9244,15 @@
       "rule": "A market-sensitive contract win with a disclosed dollar value is categorically different from L006's undisclosed-value contract win — the presence of a specific quantum removes the primary reason to default to neutral; when a dollar figure appears in the headline alongside a named product and named geography at a deeply de-rated stock with suppressed volume (no crowded long to unwind), lean bullish rather than neutral, because the disclosed value allows the market to size the earnings impact and the suppressed volume eliminates sell-the-news risk.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "EDE",
+          "headline": "Further A$475k South American order for EdenCrete Pz7",
+          "called": "neutral",
+          "abnormal_pct": 18.8
+        },
         {
           "date": "2026-10-29",
           "ticker": "EDE",
@@ -9219,8 +9275,15 @@
       "rule": "Before applying L197's bearish default to a gold or metals junior quarterly, ask whether the activities section likely contains a named exploration result (assay, resource) that would have been separately flagged if it were the primary catalyst — if no companion exploration result announcement was filed, the activities section may contain incremental positive news that the market treats as the operative signal; default to neutral rather than bearish when the quarterly is the sole filing and no companion exploration result accompanies it, because the activities positive may offset the cashflow negative at a stock already priced for maximum distress.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "KNB",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "bearish",
+          "abnormal_pct": 17.14
+        },
         {
           "date": "2026-10-29",
           "ticker": "KNB",
@@ -9243,7 +9306,7 @@
       "rule": "For critical-minerals companies with identified government-strategic significance, a market-sensitive quarterly at a deeply de-rated price carries asymmetric upside — the activities component may contain a policy, funding, or offtake update that dwarfs the cashflow risk; do not apply L197's bearish default to critical-minerals companies with named government relationships; default to neutral and require body-level confirmation of a cashflow crisis before leaning bearish, because the funded-catalyst pipeline from government relationships is the dominant narrative at these de-rating levels.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9251,6 +9314,20 @@
           "headline": "September 2026 Quarterly Report",
           "called": "neutral",
           "abnormal_pct": 16.16
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "IPX",
+          "headline": "September 2026 Quarterly Report",
+          "called": "neutral",
+          "abnormal_pct": 16.16
+        },
+        {
+          "date": "2026-10-29",
+          "ticker": "MSB",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 22.9
         },
         {
           "date": "2026-10-29",
@@ -9267,8 +9344,15 @@
       "rule": "An 'advances towards first production' headline at a deeply de-rated thematic-commodity micro-cap is categorically different from a generic project-update under L058 — it signals a discrete phase transition from development to production-revenue status that the market prices as a binary re-rating event; do not apply L058's neutral default when the headline names first production as the imminent milestone and the commodity is in an active thematic; lean neutral-to-bullish rather than neutral, because the production-commencement narrative at a stock priced for near-zero recovery creates asymmetric upside even without a confirmed first-output date.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "ANT",
+          "headline": "ANT Advances Towards First Antimony Concentrate Production",
+          "called": "neutral",
+          "abnormal_pct": 13.78
+        },
         {
           "date": "2026-10-29",
           "ticker": "ANT",
@@ -9291,8 +9375,15 @@
       "rule": "L197's bearish default was calibrated for generic distressed juniors; at uranium and thematic-sector juniors with extreme de-ratings (>75%) and near-zero absolute liquidity, even a small positive activities disclosure (permit progress, drill start, policy update) can produce a disproportionate price response against a near-zero bid; do not apply L197 to uranium or active-thematic juniors at extreme de-ratings — default to neutral rather than bearish, and apply L050-style thematic logic: ask whether the sector is in an active re-rating cycle before concluding the cashflow risk dominates.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "GTI",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "bearish",
+          "abnormal_pct": 13.78
+        },
         {
           "date": "2026-10-29",
           "ticker": "GTI",
@@ -9315,8 +9406,15 @@
       "rule": "L197's bearish trigger requires the de-rating to be materially at or above 60% — at the boundary (58–62%), the cashflow-dominates-activities logic is not fully established, and suppressed volume (not elevated) removes the distribution-ahead-of-bad-news signal that reinforces L197; do not apply L197's bearish call when volume is suppressed and the de-rating is at the threshold boundary; default to neutral rather than bearish, reserving bearish for confirmed >65% de-ratings with elevated volume or explicit cashflow-crisis language.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "LRM",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "bearish",
+          "abnormal_pct": 12.83
+        },
         {
           "date": "2026-10-29",
           "ticker": "LRM",
@@ -9339,8 +9437,15 @@
       "rule": "When no price action, de-rating, or liquidity data is available to anchor the L109 or L001 frameworks, an ambiguous substantial-holder change at a junior metals company should be called bearish rather than neutral — the base rate for existing substantial holders filing a change notice at juniors is weighted toward partial exit (profit-taking or stop-loss) over accumulation, because holders who are increasing typically wait to cross a new 1% disclosure increment before filing, while reductions trigger mandatory disclosure immediately at any fractional change.",
       "created": "2026-10-29",
       "last_seen": "2026-10-29",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-10-29",
+          "ticker": "SKY",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -18.0
+        },
         {
           "date": "2026-10-29",
           "ticker": "SKY",
