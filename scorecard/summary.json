@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30T19:42:14.020622+11:00",
+  "generated_at": "2026-10-30T21:41:05.409874+11:00",
   "days_scored": 60,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 3341,
+      "scored": 3340,
       "correct": 1332,
-      "wrong": 903,
+      "wrong": 902,
       "flat": 1106,
       "hit_rate": 59.6,
       "avg_abnormal_pct": 1.65
@@ -30,17 +30,17 @@
     }
   },
   "spread_pct": 2.37,
-  "directional_hit_rate": 58.4,
-  "directional_scored": 3217,
+  "directional_hit_rate": 58.5,
+  "directional_scored": 3216,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 3341,
+        "scored": 3340,
         "correct": 913,
-        "wrong": 1162,
+        "wrong": 1161,
         "flat": 1266,
         "hit_rate": 44.0,
-        "avg_abnormal_pct": -0.24
+        "avg_abnormal_pct": -0.23
       },
       "bearish": {
         "scored": 1761,
@@ -59,9 +59,9 @@
         "avg_abnormal_pct": -0.15
       }
     },
-    "spread_pct": 0.3,
+    "spread_pct": 0.31,
     "directional_hit_rate": 48.5,
-    "directional_scored": 2916
+    "directional_scored": 2915
   },
   "by_document_type": [
     {
@@ -84,12 +84,12 @@
     },
     {
       "document_type": "Quarterly Report",
-      "scored": 200,
-      "hit_rate": 61.0,
-      "intraday_scored": 177,
-      "intraday_hit_rate": 55.4,
-      "intraday_avg_as_called": -0.07,
-      "avg_as_called": 0.75
+      "scored": 199,
+      "hit_rate": 61.3,
+      "intraday_scored": 176,
+      "intraday_hit_rate": 55.7,
+      "intraday_avg_as_called": -0.04,
+      "avg_as_called": 0.79
     },
     {
       "document_type": "Results",
@@ -639,11 +639,11 @@
     },
     {
       "date": "2026-10-30",
-      "hit_rate": 68.2,
-      "scored": 129,
-      "spread_pct": 1.66,
-      "intraday_hit_rate": 56.5,
-      "intraday_scored": 108
+      "hit_rate": 68.8,
+      "scored": 128,
+      "spread_pct": 1.85,
+      "intraday_hit_rate": 57.0,
+      "intraday_scored": 107
     }
   ]
 }
