@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T10:41:54.127939+00:00",
-  "next_id": 243,
+  "updated_at": "2026-10-30T06:50:07.790861+00:00",
+  "next_id": 245,
   "lessons": [
     {
       "id": "L001",
@@ -2447,17 +2447,10 @@
       "trigger": "Market-sensitive project-update announcement (titled '[Project Name] Update' with no specific milestone in the headline) at a stock at a multi-month low with thin liquidity and no volume data available",
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
-      "last_seen": "2026-10-26",
-      "times_seen": 33,
+      "last_seen": "2026-10-30",
+      "times_seen": 34,
       "examples": [
         {
-          "date": "2026-10-22",
-          "ticker": "EMA",
-          "headline": "Cote D Ivoire Strategic Gold Portfolio Investor Presentation",
-          "called": "neutral",
-          "abnormal_pct": -8.66
-        },
-        {
           "date": "2026-10-26",
           "ticker": "VR8",
           "headline": "VR8 Advances DFI Funding Preparation & DFS Workstreams",
@@ -2484,6 +2477,13 @@
           "headline": "VR8 Advances DFI Funding Preparation & DFS Workstreams",
           "called": "neutral",
           "abnormal_pct": -20.17
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "CLA",
+          "headline": "Corporate Update",
+          "called": "neutral",
+          "abnormal_pct": -25.18
         }
       ]
     },
@@ -3564,16 +3564,9 @@
       "trigger": "Institutional placement flagged market sensitive at a stock within 5% of a multi-month high with 5-day volume running >1.5x average, where the headline frames the raise as funding a named growth phase rather than generic working capital",
       "rule": "L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.",
       "created": "2026-09-25",
-      "last_seen": "2026-10-23",
-      "times_seen": 8,
+      "last_seen": "2026-10-30",
+      "times_seen": 9,
       "examples": [
-        {
-          "date": "2026-09-25",
-          "ticker": "MEK",
-          "headline": "Institutional Placement Funding The Next Phase of Growth",
-          "called": "bullish",
-          "abnormal_pct": -25.5
-        },
         {
           "date": "2026-10-02",
           "ticker": "CBE",
@@ -3601,6 +3594,13 @@
           "headline": "Cleansing Notice",
           "called": "bearish",
           "abnormal_pct": 8.8
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "CYM",
+          "headline": "Capital Raise Presentation",
+          "called": "bullish",
+          "abnormal_pct": -17.99
         }
       ]
     },
@@ -4377,23 +4377,9 @@
       "trigger": "Forward guidance announcement (FY guidance, production outlook) flagged market sensitive at a gold producer or operating miner with no price action data available, where the headline frames the filing as 'FY[X] Guidance & Outlook' rather than as a results beat or resource upgrade",
       "rule": "A guidance announcement is directionally ambiguous without knowing whether the disclosed numbers beat or miss prior consensus or management signals — 'guidance issued' is not the same as 'guidance beat'; before calling bullish on a guidance filing, require either (a) explicit beat language in the headline, (b) a disclosed metric that can be compared to a prior anchor, or (c) price action confirming the tape was not already positioned for positive news; when none of these are available, default to neutral rather than bullish, because disappointing guidance at an extended valuation is as probable as a beat and the downside is asymmetrically large.",
       "created": "2026-09-30",
-      "last_seen": "2026-10-28",
-      "times_seen": 12,
+      "last_seen": "2026-10-30",
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-10-15",
-          "ticker": "CIA",
-          "headline": "FY2027 Q2 Preliminary Results & Notice of Final Results",
-          "called": "neutral",
-          "abnormal_pct": -9.57
-        },
-        {
-          "date": "2026-10-22",
-          "ticker": "MFG",
-          "headline": "2026 AGM Chair and CEO Addresses and Presentation Slides",
-          "called": "neutral",
-          "abnormal_pct": -9.09
-        },
         {
           "date": "2026-10-23",
           "ticker": "ALK",
@@ -4414,6 +4400,20 @@
           "headline": "Quarterly Update and Outlook - September 2026",
           "called": "neutral",
           "abnormal_pct": 10.29
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "CYL",
+          "headline": "Quarterly Activities Report - September 2026",
+          "called": "bullish",
+          "abnormal_pct": -24.94
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "KCN",
+          "headline": "September 2026 Quarterly Report",
+          "called": "bullish",
+          "abnormal_pct": -12.88
         }
       ]
     },
@@ -5483,8 +5483,8 @@
       "trigger": "Cleansing notice for a share placement (no companion investor presentation visible) at a deeply de-rated micro-cap (60%+ below 12-month high), where a same-day application for quotation of securities is the only companion filing and no use-of-proceeds information is available",
       "rule": "Before calling bearish on a cleansing-notice-plus-quotation cluster at a distressed stock, check whether the quotation filing implies only a small raise quantum relative to the stock's implied market cap — if the raise is small and the stock is already severely de-rated, the market may read the completed raise as a funded-survival signal rather than a dilution event, and the correct call is neutral rather than bearish. L089's bearish default requires confirmed absence of any funded-catalyst signal; when the raise has already closed and the stock is priced for near-insolvency, the asymmetry may favour neutral.",
       "created": "2026-10-06",
-      "last_seen": "2026-10-23",
-      "times_seen": 18,
+      "last_seen": "2026-10-30",
+      "times_seen": 19,
       "examples": [
         {
           "date": "2026-10-23",
@@ -5495,13 +5495,6 @@
         },
         {
           "date": "2026-10-23",
-          "ticker": "TAL",
-          "headline": "Cleansing Statement",
-          "called": "bearish",
-          "abnormal_pct": 19.02
-        },
-        {
-          "date": "2026-10-23",
           "ticker": "3DA",
           "headline": "Cleansing Notice",
           "called": "bearish",
@@ -5520,6 +5513,13 @@
           "headline": "Cleansing Notice",
           "called": "bearish",
           "abnormal_pct": 8.8
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "BOA",
+          "headline": "Cleansing Notice",
+          "called": "bearish",
+          "abnormal_pct": 19.82
         }
       ]
     },
@@ -7629,16 +7629,9 @@
       "trigger": "Market-sensitive quarterly report at a stock with zero recorded volume (0.0x ratio) and near-zero or zero median daily turnover, where the filing is the primary periodic operational update",
       "rule": "When a quarterly report is flagged market sensitive at a completely dormant, zero-liquidity stock, the flag is the dominant signal — the company has judged the content price-relevant, and in a register with no active sellers the asymmetry favours a relief-buying response to any non-catastrophic disclosure; lean neutral-to-bullish rather than neutral, because L016's zero-volume logic (no motivated sellers) combines with the market-sensitive flag to create asymmetric upside.",
       "created": "2026-10-20",
-      "last_seen": "2026-10-29",
-      "times_seen": 20,
+      "last_seen": "2026-10-30",
+      "times_seen": 21,
       "examples": [
-        {
-          "date": "2026-10-28",
-          "ticker": "AMN",
-          "headline": "September 2026 Quarterly Activities and Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 16.7
-        },
         {
           "date": "2026-10-28",
           "ticker": "GBE",
@@ -7666,6 +7659,13 @@
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 17.68
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "ABE",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": 20.51
         }
       ]
     },
@@ -7981,43 +7981,43 @@
       "trigger": "Market-sensitive combined quarterly activities and cashflow report at a junior with 60%+ de-rating and near-zero absolute liquidity, where the cashflow component introduces going-concern or runway risk that the activities component cannot offset",
       "rule": "A combined activities-and-cashflow quarterly flagged market sensitive at a deeply de-rated, near-zero-liquidity junior is not symmetric — the cashflow component introduces a hard negative asymmetry (going-concern qualification, sub-two-quarter runway) that the activities component rarely offsets; lean bearish rather than neutral when the stock is 60%+ below its high, liquidity is near-zero, and the quarterly bundles both operational and financial data under a market-sensitive flag, because the financial data is the dominant risk and the flag confirms the quantum is material.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-29",
-      "times_seen": 21,
+      "last_seen": "2026-10-30",
+      "times_seen": 22,
       "examples": [
         {
-          "date": "2026-10-28",
-          "ticker": "AX8",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 25.03
-        },
-        {
-          "date": "2026-10-28",
-          "ticker": "GBE",
+          "date": "2026-10-30",
+          "ticker": "AAU",
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
-          "abnormal_pct": 9.84
+          "abnormal_pct": -28.75
         },
         {
-          "date": "2026-10-28",
-          "ticker": "AX8",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 25.03
+          "date": "2026-10-30",
+          "ticker": "DAI",
+          "headline": "September 2026 Quarterly Business Review & Appendix 4C",
+          "called": "neutral",
+          "abnormal_pct": -26.5
         },
         {
-          "date": "2026-10-28",
-          "ticker": "AX8",
+          "date": "2026-10-30",
+          "ticker": "RCM",
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 25.03
+          "called": "neutral",
+          "abnormal_pct": -18.55
         },
         {
-          "date": "2026-10-29",
-          "ticker": "YUG",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 10.86
+          "date": "2026-10-30",
+          "ticker": "EDE",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -16.36
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "SEQ",
+          "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -13.98
         }
       ]
     },
@@ -8750,8 +8750,8 @@
       "trigger": "Market-sensitive quarterly activities and cashflow report at a stock near a multi-month high (within 5% of its 3-month high) with deeply suppressed pre-announcement volume (<0.3x average) and near-zero absolute liquidity, where the quarterly is the primary periodic operational update for a small energy or resources company",
       "rule": "When a market-sensitive quarterly lands at a stock near its recent high with deeply suppressed volume, the market has not pre-positioned for a positive surprise — the stock's proximity to its high means the quarterly must substantively beat implied expectations or the tape will pull back from holders who ran the stock in anticipation; lean bearish rather than neutral when the stock is near a recent high, volume is deeply suppressed, and the quarterly headline names no specific positive milestone, because the absence of pre-announcement accumulation combined with an extended price level creates asymmetric downside if the content merely confirms the status quo.",
       "created": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "times_seen": 4,
+      "last_seen": "2026-10-30",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-27",
@@ -8775,11 +8775,18 @@
           "abnormal_pct": -12.96
         },
         {
-          "date": "2026-10-27",
-          "ticker": "SER",
-          "headline": "September 2026 Quarterly Activities & Cashflow Report",
-          "called": "neutral",
-          "abnormal_pct": -12.96
+          "date": "2026-10-30",
+          "ticker": "I88",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "bullish",
+          "abnormal_pct": -14.47
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "ATR",
+          "headline": "Appendix 5B - Quarterly Cash Flows - 30 September 2026",
+          "called": "bullish",
+          "abnormal_pct": -12.59
         }
       ]
     },
@@ -9105,8 +9112,8 @@
       "trigger": "Market-sensitive combined quarterly activities and Appendix 4C/5B cash flow report at a clinical-stage biotech, commercial-stage pharmaceutical, or revenue-generating life sciences company with no price action data available, where the company is not a junior mineral explorer and has an identifiable commercial or clinical catalyst pipeline",
       "rule": "Do not apply L197's bearish default to market-sensitive quarterlies at non-explorer companies — for clinical biotechs and commercial pharma, the activities component (milestone achievement, partnership update, revenue ramp) is as likely to be the market-moving element as the cashflow component; default to neutral rather than bearish when the company has a named product or clinical programme, and require body-level confirmation of a going-concern qualifier before leaning bearish.",
       "created": "2026-10-29",
-      "last_seen": "2026-10-29",
-      "times_seen": 3,
+      "last_seen": "2026-10-30",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9128,6 +9135,13 @@
           "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 22.9
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "NHE",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -12.68
         }
       ]
     },
@@ -9136,18 +9150,11 @@
       "trigger": "Market-sensitive combined quarterly activities and Appendix 4C/5B cash flow report where no company sector, de-rating level, or liquidity profile is available (truly information-free context beyond the filing type and flag)",
       "rule": "When context is entirely absent (no sector, no price position, no volume, no liquidity), do not apply L197's bearish default — L197 requires confirmed de-rating and near-zero liquidity to fire; without those conditions verified, the market-sensitive flag is the only signal and it is symmetric; call neutral and require at least one contextual anchor (de-rating level or sector) before leaning directional.",
       "created": "2026-10-29",
-      "last_seen": "2026-10-29",
-      "times_seen": 4,
+      "last_seen": "2026-10-30",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-29",
-          "ticker": "REC",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": 17.68
-        },
-        {
-          "date": "2026-10-29",
           "ticker": "JNS",
           "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
           "called": "neutral",
@@ -9173,6 +9180,13 @@
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 17.68
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "LAC",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -18.7
         }
       ]
     },
@@ -9302,8 +9316,8 @@
       "trigger": "Market-sensitive combined quarterly activities and Appendix 5B cash flow report at a gold or precious metals junior explorer 60-70% below its 12-month high with near-zero absolute liquidity (median daily turnover <A$10,000/day), where the exploration activities component may contain a named drill result, assay, or resource update alongside the cashflow disclosure",
       "rule": "Before applying L197's bearish default to a gold or metals junior quarterly, ask whether the activities section likely contains a named exploration result (assay, resource) that would have been separately flagged if it were the primary catalyst — if no companion exploration result announcement was filed, the activities section may contain incremental positive news that the market treats as the operative signal; default to neutral rather than bearish when the quarterly is the sole filing and no companion exploration result accompanies it, because the activities positive may offset the cashflow negative at a stock already priced for maximum distress.",
       "created": "2026-10-29",
-      "last_seen": "2026-10-29",
-      "times_seen": 4,
+      "last_seen": "2026-10-30",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9332,6 +9346,13 @@
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "neutral",
           "abnormal_pct": 17.68
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "EDO",
+          "headline": "Quarterly Activity and Cashflow Report",
+          "called": "bearish",
+          "abnormal_pct": 14.1
         }
       ]
     },
@@ -9461,16 +9482,9 @@
       "trigger": "Market-sensitive combined quarterly activities and Appendix 5B cash flow report at a junior resources company exactly at the 60% de-rating threshold (58–62% below 12-month high) with near-zero absolute liquidity (median daily turnover <A$7,000/day) and suppressed pre-announcement volume (<0.6x average)",
       "rule": "L197's bearish trigger requires the de-rating to be materially at or above 60% — at the boundary (58–62%), the cashflow-dominates-activities logic is not fully established, and suppressed volume (not elevated) removes the distribution-ahead-of-bad-news signal that reinforces L197; do not apply L197's bearish call when volume is suppressed and the de-rating is at the threshold boundary; default to neutral rather than bearish, reserving bearish for confirmed >65% de-ratings with elevated volume or explicit cashflow-crisis language.",
       "created": "2026-10-29",
-      "last_seen": "2026-10-29",
-      "times_seen": 4,
+      "last_seen": "2026-10-30",
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-10-29",
-          "ticker": "LRM",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "bearish",
-          "abnormal_pct": 12.83
-        },
         {
           "date": "2026-10-29",
           "ticker": "LRM",
@@ -9498,6 +9512,13 @@
           "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
           "called": "bearish",
           "abnormal_pct": 12.83
+        },
+        {
+          "date": "2026-10-30",
+          "ticker": "CRR",
+          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+          "called": "neutral",
+          "abnormal_pct": -12.68
         }
       ]
     },
@@ -9548,7 +9569,41 @@
           "abnormal_pct": -12.78
         }
       ]
+    },
+    {
+      "id": "L243",
+      "trigger": "Named fleet supply or partnership agreement announcement (not flagged market sensitive) at a deeply de-rated EV, mobility, or consumer technology company (>50% below 12-month high) with suppressed pre-announcement volume, where no contract value is disclosed but the counterparty is a named fleet operator or institutional buyer rather than a generic retail customer",
+      "rule": "A named strategic fleet supply agreement — even without a disclosed dollar value — is categorically different from a generic L006 undisclosed-contract situation when the counterparty is an institutional fleet buyer, because fleet agreements imply recurring volume and long-term commercial validation that the market may re-rate on regardless of missing quantum; before defaulting to neutral on the absence of a market-sensitive flag and missing contract value, ask whether the fleet-supply framing implies a recurring, scalable revenue relationship rather than a one-off order, and lean neutral-to-bullish rather than neutral when the counterparty type implies commercial scale even without a disclosed number.",
+      "created": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-30",
+          "ticker": "VMT",
+          "headline": "VMT Signs Strategic Fleet Supply & Partnership Agreement",
+          "called": "neutral",
+          "abnormal_pct": 18.74
+        }
+      ]
+    },
+    {
+      "id": "L244",
+      "trigger": "Board and management changes announcement (not flagged market sensitive) at a deeply de-rated junior (>60% below 12-month high) with thin but non-zero liquidity, where no incoming appointee credentials are named in the headline",
+      "rule": "A non-flagged board and management changes headline at a deeply de-rated junior without named credentials is most commonly a departure-driven filing rather than a strategic upgrade — ask whether the headline implies net reduction in senior personnel or departure of operationally critical roles; if so, lean bearish rather than neutral, because at a distressed junior unexplained management departures without a named positive replacement signal organisational deterioration rather than routine housekeeping.",
+      "created": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-10-30",
+          "ticker": "ADN",
+          "headline": "Board and Management Changes",
+          "called": "neutral",
+          "abnormal_pct": -16.85
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-10-29"
+  "last_reflected": "2026-10-30"
 }
