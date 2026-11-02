@@ -1,9 +1,243 @@
 {
   "date": "2026-11-03",
-  "total": 159,
+  "total": 166,
   "market_sensitive_count": 36,
-  "generated_at": "2026-11-02T23:24:05.235632+00:00",
+  "generated_at": "2026-11-02T23:30:44.689734+00:00",
   "announcements": [
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "ASX Listing Rule Waivers Disclosure",
+      "time": "2026-11-02T23:27:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157428-2A1708033",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CB1 is disclosing ASX Listing Rule waivers, a procedural compliance requirement typically triggered when a company's proposed securities structure or transaction deviates from standard ASX rules — this suggests CB1's debt or structured finance transaction (evidenced by companion filings) required bespoke regulatory accommodation.",
+        "The waiver disclosure itself carries no independent valuation signal; it is a mandatory transparency obligation, not a commercial outcome — the 'so what' lies in the companion filings (Issue Supplement, Note Deed Poll, General Security Deed, Master Security Trust Deed) which together indicate a debt issuance program is being established or amended.",
+        "Not flagged market sensitive and procedural in nature; investors should read this in conjunction with the full suite of CB1 filings released simultaneously to understand the structure and quantum of the underlying obligation being created."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "Issue Supplement",
+      "time": "2026-11-02T23:24:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157427-2A1708032",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Issue Supplement in the context of a debt program defines the specific terms of a particular tranche — coupon, maturity, ranking, and any embedded options — making it the most commercially critical document in the CB1 filing cluster for investors assessing credit risk and dilution exposure.",
+        "Filed without a market-sensitive flag, suggesting the terms are either within a pre-disclosed program envelope or the quantum is not considered price-moving relative to CB1's existing capital structure; however, unflagged debt supplement filings at smaller issuers can still carry meaningful refinancing or leverage implications.",
+        "Next step for investors: cross-reference the Issue Supplement terms against the General Security Deed and Master Security Trust Deed to assess whether the new tranche introduces new security over assets previously unencumbered — a key risk factor for equity holders in a stressed scenario."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "Note Deed Poll",
+      "time": "2026-11-02T23:23:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157426-2A1708031",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Note Deed Poll is the foundational legal instrument through which CB1 makes binding commitments to noteholders, establishing the governing framework for its debt securities — its filing confirms a formal debt issuance (not merely a proposal) is being executed or documented on the public record.",
+        "Not flagged market sensitive, consistent with this being a structural/legal document rather than a new commercial disclosure; the absence of a market-sensitive flag limits the directional read, and the filing's impact is entirely conditional on the economic terms disclosed in the companion Issue Supplement.",
+        "For equity investors, the key question is subordination: a secured Note Deed Poll subordinates equity claims in any wind-up scenario, and the simultaneous filing of a General Security Deed and Master Security Trust Deed suggests a multi-layered security structure that warrants careful review of ranking provisions."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "General Security Deed",
+      "time": "2026-11-02T23:22:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157425-2A1708030",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A General Security Deed grants noteholders a security interest over CB1's assets — typically all present and after-acquired property — which is structurally senior to equity and represents a direct claim on the company's asset base in a default scenario.",
+        "Filed alongside a Master Security Trust Deed and Note Deed Poll, this cluster of security documents confirms CB1 is establishing or extending a secured debt facility; the breadth of the security granted (general vs. specific asset) is the critical variable and will determine how much of CB1's balance sheet is effectively pledged.",
+        "Not flagged market sensitive, and procedurally this is a legal completion step rather than a new commercial announcement — but equity investors should not dismiss it: a general security interest, if previously absent, materially changes the risk profile of CB1 equity by reducing recovery value in downside scenarios."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INR",
+      "company": "IONEER LTD",
+      "headline": "Application for quotation of securities - INR",
+      "time": "2026-11-02T23:21:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157424-2A1708036",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IONEER (INR) is applying for quotation of new securities — a post-raise administrative step confirming that a capital raise has already been completed and new shares are being admitted to trading; the dilution event is done and this filing represents the supply hitting the market.",
+        "With the stock sitting 58.33% below its 12-month high, INR is in deeply de-rated territory; per lesson L050, the key question is whether the proceeds fund a named near-term catalyst that makes the fresh paper absorbable — INR's Rhyolite Ridge lithium-boron project has active permitting and DOE loan conditional commitment, which provides a concrete funded-catalyst narrative.",
+        "Not flagged market sensitive and volume data is unavailable for this filing; applying L050 logic, the raise is complete and the funded-catalyst signal (Rhyolite Ridge project advancement) is concrete enough to avoid a bearish call on pure dilution grounds — neutral is the appropriate read, with the stock's recovery contingent on project milestones rather than this administrative filing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.1,
+        "market_cap_aud": 309000000.0,
+        "shares_outstanding": 3090000000,
+        "beta": 2.099,
+        "rsi_14": 45.49,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.39,
+        "avg_turnover_aud": 369416,
+        "liquid": true,
+        "avg_volume_20": 4331575,
+        "volume_change_pct": -61.0,
+        "pct_from_3m_high": -20.0,
+        "pct_from_3m_low": 9.89,
+        "pct_from_6m_high": -44.44,
+        "pct_from_6m_low": 9.89,
+        "pct_from_52w_high": -58.33,
+        "pct_from_52w_low": 9.89,
+        "high_52w": 0.24,
+        "low_52w": 0.091,
+        "high_3m": 0.125,
+        "low_3m": 0.091,
+        "high_6m": 0.18,
+        "low_6m": 0.091,
+        "month1_high": 0.12,
+        "month1_low": 0.091,
+        "month2_high": 0.125,
+        "month2_low": 0.1,
+        "month3_high": 0.125,
+        "month3_low": 0.1,
+        "range_position_3m": 0.265,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "58.33% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-02 close.",
+          "The price sat in the lower part of its 3-month range, 20.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARL",
+      "company": "ARDEA RESOURCES LIMITED",
+      "headline": "AGM Resolutions Withdrawal",
+      "time": "2026-11-02T23:21:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157423-6A1353384",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "ARDEA RESOURCES has withdrawn AGM resolutions — a highly unusual and typically negative governance event, suggesting at least one proposed resolution was facing defeat, had become legally untenable, or has been pulled in response to shareholder or regulatory pressure ahead of the meeting.",
+        "With the stock at a 12-month low and median daily turnover of only approximately A$29,186, this is a thinly traded register where volume ratios are close to meaningless as directional signals; the withdrawal itself is the dominant signal — pulled resolutions commonly relate to dilutive equity issuances (option grants, placement ratifications) or director appointments that lacked the votes to pass.",
+        "Not flagged market sensitive, but the withdrawal of AGM resolutions is substantively negative: it signals either a governance failure, a shareholder revolt, or a strategic retreat — and at a 12-month low with near-zero liquidity, the register is already disengaged; this filing removes any positive catalyst the AGM might have provided and reinforces the bearish tape."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.28,
+        "market_cap_aud": 61519949.68,
+        "shares_outstanding": 219714106,
+        "beta": 0.909,
+        "rsi_14": 26.18,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 1.0,
+        "avg_turnover_aud": 29186,
+        "liquid": false,
+        "avg_volume_20": 95005,
+        "volume_change_pct": 0.0,
+        "pct_from_3m_high": -47.17,
+        "pct_from_3m_low": 0.9,
+        "pct_from_6m_high": -62.16,
+        "pct_from_6m_low": 0.9,
+        "pct_from_52w_high": -63.64,
+        "pct_from_52w_low": 0.9,
+        "high_52w": 0.77,
+        "low_52w": 0.2775,
+        "high_3m": 0.53,
+        "low_3m": 0.2775,
+        "high_6m": 0.74,
+        "low_6m": 0.2775,
+        "month1_high": 0.4,
+        "month1_low": 0.2775,
+        "month2_high": 0.45,
+        "month2_low": 0.38,
+        "month3_high": 0.53,
+        "month3_low": 0.39,
+        "range_position_3m": 0.01,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$29,186/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-02 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$29,186 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "Master Security Trust Deed",
+      "time": "2026-11-02T23:21:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157422-2A1708028",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Master Security Trust Deed establishes the overarching trust framework under which a trustee holds security on behalf of all noteholders — this is the capstone document of CB1's debt issuance structure and confirms the program is being set up with institutional-grade security architecture.",
+        "Taken together, the five CB1 filings released simultaneously (Listing Rule Waivers, Issue Supplement, Note Deed Poll, General Security Deed, Master Security Trust Deed) paint a coherent picture: CB1 is establishing or activating a secured note program, likely a retail or wholesale debt offering requiring ASX quotation of notes alongside equity.",
+        "Not flagged market sensitive and procedural in isolation; the aggregate implication for CB1 equity is a leverage increase secured against company assets — the net impact depends entirely on the use of proceeds (growth-funding vs. refinancing of existing debt) and the quantum raised relative to CB1's equity market cap, neither of which is determinable from this document alone."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GOO",
       "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
