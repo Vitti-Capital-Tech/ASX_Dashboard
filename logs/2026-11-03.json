@@ -1,9 +1,78 @@
 {
   "date": "2026-11-03",
-  "total": 166,
+  "total": 167,
   "market_sensitive_count": 36,
-  "generated_at": "2026-11-02T23:30:44.689734+00:00",
+  "generated_at": "2026-11-02T23:44:00.836255+00:00",
   "announcements": [
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "EBR to Present at Canaccord Genuity Forum",
+      "time": "2026-11-02T23:38:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157429-3A705702",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A conference presentation notice is a purely procedural, non-market-sensitive filing — no new financial data, clinical results, or commercial milestones are disclosed, making it near-zero in informational content for institutional investors.",
+        "The tape is weak: volume running at 0.56x average into a 12-month low signals a disengaged register with no accumulation evident, meaning any modest positive sentiment from investor-relations visibility is unlikely to find a motivated buyer base to absorb it — conference appearances rarely reverse established downtrends at distressed micro-caps without an accompanying substantive catalyst.",
+        "The Canaccord Genuity Forum appearance may offer EBR Systems a platform to update the market on its WiSE-CRT wireless pacing programme, but until a companion announcement with clinical, regulatory, or funding news is filed, the event is a potential future catalyst rather than a present one — watch for any accompanying investor presentation or material update filed around the forum date."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.115,
+        "market_cap_aud": 86635892.85,
+        "shares_outstanding": 753355590,
+        "beta": 0.958,
+        "rsi_14": 27.64,
+        "volume_trend_ratio": 0.56,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 238726,
+        "liquid": true,
+        "avg_volume_20": 3198600,
+        "volume_change_pct": -45.0,
+        "pct_from_3m_high": -64.06,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -81.6,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -90.65,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 1.23,
+        "low_52w": 0.115,
+        "high_3m": 0.32,
+        "low_3m": 0.115,
+        "high_6m": 0.625,
+        "low_6m": 0.115,
+        "month1_high": 0.2625,
+        "month1_low": 0.115,
+        "month2_high": 0.31,
+        "month2_low": 0.235,
+        "month3_high": 0.32,
+        "month3_low": 0.26,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.56x its average",
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, EBR traded only 0.56x its usual daily volume over the last 5 sessions — measured to the 2026-11-02 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CB1",
       "company": "CB1",
