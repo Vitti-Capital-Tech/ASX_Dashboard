@@ -1,9 +1,269 @@
 {
   "date": "2026-11-03",
-  "total": 153,
-  "market_sensitive_count": 34,
-  "generated_at": "2026-11-02T23:17:04.453015+00:00",
+  "total": 159,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-11-02T23:24:05.235632+00:00",
   "announcements": [
+    {
+      "ticker": "GOO",
+      "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
+      "headline": "GOOD - October 2026 Distribution Final",
+      "time": "2026-11-02T23:21:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157421-2A1708034",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GOO has declared its October 2026 distribution as final, confirming income delivery to unitholders of this active fixed-income ETF — the market-sensitive flag indicates the distribution quantum is material relative to NAV and warrants disclosure.",
+        "For an active credit ETF, a confirmed final distribution signals the fund is generating sufficient coupon income from its sustainable credit portfolio to support regular payouts, a reassuring signal for yield-focused investors in an environment where credit spreads have been volatile.",
+        "Next steps hinge on the ex-distribution date and reinvestment mechanics — investors should assess the distribution yield relative to current NAV to determine whether this represents an attractive entry or exit point; no structural concern is implied by this filing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CC5",
+      "company": "CLEVER CULTURE SYSTEMS LIMITED",
+      "headline": "Proposed issue of securities - CC5",
+      "time": "2026-11-02T23:20:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157420-2A1708018",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a procedural ASX Listing Rule notification of a proposed securities issuance by CC5, filed as the administrative companion to the funding announcement in filing [2] — it contains no independent commercial content but confirms the capital raise will proceed to a securities issuance.",
+        "The absence of a market-sensitive flag is consistent with its procedural nature; the substantive information resides in filing [2], and this filing adds no incremental valuation signal beyond confirming the mechanics of the raise are underway.",
+        "Investors should monitor the actual terms of the issuance (price, volume, investor class) when they become available — the key question is whether the issue price represents a material discount to market, which would quantify the dilution impact on existing holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.019,
+        "market_cap_aud": 41462848.29,
+        "shares_outstanding": 2182255173,
+        "beta": 0.3,
+        "rsi_14": 55.39,
+        "volume_trend_ratio": 0.81,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 6044,
+        "liquid": false,
+        "avg_volume_20": 469826,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -9.52,
+        "pct_from_3m_low": 46.15,
+        "pct_from_6m_high": -24.0,
+        "pct_from_6m_low": 46.15,
+        "pct_from_52w_high": -44.12,
+        "pct_from_52w_low": 46.15,
+        "high_52w": 0.034,
+        "low_52w": 0.013,
+        "high_3m": 0.021,
+        "low_3m": 0.013,
+        "high_6m": 0.025,
+        "low_6m": 0.013,
+        "month1_high": 0.021,
+        "month1_low": 0.017,
+        "month2_high": 0.0195,
+        "month2_low": 0.0135,
+        "month3_high": 0.017,
+        "month3_low": 0.013,
+        "range_position_3m": 0.75,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$6,044/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-02 close.",
+          "The price sat in the upper part of its 3-month range, 9.52% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,044 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CC5",
+      "company": "CLEVER CULTURE SYSTEMS LIMITED",
+      "headline": "Funding Raised for Development of a New Benchtop Instrument",
+      "time": "2026-11-02T23:20:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157419-2A1707997",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CC5 has raised funding specifically earmarked for development of a new benchtop instrument — this is a named, product-specific use of proceeds, which under L027 logic upgrades this from a generic dilution event to a funded-catalyst signal tied to a concrete commercial deliverable.",
+        "The market-sensitive flag confirms management regards the raise quantum and strategic purpose as price-relevant; the specificity of 'new benchtop instrument' suggests a defined R&D pathway rather than runway extension, which is constructively differentiated from a survival raise.",
+        "Key unknowns are the raise size, investor composition, and commercialisation timeline for the instrument — institutional investors should seek the companion prospectus or term sheet (filing [3] likely provides detail) to assess dilution magnitude versus the value of the funded product milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.019,
+        "market_cap_aud": 41462848.29,
+        "shares_outstanding": 2182255173,
+        "beta": 0.3,
+        "rsi_14": 55.39,
+        "volume_trend_ratio": 0.81,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 6044,
+        "liquid": false,
+        "avg_volume_20": 469826,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -9.52,
+        "pct_from_3m_low": 46.15,
+        "pct_from_6m_high": -24.0,
+        "pct_from_6m_low": 46.15,
+        "pct_from_52w_high": -44.12,
+        "pct_from_52w_low": 46.15,
+        "high_52w": 0.034,
+        "low_52w": 0.013,
+        "high_3m": 0.021,
+        "low_3m": 0.013,
+        "high_6m": 0.025,
+        "low_6m": 0.013,
+        "month1_high": 0.021,
+        "month1_low": 0.017,
+        "month2_high": 0.0195,
+        "month2_low": 0.0135,
+        "month3_high": 0.017,
+        "month3_low": 0.013,
+        "range_position_3m": 0.75,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$6,044/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-02 close.",
+          "The price sat in the upper part of its 3-month range, 9.52% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,044 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Iondrive Receives $1.0m R&D Tax Incentive",
+      "time": "2026-11-02T23:19:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157418-2A1708035",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ION has received a A$1.0m R&D Tax Incentive refund — at a stock sitting approximately 52% below its 12-month high, this non-dilutive cash injection is a meaningful runway extension signal, though the absence of a market-sensitive flag suggests the amount is not transformational relative to the company's cash position.",
+        "R&D tax incentive receipts are non-dilutive and recurring (tied to qualifying expenditure), so this filing implies ION has been conducting substantive R&D activity at a scale sufficient to generate a seven-figure refund — constructive for a development-stage company but unlikely to re-rate a stock at this level of de-rating on its own.",
+        "With the stock ~52% below its 12-month high and no market-sensitive flag, the tape suggests the market has substantially de-risked ION's outlook already; this filing is unlikely to be a standalone re-rating catalyst but provides a modest positive runway signal — watch for a companion operational update or capital raise that could leverage this cash injection into a named milestone."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.077,
+        "market_cap_aud": 102168807.82,
+        "shares_outstanding": 1326867634,
+        "beta": 1.989,
+        "rsi_14": 37.29,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 262798,
+        "liquid": true,
+        "avg_volume_20": 2801566,
+        "volume_change_pct": -63.0,
+        "pct_from_3m_high": -51.87,
+        "pct_from_3m_low": 63.83,
+        "pct_from_6m_high": -51.87,
+        "pct_from_6m_low": 327.78,
+        "pct_from_52w_high": -51.87,
+        "pct_from_52w_low": 381.25,
+        "high_52w": 0.16,
+        "low_52w": 0.016,
+        "high_3m": 0.16,
+        "low_3m": 0.047,
+        "high_6m": 0.16,
+        "low_6m": 0.018,
+        "month1_high": 0.12,
+        "month1_low": 0.074,
+        "month2_high": 0.16,
+        "month2_low": 0.072,
+        "month3_high": 0.08,
+        "month3_low": 0.047,
+        "range_position_3m": 0.265,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "51.87% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-02 close.",
+          "The price sat in the lower part of its 3-month range, 51.87% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "Master Trust Deed",
+      "time": "2026-11-02T23:19:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157417-2A1708026",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CB1 has filed a Master Trust Deed — this is a foundational legal/structural document for a trust-based vehicle, typically filed at or near the establishment of a new fund, debt programme, or structured product, and carries no independent commercial content as a standalone disclosure.",
+        "The absence of a market-sensitive flag and the generic document type ('Market Update') confirm this is administrative infrastructure rather than a commercial event — it establishes the legal framework within which future issuances or distributions will operate.",
+        "The significance for investors lies in what follows: a Master Trust Deed is a precursor to a debt or structured product programme (likely connected to filing [6], the Information Memorandum), and the commercial terms of any issuance will be the relevant valuation event, not this deed itself."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CB1",
+      "company": "CB1",
+      "headline": "Information Memorandum",
+      "time": "2026-11-02T23:17:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157416-2A1708025",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CB1 has filed an Information Memorandum, which in conjunction with the Master Trust Deed in filing [5] establishes a debt or structured product issuance programme — this is the disclosure document that would govern terms for a notes or bond programme rather than an equity raise.",
+        "The absence of a market-sensitive flag indicates either the programme size is already known to the market or CB1 is a debt-issuing vehicle rather than a listed equity in the conventional sense — investors should read the IM for programme limits, credit enhancements, and ranking of obligations.",
+        "From an institutional perspective, the IM is the operative document for due diligence on any CB1 debt exposure; equity investors in any related entity should assess whether the programme introduces senior creditor claims that subordinate existing capital structure."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CB1",
       "company": "CB1",
