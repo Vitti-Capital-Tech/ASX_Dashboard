@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-02T18:40:08.446992+11:00",
+  "generated_at": "2026-11-02T19:40:20.368246+11:00",
   "days_scored": 61,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 3401,
+      "scored": 3402,
       "correct": 1358,
-      "wrong": 916,
+      "wrong": 917,
       "flat": 1127,
       "hit_rate": 59.7,
       "avg_abnormal_pct": 1.66
@@ -21,26 +21,26 @@
       "avg_abnormal_pct": -0.74
     },
     "neutral": {
-      "scored": 9291,
+      "scored": 9292,
       "correct": 4195,
-      "wrong": 5096,
+      "wrong": 5097,
       "flat": 0,
-      "hit_rate": 45.2,
+      "hit_rate": 45.1,
       "avg_abnormal_pct": 0.1
     }
   },
   "spread_pct": 2.4,
   "directional_hit_rate": 58.6,
-  "directional_scored": 3263,
+  "directional_scored": 3264,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 3401,
+        "scored": 3402,
         "correct": 939,
-        "wrong": 1179,
+        "wrong": 1180,
         "flat": 1283,
         "hit_rate": 44.3,
-        "avg_abnormal_pct": -0.21
+        "avg_abnormal_pct": -0.22
       },
       "bearish": {
         "scored": 1772,
@@ -51,27 +51,27 @@
         "avg_abnormal_pct": -0.56
       },
       "neutral": {
-        "scored": 9291,
+        "scored": 9292,
         "correct": 4654,
-        "wrong": 4637,
+        "wrong": 4638,
         "flat": 0,
         "hit_rate": 50.1,
         "avg_abnormal_pct": -0.15
       }
     },
-    "spread_pct": 0.35,
+    "spread_pct": 0.34,
     "directional_hit_rate": 48.8,
-    "directional_scored": 2966
+    "directional_scored": 2967
   },
   "by_document_type": [
     {
       "document_type": "Market Update",
-      "scored": 2354,
+      "scored": 2355,
       "hit_rate": 59.9,
-      "intraday_scored": 2143,
+      "intraday_scored": 2144,
       "intraday_hit_rate": 47.9,
       "intraday_avg_as_called": 0.06,
-      "avg_as_called": 1.68
+      "avg_as_called": 1.67
     },
     {
       "document_type": "Substantial Holding",
@@ -639,11 +639,11 @@
     },
     {
       "date": "2026-11-02",
-      "hit_rate": 68.1,
-      "scored": 47,
-      "spread_pct": 5.96,
-      "intraday_hit_rate": 64.7,
-      "intraday_scored": 51
+      "hit_rate": 66.7,
+      "scored": 48,
+      "spread_pct": 5.83,
+      "intraday_hit_rate": 63.5,
+      "intraday_scored": 52
     }
   ]
 }
