@@ -1,9 +1,78 @@
 {
   "date": "2026-11-03",
-  "total": 167,
+  "total": 168,
   "market_sensitive_count": 36,
-  "generated_at": "2026-11-02T23:44:00.836255+00:00",
+  "generated_at": "2026-11-02T23:50:24.308309+00:00",
   "announcements": [
+    {
+      "ticker": "CTT",
+      "company": "CETTIRE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-11-02T23:42:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157430-3A705703",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding at CTT — without the headline specifying whether the holder is increasing or decreasing — is directionally ambiguous by design; the filing does not disclose net accumulation or disposal in the headline, so the market-moving content depends entirely on the body, which this assessment cannot weight without that detail.",
+        "The tape into this filing is notably soft: volume running at 0.4x average (well below normal) into a stock already 64.49% below its 12-month high signals a disengaged register with no evident accumulation pressure — per lesson L109, at this level of de-rating with suppressed volume, the base rate for institutional exit is elevated relative to fresh accumulation, tilting the ambiguity slightly negative rather than neutral.",
+        "The filing is not flagged market sensitive, which further reduces the informational weight — the company itself has not judged this price-relevant, suggesting the quantum of the change is unlikely to represent a transformative strategic stake; with CTT's structural challenges in the luxury e-commerce space already well-known, this procedural update is unlikely to shift sentiment materially unless the body reveals a significant new holder building a strategic position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-11-02",
+        "bars": 254,
+        "last_close": 0.34,
+        "market_cap_aud": 129620994.8,
+        "shares_outstanding": 381238220,
+        "beta": null,
+        "rsi_14": 52.35,
+        "volume_trend_ratio": 0.4,
+        "volume_last_ratio": 0.35,
+        "avg_turnover_aud": 1203297,
+        "liquid": true,
+        "avg_volume_20": 4760576,
+        "volume_change_pct": -65.0,
+        "pct_from_3m_high": -24.44,
+        "pct_from_3m_low": 88.89,
+        "pct_from_6m_high": -24.44,
+        "pct_from_6m_low": 100.0,
+        "pct_from_52w_high": -64.49,
+        "pct_from_52w_low": 100.0,
+        "high_52w": 0.9575,
+        "low_52w": 0.17,
+        "high_3m": 0.45,
+        "low_3m": 0.18,
+        "high_6m": 0.45,
+        "low_6m": 0.17,
+        "month1_high": 0.45,
+        "month1_low": 0.27,
+        "month2_high": 0.3,
+        "month2_low": 0.18,
+        "month3_high": 0.28,
+        "month3_low": 0.2,
+        "range_position_3m": 0.593,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.4x its average",
+          "64.49% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, CTT traded only 0.4x its usual daily volume over the last 5 sessions — measured to the 2026-11-02 close.",
+          "The price sat in the middle part of its 3-month range, 24.44% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EBR",
       "company": "EBR SYSTEMS INC.",
