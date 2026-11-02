@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 6097 graded calls
+- Window: last 20 trading days, 6104 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-10-30T10:42:44.024800+00:00
+- Generated: 2026-11-02T06:52:03.661735+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **56.4%** correct on 1313 graded calls.
+Directional calls (bullish/bearish): **56.9%** correct on 1328 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 745 | 55.8% |
-| bearish | 568 | 57% |
+| bullish | 757 | 56.4% |
+| bearish | 571 | 57.4% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **56.5%** of the time (n=3884). Every graded announcement moved 57.8% of the time.
+Stocks called neutral moved 1% or more anyway **56.9%** of the time (n=3870). Every graded announcement moved 58.1% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 774 | 58.1% |
-| Not flagged | 539 | 53.8% |
+| Market sensitive | 790 | 59.4% |
+| Not flagged | 538 | 53.2% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 829 | 55.7% |
-| Quarterly Report | 197 | 60.9% |
+| Market Update | 838 | 56.3% |
+| Quarterly Report | 198 | 61.1% |
 | Annual General Meeting | 101 | 64.4% |
-| Substantial Holding | 80 | 45% |
-| Results | 40 | 57.5% |
+| Substantial Holding | 80 | 43.8% |
+| Results | 41 | 58.5% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
