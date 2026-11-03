@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 6102 graded calls
+- Window: last 20 trading days, 5967 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-02T10:42:58.280464+00:00
+- Generated: 2026-11-03T06:43:44.105058+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **56.9%** correct on 1327 graded calls.
+Directional calls (bullish/bearish): **57.1%** correct on 1295 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 756 | 56.5% |
-| bearish | 571 | 57.4% |
+| bullish | 729 | 56.2% |
+| bearish | 566 | 58.3% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **56.9%** of the time (n=3869). Every graded announcement moved 58.1% of the time.
+Stocks called neutral moved 1% or more anyway **57.5%** of the time (n=3797). Every graded announcement moved 58.6% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,18 +30,18 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 789 | 59.4% |
-| Not flagged | 538 | 53.2% |
+| Market sensitive | 770 | 59.1% |
+| Not flagged | 525 | 54.3% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 837 | 56.4% |
-| Quarterly Report | 198 | 61.1% |
-| Annual General Meeting | 101 | 64.4% |
-| Substantial Holding | 80 | 43.8% |
+| Market Update | 805 | 56.8% |
+| Quarterly Report | 199 | 60.8% |
+| Annual General Meeting | 103 | 63.1% |
+| Substantial Holding | 75 | 45.3% |
 | Results | 41 | 58.5% |
 
 Document types with fewer than 30 graded calls are omitted rather
