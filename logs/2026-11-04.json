@@ -1,9 +1,79 @@
 {
   "date": "2026-11-04",
-  "total": 246,
+  "total": 247,
   "market_sensitive_count": 80,
-  "generated_at": "2026-11-03T23:29:36.823742+00:00",
+  "generated_at": "2026-11-03T23:37:25.477592+00:00",
   "announcements": [
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Notification of cessation of securities - ACR",
+      "time": "2026-11-03T23:27:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157866-3A705784",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities notices reflect the lapsing or cancellation of options, performance rights, or similar instruments — this is a routine administrative event confirming that unvested or unexercised securities have expired without being converted to ordinary shares, which is modestly positive for existing shareholders as it removes potential future dilution from the register.",
+        "Price action context is of limited diagnostic value here: the stock is thinly traded at a median daily turnover of ~A$3,066/day, meaning the 0.55x volume ratio is effectively noise rather than a signal of informed positioning; the 52% de-rating from the 12-month high is the more relevant backdrop, suggesting the register is disengaged and this filing is unlikely to catalyse meaningful price movement in either direction.",
+        "With no market-sensitive flag and no operational content, the filing makes no independent case for a directional call — the key watch point for ACR remains any update on royalty income or commercial partnerships rather than administrative securities housekeeping of this nature."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-11-03",
+        "bars": 254,
+        "last_close": 0.01,
+        "market_cap_aud": 6121541.34,
+        "shares_outstanding": 612154134,
+        "beta": -0.264,
+        "rsi_14": 46.82,
+        "volume_trend_ratio": 0.55,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3066,
+        "liquid": false,
+        "avg_volume_20": 899779,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 11.11,
+        "pct_from_6m_high": -52.38,
+        "pct_from_6m_low": 11.11,
+        "pct_from_52w_high": -52.38,
+        "pct_from_52w_low": 11.11,
+        "high_52w": 0.021,
+        "low_52w": 0.009,
+        "high_3m": 0.013,
+        "low_3m": 0.009,
+        "high_6m": 0.021,
+        "low_6m": 0.009,
+        "month1_high": 0.013,
+        "month1_low": 0.0095,
+        "month2_high": 0.012,
+        "month2_low": 0.009,
+        "month3_high": 0.012,
+        "month3_low": 0.009,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.55x its average",
+          "52.38% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,066/day",
+        "reading": [
+          "Going into this, ACR traded only 0.55x its usual daily volume over the last 5 sessions — measured to the 2026-11-03 close.",
+          "The price sat in the lower part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,066 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ACR",
       "company": "ACRUX LIMITED",
