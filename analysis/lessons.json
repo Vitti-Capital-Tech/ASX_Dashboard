@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T06:43:43.784048+00:00",
+  "updated_at": "2026-11-03T07:42:37.931586+00:00",
   "next_id": 253,
   "lessons": [
     {
@@ -693,17 +693,10 @@
       "trigger": "Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day",
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
-      "last_seen": "2026-10-19",
-      "times_seen": 20,
+      "last_seen": "2026-11-03",
+      "times_seen": 21,
       "examples": [
         {
-          "date": "2026-10-13",
-          "ticker": "CNQ",
-          "headline": "Notification of cessation of securities - CNQ",
-          "called": "neutral",
-          "abnormal_pct": -9.78
-        },
-        {
           "date": "2026-10-19",
           "ticker": "MBK",
           "headline": "Notification of cessation of securities - MBK",
@@ -730,6 +723,13 @@
           "headline": "Notification of cessation of securities - MBK",
           "called": "neutral",
           "abnormal_pct": 24.56
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "NYR",
+          "headline": "Quotation of New Options",
+          "called": "neutral",
+          "abnormal_pct": 7.44
         }
       ]
     },
@@ -815,7 +815,7 @@
       "rule": "When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.",
       "created": "2026-09-15",
       "last_seen": "2026-11-03",
-      "times_seen": 15,
+      "times_seen": 16,
       "examples": [
         {
           "date": "2026-09-30",
@@ -825,25 +825,25 @@
           "abnormal_pct": 12.97
         },
         {
-          "date": "2026-09-30",
-          "ticker": "CDR",
+          "date": "2026-10-06",
+          "ticker": "RNV",
+          "headline": "Cleansing Notice",
+          "called": "bearish",
+          "abnormal_pct": 11.93
+        },
+        {
+          "date": "2026-10-06",
+          "ticker": "RNV",
+          "headline": "Cleansing Notice",
+          "called": "bearish",
+          "abnormal_pct": 11.93
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "AHF",
           "headline": "Cleansing Notice",
           "called": "neutral",
-          "abnormal_pct": 12.97
-        },
-        {
-          "date": "2026-10-06",
-          "ticker": "RNV",
-          "headline": "Cleansing Notice",
-          "called": "bearish",
-          "abnormal_pct": 11.93
-        },
-        {
-          "date": "2026-10-06",
-          "ticker": "RNV",
-          "headline": "Cleansing Notice",
-          "called": "bearish",
-          "abnormal_pct": 11.93
+          "abnormal_pct": 5.91
         },
         {
           "date": "2026-11-03",
@@ -1642,35 +1642,35 @@
       "rule": "A named specialist-sector conference presentation is not equivalent to a generic awareness-marketing filing under L010 — the audience is sector-informed and the act of presenting can itself trigger accumulation by specialist funds who were not previously holders; before applying L010's bearish default, ask whether the conference is a known catalyst event for the sector (i.e. RIU Uranium, Noosa Mining) and whether the sector is in an active thematic re-rating; if yes, downgrade from bearish to neutral, because the dilution-marketing logic of L010 does not apply when the audience is buying, not being sold to.",
       "created": "2026-09-17",
       "last_seen": "2026-11-03",
-      "times_seen": 14,
+      "times_seen": 15,
       "examples": [
         {
-          "date": "2026-10-07",
-          "ticker": "BMN",
-          "headline": "Global Uranium Conference 2026 Presentation",
+          "date": "2026-10-20",
+          "ticker": "HWK",
+          "headline": "HWK Microcap Conference Presentation - October 2026",
+          "called": "bearish",
+          "abnormal_pct": 8.66
+        },
+        {
+          "date": "2026-10-20",
+          "ticker": "HWK",
+          "headline": "HWK Microcap Conference Presentation - October 2026",
+          "called": "bearish",
+          "abnormal_pct": 8.66
+        },
+        {
+          "date": "2026-10-20",
+          "ticker": "HWK",
+          "headline": "HWK Microcap Conference Presentation - October 2026",
+          "called": "bearish",
+          "abnormal_pct": 8.66
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "ORP",
+          "headline": "Corporate Investor Presentation",
           "called": "neutral",
-          "abnormal_pct": 8.67
-        },
-        {
-          "date": "2026-10-20",
-          "ticker": "HWK",
-          "headline": "HWK Microcap Conference Presentation - October 2026",
-          "called": "bearish",
-          "abnormal_pct": 8.66
-        },
-        {
-          "date": "2026-10-20",
-          "ticker": "HWK",
-          "headline": "HWK Microcap Conference Presentation - October 2026",
-          "called": "bearish",
-          "abnormal_pct": 8.66
-        },
-        {
-          "date": "2026-10-20",
-          "ticker": "HWK",
-          "headline": "HWK Microcap Conference Presentation - October 2026",
-          "called": "bearish",
-          "abnormal_pct": 8.66
+          "abnormal_pct": -9.87
         },
         {
           "date": "2026-11-03",
@@ -2607,7 +2607,7 @@
       "rule": "A 'first drill hole intersects' headline without disclosed grade and width is structurally equivalent to a footprint-expansion result under L054 — the market cannot price economic value from mineralisation presence alone; before calling bullish on a maiden intercept, require that grade and width appear in the headline or are clearly implied by the market-sensitive flag and filing body; default to neutral rather than bullish when the headline names only mineralisation type and not economic parameters, because the result confirms geological presence but not project value.",
       "created": "2026-09-21",
       "last_seen": "2026-11-03",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
         {
           "date": "2026-10-07",
@@ -2617,13 +2617,6 @@
           "abnormal_pct": -25.28
         },
         {
-          "date": "2026-10-07",
-          "ticker": "LUX",
-          "headline": "First holes intersect zones of visual copper mineralisation",
-          "called": "bullish",
-          "abnormal_pct": -25.28
-        },
-        {
           "date": "2026-10-13",
           "ticker": "AQX",
           "headline": "Horn Island Drilling Completed with All Holes Mineralised",
@@ -2636,6 +2629,13 @@
           "headline": "Horn Island Drilling Completed with All Holes Mineralised",
           "called": "bullish",
           "abnormal_pct": -14.29
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "REE",
+          "headline": "Drilling Confirms Copper-Nickel Sulphide System and Gallium",
+          "called": "bullish",
+          "abnormal_pct": -10.34
         },
         {
           "date": "2026-11-03",
@@ -2953,7 +2953,7 @@
       "rule": "Before calling bullish on a 'Funding Secured' headline, confirm the funding structure — equity funding at a distressed company almost always involves a discount placement that generates immediate sell-the-raise pressure, and 'funding secured' language is equally consistent with a discounted equity raise as with non-dilutive debt or grant; when no companion 'Proposed Issue of Securities' filing is yet visible but one is flagged as expected on the same day, default to neutral rather than bullish until the structure is confirmed, because the dilution scenario is as probable as the non-dilutive scenario from the headline alone.",
       "created": "2026-09-23",
       "last_seen": "2026-11-03",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-23",
@@ -2977,11 +2977,11 @@
           "abnormal_pct": -9.76
         },
         {
-          "date": "2026-09-23",
-          "ticker": "VBX",
-          "headline": "Funding Secured to Maintain Wuudagu Momentum",
+          "date": "2026-11-03",
+          "ticker": "CC5",
+          "headline": "Funding Raised for Development of a New Benchtop Instrument",
           "called": "bullish",
-          "abnormal_pct": -9.76
+          "abnormal_pct": -16.13
         },
         {
           "date": "2026-11-03",
@@ -3572,7 +3572,7 @@
       "rule": "L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.",
       "created": "2026-09-25",
       "last_seen": "2026-11-03",
-      "times_seen": 13,
+      "times_seen": 14,
       "examples": [
         {
           "date": "2026-10-30",
@@ -3596,11 +3596,11 @@
           "abnormal_pct": -17.99
         },
         {
-          "date": "2026-10-30",
-          "ticker": "CYM",
-          "headline": "Capital Raise Presentation",
+          "date": "2026-11-03",
+          "ticker": "QML",
+          "headline": "Strongly Subscribed $5.5 Million Placement",
           "called": "bullish",
-          "abnormal_pct": -17.99
+          "abnormal_pct": -12.01
         },
         {
           "date": "2026-11-03",
@@ -3752,22 +3752,8 @@
       "rule": "L027's funded-catalyst moderating logic requires a named operational use of proceeds to be visible — when the headline contains only 'Cleansing Notice - Share Placement' with no companion announcement disclosing proceeds deployment, the funded-catalyst condition is unmet and the default should revert to bearish (per L011), not neutral; do not apply L027 as a moderator unless a named catalyst is explicitly linked to the proceeds in an accessible companion filing.",
       "created": "2026-09-25",
       "last_seen": "2026-11-03",
-      "times_seen": 20,
+      "times_seen": 21,
       "examples": [
-        {
-          "date": "2026-10-19",
-          "ticker": "FRE",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": -15.59
-        },
-        {
-          "date": "2026-10-19",
-          "ticker": "FRE",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": -15.59
-        },
         {
           "date": "2026-10-19",
           "ticker": "FRE",
@@ -3788,6 +3774,20 @@
           "headline": "Application for quotation of securities - MGT",
           "called": "neutral",
           "abnormal_pct": -22.56
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "MGT",
+          "headline": "Application for quotation of securities - MGT",
+          "called": "neutral",
+          "abnormal_pct": -22.56
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "SLB",
+          "headline": "Application for quotation of securities - SLB",
+          "called": "neutral",
+          "abnormal_pct": -7.32
         }
       ]
     },
@@ -4717,15 +4717,8 @@
       "rule": "At a deeply de-rated consumer or retail company with elevated volume into an ambiguous substantial-holder change, the base rate for the change being accumulation by a value or activist buyer is materially higher than at a distressed micro-cap explorer — the de-rating reflects cyclical rather than terminal risk and the elevated volume is more likely informed buying than distribution; lean neutral-to-bullish rather than purely neutral, and require confirmation of a reduction before calling bearish.",
       "created": "2026-10-01",
       "last_seen": "2026-11-03",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-10-01",
-          "ticker": "CTT",
-          "headline": "Change in substantial holding",
-          "called": "neutral",
-          "abnormal_pct": 21.14
-        },
         {
           "date": "2026-10-01",
           "ticker": "CTT",
@@ -4746,6 +4739,13 @@
           "headline": "Form 604 Change in Substantial Shareholding",
           "called": "neutral",
           "abnormal_pct": 10.66
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "CTT",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": 7.01
         },
         {
           "date": "2026-11-03",
@@ -4952,7 +4952,7 @@
       "rule": "A renounceable rights issue dispatch marks the point at which the offer is fully live and the market begins pricing take-up risk in real time — if the stock trades at or below the offer price during the offer period, the rights become worthless and the raise fails or requires sub-underwriting at a discount; treat dispatch as a bearish event rather than neutral when no price action data is available to confirm the stock is trading comfortably above the offer price, because the launch of the rights-trading window itself introduces a mechanical sell signal for holders who choose to sell entitlements rather than subscribe.",
       "created": "2026-10-02",
       "last_seen": "2026-11-03",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-11-02",
@@ -4976,11 +4976,11 @@
           "abnormal_pct": -9.22
         },
         {
-          "date": "2026-11-02",
-          "ticker": "TCG",
-          "headline": "Share Purchase Plan Offer Letter",
+          "date": "2026-11-03",
+          "ticker": "FEG",
+          "headline": "Far East Gold Launches Share Purchase Plan",
           "called": "neutral",
-          "abnormal_pct": -9.22
+          "abnormal_pct": -13.39
         },
         {
           "date": "2026-11-03",
@@ -5785,7 +5785,7 @@
       "rule": "A standalone unquoted-securities notification without a companion quotation application can signal that previously issued but unquoted shares (e.g. from a prior private placement) are about to become quotable — the prospective arrival of new freely tradeable paper into a thinly traded, deeply de-rated register is a dilution-overhang signal; lean bearish rather than neutral when no operational catalyst accompanies the filing, because the dominant near-term mechanic is supply arriving into a thin market.",
       "created": "2026-10-08",
       "last_seen": "2026-11-03",
-      "times_seen": 13,
+      "times_seen": 14,
       "examples": [
         {
           "date": "2026-10-28",
@@ -5809,11 +5809,11 @@
           "abnormal_pct": 11.94
         },
         {
-          "date": "2026-10-28",
-          "ticker": "ASV",
-          "headline": "Notification regarding unquoted securities - ASV",
+          "date": "2026-11-03",
+          "ticker": "PEN",
+          "headline": "Notification regarding unquoted securities - PEN",
           "called": "neutral",
-          "abnormal_pct": 11.94
+          "abnormal_pct": -5.9
         },
         {
           "date": "2026-11-03",
@@ -8230,8 +8230,8 @@
       "trigger": "AGM combined with a named trading update, flagged market sensitive, at a deeply de-rated (>60% below 12-month high) consumer retail or services company with an identifiable institutional following, where the trading update is the substantive element and the stock's de-rating reflects operational deterioration already known to the market",
       "rule": "At a deeply de-rated retailer or services company, an AGM trading update flagged market sensitive is asymmetrically skewed toward a positive surprise relative to expectations already embedded in the price — the stock is pricing significant ongoing deterioration, so a trading update that merely confirms stabilisation or any improvement versus the implied bear case functions as a floor-setting catalyst; do not default to bearish purely because the vehicle is an AGM at a distressed stock; lean neutral-to-bullish when the trading update component is the named substantive element and the de-rating already prices a severe outcome.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-29",
-      "times_seen": 4,
+      "last_seen": "2026-11-03",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-22",
@@ -8260,6 +8260,13 @@
           "headline": "AGM - Chair & CEO Presentations",
           "called": "neutral",
           "abnormal_pct": -15.17
+        },
+        {
+          "date": "2026-11-03",
+          "ticker": "GIB",
+          "headline": "Chairmans Address - AGM",
+          "called": "neutral",
+          "abnormal_pct": 6.55
         }
       ]
     },
@@ -9918,8 +9925,15 @@
       "rule": "A named-jurisdiction update that explicitly pairs incentive structures with commercial progress is substantively different from a generic investor relations filing — the incentive framing signals a specific revenue-enablement mechanism is being unlocked, not merely described; lean neutral-to-bullish rather than neutral when the headline combines a named high-value jurisdiction, a government incentive reference, and a commercial progress descriptor, because the incentive clarity itself can be the re-rating catalyst the market was waiting for.",
       "created": "2026-11-03",
       "last_seen": "2026-11-03",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-11-03",
+          "ticker": "JNS",
+          "headline": "North America Update - Incentives & Commercial Progress",
+          "called": "neutral",
+          "abnormal_pct": 14.24
+        },
         {
           "date": "2026-11-03",
           "ticker": "JNS",
