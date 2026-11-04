@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:39:50.748998+11:00",
+  "generated_at": "2026-11-04T21:40:08.028825+11:00",
   "days_scored": 63,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
@@ -13,17 +13,17 @@
       "avg_abnormal_pct": 1.66
     },
     "bearish": {
-      "scored": 1802,
-      "correct": 567,
+      "scored": 1801,
+      "correct": 566,
       "wrong": 444,
       "flat": 791,
-      "hit_rate": 56.1,
+      "hit_rate": 56.0,
       "avg_abnormal_pct": -0.77
     },
     "neutral": {
-      "scored": 9525,
+      "scored": 9526,
       "correct": 4292,
-      "wrong": 5233,
+      "wrong": 5234,
       "flat": 0,
       "hit_rate": 45.1,
       "avg_abnormal_pct": 0.09
@@ -31,7 +31,7 @@
   },
   "spread_pct": 2.43,
   "directional_hit_rate": 58.4,
-  "directional_scored": 3347,
+  "directional_scored": 3346,
   "intraday": {
     "by_sentiment": {
       "bullish": {
@@ -43,16 +43,16 @@
         "avg_abnormal_pct": -0.25
       },
       "bearish": {
-        "scored": 1802,
-        "correct": 522,
+        "scored": 1801,
+        "correct": 521,
         "wrong": 348,
         "flat": 932,
         "hit_rate": 60.0,
         "avg_abnormal_pct": -0.58
       },
       "neutral": {
-        "scored": 9525,
-        "correct": 4755,
+        "scored": 9526,
+        "correct": 4756,
         "wrong": 4770,
         "flat": 0,
         "hit_rate": 49.9,
@@ -60,8 +60,8 @@
       }
     },
     "spread_pct": 0.33,
-    "directional_hit_rate": 48.6,
-    "directional_scored": 3048
+    "directional_hit_rate": 48.5,
+    "directional_scored": 3047
   },
   "by_document_type": [
     {
@@ -75,12 +75,12 @@
     },
     {
       "document_type": "Substantial Holding",
-      "scored": 209,
-      "hit_rate": 45.9,
-      "intraday_scored": 198,
-      "intraday_hit_rate": 48.5,
-      "intraday_avg_as_called": -0.18,
-      "avg_as_called": -0.29
+      "scored": 208,
+      "hit_rate": 45.7,
+      "intraday_scored": 197,
+      "intraday_hit_rate": 48.2,
+      "intraday_avg_as_called": -0.19,
+      "avg_as_called": -0.32
     },
     {
       "document_type": "Quarterly Report",
@@ -639,11 +639,11 @@
     },
     {
       "date": "2026-11-04",
-      "hit_rate": 48.2,
-      "scored": 56,
-      "spread_pct": 4.67,
-      "intraday_hit_rate": 35.6,
-      "intraday_scored": 59
+      "hit_rate": 47.3,
+      "scored": 55,
+      "spread_pct": 4.26,
+      "intraday_hit_rate": 34.5,
+      "intraday_scored": 58
     }
   ]
 }
