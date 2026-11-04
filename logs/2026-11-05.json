@@ -1,9 +1,77 @@
 {
   "date": "2026-11-05",
-  "total": 267,
+  "total": 268,
   "market_sensitive_count": 75,
-  "generated_at": "2026-11-04T23:24:13.611185+00:00",
+  "generated_at": "2026-11-04T23:30:24.407989+00:00",
   "announcements": [
+    {
+      "ticker": "WBC",
+      "company": "WESTPAC BANKING CORPORATION",
+      "headline": "Information Memorandum for Issuance of Debt Instruments",
+      "time": "2026-11-04T23:22:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03158352-2A1708533",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Westpac's Information Memorandum for debt instrument issuance is a routine wholesale funding activity — this is a standard mechanism for a major bank to access debt capital markets and signals no strategic shift; the 'not market sensitive' flag confirms management views this as procedural rather than material to earnings or balance sheet risk.",
+        "With WBC sitting just 1.86% off its 3-month high, the stock is effectively at a near-term peak — this filing into an extended tape reinforces the neutral read; there is no valuation catalyst here, and the marginal cost of new debt is the only number that matters for NIM modelling, which is not disclosed in this filing type.",
+        "The so-what for institutional holders is minimal: an IM filing precedes a potential debt raise but provides no quantum, tenor, or pricing detail — monitor for a companion pricing announcement or supplementary term sheet, which would be the actual market-relevant event; until then, this is administrative pipeline disclosure."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-04",
+        "bars": 254,
+        "last_close": 37.01,
+        "market_cap_aud": 126402606650.95,
+        "shares_outstanding": 3415363595,
+        "beta": 1.008,
+        "rsi_14": 61.14,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 1.28,
+        "avg_turnover_aud": 192381325,
+        "liquid": true,
+        "avg_volume_20": 5540565,
+        "volume_change_pct": 28.0,
+        "pct_from_3m_high": -1.86,
+        "pct_from_3m_low": 10.61,
+        "pct_from_6m_high": -5.18,
+        "pct_from_6m_low": 10.61,
+        "pct_from_52w_high": -14.57,
+        "pct_from_52w_low": 10.61,
+        "high_52w": 43.32,
+        "low_52w": 33.46,
+        "high_3m": 37.71,
+        "low_3m": 33.46,
+        "high_6m": 39.03,
+        "low_6m": 33.46,
+        "month1_high": 37.71,
+        "month1_low": 33.7,
+        "month2_high": 35.34,
+        "month2_low": 33.69,
+        "month3_high": 37.04,
+        "month3_low": 33.46,
+        "range_position_3m": 0.835,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.86% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-04 close.",
+          "The price sat in the upper part of its 3-month range, 1.86% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AGT",
       "company": "ARBITR GROUP LIMITED",
