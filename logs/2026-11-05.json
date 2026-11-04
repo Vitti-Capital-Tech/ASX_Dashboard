@@ -1,9 +1,78 @@
 {
   "date": "2026-11-05",
-  "total": 269,
+  "total": 270,
   "market_sensitive_count": 75,
-  "generated_at": "2026-11-04T23:36:57.145735+00:00",
+  "generated_at": "2026-11-04T23:43:35.226874+00:00",
   "announcements": [
+    {
+      "ticker": "RCM",
+      "company": "RAPID CRITICAL METALS LIMITED",
+      "headline": "Director Appointment/Resignation",
+      "time": "2026-11-04T23:41:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03158354-2A1708536",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director appointment/resignation notices are inherently administrative — no milestone, no capital event, no operational update — and this filing is explicitly not flagged market sensitive, meaning the company itself does not judge the content price-relevant. At a stock sitting at a 12-month low, the absence of a market-sensitive flag removes the one signal that might have warranted directional conviction.",
+        "The stock is thinly traded at a median turnover of roughly A$49,525/day, which means volume ratios are close to meaningless as a signal of intent — there is insufficient liquidity for any read-through on whether the board change is being anticipated or reacted to by institutional holders. The 12-month low context does suggest a disengaged or disappointed register, making a positive re-rating on this filing alone unlikely.",
+        "The 'so what?' depends entirely on who is arriving or departing and why — information not available in the headline. A high-profile technical hire into a critical metals junior could carry strategic signal, but without that detail this is a procedural filing. At a 12-month low with no market-sensitive flag, the base case is that the board change reflects ongoing operational difficulty rather than a strategic inflection; watch for a companion announcement (capital raise, project update) that might contextualise the change."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-04",
+        "bars": 254,
+        "last_close": 0.016,
+        "market_cap_aud": 19136430.21,
+        "shares_outstanding": 1196026888,
+        "beta": 2.681,
+        "rsi_14": 25.74,
+        "volume_trend_ratio": 0.95,
+        "volume_last_ratio": 1.07,
+        "avg_turnover_aud": 49525,
+        "liquid": false,
+        "avg_volume_20": 2935493,
+        "volume_change_pct": 7.0,
+        "pct_from_3m_high": -55.56,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -66.67,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -82.8,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.093,
+        "low_52w": 0.016,
+        "high_3m": 0.036,
+        "low_3m": 0.016,
+        "high_6m": 0.048,
+        "low_6m": 0.016,
+        "month1_high": 0.029,
+        "month1_low": 0.016,
+        "month2_high": 0.032,
+        "month2_low": 0.027,
+        "month3_high": 0.036,
+        "month3_low": 0.029,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$49,525/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-04 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$49,525 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CHN",
       "company": "CHALICE MINING LIMITED",
