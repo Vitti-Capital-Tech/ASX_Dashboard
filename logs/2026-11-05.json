@@ -1,9 +1,77 @@
 {
   "date": "2026-11-05",
-  "total": 268,
+  "total": 269,
   "market_sensitive_count": 75,
-  "generated_at": "2026-11-04T23:30:24.407989+00:00",
+  "generated_at": "2026-11-04T23:36:57.145735+00:00",
   "announcements": [
+    {
+      "ticker": "CHN",
+      "company": "CHALICE MINING LIMITED",
+      "headline": "Corporate Presentation - November 2026",
+      "time": "2026-11-04T23:30:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03158353-6A1353740",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A corporate presentation filing not flagged market sensitive is a low-signal, procedural update — no new operational milestone, resource upgrade, or funding event is implied by the headline alone, and per base-rate discipline an unflagged filing must make its own case before earning a directional call.",
+        "With the stock sitting 60.46% below its 12-month high, CHN is in deeply de-rated territory; a routine investor deck at this level typically repackages existing project data for conference or roadshow purposes rather than introducing price-moving information — institutional investors already familiar with the Gonneville PGE project will find little here to change their thesis without a named catalyst update.",
+        "The 'so what' for near-term price action is minimal: absent a material resource, permitting, partnership, or funding disclosure within the presentation itself, this filing functions as a holding pattern signal — management is maintaining market engagement but the tape remains a function of broader PGE sentiment and balance sheet clarity, not this document."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-04",
+        "bars": 254,
+        "last_close": 1.04,
+        "market_cap_aud": 405769040.56,
+        "shares_outstanding": 390162539,
+        "beta": 2.79,
+        "rsi_14": 52.32,
+        "volume_trend_ratio": 1.09,
+        "volume_last_ratio": 0.92,
+        "avg_turnover_aud": 2016348,
+        "liquid": true,
+        "avg_volume_20": 2167819,
+        "volume_change_pct": -8.0,
+        "pct_from_3m_high": -32.69,
+        "pct_from_3m_low": 19.88,
+        "pct_from_6m_high": -39.71,
+        "pct_from_6m_low": 19.88,
+        "pct_from_52w_high": -60.46,
+        "pct_from_52w_low": 19.88,
+        "high_52w": 2.63,
+        "low_52w": 0.8675,
+        "high_3m": 1.545,
+        "low_3m": 0.8675,
+        "high_6m": 1.725,
+        "low_6m": 0.8675,
+        "month1_high": 1.13,
+        "month1_low": 0.8675,
+        "month2_high": 1.37,
+        "month2_low": 1.08,
+        "month3_high": 1.545,
+        "month3_low": 1.215,
+        "range_position_3m": 0.255,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "60.46% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-04 close.",
+          "The price sat in the lower part of its 3-month range, 32.69% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WBC",
       "company": "WESTPAC BANKING CORPORATION",
