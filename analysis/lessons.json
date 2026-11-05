@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T10:42:12.974844+00:00",
-  "next_id": 257,
+  "updated_at": "2026-11-05T06:45:33.769117+00:00",
+  "next_id": 261,
   "lessons": [
     {
       "id": "L001",
@@ -693,16 +693,9 @@
       "trigger": "Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day",
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
-      "last_seen": "2026-11-03",
-      "times_seen": 21,
+      "last_seen": "2026-11-05",
+      "times_seen": 22,
       "examples": [
-        {
-          "date": "2026-10-19",
-          "ticker": "MBK",
-          "headline": "Notification of cessation of securities - MBK",
-          "called": "neutral",
-          "abnormal_pct": 24.56
-        },
         {
           "date": "2026-10-19",
           "ticker": "MBK",
@@ -730,6 +723,13 @@
           "headline": "Quotation of New Options",
           "called": "neutral",
           "abnormal_pct": 7.44
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "PNR",
+          "headline": "Notification of cessation of securities - PNR",
+          "called": "neutral",
+          "abnormal_pct": 15.87
         }
       ]
     },
@@ -1309,16 +1309,9 @@
       "trigger": "Change of Director's Interest Notice filed into elevated volume (5-day volume >1.5x average) at a stock that is NOT near a multi-month high, with no direction disclosed in the headline",
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
-      "last_seen": "2026-11-03",
-      "times_seen": 36,
+      "last_seen": "2026-11-05",
+      "times_seen": 37,
       "examples": [
-        {
-          "date": "2026-11-02",
-          "ticker": "SFX",
-          "headline": "Change of Director's Interest Notice",
-          "called": "neutral",
-          "abnormal_pct": -7.11
-        },
         {
           "date": "2026-11-02",
           "ticker": "ARR",
@@ -1346,6 +1339,13 @@
           "headline": "Change of Director's Interest Notice- J Beckton",
           "called": "neutral",
           "abnormal_pct": 6.93
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "BML",
+          "headline": "Change of Director's Interest Notice - RM",
+          "called": "neutral",
+          "abnormal_pct": 11.42
         }
       ]
     },
@@ -1731,18 +1731,11 @@
       "trigger": "Despatch of prospectus announcement at a stock 50%+ below its 12-month high, where the prospectus is for a rights issue or entitlement offer (not a placement) and the offer price implies existing holders can participate at current or near-current prices rather than suffering pure dilution",
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
-      "last_seen": "2026-10-08",
-      "times_seen": 24,
+      "last_seen": "2026-11-05",
+      "times_seen": 25,
       "examples": [
         {
           "date": "2026-10-08",
-          "ticker": "CYP",
-          "headline": "Prospectus",
-          "called": "bearish",
-          "abnormal_pct": 9.86
-        },
-        {
-          "date": "2026-10-08",
           "ticker": "PRX",
           "headline": "Prospectus",
           "called": "neutral",
@@ -1768,6 +1761,13 @@
           "headline": "Prospectus",
           "called": "bearish",
           "abnormal_pct": 9.86
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "SRN",
+          "headline": "Results of Non-Renounceable Rights Issue",
+          "called": "neutral",
+          "abnormal_pct": -9.28
         }
       ]
     },
@@ -2312,17 +2312,10 @@
       "trigger": "AGM filing that bundles a resolution to change the company name alongside director nominations, at a stock 50%+ below its 12-month high with near-zero median daily turnover",
       "rule": "A name-change resolution in an AGM notice at a deeply de-rated micro-cap is a leading indicator of a strategic pivot (new commodity, new geography, or post-restructure rebrand) that often precedes an operational announcement or capital raise; do not treat as purely administrative — lean neutral-to-bullish rather than neutral, because the name change signals management has already decided on a new direction and the AGM is the formal gate for executing it.",
       "created": "2026-09-21",
-      "last_seen": "2026-10-29",
-      "times_seen": 12,
+      "last_seen": "2026-11-05",
+      "times_seen": 13,
       "examples": [
         {
-          "date": "2026-10-20",
-          "ticker": "FGH",
-          "headline": "Notice of Annual General Meeting and Proxy Form",
-          "called": "bearish",
-          "abnormal_pct": 12.83
-        },
-        {
           "date": "2026-10-29",
           "ticker": "AUZ",
           "headline": "Australian Mines Proposes Name Change to First Scandium",
@@ -2349,6 +2342,13 @@
           "headline": "Australian Mines Proposes Name Change to First Scandium",
           "called": "neutral",
           "abnormal_pct": 28.66
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "IPT",
+          "headline": "Impact Minerals Proposes New Name Altrica Advanced Materials",
+          "called": "neutral",
+          "abnormal_pct": -10.94
         }
       ]
     },
@@ -2997,8 +2997,8 @@
       "trigger": "Named gold (or base metal) discovery update headlined as both 'drilling and assay update' at a junior explorer 60%+ below its 12-month high, with 5-day volume running >2x average, where the headline explicitly names a discovery (not merely a programme) and pairs drilling with assay data in a single release",
       "rule": "When the headline names a specific discovery and bundles assay data with drilling in the same release, this is not a pure extension result under L018 — the discovery framing implies grade data is present that may justify the pre-positioning; do not default to neutral purely on the elevated-volume sell-the-news logic when the headline signals both discovery-level branding and assay content, because the grade data embedded in the filing may be sufficient to sustain or extend the re-rating; lean neutral-to-bullish rather than neutral, and reserve the L018 bearish call for extension-only headlines that lack discovery language.",
       "created": "2026-09-23",
-      "last_seen": "2026-09-24",
-      "times_seen": 4,
+      "last_seen": "2026-11-05",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-23",
@@ -3027,6 +3027,13 @@
           "headline": "Torpys High-Grade Mineralisation Extends Towards Surface",
           "called": "bearish",
           "abnormal_pct": 9.06
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "RXL",
+          "headline": "United North Growth Drilling Update",
+          "called": "neutral",
+          "abnormal_pct": 10.52
         }
       ]
     },
@@ -3661,16 +3668,9 @@
       "trigger": "Aircore or RC drilling programme completion announcement headlined as a 'Gold Discovery' (or equivalent named discovery language) flagged market sensitive at a junior explorer 60%+ below its 12-month high, where the headline bundles programme completion with discovery framing but no assay grades are yet disclosed",
       "rule": "L002 covers commencement announcements; L013 covers survey completion. A programme-completion announcement that pairs 'completed' with active discovery language ('Gold Discovery') occupies a third category — it signals that the company believes results already in hand are discovery-grade, even before assay publication; treat the discovery language as a substantive signal that separates this from a neutral programme-completion filing. When the headline names a discovery and the filing is market-sensitive, lean neutral-to-bullish rather than applying L002's neutral default, because management has made an affirmative claim about result quality that the market-sensitive flag endorses.",
       "created": "2026-09-25",
-      "last_seen": "2026-11-04",
-      "times_seen": 7,
+      "last_seen": "2026-11-05",
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-25",
-          "ticker": "AUV",
-          "headline": "Gold Discovery Aircore Program at Nuckulla Hill Completed",
-          "called": "neutral",
-          "abnormal_pct": 14.71
-        },
         {
           "date": "2026-09-25",
           "ticker": "AUV",
@@ -3698,6 +3698,13 @@
           "headline": "Significant REE Discovery at East Tundulu",
           "called": "bullish",
           "abnormal_pct": -9.41
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "WC1",
+          "headline": "Salazar Scandium Drilling Completed",
+          "called": "neutral",
+          "abnormal_pct": 12.77
         }
       ]
     },
@@ -4384,18 +4391,11 @@
       "trigger": "Forward guidance announcement (FY guidance, production outlook) flagged market sensitive at a gold producer or operating miner with no price action data available, where the headline frames the filing as 'FY[X] Guidance & Outlook' rather than as a results beat or resource upgrade",
       "rule": "A guidance announcement is directionally ambiguous without knowing whether the disclosed numbers beat or miss prior consensus or management signals — 'guidance issued' is not the same as 'guidance beat'; before calling bullish on a guidance filing, require either (a) explicit beat language in the headline, (b) a disclosed metric that can be compared to a prior anchor, or (c) price action confirming the tape was not already positioned for positive news; when none of these are available, default to neutral rather than bullish, because disappointing guidance at an extended valuation is as probable as a beat and the downside is asymmetrically large.",
       "created": "2026-09-30",
-      "last_seen": "2026-10-30",
-      "times_seen": 16,
+      "last_seen": "2026-11-05",
+      "times_seen": 17,
       "examples": [
         {
           "date": "2026-10-30",
-          "ticker": "KCN",
-          "headline": "September 2026 Quarterly Report",
-          "called": "bullish",
-          "abnormal_pct": -12.88
-        },
-        {
-          "date": "2026-10-30",
           "ticker": "CYL",
           "headline": "Quarterly Activities Report - September 2026",
           "called": "bullish",
@@ -4421,6 +4421,13 @@
           "headline": "September 2026 Quarterly Report",
           "called": "bullish",
           "abnormal_pct": -12.88
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "HPG",
+          "headline": "FY26 Chair and CEO AGM Addresses and Presentation",
+          "called": "bullish",
+          "abnormal_pct": -12.61
         }
       ]
     },
@@ -5041,17 +5048,10 @@
       "trigger": "Reinstatement to quotation announcement flagged market sensitive at a stock near a recent high (within 5% of 3-month high) with deeply suppressed pre-announcement volume (<0.2x average) and non-trivial absolute liquidity (median turnover >A$5,000/day)",
       "rule": "A reinstatement near a recent high with suppressed volume is structurally different from both a distress reinstatement (L065) and a generic neutral reinstatement — the suppressed volume rules out pre-positioning, the near-high price context rules out distress, and the market-sensitive flag implies a positive accompanying disclosure; lean neutral-to-bullish rather than purely neutral, because the combination of reinstatement into strength with no pre-positioning and a material-sensitive flag is more consistent with a positive catalyst being released than with a dilutive or negative event.",
       "created": "2026-10-02",
-      "last_seen": "2026-10-08",
-      "times_seen": 12,
+      "last_seen": "2026-11-05",
+      "times_seen": 13,
       "examples": [
         {
-          "date": "2026-10-05",
-          "ticker": "MOT",
-          "headline": "Reinstatement to Quotation",
-          "called": "neutral",
-          "abnormal_pct": -7.46
-        },
-        {
           "date": "2026-10-08",
           "ticker": "VRC",
           "headline": "Reinstatement to Quotation",
@@ -5078,6 +5078,13 @@
           "headline": "Reinstatement to Quotation",
           "called": "neutral",
           "abnormal_pct": -8.33
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "ARN",
+          "headline": "Reinstatement to Quotation",
+          "called": "neutral",
+          "abnormal_pct": 13.81
         }
       ]
     },
@@ -6078,17 +6085,10 @@
       "trigger": "Initial Director's Interest Notice (not a change notice — a first disclosure of an opening position) at a deeply de-rated junior (>50% below 12-month high) with near-zero or zero liquidity and no market-sensitive flag",
       "rule": "An Initial Director's Interest Notice discloses what a director already holds at the point of appointment or first disclosure — it is not necessarily a fresh purchase and may reveal a pre-existing holding with no cash committed at current prices; do not treat it as constructive insider buying without confirming the acquisition date and price are recent and at-market; default to neutral, and lean bearish rather than neutral at near-zero-liquidity stocks where even a small disclosed holding creates a prospective supply overhang if the director chooses to sell.",
       "created": "2026-10-09",
-      "last_seen": "2026-10-21",
-      "times_seen": 17,
+      "last_seen": "2026-11-05",
+      "times_seen": 18,
       "examples": [
         {
-          "date": "2026-10-20",
-          "ticker": "MCA",
-          "headline": "Initial Director's Interest Notice",
-          "called": "neutral",
-          "abnormal_pct": 8.02
-        },
-        {
           "date": "2026-10-21",
           "ticker": "NYM",
           "headline": "Initial Director's Interest Notice",
@@ -6115,6 +6115,13 @@
           "headline": "Initial Director's Interest Notice",
           "called": "neutral",
           "abnormal_pct": -18.35
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "RCM",
+          "headline": "Initial Director's Interest Notice",
+          "called": "neutral",
+          "abnormal_pct": 22.39
         }
       ]
     },
@@ -7467,18 +7474,11 @@
       "trigger": "Generic named communication filing (Shareholder Letter, Chairman's Letter, CEO Update) at a stock at a 12-month low with near-zero absolute liquidity (median daily turnover effectively A$0/day) and zero pre-announcement volume (0.0x), where the filing is not flagged market sensitive and no operational content is named in the headline",
       "rule": "Do not default to bearish on a shareholder letter at a completely dormant, near-zero-liquidity stock purely on the grounds of filing type and distress — when absolute liquidity is zero and volume is zero, there are no motivated sellers active in the market and any communication from management, however generic, can function as a re-engagement signal that attracts the first buyer; default to neutral rather than bearish when the register is completely dormant, reserving bearish for letters that contain explicit negative language (funding shortfall, wind-down, going-concern) in the headline.",
       "created": "2026-10-20",
-      "last_seen": "2026-10-22",
-      "times_seen": 12,
+      "last_seen": "2026-11-05",
+      "times_seen": 13,
       "examples": [
         {
           "date": "2026-10-22",
-          "ticker": "BEL",
-          "headline": "Letter to Shareholders - Notice of AGM, Proxy Form",
-          "called": "bearish",
-          "abnormal_pct": 12.93
-        },
-        {
-          "date": "2026-10-22",
           "ticker": "INF",
           "headline": "Shareholder Letter - 2026 Annual General Meeting",
           "called": "bearish",
@@ -7504,6 +7504,13 @@
           "headline": "Letter to Shareholders - Notice of AGM, Proxy Form",
           "called": "bearish",
           "abnormal_pct": 12.93
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "WWG",
+          "headline": "Annual General Meeting Presentation",
+          "called": "bearish",
+          "abnormal_pct": 14.06
         }
       ]
     },
@@ -7882,16 +7889,9 @@
       "trigger": "Market-sensitive quarterly financial performance report at a commercial-stage, revenue-generating pharmaceutical or life sciences company with no price action data available, where the headline frames the filing as a named-quarter financial result rather than a clinical or regulatory milestone",
       "rule": "Before defaulting to neutral on a market-sensitive quarterly financial result at a commercial pharma company with no price action data, ask whether the company has a known consensus revenue or earnings estimate that the result will either beat or miss — a market-sensitive quarterly at a commercial-stage pharma is directionally asymmetric: a miss at a stock with institutional following can produce sharp selling as models are revised; when no price action data is available to assess whether a beat is already priced, default to bearish rather than neutral for market-sensitive quarterly results at commercial-stage pharma where analyst consensus exists and the filing type is a financial-performance report rather than a clinical update, because the downside from a miss is asymmetrically large relative to an in-line result.",
       "created": "2026-10-21",
-      "last_seen": "2026-10-23",
-      "times_seen": 10,
+      "last_seen": "2026-11-05",
+      "times_seen": 11,
       "examples": [
-        {
-          "date": "2026-10-22",
-          "ticker": "CXZ",
-          "headline": "Quarterly Report",
-          "called": "neutral",
-          "abnormal_pct": 9.52
-        },
         {
           "date": "2026-10-22",
           "ticker": "MFG",
@@ -7919,6 +7919,13 @@
           "headline": "1Q FY27 results update",
           "called": "bullish",
           "abnormal_pct": -29.49
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "AMC",
+          "headline": "Dividend/Distribution - AMC",
+          "called": "neutral",
+          "abnormal_pct": -10.4
         }
       ]
     },
@@ -8976,8 +8983,8 @@
       "trigger": "Results of Meeting filing at a non-distressed, revenue-generating mid-to-small-cap (electrical contractor, industrial services, or equivalent operating business), not flagged market sensitive, with no price action data available",
       "rule": "At an established, revenue-generating operating company (not a distressed junior), a Results of Meeting filing with no market-sensitive flag and no disclosed resolution failure has a materially higher base rate of passing all resolutions cleanly than at a distressed micro-cap — and a clean pass on remuneration or strategic resolutions can itself trigger a relief-buying or short-covering reaction at a depressed price; default to neutral-to-bullish rather than purely neutral when the company is an operating business with identifiable revenue, because the AGM clean-pass signal functions as a governance floor that distressed-register logic does not apply to.",
       "created": "2026-10-27",
-      "last_seen": "2026-10-27",
-      "times_seen": 2,
+      "last_seen": "2026-11-05",
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-10-27",
@@ -8992,6 +8999,13 @@
           "headline": "Results of Meeting",
           "called": "neutral",
           "abnormal_pct": 13.1
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "ALK",
+          "headline": "Results of Annual General Meeting",
+          "called": "neutral",
+          "abnormal_pct": 10.36
         }
       ]
     },
@@ -9176,8 +9190,8 @@
       "trigger": "Buy-back update notification (not a new buy-back announcement, but a periodic programme update) at a near-zero-liquidity micro-cap with volume running materially above average (>2x), not flagged market sensitive",
       "rule": "A buy-back programme update into elevated volume at a near-zero-liquidity stock is not purely procedural — the elevated volume at that liquidity level is the signal, not the filing; before calling neutral, ask whether the volume spike preceded the filing and may reflect informed accumulation ahead of a separately pending announcement that the buy-back update is masking; default to neutral-to-bullish rather than neutral when volume is elevated and absolute liquidity is near-zero, because the filing type may be incidental to the actual market-moving event.",
       "created": "2026-10-28",
-      "last_seen": "2026-11-03",
-      "times_seen": 4,
+      "last_seen": "2026-11-05",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-28",
@@ -9206,6 +9220,13 @@
           "headline": "Update - Notification of buy-back - AMP",
           "called": "neutral",
           "abnormal_pct": -9.7
+        },
+        {
+          "date": "2026-11-05",
+          "ticker": "ZIP",
+          "headline": "Update - Notification of buy-back - ZIP",
+          "called": "neutral",
+          "abnormal_pct": 13.07
         }
       ]
     },
@@ -10150,7 +10171,75 @@
           "abnormal_pct": -9.41
         }
       ]
+    },
+    {
+      "id": "L257",
+      "trigger": "Market-sensitive trading update from a large-cap or mid-cap consumer-facing or automotive retail company (not a junior explorer), where no price action data is available and no beat or miss language appears in the headline",
+      "rule": "A market-sensitive trading update from a revenue-generating, institutionally covered company with analyst consensus is directionally asymmetric to the downside when the headline uses neutral framing ('Trading Update') without explicit beat language — consensus misses at covered companies produce sharp selling as models are revised, while in-line results produce muted reactions; default to bearish rather than neutral when the headline is a plain 'Trading Update' with no positive qualifier and the company has identifiable sell-side coverage.",
+      "created": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-05",
+          "ticker": "APE",
+          "headline": "Eagers Automotive Trading Update",
+          "called": "neutral",
+          "abnormal_pct": -15.83
+        }
+      ]
+    },
+    {
+      "id": "L258",
+      "trigger": "Named stage-completion or project-phase update presentation (e.g. 'Stage 2 Update', 'Phase 2 Progress') at a capital-intensive developer (HPA, lithium, rare earths, advanced materials) that is 60%+ below its 12-month high, not flagged market sensitive, with volume running 1.5–2x average",
+      "rule": "A named stage update at a deeply de-rated developer with elevated volume signals the market is actively seeking a catalyst, and even a non-flagged presentation confirming that construction or commissioning is progressing on schedule (without a cost blowout or delay) can function as a floor-setting relief catalyst; before defaulting to neutral on the absence of a market-sensitive flag and missing headline milestone, ask whether the company's de-rating reflects schedule or cost uncertainty that the presentation now partially resolves — if so, lean neutral-to-bullish rather than neutral.",
+      "created": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-05",
+          "ticker": "A4N",
+          "headline": "Presentation - HPA First Project - Stage 2 Update",
+          "called": "neutral",
+          "abnormal_pct": 14.53
+        }
+      ]
+    },
+    {
+      "id": "L259",
+      "trigger": "Market-sensitive stockpile assay result at a junior miner (not a greenfield explorer), where the headline names 'stockpile' rather than in-situ drilling intercepts, at a stock at a 3-month low with near-zero absolute liquidity",
+      "rule": "A stockpile assay result differs from a drilling intercept — it characterises material already extracted and stockpiled, implying potential near-term processing or sale revenue rather than a future exploration target; treat a market-sensitive stockpile assay as a commercial-readiness signal rather than a pure exploration result, and lean neutral-to-bullish rather than neutral when the stock is at a multi-month low and the market-sensitive flag is present, because the assay confirms the stockpile has economic content that management deems price-relevant.",
+      "created": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-05",
+          "ticker": "NYM",
+          "headline": "Stockpile assay results from Redhill Project",
+          "called": "neutral",
+          "abnormal_pct": 11.03
+        }
+      ]
+    },
+    {
+      "id": "L260",
+      "trigger": "Market-sensitive 'Notice of Status of Defeating Conditions' (or equivalent conditions-satisfaction notice) in an active scheme or merger, at a stock 60%+ below its 12-month high, where the headline uses neutral framing ('Status of Defeating Conditions') without disclosing whether conditions are satisfied or triggered",
+      "rule": "A defeating-conditions status notice that uses neutral headline framing (not 'conditions triggered' or 'transaction terminated') at a deeply de-rated stock is more likely to disclose that defeating conditions have NOT been triggered (i.e. the transaction is proceeding) than that the deal has collapsed — issuers whose deals collapse almost always use explicit termination language in the headline; lean neutral-to-bullish rather than neutral when the headline names the defeating-conditions mechanism without affirmative collapse language, because the dominant base rate for formally filed status notices in live schemes is conditions-not-triggered.",
+      "created": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-05",
+          "ticker": "FRS",
+          "headline": "Zenith Minerals - Notice of Status of Defeating Conditions",
+          "called": "neutral",
+          "abnormal_pct": 9.89
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-11-04"
+  "last_reflected": "2026-11-05"
 }
