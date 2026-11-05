@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T17:42:51.996079+11:00",
+  "generated_at": "2026-11-05T18:39:48.301584+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -14,12 +14,12 @@
         "avg_abnormal_pct": 3.84
       },
       "bearish": {
-        "scored": 22,
+        "scored": 21,
         "correct": 9,
-        "wrong": 6,
+        "wrong": 5,
         "flat": 7,
-        "hit_rate": 60.0,
-        "avg_abnormal_pct": -0.03
+        "hit_rate": 64.3,
+        "avg_abnormal_pct": -0.15
       },
       "neutral": {
         "scored": 165,
@@ -30,11 +30,11 @@
         "avg_abnormal_pct": 1.52
       }
     },
-    "spread_pct": 3.87,
-    "directional_hit_rate": 59.2,
-    "directional_scored": 49,
+    "spread_pct": 3.99,
+    "directional_hit_rate": 60.4,
+    "directional_scored": 48,
     "pending": 0,
-    "no_data": 46,
+    "no_data": 47,
     "conflicts": 1
   },
   "intraday_stats": {
@@ -48,12 +48,12 @@
         "avg_abnormal_pct": 2.73
       },
       "bearish": {
-        "scored": 22,
+        "scored": 21,
         "correct": 5,
-        "wrong": 8,
+        "wrong": 7,
         "flat": 9,
-        "hit_rate": 38.5,
-        "avg_abnormal_pct": 0.91
+        "hit_rate": 41.7,
+        "avg_abnormal_pct": 0.87
       },
       "neutral": {
         "scored": 165,
@@ -64,11 +64,11 @@
         "avg_abnormal_pct": 1.3
       }
     },
-    "spread_pct": 1.82,
-    "directional_hit_rate": 61.5,
-    "directional_scored": 39,
+    "spread_pct": 1.86,
+    "directional_hit_rate": 63.2,
+    "directional_scored": 38,
     "pending": 0,
-    "no_data": 46,
+    "no_data": 47,
     "conflicts": 1
   },
   "highlights": {
@@ -5649,18 +5649,18 @@
       "avg_volume_20": 544423,
       "rsi_14": 23.48,
       "market_cap_aud": 167643122.28,
-      "session_date": "2026-11-05",
-      "prev_close": 0.29,
-      "open": 0.3,
-      "vwap": 0.3056,
-      "gap_pct": 3.45,
-      "intraday_verdict": "wrong",
-      "close": 0.305,
-      "return_pct": 5.17,
-      "open_close_pct": 1.67,
-      "index_return_pct": 2.61,
-      "abnormal_pct": 2.56,
-      "verdict": "wrong",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 7,
       "also": [
         "Notification regarding unquoted securities - CYM",
