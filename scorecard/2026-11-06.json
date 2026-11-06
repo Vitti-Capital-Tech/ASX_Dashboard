@@ -1,16 +1,16 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T17:42:46.944293+11:00",
+  "generated_at": "2026-11-06T18:40:07.865871+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 39,
-        "correct": 16,
+        "scored": 38,
+        "correct": 15,
         "wrong": 10,
         "flat": 13,
-        "hit_rate": 61.5,
+        "hit_rate": 60.0,
         "avg_abnormal_pct": 2.25
       },
       "bearish": {
@@ -31,21 +31,21 @@
       }
     },
     "spread_pct": 4.1,
-    "directional_hit_rate": 66.7,
-    "directional_scored": 33,
+    "directional_hit_rate": 65.6,
+    "directional_scored": 32,
     "pending": 0,
-    "no_data": 61,
+    "no_data": 62,
     "conflicts": 0
   },
   "intraday_stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 39,
+        "scored": 38,
         "correct": 13,
-        "wrong": 11,
+        "wrong": 10,
         "flat": 15,
-        "hit_rate": 54.2,
-        "avg_abnormal_pct": 1.08
+        "hit_rate": 56.5,
+        "avg_abnormal_pct": 1.24
       },
       "bearish": {
         "scored": 19,
@@ -64,11 +64,11 @@
         "avg_abnormal_pct": -0.06
       }
     },
-    "spread_pct": 2.22,
-    "directional_hit_rate": 54.5,
-    "directional_scored": 33,
+    "spread_pct": 2.38,
+    "directional_hit_rate": 56.2,
+    "directional_scored": 32,
     "pending": 0,
-    "no_data": 61,
+    "no_data": 62,
     "conflicts": 0
   },
   "highlights": {
@@ -4752,18 +4752,18 @@
       "avg_volume_20": 37958577,
       "rsi_14": 53.02,
       "market_cap_aud": 24002603.85,
-      "session_date": "2026-11-06",
-      "prev_close": 0.071,
-      "open": 0.076,
-      "vwap": 0.0755,
-      "gap_pct": 7.04,
-      "intraday_verdict": "wrong",
-      "close": 0.072,
-      "return_pct": 1.41,
-      "open_close_pct": -5.26,
-      "index_return_pct": -0.49,
-      "abnormal_pct": 1.9,
-      "verdict": "correct",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 1,
       "also": []
     },
