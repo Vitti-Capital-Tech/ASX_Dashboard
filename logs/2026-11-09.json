@@ -1,9 +1,338 @@
 {
   "date": "2026-11-09",
-  "total": 316,
-  "market_sensitive_count": 117,
-  "generated_at": "2026-11-08T23:23:16.748731+00:00",
+  "total": 323,
+  "market_sensitive_count": 119,
+  "generated_at": "2026-11-08T23:30:18.201819+00:00",
   "announcements": [
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Disclosure Document - S708 Cleansing Statement",
+      "time": "2026-11-08T23:27:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159526-2A1709505",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Section 708 cleansing statement from Lithium Plus Minerals (LPM) confirms a placement has completed — this is an administrative filing required to free up resale restrictions on newly issued shares, and it is not flagged market sensitive, consistent with the raise details having already been disclosed separately.",
+        "Applying lesson L089: a cleansing notice without a companion filing disclosing named use-of-proceeds means the funded-catalyst moderating condition under L027 is unmet; the dilution signal from new shares entering the register is the dominant observable, and without a named operational catalyst linked to the proceeds, the bearish default for a placement cleansing notice at a junior lithium stock is appropriate.",
+        "Lithium sector sentiment remains under pressure from sustained price weakness in lithium carbonate and spodumene; a placement at a junior explorer into this environment typically reflects capital necessity rather than opportunistic growth funding, reinforcing the bearish read on fresh supply entering the register without a clear near-term catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AJX",
+      "company": "ALEXIUM INTERNATIONAL GROUP LIMITED",
+      "headline": "Application for quotation of securities - AJX",
+      "time": "2026-11-08T23:26:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159525-2A1709504",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of new securities at Alexium International (AJX) — not flagged market sensitive, confirming this is a procedural post-raise filing rather than a new capital event; the raise has already closed and the filing simply brings new shares to trading status.",
+        "Volume into this announcement is recorded at 0.0x average with a median daily turnover of approximately A$3/day — this is effectively a dormant, zero-liquidity stock where volume ratios are entirely meaningless as directional signals; the absolute turnover figure places this at the extreme low end of ASX liquidity.",
+        "Applying lessons L132 and L050: at near-zero absolute liquidity, the raise completion can be read as a funded-survival signal rather than a pure dilution event — however, without any named use-of-proceeds or operational catalyst visible in the headline or companion filings, the funded-catalyst moderating condition is unmet; default to neutral, as the stock is already priced for near-dormancy and the incremental supply from quotation is unlikely to move a register with no active participants."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 0.005,
+        "market_cap_aud": 15838130.66,
+        "shares_outstanding": 3167626131,
+        "beta": 0.265,
+        "rsi_14": 34.88,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3,
+        "liquid": false,
+        "avg_volume_20": 223723,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_6m_high": -37.5,
+        "pct_from_6m_low": 25.0,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 25.0,
+        "high_52w": 0.008,
+        "low_52w": 0.004,
+        "high_3m": 0.008,
+        "low_3m": 0.004,
+        "high_6m": 0.008,
+        "low_6m": 0.004,
+        "month1_high": 0.006,
+        "month1_low": 0.004,
+        "month2_high": 0.007,
+        "month2_low": 0.006,
+        "month3_high": 0.008,
+        "month3_low": 0.007,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$3/day",
+        "reading": [
+          "Going into this, AJX traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-11-06 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$3 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Tungsten Mineralisation Intersected across Hill of Leaders",
+      "time": "2026-11-08T23:25:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159524-6A1354151",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive drill result announcing tungsten mineralisation 'intersected across Hill of Leaders' — the headline names a specific location but stops short of disclosing grade or width, which is the critical omission; intersection language confirms mineralisation presence but provides no basis for resource-quantum inference without body data.",
+        "Volume into this announcement is running at 0.51x average on a stock with median daily turnover of only ~A$17,446 — at that absolute liquidity level the volume ratio is close to meaningless as a signal of informed accumulation or distribution; the tape is simply too thin to read institutional intent from it.",
+        "Applying lesson L058: a market-sensitive project-update headline that names only the project/location rather than a specific positive milestone (grade, resource, permit, funding) carries equal probability of containing disappointing or inconclusive data as genuinely positive data; the market-sensitive flag is necessary but not sufficient — default to neutral pending body-level grade and width disclosure."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 0.2,
+        "market_cap_aud": 16339933.2,
+        "shares_outstanding": 81699666,
+        "beta": -0.033,
+        "rsi_14": 42.96,
+        "volume_trend_ratio": 0.51,
+        "volume_last_ratio": 1.62,
+        "avg_turnover_aud": 17446,
+        "liquid": false,
+        "avg_volume_20": 132481,
+        "volume_change_pct": 62.0,
+        "pct_from_3m_high": -42.86,
+        "pct_from_3m_low": 14.29,
+        "pct_from_6m_high": -42.86,
+        "pct_from_6m_low": 90.48,
+        "pct_from_52w_high": -42.86,
+        "pct_from_52w_low": 263.64,
+        "high_52w": 0.35,
+        "low_52w": 0.055,
+        "high_3m": 0.35,
+        "low_3m": 0.175,
+        "high_6m": 0.35,
+        "low_6m": 0.105,
+        "month1_high": 0.25,
+        "month1_low": 0.19,
+        "month2_high": 0.35,
+        "month2_low": 0.235,
+        "month3_high": 0.3,
+        "month3_low": 0.175,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.51x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$17,446/day",
+        "reading": [
+          "Going into this, SLB traded only 0.51x its usual daily volume over the last 5 sessions — measured to the 2026-11-06 close.",
+          "The price sat in the lower part of its 3-month range, 42.86% below the high of that period.",
+          "Treat all of that with care: it trades about A$17,446 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Application for quotation of securities - LPM",
+      "time": "2026-11-08T23:24:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159523-2A1709498",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities by Lithium Plus Minerals (LPM) — this is the companion filing to the S708 cleansing statement in announcement [3], confirming the two filings relate to the same completed placement; together they represent the final administrative steps of a capital raise already executed.",
+        "Not flagged market sensitive, as expected for a procedural quotation filing — the market-relevant event was the original placement announcement; this filing simply activates the new shares for trading and creates the near-term supply overhang that the cleansing notice formalises.",
+        "Viewed alongside filing [3], the combined cleansing-plus-quotation cluster at a lithium junior with no named catalyst visible in either headline reinforces the bearish read: new paper is entering the register in a depressed lithium market, with no funded-catalyst signal to offset the dilution concern per L089 and L132 logic."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SOL",
+      "company": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
+      "headline": "Credit webinar presentation",
+      "time": "2026-11-08T23:24:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159522-2A1709497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Washington H. Soul Pattinson (SOL) is releasing a credit webinar presentation — not flagged market sensitive, consistent with an investor relations or fixed-income outreach event rather than a material disclosure; the filing is informational in nature and would typically provide detail on SOL's debt portfolio, credit quality, and capital structure for bondholder or credit-focused audiences.",
+        "SOL is trading just 3.88% off its 3-month high — the stock is in a strong near-term position, and an IR-focused credit presentation into an extended tape is unlikely to contain negative surprises given the market-sensitive flag is absent; however, any unexpected credit deterioration or leverage commentary could move the stock given the extended price.",
+        "For a diversified investment house of SOL's size and quality, a credit webinar is procedural and consistent with its active capital markets engagement programme; the unflagged status means this filing must make its own case and it does not — no directional signal is present, making neutral the appropriate call."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 47.51,
+        "market_cap_aud": 18054378481.76,
+        "shares_outstanding": 380012176,
+        "beta": 0.604,
+        "rsi_14": 64.0,
+        "volume_trend_ratio": 1.07,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 21532646,
+        "liquid": true,
+        "avg_volume_20": 576584,
+        "volume_change_pct": -22.0,
+        "pct_from_3m_high": -3.88,
+        "pct_from_3m_low": 9.52,
+        "pct_from_6m_high": -3.88,
+        "pct_from_6m_low": 14.21,
+        "pct_from_52w_high": -3.88,
+        "pct_from_52w_low": 36.6,
+        "high_52w": 49.43,
+        "low_52w": 34.78,
+        "high_3m": 49.43,
+        "low_3m": 43.38,
+        "high_6m": 49.43,
+        "low_6m": 41.6,
+        "month1_high": 47.75,
+        "month1_low": 44.78,
+        "month2_high": 49.43,
+        "month2_low": 43.38,
+        "month3_high": 46.92,
+        "month3_low": 43.6,
+        "range_position_3m": 0.683,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.88% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-06 close.",
+          "The price sat in the upper part of its 3-month range, 3.88% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Announcement",
+      "time": "2026-11-08T23:24:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159521-2A1709496",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A distribution announcement flagged market sensitive from JPM Global Equity Premium Income Complex ETF (JEG) — the market-sensitive flag here almost certainly relates to the per-unit distribution quantum, which is the primary valuation-relevant data point for income-oriented unitholders in a premium-income ETF structure.",
+        "Premium-income ETFs generate distributions primarily from option-writing premium and underlying dividends; a higher-than-expected distribution rate would be bullish for yield-seeking holders, while a cut would be bearish — without the specific quantum disclosed in the headline, direction cannot be confirmed, but the market-sensitive flag signals the number is material.",
+        "For an ETF, distribution announcements are largely procedural in terms of NAV impact (distributions reduce NAV by an equivalent amount on ex-date), so the net share-price effect is typically close to zero beyond the mechanical ex-distribution adjustment; the filing is relevant to income investors for reinvestment planning rather than a valuation re-rating event."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Weekly Estimated NTA as at 6 November 2026",
+      "time": "2026-11-08T23:23:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159520-3A706101",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirrabooka Investments (MIR) is releasing its weekly estimated NTA as at 6 November 2026 — this is a routine, recurring administrative disclosure required of listed investment companies and is not flagged market sensitive, consistent with its mechanical nature.",
+        "Weekly NTA updates are valuation reference points rather than new information events; the market-moving content, if any, is embedded in the underlying portfolio holdings' own price movements during the week, which are already publicly observable — the NTA filing simply formalises the aggregate.",
+        "No price action data is provided for MIR and the filing carries no directional signal in its headline; as an unflagged procedural periodic disclosure from an LIC, this is a textbook neutral filing with no basis for a bullish or bearish call."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 2.43,
+        "market_cap_aud": 543923127.54,
+        "shares_outstanding": 223836678,
+        "beta": 0.6,
+        "rsi_14": 64.91,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 1.79,
+        "avg_turnover_aud": 425614,
+        "liquid": true,
+        "avg_volume_20": 179837,
+        "volume_change_pct": 79.0,
+        "pct_from_3m_high": -7.25,
+        "pct_from_3m_low": 7.05,
+        "pct_from_6m_high": -10.0,
+        "pct_from_6m_low": 7.05,
+        "pct_from_52w_high": -25.69,
+        "pct_from_52w_low": 7.05,
+        "high_52w": 3.27,
+        "low_52w": 2.27,
+        "high_3m": 2.62,
+        "low_3m": 2.27,
+        "high_6m": 2.7,
+        "low_6m": 2.27,
+        "month1_high": 2.44,
+        "month1_low": 2.27,
+        "month2_high": 2.44,
+        "month2_low": 2.28,
+        "month3_high": 2.62,
+        "month3_low": 2.44,
+        "range_position_3m": 0.457,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-06 close.",
+          "The price sat in the middle part of its 3-month range, 7.25% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DJW",
       "company": "DJERRIWARRH INVESTMENTS LIMITED",
