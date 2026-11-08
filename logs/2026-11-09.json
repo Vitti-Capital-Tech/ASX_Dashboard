@@ -1,9 +1,184 @@
 {
   "date": "2026-11-09",
-  "total": 338,
+  "total": 342,
   "market_sensitive_count": 121,
-  "generated_at": "2026-11-08T23:50:53.024046+00:00",
+  "generated_at": "2026-11-08T23:57:13.055307+00:00",
   "announcements": [
+    {
+      "ticker": "PWH",
+      "company": "PWR HOLDINGS LIMITED",
+      "headline": "ASX waiver of Listing Rule 6.23.4",
+      "time": "2026-11-08T23:56:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159545-2A1709515",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has granted PWR Holdings a waiver from Listing Rule 6.23.4, which restricts companies from varying the terms of options or convertible securities — this is a procedural/administrative outcome that typically enables a specific capital management or equity incentive adjustment without shareholder vote.",
+        "The filing is not flagged market sensitive and carries no disclosed financial quantum, making it structurally low-impact; the waiver itself is the endpoint of a process already completed with the exchange, so there is no pending approval risk.",
+        "Volume into the announcement was running at just 0.36x the 5-session average — well below normal, indicating the market was not positioned around this event in either direction, consistent with its administrative character. No meaningful price catalyst is present."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 11.14,
+        "market_cap_aud": 1120395719.08,
+        "shares_outstanding": 100574122,
+        "beta": 0.828,
+        "rsi_14": 55.42,
+        "volume_trend_ratio": 0.36,
+        "volume_last_ratio": 0.28,
+        "avg_turnover_aud": 2068085,
+        "liquid": true,
+        "avg_volume_20": 287671,
+        "volume_change_pct": -72.0,
+        "pct_from_3m_high": -10.88,
+        "pct_from_3m_low": 19.91,
+        "pct_from_6m_high": -10.88,
+        "pct_from_6m_low": 43.74,
+        "pct_from_52w_high": -10.88,
+        "pct_from_52w_low": 54.29,
+        "high_52w": 12.5,
+        "low_52w": 7.22,
+        "high_3m": 12.5,
+        "low_3m": 9.29,
+        "high_6m": 12.5,
+        "low_6m": 7.75,
+        "month1_high": 11.77,
+        "month1_low": 9.49,
+        "month2_high": 11.16,
+        "month2_low": 9.29,
+        "month3_high": 12.5,
+        "month3_low": 10.01,
+        "range_position_3m": 0.576,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.36x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, PWH traded only 0.36x its usual daily volume over the last 5 sessions — measured to the 2026-11-06 close.",
+          "The price sat in the middle part of its 3-month range, 10.88% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CG1",
+      "company": "CARBONXT GROUP LIMITED",
+      "headline": "Chairman's Address to AGM",
+      "time": "2026-11-08T23:55:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159544-2A1709514",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "A Chairman's Address to an AGM at a stock with near-zero absolute liquidity (median turnover ~A$105/day) is functionally unreadable from a price-action perspective — volume ratios at this liquidity level are close to meaningless, as a single small trade can distort any ratio materially.",
+        "The filing is not flagged market sensitive, which is the dominant signal here: per base rates, an unflagged AGM address has a materially lower probability of containing genuinely market-moving content, and the Chairman's Address format is typically strategic/ceremonial rather than results-driven.",
+        "With volume at 0.14x average into the announcement (noting the near-zero liquidity caveat), there is no evidence of informed pre-positioning; the correct read is administrative with no directional bias, and any price move in this stock would likely reflect the illiquidity of the register rather than genuine re-rating."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-06",
+        "bars": 253,
+        "last_close": 0.062,
+        "market_cap_aud": 26866483.37,
+        "shares_outstanding": 433330377,
+        "beta": 0.022,
+        "rsi_14": 38.28,
+        "volume_trend_ratio": 0.14,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 105,
+        "liquid": false,
+        "avg_volume_20": 24885,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -25.3,
+        "pct_from_3m_low": 3.33,
+        "pct_from_6m_high": -31.11,
+        "pct_from_6m_low": 14.81,
+        "pct_from_52w_high": -46.09,
+        "pct_from_52w_low": 14.81,
+        "high_52w": 0.115,
+        "low_52w": 0.054,
+        "high_3m": 0.083,
+        "low_3m": 0.06,
+        "high_6m": 0.09,
+        "low_6m": 0.054,
+        "month1_high": 0.076,
+        "month1_low": 0.06,
+        "month2_high": 0.08,
+        "month2_low": 0.07,
+        "month3_high": 0.083,
+        "month3_low": 0.069,
+        "range_position_3m": 0.087,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.14x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$105/day",
+        "reading": [
+          "Going into this, CG1 traded only 0.14x its usual daily volume over the last 5 sessions — measured to the 2026-11-06 close.",
+          "The price sat in the lower part of its 3-month range, 25.3% below the high of that period.",
+          "Treat all of that with care: it trades about A$105 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIM",
+      "company": "CHALLENGER IM CAPITAL LIMITED",
+      "headline": "Interest Payment - CIMHA",
+      "time": "2026-11-08T23:52:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159543-2A1709513",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An interest payment notice for CIMHA (Challenger IM Capital hybrid/note instrument) confirms that a scheduled coupon or distribution has been made — this is a routine compliance disclosure, not a new financial event, and confirms the issuer is current on its debt service obligations.",
+        "The constructive read is narrow but real: a confirmed interest payment rules out a missed-payment event for this period, which would otherwise be a credit-negative trigger; the filing is thus mildly reassuring for holders of the instrument and equity holders alike.",
+        "No price action data is provided for this filing; the announcement is not flagged market sensitive, consistent with its routine nature. No directional call is warranted — this is administrative confirmation of an expected cash flow."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIM",
+      "company": "CHALLENGER IM CAPITAL LIMITED",
+      "headline": "Challenger IM Monthly Report September",
+      "time": "2026-11-08T23:51:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159542-2A1709512",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly report for September is a periodic operational/portfolio update — the September timing (now filed in November) suggests this may be a delayed or catch-up disclosure, which is worth noting as a minor governance flag for institutional investors monitoring reporting cadence.",
+        "The filing is not flagged market sensitive, which is the primary filter: Challenger IM's monthly reports for a capital vehicle are typically NAV or portfolio composition disclosures; without a market-sensitive flag, the content is unlikely to contain a material valuation surprise relative to the market's existing estimate.",
+        "No price action data is provided; absent both a market-sensitive flag and volume context, there is no basis for a directional call — the report should be read on its own numbers (NAV movement, portfolio composition changes) once accessed, but the filing event itself is neutral."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HIO",
       "company": "HAWSONS IRON LTD",
