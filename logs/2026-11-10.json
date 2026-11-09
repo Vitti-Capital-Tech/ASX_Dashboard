@@ -1,9 +1,378 @@
 {
   "date": "2026-11-10",
-  "total": 221,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-11-09T23:22:58.763472+00:00",
+  "total": 230,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-11-09T23:37:58.550976+00:00",
   "announcements": [
+    {
+      "ticker": "XAL",
+      "company": "ALPHINITY GLOBAL EQUITY FUND - ACTIVE ETF",
+      "headline": "Lifting of Trading Pause",
+      "time": "2026-11-09T23:34:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159979-2A1709727",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The lifting of a trading pause on XAL is a procedural resolution event — the market-sensitive flag confirms the pause was material, but resumption of trading is directionally ambiguous until the underlying reason for the halt is disclosed; the key question is whether the pause was defensive (pending bad news) or administrative (NAV re-pricing, liquidity event).",
+        "For an active ETF, trading pauses typically arise from portfolio-level liquidity constraints or significant NAV deviation from iNAV — the resumption without a disclosed adverse event suggests the trigger has been resolved, which is modestly constructive for investor confidence in the fund's operational integrity.",
+        "Next step for investors: confirm whether a companion announcement details the cause of the pause; absent that, treat resumption as clearing a near-term overhang rather than a positive catalyst, and monitor bid/ask spreads on reopening as a real-time signal of residual liquidity stress."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NST",
+      "company": "NORTHERN STAR RESOURCES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-11-09T23:32:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159978-6A1354326",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change at NST — sitting just 1.11% off its 3-month high — means this filing lands into a stock that is effectively at a cyclical peak in the near-term tape; the direction of the change (accumulation vs. reduction) is not disclosed in the headline, which is the critical variable.",
+        "Per lesson L109, an ambiguous substantial-holder change at a stock that is not deeply distressed should be read with reference to the price context: at a near 3-month high, a reduction by an institutional holder is structurally more probable than fresh accumulation at elevated levels, introducing a mild supply-side risk.",
+        "This filing is not market-sensitive, which limits its standalone directional power — NST is a large-cap gold producer where substantial holder movements reflect portfolio rebalancing as often as conviction changes; monitor the 13D/13G equivalent disclosure for direction, and treat as procedural until confirmed."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 25.85,
+        "market_cap_aud": 36847737352.25,
+        "shares_outstanding": 1425444385,
+        "beta": 2.384,
+        "rsi_14": 59.37,
+        "volume_trend_ratio": 1.13,
+        "volume_last_ratio": 0.98,
+        "avg_turnover_aud": 123592567,
+        "liquid": true,
+        "avg_volume_20": 5430549,
+        "volume_change_pct": -2.0,
+        "pct_from_3m_high": -1.11,
+        "pct_from_3m_low": 20.85,
+        "pct_from_6m_high": -1.11,
+        "pct_from_6m_low": 47.29,
+        "pct_from_52w_high": -19.12,
+        "pct_from_52w_low": 51.44,
+        "high_52w": 31.96,
+        "low_52w": 17.07,
+        "high_3m": 26.14,
+        "low_3m": 21.39,
+        "high_6m": 26.14,
+        "low_6m": 17.55,
+        "month1_high": 26.14,
+        "month1_low": 23.6,
+        "month2_high": 25.59,
+        "month2_low": 21.39,
+        "month3_high": 24.81,
+        "month3_low": 21.76,
+        "range_position_3m": 0.939,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.11% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the upper part of its 3-month range, 1.11% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AWJ",
+      "company": "AURIC MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-11-09T23:31:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159977-6A1354325",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A market-sensitive trading halt at AWJ (Auric Mining) is by definition a pending material event — trading halts at junior miners are overwhelmingly associated with capital raises, M&A approaches, or material resource/operational announcements, all of which carry binary directional risk until the companion announcement is released.",
+        "Auric is a small Western Australian gold producer/explorer; the market-sensitive classification elevates the probability that the forthcoming announcement contains substantive news rather than a procedural matter, warranting close monitoring of the next 24–48 hours of filings.",
+        "Investors should not trade around the halt direction without reading the companion disclosure — the halt itself is information-free on direction, and history shows junior gold halts resolve with roughly equal frequency into raises (mildly bearish on dilution) versus operational catalysts (bullish); hold judgment until the trigger is revealed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 0.245,
+        "market_cap_aud": 46033932.49,
+        "shares_outstanding": 187893602,
+        "beta": 2.27,
+        "rsi_14": 55.46,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 1.31,
+        "avg_turnover_aud": 45228,
+        "liquid": false,
+        "avg_volume_20": 265231,
+        "volume_change_pct": 31.0,
+        "pct_from_3m_high": -10.91,
+        "pct_from_3m_low": 19.51,
+        "pct_from_6m_high": -26.32,
+        "pct_from_6m_low": 32.43,
+        "pct_from_52w_high": -39.51,
+        "pct_from_52w_low": 32.43,
+        "high_52w": 0.405,
+        "low_52w": 0.185,
+        "high_3m": 0.275,
+        "low_3m": 0.205,
+        "high_6m": 0.3325,
+        "low_6m": 0.185,
+        "month1_high": 0.25,
+        "month1_low": 0.22,
+        "month2_high": 0.275,
+        "month2_low": 0.21,
+        "month3_high": 0.265,
+        "month3_low": 0.205,
+        "range_position_3m": 0.571,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$45,228/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the middle part of its 3-month range, 10.91% below the high of that period.",
+          "Treat all of that with care: it trades about A$45,228 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CC5",
+      "company": "CLEVER CULTURE SYSTEMS LIMITED",
+      "headline": "Notification regarding unquoted securities - CC5",
+      "time": "2026-11-09T23:30:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159976-2A1709726",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities at CC5 (Clever Culture Systems) — a technology company sitting exactly 50% below its 12-month high with median daily turnover of approximately A$5,122 — is most likely a routine administrative filing relating to employee options, performance rights, or a prior raise tranche, none of which are directionally significant in isolation.",
+        "At near-zero absolute liquidity (A$5,122/day median turnover), volume ratios are essentially meaningless as a signal of institutional intent — any reading of accumulation or distribution from volume data at this liquidity level should be disregarded; the filing should be evaluated purely on its content.",
+        "Per lesson L017, unquoted securities notifications at deeply de-rated micro-caps are often cessation or grant notices that are register-maintenance events; with the stock 50% below its high and no market-sensitive flag, the base case is administrative and the net impact on price is negligible — classify as neutral unless the filing reveals a material new issuance at a significant discount."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 0.017,
+        "market_cap_aud": 37098337.94,
+        "shares_outstanding": 2182255173,
+        "beta": 0.185,
+        "rsi_14": 40.75,
+        "volume_trend_ratio": 1.31,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5122,
+        "liquid": false,
+        "avg_volume_20": 503312,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -19.05,
+        "pct_from_3m_low": 30.77,
+        "pct_from_6m_high": -32.0,
+        "pct_from_6m_low": 30.77,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 30.77,
+        "high_52w": 0.034,
+        "low_52w": 0.013,
+        "high_3m": 0.021,
+        "low_3m": 0.013,
+        "high_6m": 0.025,
+        "low_6m": 0.013,
+        "month1_high": 0.021,
+        "month1_low": 0.016,
+        "month2_high": 0.019,
+        "month2_low": 0.016,
+        "month3_high": 0.0195,
+        "month3_low": 0.013,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "50.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,122/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the middle part of its 3-month range, 19.05% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,122 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Investor Presentation",
+      "time": "2026-11-09T23:30:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159975-2A1709716",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An investor presentation filed alongside the Metgasco entitlement offer (#5) and prospectus (#4) serves as the communication layer for the capital raise — its purpose is to articulate the investment thesis, use of proceeds, and project pipeline to both existing shareholders (who must decide whether to take up their entitlement) and potential new investors.",
+        "This filing is not market-sensitive, which is consistent with its role as a supporting document rather than a primary disclosure — the material information is already captured in the market-sensitive entitlement offer announcement; the presentation's value lies in the narrative framing of the raise.",
+        "Key items to review in the presentation: (1) specific project milestones the raise enables, (2) timeline to next operational catalyst, and (3) post-raise cash position and implied runway — these will calibrate whether the entitlement offer is a growth-enabling raise or a survival raise, which is the dominant sentiment driver for MEL."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Prospectus",
+      "time": "2026-11-09T23:29:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159974-2A1709714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive prospectus filing at Metgasco, read alongside the simultaneously filed entitlement offer announcement (#5), confirms this is the formal legal document for a partially underwritten rights issue — the prospectus itself is administrative but its market-sensitive flag reflects the materiality of the capital raise decision.",
+        "Per lesson L041, a prospectus for a rights/entitlement offer is structurally distinct from a placement prospectus: existing holders retain the right to participate and maintain their proportional ownership, which removes the pure-dilution narrative applicable to placements directed at outsiders.",
+        "The critical detail to extract from the prospectus is the offer price relative to the current market price (the discount quantum), the level of underwriting coverage, and the stated use of proceeds — these three variables will determine whether the market reads this as a funded-survival signal or an opportunistic dilution at existing shareholders' expense."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Proposed issue of securities - MEL",
+      "time": "2026-11-09T23:29:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159973-2A1709712",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'proposed issue of securities' filing at Metgasco is the standard ASX Appendix 3B or equivalent pre-announcement of the securities to be issued under the entitlement offer — it is a procedural compliance filing that quantifies the number of shares to be created, providing the market with dilution arithmetic.",
+        "While not market-sensitive, this filing is directionally meaningful in context: the total securities proposed, combined with the offer price in the prospectus, allows calculation of the raise quantum relative to Metgasco's existing market capitalisation — a large raise relative to market cap amplifies dilution concern, while a modest raise may be absorbed without meaningful price impact.",
+        "No standalone trading signal should be derived from this filing; it is a companion document to the market-sensitive entitlement offer (#5) and should be read as part of the MEL capital raise cluster (#4, #5, #7, #8) rather than independently."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Partially Underwritten Entitlement Offer",
+      "time": "2026-11-09T23:29:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159972-2A1709711",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A partially underwritten entitlement offer at Metgasco is a materially important capital structure event — 'partially underwritten' means a portion of the raise is guaranteed but shortfall risk exists if take-up is low, which is a nuanced signal: the underwriter's willingness to backstop implies some confidence in the company, but the partial nature signals limits on that conviction.",
+        "Per lesson L041, an entitlement offer gives existing shareholders the right to participate rather than suffering pure dilution from an outsider placement — this is structurally more shareholder-friendly and should be assessed against the offer price discount and use of proceeds rather than reflexively called bearish.",
+        "The 'so what' for Metgasco (an energy company with historical gas assets) is whether the proceeds address a named operational catalyst or simply fund operating costs; a named project use of proceeds would be constructive, while generic working capital language would reinforce concern about runway — this distinction drives the net sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHF",
+      "company": "AUSTRALIAN DAIRY NUTRITIONALS LIMITED",
+      "headline": "Addendum to Notice of Annual General Meeting",
+      "time": "2026-11-09T23:29:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159971-3A706197",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An addendum to the AGM notice at AHF (Australian Dairy Nutritionals) lands on a tape that is deeply depressed — 58.54% below the 12-month high — with volume running at just 0.31x its average over the last five sessions, confirming a disengaged shareholder register with suppressed pre-announcement activity; at median daily turnover of approximately A$2,634, volume ratios carry virtually no informational weight.",
+        "Per lesson L186, an AGM-related filing at a stock 58.54% below its high with near-zero liquidity defaults to neutral rather than bearish — the bearish inference from L151 (AGM notices at distressed stocks signal disengaged registers) requires confirmed suppressed volume, which is directionally present here, but an addendum is substantively weaker than the original notice as a catalyst; it typically corrects a date, adds a resolution, or provides supplementary information.",
+        "The critical read is what the addendum adds or changes: a new potentially dilutive resolution (share issuance, option plan) would be bearish into an already distressed stock, while a date correction or supplementary disclosure is purely administrative — without that content detail, the filing is neutral, and the near-zero liquidity means any price move will be noise rather than informed institutional repositioning."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 0.017,
+        "market_cap_aud": 13877660.88,
+        "shares_outstanding": 816332993,
+        "beta": 0.062,
+        "rsi_14": 54.59,
+        "volume_trend_ratio": 0.31,
+        "volume_last_ratio": 0.07,
+        "avg_turnover_aud": 2634,
+        "liquid": false,
+        "avg_volume_20": 471999,
+        "volume_change_pct": -93.0,
+        "pct_from_3m_high": -15.0,
+        "pct_from_3m_low": 13.33,
+        "pct_from_6m_high": -29.17,
+        "pct_from_6m_low": 21.43,
+        "pct_from_52w_high": -58.54,
+        "pct_from_52w_low": 21.43,
+        "high_52w": 0.041,
+        "low_52w": 0.014,
+        "high_3m": 0.02,
+        "low_3m": 0.015,
+        "high_6m": 0.024,
+        "low_6m": 0.014,
+        "month1_high": 0.018,
+        "month1_low": 0.016,
+        "month2_high": 0.017,
+        "month2_low": 0.015,
+        "month3_high": 0.02,
+        "month3_low": 0.016,
+        "range_position_3m": 0.4,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.31x its average",
+          "58.54% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,634/day",
+        "reading": [
+          "Going into this, AHF traded only 0.31x its usual daily volume over the last 5 sessions — measured to the 2026-11-09 close.",
+          "The price sat in the middle part of its 3-month range, 15.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,634 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CC5",
       "company": "CLEVER CULTURE SYSTEMS LIMITED",
