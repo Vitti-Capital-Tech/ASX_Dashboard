@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09T18:39:59.887718+11:00",
+  "generated_at": "2026-11-09T19:39:38.689245+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -22,19 +22,19 @@
         "avg_abnormal_pct": -1.03
       },
       "neutral": {
-        "scored": 158,
-        "correct": 65,
+        "scored": 159,
+        "correct": 66,
         "wrong": 93,
         "flat": 0,
-        "hit_rate": 41.1,
-        "avg_abnormal_pct": 1.13
+        "hit_rate": 41.5,
+        "avg_abnormal_pct": 1.12
       }
     },
     "spread_pct": 5.43,
     "directional_hit_rate": 75.4,
     "directional_scored": 61,
     "pending": 0,
-    "no_data": 45,
+    "no_data": 44,
     "conflicts": 3
   },
   "intraday_stats": {
@@ -56,19 +56,19 @@
         "avg_abnormal_pct": -0.23
       },
       "neutral": {
-        "scored": 158,
-        "correct": 57,
+        "scored": 159,
+        "correct": 58,
         "wrong": 101,
         "flat": 0,
-        "hit_rate": 36.1,
-        "avg_abnormal_pct": 1.32
+        "hit_rate": 36.5,
+        "avg_abnormal_pct": 1.31
       }
     },
     "spread_pct": 2.59,
     "directional_hit_rate": 72.7,
     "directional_scored": 55,
     "pending": 0,
-    "no_data": 45,
+    "no_data": 44,
     "conflicts": 3
   },
   "highlights": {
@@ -2050,18 +2050,18 @@
       "avg_volume_20": 698125,
       "rsi_14": 55.96,
       "market_cap_aud": 6425342731.14,
-      "session_date": null,
-      "prev_close": null,
-      "open": null,
-      "vwap": null,
-      "gap_pct": null,
-      "intraday_verdict": "no_data",
-      "close": null,
-      "return_pct": null,
-      "open_close_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data",
+      "session_date": "2026-11-09",
+      "prev_close": 45.66,
+      "open": 45.37,
+      "vwap": 45.6589,
+      "gap_pct": -0.64,
+      "intraday_verdict": "correct",
+      "close": 45.76,
+      "return_pct": 0.22,
+      "open_close_pct": 0.86,
+      "index_return_pct": 0.1,
+      "abnormal_pct": 0.12,
+      "verdict": "correct",
       "announcements": 2,
       "also": [
         "Ansell Limited Results of 2026 Annual General Meeting"
