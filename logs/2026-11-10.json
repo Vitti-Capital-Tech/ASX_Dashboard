@@ -1,9 +1,115 @@
 {
   "date": "2026-11-10",
-  "total": 230,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-11-09T23:37:58.550976+00:00",
+  "total": 233,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-11-09T23:44:02.345974+00:00",
   "announcements": [
+    {
+      "ticker": "S3G",
+      "company": "FIRETRAIL S3 GLOBAL OPPS FUND - ACTIVE ETF",
+      "headline": "October 2026 Investment Update",
+      "time": "2026-11-09T23:43:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159982-2A1709731",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly investment update from an active ETF is a routine, low-information-content filing — it discloses portfolio positioning and performance attribution for October 2026 but introduces no new corporate event or strategic change for the fund vehicle itself.",
+        "The absence of a market-sensitive flag is consistent with the filing's nature: periodic updates from active ETFs rarely contain information not already reflected in daily published NAVs, and the market-sensitive threshold is not met here, reducing the signal value materially per the base-rate calibration for unflagged filings.",
+        "Institutional holders should treat this as a monitoring document rather than an action trigger — the relevant read-through is whether the fund's sector or thematic exposures (global opportunities mandate) have shifted meaningfully, which requires reading the body rather than acting on the headline alone."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JDO",
+      "company": "JUDO CAPITAL HOLDINGS LIMITED",
+      "headline": "2027 Financial Calendar",
+      "time": "2026-11-09T23:37:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159981-2A1709729",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A financial calendar release is a purely administrative filing — it sets out expected dates for results, AGM, and other scheduled events but introduces no new financial or operational data; the filing is explicitly not market sensitive and carries no intrinsic valuation signal.",
+        "The stock is 56.04% below its 12-month high, a significant de-rating that reflects pre-existing fundamental or sector headwinds; a calendar notice does nothing to address the drivers of that underperformance, and there is no mechanism by which this filing alone arrests or accelerates the decline.",
+        "The constructive read, if any, is indirect: a published financial calendar signals the company intends to meet its reporting obligations on schedule, which at a heavily de-rated stock is a minor governance positive — but this is insufficient to shift sentiment meaningfully and the correct call remains neutral, with the calendar itself serving as a signpost to watch the named result dates as the real re-rating catalysts."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 0.91,
+        "market_cap_aud": 1021991798.1,
+        "shares_outstanding": 1123067910,
+        "beta": 1.646,
+        "rsi_14": 45.7,
+        "volume_trend_ratio": 1.13,
+        "volume_last_ratio": 1.79,
+        "avg_turnover_aud": 4045857,
+        "liquid": true,
+        "avg_volume_20": 5380015,
+        "volume_change_pct": 79.0,
+        "pct_from_3m_high": -17.27,
+        "pct_from_3m_low": 5.2,
+        "pct_from_6m_high": -42.22,
+        "pct_from_6m_low": 10.98,
+        "pct_from_52w_high": -56.04,
+        "pct_from_52w_low": 10.98,
+        "high_52w": 2.07,
+        "low_52w": 0.82,
+        "high_3m": 1.1,
+        "low_3m": 0.865,
+        "high_6m": 1.575,
+        "low_6m": 0.82,
+        "month1_high": 0.975,
+        "month1_low": 0.8725,
+        "month2_high": 1.025,
+        "month2_low": 0.865,
+        "month3_high": 1.1,
+        "month3_low": 0.895,
+        "range_position_3m": 0.191,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "56.04% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the lower part of its 3-month range, 17.27% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XAS",
+      "company": "ALPHINITY GLOBAL SUSTAINABLE EQUITY FUND - ACTIVE ETF",
+      "headline": "Lifting of Trading Pause",
+      "time": "2026-11-09T23:35:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159980-2A1709728",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The lifting of a trading pause on XAS is a procedural resolution event — the halt is cleared and normal price discovery resumes, which is structurally positive relative to the suspended state but carries no inherent directional signal about the fund's underlying NAV or portfolio performance.",
+        "Market-sensitive flag here reflects the regulatory obligation to notify on halt removal rather than any new fundamental information; the flag is necessary but not sufficient to infer bullish direction — it confirms the halt is over, not that the reason for the halt was favourable.",
+        "Next step for investors is to assess whether the pause was triggered by a material corporate event (e.g. portfolio rebalancing, liquidity issue, or index reconstitution) — the absence of a companion explanation filing means the market will price this on resumption with limited information, creating short-term volatility risk around the open."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "XAL",
       "company": "ALPHINITY GLOBAL EQUITY FUND - ACTIVE ETF",
