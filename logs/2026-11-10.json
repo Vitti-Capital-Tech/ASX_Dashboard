@@ -1,9 +1,113 @@
 {
   "date": "2026-11-10",
-  "total": 233,
+  "total": 236,
   "market_sensitive_count": 80,
-  "generated_at": "2026-11-09T23:44:02.345974+00:00",
+  "generated_at": "2026-11-09T23:50:35.024233+00:00",
   "announcements": [
+    {
+      "ticker": "FSM",
+      "company": "FIRETRAIL AUST SMALL COMPANIES FUND - ACTIVE ETF",
+      "headline": "October 2026 Investment Update",
+      "time": "2026-11-09T23:45:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159985-2A1709733",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly investment update for the Firetrail Australian Small Companies Fund active ETF — not flagged market sensitive, confirming this is a standard performance and portfolio commentary disclosure rather than a material event announcement.",
+        "As an active ETF wrapper, FSM's unit price is driven by the underlying portfolio NAV rather than market sentiment around the filing itself; the update provides transparency to unitholders but carries no independent valuation catalyst for the ETF units.",
+        "Without market-sensitive flagging and with no specific performance milestone disclosed in the headline, institutional investors should treat this as an informational filing only — monitor for any disclosed portfolio concentration shifts or sector tilts that could signal the manager's forward positioning in the small-cap space."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FIR",
+      "company": "FIRETRAIL ALPHA PLUS FUND - COMPLEX ETF",
+      "headline": "October 2026 Investment Update",
+      "time": "2026-11-09T23:44:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159984-2A1709732",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Standard monthly update for the Firetrail Alpha Plus Fund complex ETF (FIR) — not flagged market sensitive, indicating the filing is a routine periodic disclosure and not a trigger for a material re-rating of units.",
+        "As a 'complex ETF', FIR likely employs leverage or derivatives strategies, meaning the investment update may carry more analytical content than a vanilla fund update; however, the absence of a market-sensitive flag suggests no performance outlier or structural change is being disclosed.",
+        "The practical 'so what' for institutional holders is nil in terms of near-term price catalyst — NAV-driven ETF units will not reprice on the basis of a routine update alone, and any directional positioning signal from this filing requires reading the underlying commentary rather than the headline."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GVF",
+      "company": "STAUDE CAPITAL GLOBAL VALUE FUND LIMITED",
+      "headline": "AGM Presentation",
+      "time": "2026-11-09T23:44:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159983-2A1709730",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM presentation filed by Staude Capital Global Value Fund (GVF), a closed-end investment company focused on global value and special situations — not flagged market sensitive, consistent with a procedural annual meeting disclosure rather than a strategy pivot or capital event.",
+        "AGM presentations at listed investment companies (LICs) can carry modest informational value if they disclose updated NTA figures, discount-to-NTA trajectory, or buyback intentions — these are the metrics institutional investors in GVF should interrogate from the filing body, as any shift in buyback policy or discount management is the primary valuation lever for a LIC structure.",
+        "With no market-sensitive flag and no specific headline milestone (no buyback announcement, no special distribution, no manager change disclosed in the title), the base case is a procedural filing; however, GVF's persistent discount to NTA — a structural feature of the LIC sector — means any AGM commentary on capital management initiatives would be the key upside catalyst to monitor."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 254,
+        "last_close": 1.265,
+        "market_cap_aud": 256430187.91,
+        "shares_outstanding": 202711611,
+        "beta": 0.147,
+        "rsi_14": 43.94,
+        "volume_trend_ratio": 0.82,
+        "volume_last_ratio": 0.46,
+        "avg_turnover_aud": 119290,
+        "liquid": true,
+        "avg_volume_20": 99225,
+        "volume_change_pct": -54.0,
+        "pct_from_3m_high": -9.32,
+        "pct_from_3m_low": 1.2,
+        "pct_from_6m_high": -10.6,
+        "pct_from_6m_low": 1.2,
+        "pct_from_52w_high": -14.53,
+        "pct_from_52w_low": 1.2,
+        "high_52w": 1.48,
+        "low_52w": 1.25,
+        "high_3m": 1.395,
+        "low_3m": 1.25,
+        "high_6m": 1.415,
+        "low_6m": 1.25,
+        "month1_high": 1.29,
+        "month1_low": 1.25,
+        "month2_high": 1.36,
+        "month2_low": 1.27,
+        "month3_high": 1.395,
+        "month3_low": 1.345,
+        "range_position_3m": 0.103,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the lower part of its 3-month range, 9.32% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "S3G",
       "company": "FIRETRAIL S3 GLOBAL OPPS FUND - ACTIVE ETF",
