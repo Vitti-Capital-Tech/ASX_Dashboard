@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T08:41:08.298941+00:00",
-  "next_id": 269,
+  "updated_at": "2026-11-09T10:41:56.157688+00:00",
+  "next_id": 270,
   "lessons": [
     {
       "id": "L001",
@@ -1424,7 +1424,7 @@
       "rule": "L018's bearish default was built for elevated-volume scenarios where sell-the-news risk is the dominant concern. When volume is suppressed ahead of an extension result, the pre-positioning argument inverts — there is no crowded long to unwind, and thin pre-positioning into a material geological result at a deeply de-rated stock can produce a relief-buying response. Do not apply L018's bearish call when pre-announcement volume is below average; default to neutral instead, and reserve bearish for extension results into elevated volume only.",
       "created": "2026-09-16",
       "last_seen": "2026-11-09",
-      "times_seen": 14,
+      "times_seen": 15,
       "examples": [
         {
           "date": "2026-11-04",
@@ -1434,11 +1434,11 @@
           "abnormal_pct": -9.94
         },
         {
-          "date": "2026-11-04",
-          "ticker": "BCA",
-          "headline": "Wandanya Extension Drill Results",
+          "date": "2026-11-09",
+          "ticker": "MAG",
+          "headline": "RC Drilling Further Defines Otto 2 Mineralisation",
           "called": "neutral",
-          "abnormal_pct": -9.94
+          "abnormal_pct": 16.57
         },
         {
           "date": "2026-11-09",
@@ -1960,7 +1960,7 @@
       "rule": "At near-zero-liquidity oil and gas juniors, a mobilisation announcement into a large relative volume spike represents a qualitatively different market dynamic than L002 assumes — the start of physical well operations at a named well in an illiquid stock is a discrete binary event that the market treats as a risk-on catalyst, not merely a programme statement; do not dismiss the volume ratio as noise purely because the absolute base is tiny when the ratio exceeds 3x and the announcement names a specific well beginning active operations; lean neutral-to-bullish rather than neutral when these conditions coincide, because the marginal buyer in an illiquid well-operations stock is typically informed about the well's prospects.",
       "created": "2026-09-18",
       "last_seen": "2026-11-09",
-      "times_seen": 20,
+      "times_seen": 21,
       "examples": [
         {
           "date": "2026-11-06",
@@ -1970,11 +1970,11 @@
           "abnormal_pct": -6.76
         },
         {
-          "date": "2026-11-06",
-          "ticker": "IVZ",
-          "headline": "Musuma-1 Well Services Mobilisation & Rig Up Underway",
-          "called": "bullish",
-          "abnormal_pct": -6.76
+          "date": "2026-11-09",
+          "ticker": "GAL",
+          "headline": "Drilling Underway at Norseman PGM Copper Nickel Targets",
+          "called": "neutral",
+          "abnormal_pct": 9.9
         },
         {
           "date": "2026-11-09",
@@ -2268,7 +2268,7 @@
       "rule": "A headline describing what was hit (mineralisation type, distance from resource) rather than how much (grade, width) is structurally an extension result without economic quantification — apply L018's logic regardless of volume data when grade and width are absent from the headline; call neutral rather than bullish, because the market cannot size the value addition without grade data and the filing confirms presence but not economics.",
       "created": "2026-09-21",
       "last_seen": "2026-11-09",
-      "times_seen": 16,
+      "times_seen": 17,
       "examples": [
         {
           "date": "2026-10-15",
@@ -2278,11 +2278,11 @@
           "abnormal_pct": -10.43
         },
         {
-          "date": "2026-10-15",
-          "ticker": "CPM",
-          "headline": "RC Drilling Intersects Broad Cu at Attina and Ardmore North",
+          "date": "2026-11-09",
+          "ticker": "DAL",
+          "headline": "Dalaroo strikes more gold 1.25km from high grade discovery",
           "called": "bullish",
-          "abnormal_pct": -10.43
+          "abnormal_pct": -8.1
         },
         {
           "date": "2026-11-09",
@@ -3185,15 +3185,8 @@
       "rule": "A project-expansion headline at a deeply de-rated, near-zero-liquidity junior with suppressed volume does not carry the L008 sell-the-news risk (no elevated pre-positioning) and is not the pre-raise marketing signal of L010 (no market-sensitive flag and no named capital event); in this configuration the announcement is more likely to be a genuine operational update that a news-starved register treats as a positive trigger; default to neutral-to-bullish rather than neutral when the de-rating exceeds 60%, liquidity is near-zero, volume is suppressed, and the headline confirms ground or project growth without an accompanying raise signal.",
       "created": "2026-09-24",
       "last_seen": "2026-11-09",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-24",
-          "ticker": "BSR",
-          "headline": "Bald Peaks Project Expanded",
-          "called": "neutral",
-          "abnormal_pct": 17.39
-        },
         {
           "date": "2026-09-24",
           "ticker": "BSR",
@@ -3207,6 +3200,13 @@
           "headline": "Kal East Gold Project Tenure Expanded By 55%",
           "called": "bullish",
           "abnormal_pct": -12.91
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "KNB",
+          "headline": "Investor Presentation - Positioned for Discovery in NSW",
+          "called": "neutral",
+          "abnormal_pct": 11.67
         },
         {
           "date": "2026-11-09",
@@ -3493,21 +3493,21 @@
       "rule": "When 'high-grade' is paired with an extension descriptor in the same headline, do not treat the filing as a pure extension result under L018 — the 'high-grade' qualifier signals that grade data is present in the body and may be the market-moving element; before applying L018's bearish default, ask whether the 'high-grade' language in the headline is a substantive grade claim (i.e., grade data exists in the filing) or purely marketing language; if substantive grade data is present or strongly implied by the descriptor, downgrade the L018 bearish call to neutral rather than bearish, because the grade content may be sufficient to sustain buying even at a deeply de-rated stock.",
       "created": "2026-09-24",
       "last_seen": "2026-11-09",
-      "times_seen": 29,
+      "times_seen": 30,
       "examples": [
-        {
-          "date": "2026-10-28",
-          "ticker": "TNC",
-          "headline": "Mt Oxide Drilling Advances as Copper Corridor Extends",
-          "called": "bearish",
-          "abnormal_pct": 15.94
-        },
         {
           "date": "2026-11-02",
           "ticker": "DRE",
           "headline": "Strong Gold Anomalism Continues at Black Oak, Illaara Gold",
           "called": "bullish",
           "abnormal_pct": -8.51
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "IVR",
+          "headline": "Updated Paris Project Drilling Results",
+          "called": "neutral",
+          "abnormal_pct": 12.1
         },
         {
           "date": "2026-11-09",
@@ -3728,7 +3728,7 @@
       "rule": "Do not apply L037's bullish default when the stock is near a multi-month high rather than a low — a market-sensitive query response into strength is as likely to disclose a dilutive capital raise or negative operational update that explains the prior price move as it is to confirm a positive catalyst; default to neutral rather than bullish, and require document-level confirmation of direction before leaning either way.",
       "created": "2026-09-25",
       "last_seen": "2026-11-09",
-      "times_seen": 15,
+      "times_seen": 16,
       "examples": [
         {
           "date": "2026-11-06",
@@ -3738,11 +3738,11 @@
           "abnormal_pct": -8.8
         },
         {
-          "date": "2026-11-06",
-          "ticker": "NWS",
-          "headline": "SEC Form 8-K",
+          "date": "2026-11-09",
+          "ticker": "CCR",
+          "headline": "Response to Price Query",
           "called": "neutral",
-          "abnormal_pct": -8.8
+          "abnormal_pct": -8.43
         },
         {
           "date": "2026-11-09",
@@ -6145,22 +6145,8 @@
       "rule": "For a single-asset commodity producer with known seasonal risk, a monthly operational update flagged market sensitive is directionally skewed bearish relative to a symmetric neutral call — the company flags routine updates as market sensitive only when the period contained a material deviation, and in weather-exposed single-asset operations the base rate for negative deviations (wet season disruption, shipping delays, cost blowouts) materially exceeds the base rate for positive surprises; lean bearish rather than neutral when the headline is a dated operational update with no positive milestone language and the operation is known to be weather or logistics constrained.",
       "created": "2026-10-12",
       "last_seen": "2026-11-09",
-      "times_seen": 13,
+      "times_seen": 14,
       "examples": [
-        {
-          "date": "2026-10-22",
-          "ticker": "CRN",
-          "headline": "Quarterly Activities Report Q3 2026",
-          "called": "neutral",
-          "abnormal_pct": -10.68
-        },
-        {
-          "date": "2026-10-27",
-          "ticker": "AUQ",
-          "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
-          "called": "neutral",
-          "abnormal_pct": -15.66
-        },
         {
           "date": "2026-11-09",
           "ticker": "IPT",
@@ -6181,6 +6167,20 @@
           "headline": "Operational Update October 2026",
           "called": "neutral",
           "abnormal_pct": 11.01
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "IPT",
+          "headline": "Lake Hope HPA Staged Test Work Programme Update",
+          "called": "neutral",
+          "abnormal_pct": -12.1
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "MMI",
+          "headline": "Operational Update October 2026",
+          "called": "neutral",
+          "abnormal_pct": 11.01
         }
       ]
     },
@@ -6189,16 +6189,9 @@
       "trigger": "Market-sensitive 'Gold Drilling Update' or equivalent assay/drilling update headline (not titled as a specific intercept result) at a junior explorer 50%+ below its 12-month high with near-zero absolute liquidity (median daily turnover <A$10/day), where no grade or width appears in the headline",
       "rule": "A 'Drilling Update' headline without disclosed grade or width at near-zero absolute liquidity is structurally equivalent to L058's generic project-update pattern — the market-sensitive flag does not substitute for absent economic data; lean bearish rather than neutral when the headline names only a project and a process ('drilling update') without a positive milestone descriptor, because the dominant reason to issue a non-specific flagged update at a deeply de-rated, near-zero-liquidity stock is to disclose disappointing or inconclusive results rather than a positive intercept, which would have been headlined with grade and width.",
       "created": "2026-10-12",
-      "last_seen": "2026-11-04",
-      "times_seen": 13,
+      "last_seen": "2026-11-09",
+      "times_seen": 14,
       "examples": [
-        {
-          "date": "2026-10-14",
-          "ticker": "NES",
-          "headline": "Soil geochemistry outlines multiple targets at southern GP",
-          "called": "neutral",
-          "abnormal_pct": -19.36
-        },
         {
           "date": "2026-10-15",
           "ticker": "WC1",
@@ -6226,6 +6219,13 @@
           "headline": "KNB advances multiple exploration programs across portfolio",
           "called": "neutral",
           "abnormal_pct": -10.52
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "NAG",
+          "headline": "Wandean Project",
+          "called": "neutral",
+          "abnormal_pct": -8.43
         }
       ]
     },
@@ -6966,8 +6966,8 @@
       "trigger": "Named jurisdictional engagement update ('Advances Engagement for [Location] Activities') at a stock deeply de-rated (>60% below 12-month high) with near-zero absolute liquidity (median daily turnover effectively A$0/day) and elevated relative volume (>2x), where the headline names a specific US state or high-value jurisdiction and the company has a known critical minerals or industrial policy nexus",
       "rule": "When median daily turnover is effectively zero and relative volume is elevated, do not discard the volume signal as noise purely on ratio-instability grounds — at genuinely untradeable stocks, any above-zero activity is itself the signal; when the headline names a specific named US jurisdiction and the company has a critical minerals or policy-relevant technology, lean neutral-to-bullish rather than neutral, applying the same logic as L023 and L049, because even qualitative jurisdictional engagement progress in an active policy environment can be the re-rating catalyst a dormant register was waiting for.",
       "created": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "times_seen": 4,
+      "last_seen": "2026-11-09",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-16",
@@ -6996,6 +6996,13 @@
           "headline": "Volt Advances Engagement for Alabama Activities",
           "called": "neutral",
           "abnormal_pct": 24.0
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "TRU",
+          "headline": "Bangladesh Opportunity, Indian Subcontinent Expansion",
+          "called": "neutral",
+          "abnormal_pct": -11.21
         }
       ]
     },
@@ -7534,21 +7541,21 @@
       "rule": "A market-sensitive 'planning underway' headline for a named drill programme occupies a category between L002 (commencement) and a pure programme statement — it confirms management has committed to a resource-definition drill but has not yet secured a rig or named a start date, which means a hard catalyst is imminent but not yet delivered; do not default to neutral on the L058 grounds of insufficient milestone specificity when the market-sensitive flag is present and the named programme (resource-definition drilling) implies a near-term binding commitment; lean neutral-to-bullish rather than neutral, because the flag signals management regards the planning milestone as price-relevant and the resource-definition framing implies a funded programme rather than speculative activity.",
       "created": "2026-10-20",
       "last_seen": "2026-11-09",
-      "times_seen": 8,
+      "times_seen": 9,
       "examples": [
-        {
-          "date": "2026-10-20",
-          "ticker": "PEC",
-          "headline": "Raptor Resource Definition Drilling Planning Underway",
-          "called": "neutral",
-          "abnormal_pct": 9.42
-        },
         {
           "date": "2026-11-04",
           "ticker": "MML",
           "headline": "Drilling Assays Position McLaren for Resource Update",
           "called": "bullish",
           "abnormal_pct": -8.5
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "OB1",
+          "headline": "Majestic North Gold Project Development Update",
+          "called": "neutral",
+          "abnormal_pct": 28.47
         },
         {
           "date": "2026-11-09",
@@ -7624,7 +7631,7 @@
       "rule": "Visible mineralisation language ('visible scheelite', 'visible gold') is structurally equivalent to an extension-only or presence-only result under L054 — it confirms mineralisation is present but provides no economic parameters (grade, width, recovery); before calling bullish on a visible-mineralisation headline, require disclosed assay grades or apply L054's neutral default, because the market will immediately ask 'what grade?' and the filing cannot answer.",
       "created": "2026-10-20",
       "last_seen": "2026-11-09",
-      "times_seen": 9,
+      "times_seen": 10,
       "examples": [
         {
           "date": "2026-11-04",
@@ -7641,11 +7648,11 @@
           "abnormal_pct": -8.5
         },
         {
-          "date": "2026-11-04",
-          "ticker": "OBT",
-          "headline": "Additional Visible Semi-Massive Sulphide Intersected",
-          "called": "bullish",
-          "abnormal_pct": -8.5
+          "date": "2026-11-09",
+          "ticker": "SLB",
+          "headline": "Tungsten Mineralisation Intersected across Hill of Leaders",
+          "called": "neutral",
+          "abnormal_pct": 14.9
         },
         {
           "date": "2026-11-09",
@@ -8486,17 +8493,10 @@
       "trigger": "Market-sensitive earnings conference call presentation (not a results filing itself, but the presentation deck accompanying a named quarterly earnings call) at a company with no price action data available, where the filing is the collateral for an imminent live call rather than a standalone result",
       "rule": "An earnings conference call presentation flagged market sensitive is a vehicle for guidance revision, not a result — before calling neutral, ask whether the presentation contains disclosed guidance metrics (production, revenue, cost) that can be benchmarked against prior consensus or management signals; if such metrics are present or strongly implied by the market-sensitive flag, apply L192-style asymmetric logic and default to bearish rather than neutral when no beat language appears in the headline, because guidance disappointments at covered companies are asymmetrically large relative to in-line results.",
       "created": "2026-10-23",
-      "last_seen": "2026-11-05",
-      "times_seen": 7,
+      "last_seen": "2026-11-09",
+      "times_seen": 8,
       "examples": [
         {
-          "date": "2026-10-23",
-          "ticker": "ALK",
-          "headline": "Q1 FY27 Earnings Conference Call Presentation",
-          "called": "neutral",
-          "abnormal_pct": -10.9
-        },
-        {
           "date": "2026-10-29",
           "ticker": "IDX",
           "headline": "AGM - Chair & CEO Presentations",
@@ -8523,6 +8523,13 @@
           "headline": "FY26 Chair and CEO AGM Addresses and Presentation",
           "called": "bullish",
           "abnormal_pct": -12.61
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "DNL",
+          "headline": "FY26 Results Presentation",
+          "called": "neutral",
+          "abnormal_pct": -11.09
         }
       ]
     },
@@ -8532,15 +8539,8 @@
       "rule": "Parse the two components independently: if the strategic review update uses language short of a binding outcome ('progressing', 'ongoing', 'no update') while the trading update is the hard data layer, treat the trading update as the market-moving element and default to bearish rather than neutral when no beat language appears in the headline, because a non-concluded strategic review removes the deal-optionality premium without the trading update necessarily compensating — apply L192-style asymmetric logic to the trading component.",
       "created": "2026-10-26",
       "last_seen": "2026-11-09",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-10-26",
-          "ticker": "OFX",
-          "headline": "Strategic Review Update and 2Q27 Trading Update",
-          "called": "neutral",
-          "abnormal_pct": -24.68
-        },
         {
           "date": "2026-10-26",
           "ticker": "OFX",
@@ -8568,6 +8568,13 @@
           "headline": "FY26 Results Presentation",
           "called": "neutral",
           "abnormal_pct": -11.09
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "VNT",
+          "headline": "Evolution of strategy, simplification and FY26 outlook",
+          "called": "neutral",
+          "abnormal_pct": -16.33
         }
       ]
     },
@@ -10545,8 +10552,15 @@
       "rule": "Before calling neutral on a testwork-commencement filing purely on the grounds of 'activity statement with no results', ask whether the testwork addresses the final technical gating constraint between the current stage and a bankable feasibility study or offtake agreement — at a deeply de-rated project of recognised strategic scale, commencement of the final prerequisite testwork can itself be the re-rating signal a news-starved register was waiting for; lean neutral-to-bullish rather than neutral when the testwork is the named next step toward feasibility and the project has credible strategic scale.",
       "created": "2026-11-09",
       "last_seen": "2026-11-09",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-11-09",
+          "ticker": "HIO",
+          "headline": "Cold Agglomerated Pellet Testwork Commenced",
+          "called": "neutral",
+          "abnormal_pct": 11.01
+        },
         {
           "date": "2026-11-09",
           "ticker": "HIO",
@@ -10576,8 +10590,15 @@
       "rule": "A named KOL appointment at a clinical-stage biotech is not purely procedural when the appointee is publicly identifiable as a leading clinician in the target indication — KOL endorsement signals that the company's data is credible enough to attract expert scientific commitment, which at a dormant, near-zero-liquidity register can be the first re-engagement signal; lean neutral-to-bullish rather than neutral when the appointee is a named, verifiable domain expert and the stock is at its worst price level with no motivated sellers active in the market.",
       "created": "2026-11-09",
       "last_seen": "2026-11-09",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-11-09",
+          "ticker": "VBS",
+          "headline": "Appointment of Prof Tamera Corte as Chief Clinical Advisor",
+          "called": "neutral",
+          "abnormal_pct": 8.47
+        },
         {
           "date": "2026-11-09",
           "ticker": "VBS",
@@ -10607,8 +10628,15 @@
       "rule": "Before calling neutral on an AGM results filing at a junior with no price-position data, check whether the company has a small, concentrated register where even a single new buyer responding to a clean governance signal can produce an outsized price move in an illiquid stock — when no price-position data is available and the register is thin, lean neutral-to-bullish rather than purely neutral, because a clean AGM outcome at a news-starved micro-cap is the lowest-friction positive catalyst available and the absence of a market-sensitive flag does not rule out a retail-driven relief response.",
       "created": "2026-11-09",
       "last_seen": "2026-11-09",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-11-09",
+          "ticker": "PC2",
+          "headline": "Results of 2026 Annual General Meeting",
+          "called": "neutral",
+          "abnormal_pct": 10.68
+        },
         {
           "date": "2026-11-09",
           "ticker": "PC2",
@@ -10631,7 +10659,7 @@
       "rule": "A dual-track divestment naming a specific buyer alongside an accelerated sale process signals that deal certainty on at least one asset is higher than a generic distress-sale headline implies — the named buyer provides a credible floor valuation and the 'lightning' label signals management has committed to a timeline that the market reads as cash-realisation certainty rather than open-ended distress; lean bullish rather than neutral when a named buyer is disclosed alongside an accelerated process at a deeply distressed junior, because the combination of counterparty identification and process urgency is a value-crystallisation signal that L007's undisclosed-terms distress default does not cover.",
       "created": "2026-11-09",
       "last_seen": "2026-11-09",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-11-09",
@@ -10639,6 +10667,30 @@
           "headline": "Sale of SM71 to Bryon Energy and Lightning Sale Process",
           "called": "neutral",
           "abnormal_pct": 14.19
+        },
+        {
+          "date": "2026-11-09",
+          "ticker": "OEL",
+          "headline": "Sale of SM71 to Bryon Energy and Lightning Sale Process",
+          "called": "neutral",
+          "abnormal_pct": 14.19
+        }
+      ]
+    },
+    {
+      "id": "L269",
+      "trigger": "Named project-objectives or project-milestone presentation (not flagged market sensitive) at a deeply de-rated clean energy or technology developer (60%+ below 12-month high) with suppressed pre-announcement volume (<0.5x), where the presentation title references a named funded programme (e.g. a government-grant or bilateral-agreement project identified by acronym or proper name) rather than a generic company overview",
+      "rule": "A presentation titled after a named funded programme (rather than the company itself) signals that the content is a deliverable or progress report under a formal agreement — it is not generic awareness marketing; before defaulting to neutral under L010 or L058, ask whether the named project is government- or grant-funded, because a deliverable presentation under a funded programme signals operational continuity and credibility that a news-starved, deeply de-rated register may treat as a positive re-engagement catalyst; lean neutral-to-bullish rather than neutral when the programme name is identifiable as a funded initiative.",
+      "created": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-09",
+          "ticker": "CCE",
+          "headline": "ACHIEVE Project Objectives Presentation",
+          "called": "neutral",
+          "abnormal_pct": 10.62
         }
       ]
     }
