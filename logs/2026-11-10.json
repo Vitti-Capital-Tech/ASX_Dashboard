@@ -1,9 +1,94 @@
 {
   "date": "2026-11-10",
-  "total": 214,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-11-09T23:10:03.849844+00:00",
+  "total": 216,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-11-09T23:11:03.184747+00:00",
   "announcements": [
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Update - Dividend/Distribution - KIT",
+      "time": "2026-11-09T23:08:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159965-3A706196",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "A distribution update for KIT (Kapstream Investment Trust) is a routine income event for a fixed-income-focused vehicle — the 'so what' lies in the distribution quantum relative to prior periods, which signals whether the trust's underlying yield environment (credit spreads, cash rate) is compressing or holding steady.",
+        "The filing is not flagged market sensitive, consistent with a periodic distribution announcement that falls within expected parameters; this removes any inference of a surprise outcome and frames the announcement as confirmatory rather than directional for unit price.",
+        "For income-oriented unitholders the key next step is the ex-distribution date and payment mechanics — absent any deviation from prior distribution levels, the market impact should be limited to the mechanical ex-date price adjustment, with no fundamental re-rating implied."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 150,
+        "last_close": 1.655,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": -0.031,
+        "rsi_14": 42.12,
+        "volume_trend_ratio": 0.92,
+        "volume_last_ratio": 0.75,
+        "avg_turnover_aud": 395774,
+        "liquid": true,
+        "avg_volume_20": 233074,
+        "volume_change_pct": -25.0,
+        "pct_from_3m_high": -11.73,
+        "pct_from_3m_low": 2.16,
+        "pct_from_6m_high": -15.13,
+        "pct_from_6m_low": 2.16,
+        "pct_from_52w_high": -15.99,
+        "pct_from_52w_low": 2.16,
+        "high_52w": 1.97,
+        "low_52w": 1.62,
+        "high_3m": 1.875,
+        "low_3m": 1.62,
+        "high_6m": 1.95,
+        "low_6m": 1.62,
+        "month1_high": 1.76,
+        "month1_low": 1.62,
+        "month2_high": 1.845,
+        "month2_low": 1.71,
+        "month3_high": 1.875,
+        "month3_low": 1.71,
+        "range_position_3m": 0.137,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the lower part of its 3-month range, 11.73% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XAS",
+      "company": "ALPHINITY GLOBAL SUSTAINABLE EQUITY FUND - ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-11-09T23:07:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03159964-2A1709723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading pause on an active ETF is a significant structural event — it signals the responsible entity has identified a condition (likely a pricing, liquidity, or underlying security disruption) that makes continuous trading untenable, protecting investors from transacting at prices that may not reflect NAV.",
+        "The market-sensitive flag confirms the pause is not routine administrative maintenance; for an active ETF like XAS, which tracks a global sustainable equity mandate, the trigger may relate to a corporate action or halt in a key underlying holding, creating a valuation dislocation that the manager cannot reliably mark in real time.",
+        "Next steps centre on the duration and reason for the pause — if the underlying disruption resolves quickly (same-session), the resumption is likely orderly; a multi-day halt raises questions about the depth of the pricing issue and may prompt investor redemption pressure once trading resumes, depending on the NAV outcome."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CDE",
       "company": "CODEIFAI LIMITED",
