@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5796 graded calls
+- Window: last 20 trading days, 5774 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-06T10:42:33.570060+00:00
+- Generated: 2026-11-09T06:51:44.183167+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **57.3%** correct on 1302 graded calls.
+Directional calls (bullish/bearish): **58.7%** correct on 1301 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 757 | 55.2% |
-| bearish | 545 | 60.2% |
+| bullish | 761 | 57.7% |
+| bearish | 540 | 60.2% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **60.3%** of the time (n=3647). Every graded announcement moved 60.7% of the time.
+Stocks called neutral moved 1% or more anyway **60.1%** of the time (n=3630). Every graded announcement moved 60.6% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 788 | 59.3% |
-| Not flagged | 514 | 54.3% |
+| Market sensitive | 801 | 60.9% |
+| Not flagged | 500 | 55.2% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 808 | 56.7% |
-| Quarterly Report | 198 | 61.1% |
-| Annual General Meeting | 108 | 61.1% |
-| Substantial Holding | 70 | 48.6% |
-| Results | 45 | 55.6% |
+| Market Update | 808 | 58.5% |
+| Quarterly Report | 196 | 60.7% |
+| Annual General Meeting | 110 | 61.8% |
+| Substantial Holding | 67 | 49.3% |
+| Results | 47 | 59.6% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
