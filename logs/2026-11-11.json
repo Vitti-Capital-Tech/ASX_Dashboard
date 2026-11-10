@@ -1,9 +1,166 @@
 {
   "date": "2026-11-11",
-  "total": 246,
+  "total": 249,
   "market_sensitive_count": 81,
-  "generated_at": "2026-11-10T23:36:03.524823+00:00",
+  "generated_at": "2026-11-10T23:42:54.519318+00:00",
   "announcements": [
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "PCX Monthly Newsletter - October 2026",
+      "time": "2026-11-10T23:39:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160475-2A1709985",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly newsletter from a private credit trust is a routine investor communication rather than a price-moving disclosure — it updates on portfolio composition, NAV, and income metrics but rarely contains new strategic information that the market hasn't already priced through the trust's regular reporting cycle.",
+        "With PCX trading just 3.47% off its 3-month high, the stock is in a relatively constructive position; however, this proximity to recent highs means any NAV softness or credit quality commentary in the newsletter could act as a modest headwind, while confirmation of stable distributions would be incrementally supportive of the current price level.",
+        "Not flagged market sensitive, which is the dominant signal here — management has judged the content procedural, and for a private credit trust a monthly newsletter typically reaffirms rather than revises the investment thesis; institutional investors should monitor for any change in weighted average yield, credit loss provisions, or portfolio duration commentary as the leading indicators worth extracting."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-09",
+        "bars": 253,
+        "last_close": 1.95,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.066,
+        "rsi_14": 48.05,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 225727,
+        "liquid": true,
+        "avg_volume_20": 113415,
+        "volume_change_pct": -62.0,
+        "pct_from_3m_high": -3.47,
+        "pct_from_3m_low": 3.45,
+        "pct_from_6m_high": -5.8,
+        "pct_from_6m_low": 3.45,
+        "pct_from_52w_high": -5.8,
+        "pct_from_52w_low": 3.45,
+        "high_52w": 2.07,
+        "low_52w": 1.885,
+        "high_3m": 2.02,
+        "low_3m": 1.885,
+        "high_6m": 2.07,
+        "low_6m": 1.885,
+        "month1_high": 1.995,
+        "month1_low": 1.885,
+        "month2_high": 2.0,
+        "month2_low": 1.94,
+        "month3_high": 2.02,
+        "month3_low": 1.97,
+        "range_position_3m": 0.481,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.47% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-09 close.",
+          "The price sat in the middle part of its 3-month range, 3.47% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XPN",
+      "company": "XPON TECHNOLOGIES GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - M Simari",
+      "time": "2026-11-10T23:36:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160474-2A1709986",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Applying lesson L031 directly: this is a director's interest notice at a stock that is 50% below its 12-month high — it is emphatically not near a recent high, so the default bearish assumption for director interest changes does not apply; the direction of the transaction (buy or sell) is not disclosed in the headline, and insider buying at a deeply de-rated price is a meaningfully constructive signal.",
+        "Volume context is near-meaningless here: at a median daily turnover of approximately A$4,375/day, XPN is essentially illiquid, and the 0.4x volume ratio over the last five sessions reflects the near-zero absolute liquidity rather than any deliberate reduction in participation — reading directional intent into volume on a stock this thin is unreliable.",
+        "Not flagged market sensitive, and no milestone or strategic development accompanies the filing — the correct posture is neutral pending confirmation of transaction direction; if the filing reveals an acquisition by M Simari, that would be a constructive insider signal at a distressed price, but that upgrade requires the detail, not the headline."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 0.013,
+        "market_cap_aud": 6573965.92,
+        "shares_outstanding": 505689686,
+        "beta": 1.021,
+        "rsi_14": 53.76,
+        "volume_trend_ratio": 0.4,
+        "volume_last_ratio": 0.09,
+        "avg_turnover_aud": 4375,
+        "liquid": false,
+        "avg_volume_20": 1254069,
+        "volume_change_pct": -91.0,
+        "pct_from_3m_high": -13.33,
+        "pct_from_3m_low": 30.0,
+        "pct_from_6m_high": -13.33,
+        "pct_from_6m_low": 62.5,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 62.5,
+        "high_52w": 0.026,
+        "low_52w": 0.008,
+        "high_3m": 0.015,
+        "low_3m": 0.01,
+        "high_6m": 0.015,
+        "low_6m": 0.008,
+        "month1_high": 0.015,
+        "month1_low": 0.011,
+        "month2_high": 0.013,
+        "month2_low": 0.011,
+        "month3_high": 0.013,
+        "month3_low": 0.01,
+        "range_position_3m": 0.6,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.4x its average",
+          "50.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,375/day",
+        "reading": [
+          "Going into this, XPN traded only 0.4x its usual daily volume over the last 5 sessions — measured to the 2026-11-10 close.",
+          "The price sat in the middle part of its 3-month range, 13.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,375 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHP",
+      "company": "BHP GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-11-10T23:34:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160473-3A706291",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change of director's interest notice at BHP is almost always a routine administrative disclosure — at a mega-cap with a deep and liquid register, individual director transactions (typically involving performance rights vesting, deferred share plan allocations, or minor on-market trades) carry negligible price impact relative to BHP's daily turnover of hundreds of millions of dollars.",
+        "Not flagged market sensitive, which is consistent with the filing's procedural nature; for a company of BHP's scale, even a material director transaction represents a rounding error against institutional flows driven by commodity pricing, production guidance, and macro sentiment on China steel demand.",
+        "No price action data is provided for this filing, and no speculation on the tape is warranted — institutional investors should treat this as a compliance disclosure only, with no actionable signal for near-term positioning in BHP shares."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BHP",
       "company": "BHP GROUP LIMITED",
