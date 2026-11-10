@@ -1,9 +1,78 @@
 {
   "date": "2026-11-11",
-  "total": 249,
+  "total": 250,
   "market_sensitive_count": 81,
-  "generated_at": "2026-11-10T23:42:54.519318+00:00",
+  "generated_at": "2026-11-10T23:49:24.762166+00:00",
   "announcements": [
+    {
+      "ticker": "TNY",
+      "company": "TINYBEANS GROUP LTD",
+      "headline": "2026 AGM - Investor Presentation",
+      "time": "2026-11-10T23:44:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160476-2A1709987",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM investor presentation is a procedural, administrative filing — not flagged market sensitive and carrying no disclosed operational milestone, capital event, or strategic update in the headline; the information content for price discovery is minimal by design.",
+        "Price action context is structurally unfavourable: the stock sits 70% below its 12-month high with median daily turnover of approximately A$0/day, meaning near-zero absolute liquidity. At this level of dormancy, volume ratios are close to meaningless as a signal — there is no active register to react either way, and any price move on this filing would be driven by micro-liquidity noise rather than fundamental reassessment.",
+        "Per lesson L186, an AGM-related filing at a deeply de-rated, near-zero-liquidity stock with no volume data available defaults to neutral — the bearish suppressed-volume inference cannot be confirmed, and an investor presentation framing (versus a bare AGM notice) may contain forward-looking narrative that marginally supports sentiment, but absent visible content, no directional edge is established."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 0.039,
+        "market_cap_aud": 7150268.5,
+        "shares_outstanding": 183340218,
+        "beta": 0.048,
+        "rsi_14": 26.82,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 19441,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -48.0,
+        "pct_from_3m_low": 11.43,
+        "pct_from_6m_high": -56.18,
+        "pct_from_6m_low": 11.43,
+        "pct_from_52w_high": -70.0,
+        "pct_from_52w_low": 11.43,
+        "high_52w": 0.13,
+        "low_52w": 0.035,
+        "high_3m": 0.075,
+        "low_3m": 0.035,
+        "high_6m": 0.089,
+        "low_6m": 0.035,
+        "month1_high": 0.053,
+        "month1_low": 0.035,
+        "month2_high": 0.055,
+        "month2_low": 0.048,
+        "month3_high": 0.075,
+        "month3_low": 0.054,
+        "range_position_3m": 0.1,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "70.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-10 close.",
+          "The price sat in the lower part of its 3-month range, 48.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PCX",
       "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
