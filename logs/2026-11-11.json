@@ -1,9 +1,77 @@
 {
   "date": "2026-11-11",
-  "total": 238,
+  "total": 239,
   "market_sensitive_count": 80,
-  "generated_at": "2026-11-10T23:16:18.900862+00:00",
+  "generated_at": "2026-11-10T23:22:31.700386+00:00",
   "announcements": [
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-11-10T23:15:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160465-2A1709981",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Brambles most likely reflects the lapsing of unexercised options or forfeiture of performance rights — a routine register-cleaning event for a large-cap with structured executive remuneration, carrying no cash outflow and no dilution consequence for existing shareholders.",
+        "Per lesson L017, cessation filings in isolation are not bearish — the removal of unexercised instruments actually reduces future dilution overhang, which is modestly constructive at the margin; however, at a large liquid blue-chip like BXB, the quantum of any lapsed instruments is immaterial relative to market cap and is unlikely to move the needle on valuation.",
+        "With BXB sitting just 1.08% off its 3-month high, the stock is effectively at a near-term peak — in this context, any administrative non-event filing is consistent with a well-bid tape rather than a catalyst for further upside; the filing is not market-sensitive and the price action suggests existing positive momentum is the dominant factor, not this notice."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 22.01,
+        "market_cap_aud": 29251309875.03,
+        "shares_outstanding": 1329000903,
+        "beta": null,
+        "rsi_14": 67.13,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.75,
+        "avg_turnover_aud": 68068415,
+        "liquid": true,
+        "avg_volume_20": 3654274,
+        "volume_change_pct": -25.0,
+        "pct_from_3m_high": -1.08,
+        "pct_from_3m_low": 21.33,
+        "pct_from_6m_high": -1.08,
+        "pct_from_6m_low": 36.03,
+        "pct_from_52w_high": -13.45,
+        "pct_from_52w_low": 36.03,
+        "high_52w": 25.43,
+        "low_52w": 16.18,
+        "high_3m": 22.25,
+        "low_3m": 18.14,
+        "high_6m": 22.25,
+        "low_6m": 16.18,
+        "month1_high": 22.25,
+        "month1_low": 19.2,
+        "month2_high": 19.55,
+        "month2_low": 18.28,
+        "month3_high": 19.95,
+        "month3_low": 18.14,
+        "range_position_3m": 0.942,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.08% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.08% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DWG",
       "company": "DATAWORKS GROUP LIMITED",
