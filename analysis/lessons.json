@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T07:40:50.645069+00:00",
-  "next_id": 275,
+  "updated_at": "2026-11-10T08:41:40.557005+00:00",
+  "next_id": 276,
   "lessons": [
     {
       "id": "L001",
@@ -694,7 +694,7 @@
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
       "last_seen": "2026-11-10",
-      "times_seen": 27,
+      "times_seen": 28,
       "examples": [
         {
           "date": "2026-11-05",
@@ -711,11 +711,11 @@
           "abnormal_pct": 15.87
         },
         {
-          "date": "2026-11-05",
-          "ticker": "PNR",
-          "headline": "Notification of cessation of securities - PNR",
+          "date": "2026-11-10",
+          "ticker": "FTI",
+          "headline": "Update - Notification of cessation of securities - FTI",
           "called": "neutral",
-          "abnormal_pct": 15.87
+          "abnormal_pct": 29.51
         },
         {
           "date": "2026-11-10",
@@ -1469,15 +1469,8 @@
       "rule": "A market-sensitive tenement application is not merely an activity statement — management and their advisers have judged it material, which implies the ground is strategically significant (district consolidation, blocking a competitor, covering a known geophysical anomaly); do not default to neutral on a flagged tenement announcement into elevated volume; lean neutral-to-bullish when the market-sensitive designation is present, because the flag is itself the signal that the tenure has identifiable value beyond routine acreage.",
       "created": "2026-09-17",
       "last_seen": "2026-11-10",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-09-17",
-          "ticker": "AMD",
-          "headline": "Application to secure another key iron ore tenement",
-          "called": "neutral",
-          "abnormal_pct": 17.23
-        },
         {
           "date": "2026-09-17",
           "ticker": "AMD",
@@ -1491,6 +1484,13 @@
           "headline": "Kal East Gold Project Tenure Expanded By 55%",
           "called": "bullish",
           "abnormal_pct": -12.91
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "PFE",
+          "headline": "Expands Corona with ground secured on Yellow Dam Corridor",
+          "called": "neutral",
+          "abnormal_pct": 14.28
         },
         {
           "date": "2026-11-10",
@@ -1732,15 +1732,8 @@
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
       "last_seen": "2026-11-10",
-      "times_seen": 27,
+      "times_seen": 28,
       "examples": [
-        {
-          "date": "2026-10-08",
-          "ticker": "PRX",
-          "headline": "Prospectus",
-          "called": "neutral",
-          "abnormal_pct": -19.57
-        },
         {
           "date": "2026-10-08",
           "ticker": "CYP",
@@ -1754,6 +1747,13 @@
           "headline": "Results of Non-Renounceable Rights Issue",
           "called": "neutral",
           "abnormal_pct": -9.28
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "MEL",
+          "headline": "Prospectus",
+          "called": "neutral",
+          "abnormal_pct": 11.4
         },
         {
           "date": "2026-11-10",
@@ -5533,21 +5533,14 @@
       "rule": "Before calling bearish on a cleansing-notice-plus-quotation cluster at a distressed stock, check whether the quotation filing implies only a small raise quantum relative to the stock's implied market cap — if the raise is small and the stock is already severely de-rated, the market may read the completed raise as a funded-survival signal rather than a dilution event, and the correct call is neutral rather than bearish. L089's bearish default requires confirmed absence of any funded-catalyst signal; when the raise has already closed and the stock is priced for near-insolvency, the asymmetry may favour neutral.",
       "created": "2026-10-06",
       "last_seen": "2026-11-10",
-      "times_seen": 27,
+      "times_seen": 28,
       "examples": [
         {
-          "date": "2026-11-03",
-          "ticker": "AHF",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": 5.91
-        },
-        {
-          "date": "2026-11-03",
-          "ticker": "AHF",
-          "headline": "Cleansing Notice",
-          "called": "neutral",
-          "abnormal_pct": 5.91
+          "date": "2026-11-10",
+          "ticker": "TSL",
+          "headline": "Notice Under Section 708A",
+          "called": "bearish",
+          "abnormal_pct": 15.57
         },
         {
           "date": "2026-11-10",
@@ -5555,6 +5548,13 @@
           "headline": "Notice Under Section 708A",
           "called": "bearish",
           "abnormal_pct": 15.57
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "SBZ",
+          "headline": "Cleansing Notice",
+          "called": "bearish",
+          "abnormal_pct": 9.43
         },
         {
           "date": "2026-11-10",
@@ -5806,7 +5806,7 @@
       "rule": "A standalone unquoted-securities notification without a companion quotation application can signal that previously issued but unquoted shares (e.g. from a prior private placement) are about to become quotable — the prospective arrival of new freely tradeable paper into a thinly traded, deeply de-rated register is a dilution-overhang signal; lean bearish rather than neutral when no operational catalyst accompanies the filing, because the dominant near-term mechanic is supply arriving into a thin market.",
       "created": "2026-10-08",
       "last_seen": "2026-11-10",
-      "times_seen": 18,
+      "times_seen": 19,
       "examples": [
         {
           "date": "2026-11-03",
@@ -5823,11 +5823,11 @@
           "abnormal_pct": -5.9
         },
         {
-          "date": "2026-11-03",
-          "ticker": "PEN",
-          "headline": "Notification regarding unquoted securities - PEN",
+          "date": "2026-11-10",
+          "ticker": "CC5",
+          "headline": "Notification regarding unquoted securities - CC5",
           "called": "neutral",
-          "abnormal_pct": -5.9
+          "abnormal_pct": -12.86
         },
         {
           "date": "2026-11-10",
@@ -6280,15 +6280,8 @@
       "rule": "A generic 'Shareholder Update' at a 12-month low without a market-sensitive flag is structurally more likely to contain negative operational or financial news than positive news — companies with genuinely positive developments headline the specific milestone rather than issuing a generic update, and a non-flagged generic update at a distressed, illiquid stock more commonly addresses underperformance, funding concerns, or operational setbacks; lean bearish rather than neutral when the headline is entirely generic, the stock is at a 12-month low, and the filing is not flagged market sensitive.",
       "created": "2026-10-12",
       "last_seen": "2026-11-10",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-10-12",
-          "ticker": "TRU",
-          "headline": "Shareholder Update",
-          "called": "neutral",
-          "abnormal_pct": -11.88
-        },
         {
           "date": "2026-10-12",
           "ticker": "TRU",
@@ -6302,6 +6295,13 @@
           "headline": "FY27 Q1 Investor Webinar Video",
           "called": "neutral",
           "abnormal_pct": -13.41
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "TIO",
+          "headline": "Temas - Investor Presentation",
+          "called": "neutral",
+          "abnormal_pct": -12.77
         },
         {
           "date": "2026-11-10",
@@ -7102,7 +7102,7 @@
       "rule": "A trading halt near a recent high at a near-zero-liquidity stock is structurally more likely to precede a dilutive capital raise than a positive operational announcement — the proximity to the high creates an attractive pricing window for a placement, and at near-zero liquidity any new supply is disproportionately large relative to the float; call bearish rather than neutral when the halt is near a recent high and liquidity is near-zero, because the funded-raise-into-strength pattern dominates the positive-catalyst pattern at this liquidity level.",
       "created": "2026-10-16",
       "last_seen": "2026-11-10",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-10-16",
@@ -7119,11 +7119,11 @@
           "abnormal_pct": -15.28
         },
         {
-          "date": "2026-10-16",
-          "ticker": "AEI",
-          "headline": "Trading Halt",
+          "date": "2026-11-10",
+          "ticker": "DTZ",
+          "headline": "Trading halt",
           "called": "neutral",
-          "abnormal_pct": -15.28
+          "abnormal_pct": -22.53
         },
         {
           "date": "2026-11-10",
@@ -7351,15 +7351,8 @@
       "rule": "A non-flagged EGM or GM result without explicit 'all resolutions passed' or 'resolution failed' language in the headline is ambiguous but carries a directional skew: if all resolutions had passed cleanly the company would typically say so, and the absence of confirmation language at a distressed stock raises the probability of a partial failure or a dilutive capital authority that disappointed relative to expectations; lean bearish rather than neutral when the headline omits resolution outcomes and the stock is deeply de-rated.",
       "created": "2026-10-19",
       "last_seen": "2026-11-10",
-      "times_seen": 12,
+      "times_seen": 13,
       "examples": [
-        {
-          "date": "2026-11-06",
-          "ticker": "BSX",
-          "headline": "Results of Meeting",
-          "called": "neutral",
-          "abnormal_pct": -8.21
-        },
         {
           "date": "2026-11-06",
           "ticker": "EG1",
@@ -7380,6 +7373,13 @@
           "headline": "Results of Meeting",
           "called": "neutral",
           "abnormal_pct": -8.21
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "REZ",
+          "headline": "2026 AGM - Results of Meeting",
+          "called": "neutral",
+          "abnormal_pct": -13.6
         },
         {
           "date": "2026-11-10",
@@ -9889,8 +9889,8 @@
       "trigger": "Market-sensitive combined quarterly activities and Appendix 4C at a deeply de-rated (>70% below 12-month high), near-zero-liquidity medical technology or digital health company (not a junior mineral explorer) with deeply suppressed pre-announcement volume (<0.3x average)",
       "rule": "L197's bearish default was built for cash-burning junior mineral explorers; for clinical-stage or digital health companies at extreme de-ratings with deeply suppressed volume, the suppressed volume removes the distribution-ahead-of-bad-news signal, and the market-sensitive flag combined with a non-explorer profile means the activities component (clinical milestone, regulatory progress, partnership update) may be the market-moving element — default to neutral rather than bearish, and reserve bearish for confirmed going-concern or sub-one-quarter runway language in the filing body.",
       "created": "2026-10-30",
-      "last_seen": "2026-10-30",
-      "times_seen": 1,
+      "last_seen": "2026-11-10",
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-30",
@@ -9898,6 +9898,13 @@
           "headline": "September 2026 Quarterly Activities Report and Appendix 4C",
           "called": "bearish",
           "abnormal_pct": 12.32
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "EBR",
+          "headline": "Q3 2026 Quarterly Activity Report and Form 10-Q Submission",
+          "called": "bearish",
+          "abnormal_pct": 21.12
         }
       ]
     },
@@ -10707,8 +10714,15 @@
       "rule": "A named production guidance filing flagged market sensitive at a deeply de-rated single-asset producer is directionally asymmetric to the upside — the stock already prices significant operational stress, so a reaffirmation or modest upgrade functions as a floor-setting catalyst while the market-sensitive flag confirms the numbers moved enough to disclose; apply L230-style asymmetric logic and lean neutral-to-bullish rather than neutral when the headline pairs a named asset with 'Guidance' or 'Outlook' at a heavily de-rated stock, because the downside (further cut) is already largely priced and even a stable number is a positive surprise relative to the implied bear case.",
       "created": "2026-11-10",
       "last_seen": "2026-11-10",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-11-10",
+          "ticker": "SFX",
+          "headline": "Thunderbird Guidance and Production Outlook",
+          "called": "neutral",
+          "abnormal_pct": 23.22
+        },
         {
           "date": "2026-11-10",
           "ticker": "SFX",
@@ -10731,8 +10745,15 @@
       "rule": "Before defaulting to neutral on L058 grounds, ask whether the jurisdictional context (a named uranium-producing country) combined with an active uranium thematic cycle makes the tenement update more likely to contain a renewal, extension, or strategic step than an adverse regulatory event — if the sector is actively re-rating and the jurisdiction is a known uranium province, lean neutral-to-bullish rather than neutral, applying L050-style thematic logic to tenement updates as well as quotation filings.",
       "created": "2026-11-10",
       "last_seen": "2026-11-10",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-11-10",
+          "ticker": "USC",
+          "headline": "Tanzanian Uranium Tenements Update",
+          "called": "neutral",
+          "abnormal_pct": 11.4
+        },
         {
           "date": "2026-11-10",
           "ticker": "USC",
@@ -10755,8 +10776,15 @@
       "rule": "An upcoming-expiry notice is categorically different from a completed cessation under L017 — the dilution overhang has not yet been removed and option holders who intend not to exercise may sell their underlying shares before expiry to exit economically; lean bearish rather than neutral-constructive when the notice is prospective rather than retrospective, because the announcement reminds the market that a cohort of economically underwater holders exists and may sell ahead of the lapse date.",
       "created": "2026-11-10",
       "last_seen": "2026-11-10",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-11-10",
+          "ticker": "HAR",
+          "headline": "Notice of Upcoming Expiry of Unlisted Options",
+          "called": "neutral",
+          "abnormal_pct": -7.77
+        },
         {
           "date": "2026-11-10",
           "ticker": "HAR",
@@ -10779,8 +10807,15 @@
       "rule": "When the project is explicitly branded as 'Critical Minerals' in the headline and the filing is market-sensitive at a heavily de-rated stock with elevated relative volume and non-trivial absolute liquidity, do not dismiss the volume signal as noise — apply L014-style logic and lean neutral-to-bullish rather than neutral, because the critical-minerals branding combined with the market-sensitive flag signals the update contains a specific strategic or technical milestone (not merely a programme statement) that management deems price-relevant and the volume confirms informed positioning.",
       "created": "2026-11-10",
       "last_seen": "2026-11-10",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-11-10",
+          "ticker": "OLY",
+          "headline": "Exploration Update for Jacknife Critical Minerals Project",
+          "called": "neutral",
+          "abnormal_pct": 15.57
+        },
         {
           "date": "2026-11-10",
           "ticker": "OLY",
@@ -10796,7 +10831,7 @@
       "rule": "For institutionally covered industrial services or engineering contractors, a market-sensitive 'Business Update' is the primary vehicle for order-book, revenue guidance, and sector-activity commentary — not a directionally neutral filing; before defaulting to neutral, recognise that these companies use 'Business Update' as a catch-all for guidance revisions and contract announcements, and that the market-sensitive flag at a bellwether contractor implies the content is substantively price-moving; require body-level confirmation of direction but treat the prior as mildly bullish when the company is a sector bellwether with a track record of using this filing type for constructive disclosures.",
       "created": "2026-11-10",
       "last_seen": "2026-11-10",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-11-10",
@@ -10804,6 +10839,30 @@
           "headline": "Monadelphous Business Update",
           "called": "neutral",
           "abnormal_pct": 14.2
+        },
+        {
+          "date": "2026-11-10",
+          "ticker": "MND",
+          "headline": "Monadelphous Business Update",
+          "called": "neutral",
+          "abnormal_pct": 14.2
+        }
+      ]
+    },
+    {
+      "id": "L275",
+      "trigger": "Named institutional conference trading update with explicit 'Guidance' language in the headline (e.g. 'UBS Conference Trading Update and Guidance'), flagged market sensitive, at a revenue-generating company with identifiable sell-side coverage, where no price action data is available",
+      "rule": "A conference trading update that names 'Guidance' in the headline is a live guidance revision event, not a neutral update — apply L192-style asymmetric logic and default to bearish rather than neutral when no explicit beat or raise language accompanies the guidance disclosure, because consensus misses at covered companies produce sharp model-revision selling while in-line guidance at an institutional conference produces muted reactions.",
+      "created": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-11-10",
+          "ticker": "SLC",
+          "headline": "UBS Conference Trading Update and Guidance",
+          "called": "neutral",
+          "abnormal_pct": -11.28
         }
       ]
     }
