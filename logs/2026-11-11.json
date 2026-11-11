@@ -1,9 +1,319 @@
 {
   "date": "2026-11-11",
-  "total": 251,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-11-10T23:55:59.380737+00:00",
+  "total": 257,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-11-11T00:14:00.974968+00:00",
   "announcements": [
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-11-11T00:08:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160483-2A1709992",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3C is a notice of issue of unquoted securities or quotation application — for a large-cap like News Corp (NWS), this is typically an administrative filing related to employee incentive plans (options, performance rights, restricted stock units) and carries no independent strategic signal in isolation.",
+        "The filing is explicitly not market sensitive, which under the tracked base rates (54.4% directional accuracy vs 62% for flagged filings) means it has to make its own case — an Appendix 3C for NWS does not; it is a routine compliance lodgement, and the unflagged status is consistent with that characterisation.",
+        "Volume running at 2.01x the 20-day average into this announcement is the more interesting signal, but it almost certainly belongs to other news in the NWS ecosystem (earnings, Dow Jones data, digital real estate commentary, or macro media sector moves) rather than to this administrative filing — do not read the elevated volume as confirmation that the 3C is material; it is coincidental tape activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 42.81,
+        "market_cap_aud": 22979868379.95,
+        "shares_outstanding": 536787395,
+        "beta": 0.307,
+        "rsi_14": 34.9,
+        "volume_trend_ratio": 2.01,
+        "volume_last_ratio": 2.53,
+        "avg_turnover_aud": 8875116,
+        "liquid": true,
+        "avg_volume_20": 247769,
+        "volume_change_pct": 153.0,
+        "pct_from_3m_high": -14.04,
+        "pct_from_3m_low": 4.06,
+        "pct_from_6m_high": -14.04,
+        "pct_from_6m_low": 7.7,
+        "pct_from_52w_high": -14.04,
+        "pct_from_52w_low": 18.88,
+        "high_52w": 49.8,
+        "low_52w": 36.01,
+        "high_3m": 49.8,
+        "low_3m": 41.14,
+        "high_6m": 49.8,
+        "low_6m": 39.75,
+        "month1_high": 49.8,
+        "month1_low": 41.5,
+        "month2_high": 48.11,
+        "month2_low": 41.14,
+        "month3_high": 49.23,
+        "month3_low": 43.36,
+        "range_position_3m": 0.193,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.01x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, NWS traded 2.01x its usual daily volume over the last 5 sessions — measured to the 2026-11-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 14.04% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-11-11T00:07:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160482-2A1709991",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a duplicate of announcement [4] — a second Appendix 3C lodged by News Corporation on the same day, likely covering a separate tranche of securities (e.g., a different class of incentive award or a separate plan) but structurally identical in nature: an administrative, not-market-sensitive compliance filing.",
+        "The fact that two Appendix 3C notices have been filed simultaneously may indicate a batch processing of incentive plan awards (e.g., annual RSU grants or option issue under multiple plans) — this is common practice for US-listed dual-listed companies managing equity compensation across jurisdictions, and carries no incremental valuation signal beyond the first filing.",
+        "As with [4], the 2.01x volume ratio is shared tape context driven by other factors in the NWS news cycle, not by this filing — institutional investors should disregard both 3C filings as valuation events and focus attention on any concurrent earnings, guidance, or strategic announcements from News Corp."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 42.81,
+        "market_cap_aud": 22979868379.95,
+        "shares_outstanding": 536787395,
+        "beta": 0.307,
+        "rsi_14": 34.9,
+        "volume_trend_ratio": 2.01,
+        "volume_last_ratio": 2.53,
+        "avg_turnover_aud": 8875116,
+        "liquid": true,
+        "avg_volume_20": 247769,
+        "volume_change_pct": 153.0,
+        "pct_from_3m_high": -14.04,
+        "pct_from_3m_low": 4.06,
+        "pct_from_6m_high": -14.04,
+        "pct_from_6m_low": 7.7,
+        "pct_from_52w_high": -14.04,
+        "pct_from_52w_low": 18.88,
+        "high_52w": 49.8,
+        "low_52w": 36.01,
+        "high_3m": 49.8,
+        "low_3m": 41.14,
+        "high_6m": 49.8,
+        "low_6m": 39.75,
+        "month1_high": 49.8,
+        "month1_low": 41.5,
+        "month2_high": 48.11,
+        "month2_low": 41.14,
+        "month3_high": 49.23,
+        "month3_low": 43.36,
+        "range_position_3m": 0.193,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.01x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, NWS traded 2.01x its usual daily volume over the last 5 sessions — measured to the 2026-11-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 14.04% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Statement of CDIs on issue - 3DA",
+      "time": "2026-11-11T00:05:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160481-3A706293",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Statement of CDIs on Issue is a purely administrative filing disclosing the current number of CHESS Depositary Interests outstanding for Amaero — it carries no operational, financial, or strategic content and is not flagged market sensitive, placing it firmly in the lowest-impact category of ASX lodgements.",
+        "Amaero (3DA) is 55.95% below its 12-month high — a significant de-rating for an advanced manufacturing/metal additive company — but this filing provides zero information about the operational drivers of that de-rating (contract wins, US DoD-related revenue, titanium powder production ramp) and therefore cannot be a catalyst for re-rating in either direction.",
+        "The only marginal analytical use of a CDI count disclosure is to cross-reference whether the register has changed materially (suggesting a recent capital raise or conversion event) — if the CDI count is consistent with the last disclosed figure, this is a routine compliance lodgement with no actionable content for institutional investors."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 0.185,
+        "market_cap_aud": 220139605.96,
+        "shares_outstanding": 1189943816,
+        "beta": 0.871,
+        "rsi_14": 48.04,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 1.6,
+        "avg_turnover_aud": 270008,
+        "liquid": true,
+        "avg_volume_20": 2198643,
+        "volume_change_pct": 60.0,
+        "pct_from_3m_high": -41.27,
+        "pct_from_3m_low": 27.59,
+        "pct_from_6m_high": -51.32,
+        "pct_from_6m_low": 27.59,
+        "pct_from_52w_high": -55.95,
+        "pct_from_52w_low": 27.59,
+        "high_52w": 0.42,
+        "low_52w": 0.145,
+        "high_3m": 0.315,
+        "low_3m": 0.145,
+        "high_6m": 0.38,
+        "low_6m": 0.145,
+        "month1_high": 0.225,
+        "month1_low": 0.145,
+        "month2_high": 0.275,
+        "month2_low": 0.155,
+        "month3_high": 0.315,
+        "month3_low": 0.185,
+        "range_position_3m": 0.235,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "55.95% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-10 close.",
+          "The price sat in the lower part of its 3-month range, 41.27% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHL",
+      "company": "CAMPLIFY HOLDINGS LIMITED",
+      "headline": "AGM - Chair and CEO Address to Shareholders",
+      "time": "2026-11-11T00:02:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160480-2A1709990",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Market-sensitive AGM address from both Chair and CEO signals the company has judged the content price-relevant — this elevates the filing above routine procedural AGM notices and suggests strategic guidance, trading updates, or financial commentary material enough to move the stock.",
+        "Camplify operates in the peer-to-peer RV/campervan rental market; an AGM address at this juncture likely addresses booking momentum into the Southern Hemisphere summer season (Oct–Mar peak), unit economics on the platform, and any commentary on the path to profitability — all high-sensitivity items for a growth-stage marketplace stock.",
+        "Without a visible price-action line, directionality depends entirely on the substance disclosed — if management reaffirms or upgrades revenue or margin guidance for FY25, the market-sensitive flag becomes a bullish catalyst; if the address contains caution on demand softness or cost pressures, the flag works in reverse. The flag itself is the key signal here, lifting this above administrative."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GQG",
+      "company": "GQG PARTNERS INC.",
+      "headline": "FUM as at 31 October 2026",
+      "time": "2026-11-11T00:02:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160479-2A1709989",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GQG's monthly FUM disclosure is the highest-frequency, most directly valuation-linked data point for this business — fee revenue is mechanically derived from AUM, so any month-on-month FUM move translates almost linearly into consensus EPS revision risk, making this filing the single most market-moving regular disclosure GQG produces.",
+        "The stock is already 50.64% below its 12-month high, a severe de-rating that reflects the market's prior absorption of negative news (likely the Adani-linked mandate outflows that plagued the stock in late 2024 and into 2025) — this means the tape is positioned defensively, and even a stabilisation or modest recovery in FUM could trigger meaningful short-covering and relief buying relative to expectations that are now deeply depressed.",
+        "The key threshold to watch in the filing body is whether net flows have turned positive or at minimum less negative, and whether performance fees remain on track — if October FUM shows organic inflow recovery alongside market beta support, the market-sensitive flag on a stock this deeply de-rated creates asymmetric upside; if outflows have accelerated, the already-distressed price provides less cushion than it appears."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-10",
+        "bars": 254,
+        "last_close": 0.97,
+        "market_cap_aud": 2904502268.92,
+        "shares_outstanding": 2994332236,
+        "beta": 0.488,
+        "rsi_14": 42.44,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 0.64,
+        "avg_turnover_aud": 6137938,
+        "liquid": true,
+        "avg_volume_20": 6074856,
+        "volume_change_pct": -36.0,
+        "pct_from_3m_high": -35.12,
+        "pct_from_3m_low": 9.92,
+        "pct_from_6m_high": -40.49,
+        "pct_from_6m_low": 9.92,
+        "pct_from_52w_high": -50.64,
+        "pct_from_52w_low": 9.92,
+        "high_52w": 1.965,
+        "low_52w": 0.8825,
+        "high_3m": 1.495,
+        "low_3m": 0.8825,
+        "high_6m": 1.63,
+        "low_6m": 0.8825,
+        "month1_high": 1.1325,
+        "month1_low": 0.8825,
+        "month2_high": 1.155,
+        "month2_low": 1.03,
+        "month3_high": 1.495,
+        "month3_low": 1.09,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "50.64% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-10 close.",
+          "The price sat in the lower part of its 3-month range, 35.12% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DCO",
+      "company": "DAINTREE CORE INCOME ACTIVE ETF",
+      "headline": "DCOR Estimated Distribution October 2026",
+      "time": "2026-11-10T23:59:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03160478-2A1709988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An estimated distribution notice for an active fixed-income ETF (DCOR) is mechanically informative rather than strategically significant — it tells unitholders the income accrual for October 2026 and sets the ex-distribution date, but carries no information about portfolio positioning, credit quality shifts, or duration changes that would move the unit price.",
+        "For an income-focused ETF, the market-sensitive flag is likely a compliance-driven classification (distributions are price-relevant in a technical sense) rather than a signal of unexpected positive or negative content — the distribution quantum should be broadly predictable from the prevailing yield environment and the fund's disclosed strategy, limiting genuine surprise potential.",
+        "The 'so what' for institutional holders is narrow: confirm the distribution is in line with the prior month's run-rate and that no special or catch-up distribution is embedded (which could signal a portfolio restructure). Absent that, this is a yield-confirmation event, not a valuation event."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SIO",
       "company": "SIMONDS GROUP LIMITED",
