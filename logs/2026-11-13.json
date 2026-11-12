@@ -1,9 +1,28 @@
 {
   "date": "2026-11-13",
-  "total": 196,
+  "total": 197,
   "market_sensitive_count": 40,
-  "generated_at": "2026-11-12T23:52:39.614952+00:00",
+  "generated_at": "2026-11-12T23:58:38.839219+00:00",
   "announcements": [
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Annual General Meeting Results",
+      "time": "2026-11-12T23:56:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161442-3A706466",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM results for Senetas are a procedural milestone — the absence of a market-sensitive flag confirms no extraordinary resolutions (e.g. significant capital issuance, contested director elections, or material strategic announcements) were on the agenda, reducing event risk to near zero.",
+        "Without disclosed voting outcomes in the headline, the default read is routine passage of standard resolutions (director re-elections, auditor ratification, remuneration report) — any meaningful opposition to the remuneration report (a 'first strike' scenario) would typically attract a market-sensitive flag and ASX query, neither of which appears here.",
+        "So what? AGM clearance removes a minor governance overhang for SEN but provides no new operational or financial catalyst; institutional attention should remain focused on Senetas's cybersecurity product pipeline and any upcoming partnership or revenue announcements rather than this filing."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FUL",
       "company": "FULCRUM LITHIUM LTD",
