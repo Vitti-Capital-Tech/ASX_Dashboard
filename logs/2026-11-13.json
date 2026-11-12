@@ -1,9 +1,98 @@
 {
   "date": "2026-11-13",
-  "total": 184,
-  "market_sensitive_count": 36,
-  "generated_at": "2026-11-12T23:29:50.823085+00:00",
+  "total": 186,
+  "market_sensitive_count": 37,
+  "generated_at": "2026-11-12T23:37:33.845617+00:00",
   "announcements": [
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Annual General Meeting Addresses and Presentation",
+      "time": "2026-11-12T23:32:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161431-2A1710442",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM addresses and presentations flagged market sensitive at Centrepoint Alliance signal management has judged forward-looking content — guidance, strategic direction, or financial commentary — to be price-relevant; this is not a routine administrative filing and warrants close reading of the transcript for any upgrade, downgrade, or strategic pivot.",
+        "As a financial planning and advice network business, key market-moving variables to watch in the presentation include adviser numbers (net growth or attrition), funds under advice/management trends, revenue run-rate commentary, and any update on regulatory capital or compliance costs — any of these could shift near-term earnings expectations materially.",
+        "The market-sensitive flag on an AGM address is relatively uncommon and historically correlates with a higher probability of a directional move; institutional investors should treat this as a live information event rather than a ceremonial filing, with the presentation slides likely containing the operative new disclosure."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Net Tangible Asset Backing October 2026",
+      "time": "2026-11-12T23:28:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161430-2A1710441",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a routine monthly NTA disclosure for Alternative Investment Trust — an administrative, non-market-sensitive update providing October 2026 backing per unit; it carries no operational news and the unflagged status means it must make its own case before earning a directional call, which it does not.",
+        "Price action is entirely uninformative here: zero recorded volume over the last five sessions and zero median daily turnover mean this trust is effectively dormant on exchange — volume ratios are close to meaningless in this context and cannot be read as either accumulation or distribution; the stock sitting at a 3-month low reflects the illiquid register, not an informed directional signal.",
+        "For institutional investors, the actionable 'so what' is to compare the reported NTA to the prevailing unit price to assess the discount/premium — if units trade at a widening discount to NTA in an already illiquid vehicle, it compounds the exit-risk concern; without that NTA figure disclosed here, the filing is procedural and sentiment-neutral by default."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-12",
+        "bars": 254,
+        "last_close": 1.38,
+        "market_cap_aud": 46927452.0,
+        "shares_outstanding": 34005400,
+        "beta": -0.108,
+        "rsi_14": 25.82,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 26,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -1.78,
+        "pct_from_3m_low": 0.73,
+        "pct_from_6m_high": -12.38,
+        "pct_from_6m_low": 2.22,
+        "pct_from_52w_high": -12.38,
+        "pct_from_52w_low": 2.6,
+        "high_52w": 1.575,
+        "low_52w": 1.345,
+        "high_3m": 1.405,
+        "low_3m": 1.37,
+        "high_6m": 1.575,
+        "low_6m": 1.35,
+        "month1_high": 1.4,
+        "month1_low": 1.38,
+        "month2_high": 1.405,
+        "month2_low": 1.39,
+        "month3_high": 1.4,
+        "month3_low": 1.37,
+        "range_position_3m": 0.286,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "at a 3-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, AIQ traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-11-12 close.",
+          "It was at the bottom of its 3-month range, already falling into this.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AFL",
       "company": "AF LEGAL GROUP LTD",
