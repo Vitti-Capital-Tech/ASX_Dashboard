@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T18:40:14.751973+11:00",
+  "generated_at": "2026-11-12T19:39:55.441950+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -14,12 +14,12 @@
         "avg_abnormal_pct": 1.41
       },
       "bearish": {
-        "scored": 19,
-        "correct": 4,
+        "scored": 18,
+        "correct": 3,
         "wrong": 7,
         "flat": 8,
-        "hit_rate": 36.4,
-        "avg_abnormal_pct": 1.26
+        "hit_rate": 30.0,
+        "avg_abnormal_pct": 1.54
       },
       "neutral": {
         "scored": 149,
@@ -30,11 +30,11 @@
         "avg_abnormal_pct": -0.94
       }
     },
-    "spread_pct": 0.15,
-    "directional_hit_rate": 35.6,
-    "directional_scored": 45,
+    "spread_pct": -0.13,
+    "directional_hit_rate": 34.1,
+    "directional_scored": 44,
     "pending": 0,
-    "no_data": 40,
+    "no_data": 41,
     "conflicts": 2
   },
   "intraday_stats": {
@@ -48,12 +48,12 @@
         "avg_abnormal_pct": -3.74
       },
       "bearish": {
-        "scored": 19,
-        "correct": 4,
+        "scored": 18,
+        "correct": 3,
         "wrong": 5,
         "flat": 10,
-        "hit_rate": 44.4,
-        "avg_abnormal_pct": 1.3
+        "hit_rate": 37.5,
+        "avg_abnormal_pct": 1.45
       },
       "neutral": {
         "scored": 149,
@@ -64,11 +64,11 @@
         "avg_abnormal_pct": -0.99
       }
     },
-    "spread_pct": -5.04,
-    "directional_hit_rate": 27.5,
-    "directional_scored": 40,
+    "spread_pct": -5.19,
+    "directional_hit_rate": 25.6,
+    "directional_scored": 39,
     "pending": 0,
-    "no_data": 40,
+    "no_data": 41,
     "conflicts": 2
   },
   "highlights": {
@@ -407,18 +407,18 @@
       "avg_volume_20": 370085,
       "rsi_14": 52.51,
       "market_cap_aud": 153436820.55,
-      "session_date": "2026-11-12",
-      "prev_close": 0.39,
-      "open": 0.38,
-      "vwap": 0.3596,
-      "gap_pct": -2.56,
-      "intraday_verdict": "correct",
-      "close": 0.375,
-      "return_pct": -3.85,
-      "open_close_pct": -1.32,
-      "index_return_pct": -0.07,
-      "abnormal_pct": -3.78,
-      "verdict": "correct",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 3,
       "also": [
         "Change of Director's Interest Notice",
