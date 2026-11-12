@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5645 graded calls
+- Window: last 20 trading days, 5594 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-11T10:41:23.910693+00:00
+- Generated: 2026-11-12T06:45:10.281384+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **59.3%** correct on 1278 graded calls.
+Directional calls (bullish/bearish): **59%** correct on 1248 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 773 | 59% |
-| bearish | 505 | 59.8% |
+| bullish | 755 | 59.3% |
+| bearish | 493 | 58.4% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **60.6%** of the time (n=3552). Every graded announcement moved 61.1% of the time.
+Stocks called neutral moved 1% or more anyway **60.2%** of the time (n=3544). Every graded announcement moved 60.8% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 807 | 62% |
-| Not flagged | 471 | 54.8% |
+| Market sensitive | 797 | 62% |
+| Not flagged | 451 | 53.7% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 779 | 59.7% |
-| Quarterly Report | 194 | 60.8% |
+| Market Update | 752 | 59.4% |
+| Quarterly Report | 191 | 60.7% |
 | Annual General Meeting | 112 | 60.7% |
-| Substantial Holding | 67 | 50.7% |
-| Results | 49 | 57.1% |
+| Substantial Holding | 65 | 47.7% |
+| Results | 50 | 60% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -55,7 +55,7 @@ than shown with a caveat. They will appear as the sample fills in.
 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
 | ZNO | bearish | +28.5% | Quarterly Activities/Appendix 4C Cash Flow Report |
 | SGA | bearish | +28.1% | IMARC Revised Investor Presentation |
-| 1AD | bullish | -25.4% | RDTI receipt, Advanced Overseas Finding |
+| WRX | bullish | -25.7% | Drilling Intersects Broad Shallow Silver Mineralisation |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
