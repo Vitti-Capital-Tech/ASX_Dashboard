@@ -1,9 +1,165 @@
 {
   "date": "2026-11-16",
-  "total": 297,
+  "total": 300,
   "market_sensitive_count": 99,
-  "generated_at": "2026-11-15T23:10:36.284285+00:00",
+  "generated_at": "2026-11-15T23:17:15.997741+00:00",
   "announcements": [
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Removal from Official List",
+      "time": "2026-11-15T23:14:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161966-2A1710694",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Removal from the ASX Official List is the terminal corporate event for KME — shareholders lose exchange liquidity entirely, making any remaining holdings effectively illiquid and forcing holders to transact off-market at likely distressed prices.",
+        "Pre-announcement volume of 0.05x average on a stock already thinly traded (median turnover ~A$9,521/day) means the volume ratio is close to meaningless as a signal of informed intent; the near-zero liquidity simply confirms there are very few active participants left to absorb the delisting shock.",
+        "Next steps for remaining shareholders are limited: monitor ASX delisting date, assess whether any compulsory acquisition, scheme, or off-market buyback facility is offered — absent such a mechanism, exit options are severely constrained and the practical value of residual holdings may approach zero."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-13",
+        "bars": 253,
+        "last_close": 0.7,
+        "market_cap_aud": 36743566.3,
+        "shares_outstanding": 52490809,
+        "beta": -0.101,
+        "rsi_14": 50.09,
+        "volume_trend_ratio": 0.05,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 9521,
+        "liquid": false,
+        "avg_volume_20": 56428,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -7.28,
+        "pct_from_3m_low": 7.69,
+        "pct_from_6m_high": -7.28,
+        "pct_from_6m_low": 70.73,
+        "pct_from_52w_high": -7.28,
+        "pct_from_52w_low": 70.73,
+        "high_52w": 0.755,
+        "low_52w": 0.41,
+        "high_3m": 0.755,
+        "low_3m": 0.65,
+        "high_6m": 0.755,
+        "low_6m": 0.41,
+        "month1_high": 0.75,
+        "month1_low": 0.68,
+        "month2_high": 0.745,
+        "month2_low": 0.65,
+        "month3_high": 0.755,
+        "month3_low": 0.72,
+        "range_position_3m": 0.476,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.05x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$9,521/day",
+        "reading": [
+          "Going into this, KME traded only 0.05x its usual daily volume over the last 5 sessions — measured to the 2026-11-13 close.",
+          "The price sat in the middle part of its 3-month range, 7.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,521 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BM1",
+      "company": "BALLARD MINING LIMITED",
+      "headline": "Change of Director's Interest Notice - SL",
+      "time": "2026-11-15T23:13:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161965-6A1355136",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for BM1 discloses a movement in a director's holding, but the headline does not specify direction (buy or sell), making the signal ambiguous — per lesson L031, do not default to bearish without confirming the direction of the change.",
+        "The filing is not flagged market sensitive, which on this track record reduces the base rate for a material price move; combined with the absence of directional disclosure in the headline, the information content for near-term price direction is low.",
+        "If the director is acquiring rather than selling, insider buying at current prices would be a modestly constructive signal for a small-cap miner; the correct posture is to await confirmation of direction before drawing conclusions — neutral is the disciplined call here."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HUM",
+      "company": "HUMM GROUP LIMITED",
+      "headline": "Board Update",
+      "time": "2026-11-15T23:08:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03161964-2A1710693",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Board Update' at HUM without a market-sensitive flag is most likely a director appointment, resignation, or committee restructure — procedural in nature and carrying limited direct valuation impact unless it signals a strategic pivot (e.g. chair replacement ahead of a merger or capital event).",
+        "Pre-announcement volume at 0.53x average indicates below-normal activity going into this filing, consistent with an uninformed tape; there is no evidence of accumulation or distribution positioning ahead of the announcement, which reduces the probability that the content is substantively price-moving.",
+        "For Humm Group, board composition carries strategic relevance given the company's ongoing simplification of its consumer finance and BNPL business — any change at chair or CEO level warrants closer scrutiny, but absent that specificity in the headline, the default read is administrative and neutral."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-13",
+        "bars": 253,
+        "last_close": 0.48,
+        "market_cap_aud": 245623394.4,
+        "shares_outstanding": 511715405,
+        "beta": 0.325,
+        "rsi_14": 58.4,
+        "volume_trend_ratio": 0.53,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 269025,
+        "liquid": true,
+        "avg_volume_20": 1809710,
+        "volume_change_pct": -45.0,
+        "pct_from_3m_high": -11.11,
+        "pct_from_3m_low": 29.73,
+        "pct_from_6m_high": -23.2,
+        "pct_from_6m_low": 29.73,
+        "pct_from_52w_high": -38.06,
+        "pct_from_52w_low": 29.73,
+        "high_52w": 0.775,
+        "low_52w": 0.37,
+        "high_3m": 0.54,
+        "low_3m": 0.37,
+        "high_6m": 0.625,
+        "low_6m": 0.37,
+        "month1_high": 0.54,
+        "month1_low": 0.3775,
+        "month2_high": 0.425,
+        "month2_low": 0.37,
+        "month3_high": 0.45,
+        "month3_low": 0.39,
+        "range_position_3m": 0.647,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.53x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, HUM traded only 0.53x its usual daily volume over the last 5 sessions — measured to the 2026-11-13 close.",
+          "The price sat in the middle part of its 3-month range, 11.11% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AV1",
       "company": "ADVERITAS LIMITED",
