@@ -1,9 +1,377 @@
 {
   "date": "2026-11-17",
-  "total": 259,
+  "total": 268,
   "market_sensitive_count": 68,
-  "generated_at": "2026-11-16T23:43:48.489385+00:00",
+  "generated_at": "2026-11-16T23:51:07.007789+00:00",
   "announcements": [
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notices x 4",
+      "time": "2026-11-16T23:47:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162520-3A706683",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Four simultaneous director interest changes at a stock more than 56% below its 12-month high creates a structurally ambiguous signal — direction is not disclosed in the headline, and per lesson L031, the bearish default for director notices does not apply when the stock is not near a recent high; insider buying at a depressed price would be constructive, insider selling would be an additional negative.",
+        "The 2.04x volume ratio is elevated in absolute terms, but with median daily turnover of only ~A$12,277, the absolute liquidity is near-zero — volume ratios at this level of thinness are close to meaningless as an intent signal, as a handful of small trades can double the ratio without any institutional conviction behind them.",
+        "With four directors filing simultaneously, this may reflect a corporate event (option grant, rights issue participation, or board restructure) rather than four independent market decisions — the correct posture is neutral pending confirmation of direction; if any of the four notices reveal purchases at current depressed prices, that would be the more constructive read."
+      ],
+      "tags": [
+        "Board Change",
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 0.05,
+        "market_cap_aud": 57283560.45,
+        "shares_outstanding": 1145671209,
+        "beta": -0.286,
+        "rsi_14": 36.47,
+        "volume_trend_ratio": 2.04,
+        "volume_last_ratio": 1.35,
+        "avg_turnover_aud": 12277,
+        "liquid": false,
+        "avg_volume_20": 352045,
+        "volume_change_pct": 35.0,
+        "pct_from_3m_high": -39.76,
+        "pct_from_3m_low": 11.11,
+        "pct_from_6m_high": -47.37,
+        "pct_from_6m_low": 11.11,
+        "pct_from_52w_high": -56.52,
+        "pct_from_52w_low": 11.11,
+        "high_52w": 0.115,
+        "low_52w": 0.045,
+        "high_3m": 0.083,
+        "low_3m": 0.045,
+        "high_6m": 0.095,
+        "low_6m": 0.045,
+        "month1_high": 0.065,
+        "month1_low": 0.045,
+        "month2_high": 0.08,
+        "month2_low": 0.062,
+        "month3_high": 0.083,
+        "month3_low": 0.057,
+        "range_position_3m": 0.132,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.04x its 20-day average",
+          "56.52% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$12,277/day",
+        "reading": [
+          "Going into this, FLC traded 2.04x its usual daily volume over the last 5 sessions — measured to the 2026-11-16 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 39.76% below the high of that period.",
+          "Treat all of that with care: it trades about A$12,277 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIX",
+      "company": "PLATINUM INTERNATIONAL FUND ACTIVE ETF",
+      "headline": "Quarterly Portfolio Disclosure - September 2026",
+      "time": "2026-11-16T23:47:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162521-2A1710978",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A quarterly portfolio disclosure for an active ETF is a routine regulatory transparency filing — it reveals holdings composition as at September 2026 but carries no new investment decision or fund flow signal for the ETF itself.",
+        "Not flagged market sensitive and no price action data is provided; the disclosure is relevant to investors assessing Platinum International's underlying exposures and conviction changes quarter-on-quarter, but it is not a catalyst for PIX unit price movement in isolation.",
+        "The 'so what' for institutional investors is as a data input — changes in Platinum's disclosed holdings can surface contrarian or concentrated bets that may inform thematic views on international equities, but this is a secondary analytical use, not a direct price mover for PIX units."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRO",
+      "company": "SCHRODER REAL RETURN ACTIVE ETF",
+      "headline": "GROW - Quarterly Portfolio Disclosure",
+      "time": "2026-11-16T23:46:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162519-2A1710976",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A quarterly portfolio disclosure for the Schroder Real Return Active ETF (GRO) is a standard transparency filing under ASIC active ETF disclosure rules — it reveals the fund's underlying asset allocation and holdings as at the quarter end but is not an operational or financial result for the ETF vehicle itself.",
+        "Not flagged market sensitive and no price action data is provided; GRO's unit price tracks NAV continuously, so the portfolio disclosure does not in itself create a re-pricing event — investors already have intraday indicative NAV access.",
+        "The analytical value is in examining any tactical shifts in Schroder's real-return asset mix (equities, bonds, alternatives, cash weighting) quarter-on-quarter, which may signal their macro positioning view — but this is a research input, not a near-term price catalyst for GRO units."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Application for quotation of securities - BXB",
+      "time": "2026-11-16T23:46:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162518-2A1710977",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities at Brambles (BXB) in the context of a large, well-governed industrial company is almost certainly a routine administrative filing — covering securities issued under an employee share plan, dividend reinvestment plan, or similar — rather than a capital raise dilution event.",
+        "BXB is trading just 1.16% off its 3-month high, meaning the stock is in a strong technical position; at this scale of company (global pallet and supply-chain logistics leader), routine quotation applications for small tranches of incentive securities generate negligible dilution relative to the float and do not shift valuation.",
+        "Not flagged market sensitive, confirming the administrative nature of the filing; investors should treat this as a compliance and governance housekeeping event with no directional read for the share price — the stock's proximity to its 3-month high is a function of its operational momentum, not this filing."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 22.2,
+        "market_cap_aud": 29502411256.8,
+        "shares_outstanding": 1328937444,
+        "beta": 0.732,
+        "rsi_14": 67.55,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.59,
+        "avg_turnover_aud": 65121253,
+        "liquid": true,
+        "avg_volume_20": 3543423,
+        "volume_change_pct": -41.0,
+        "pct_from_3m_high": -1.16,
+        "pct_from_3m_low": 22.38,
+        "pct_from_6m_high": -1.16,
+        "pct_from_6m_low": 37.21,
+        "pct_from_52w_high": -12.7,
+        "pct_from_52w_low": 37.21,
+        "high_52w": 25.43,
+        "low_52w": 16.18,
+        "high_3m": 22.46,
+        "low_3m": 18.14,
+        "high_6m": 22.46,
+        "low_6m": 16.18,
+        "month1_high": 22.46,
+        "month1_low": 20.1,
+        "month2_high": 20.22,
+        "month2_low": 18.28,
+        "month3_high": 19.95,
+        "month3_low": 18.14,
+        "range_position_3m": 0.94,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.16% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "The price sat in the upper part of its 3-month range, 1.16% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAV",
+      "company": "LONGWAVE AUS SMALL COMPANIES FUND - ACTIVE ETF",
+      "headline": "October 2026 Investment Update",
+      "time": "2026-11-16T23:45:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162517-2A1710972",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly investment update from an active ETF (WAV — Longwave Australian Small Companies) is a routine investor communication filing — it typically covers portfolio commentary, attribution, and market observations for October 2026 but does not constitute a results announcement or operational catalyst.",
+        "Not flagged market sensitive and no price action data provided; for an active ETF structure, unit price tracks NAV continuously, so a monthly update letter does not in itself create a re-pricing event for WAV units.",
+        "The analytical value is secondary: Longwave's small-cap commentary may surface sector-level views or stock-specific conviction shifts within the Australian small-cap universe that could inform positioning in underlying holdings — but this is a research input, not a near-term price catalyst for WAV units."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-11-16T23:44:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162516-2A1710974",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder ceasing their position in A2M is a net negative ownership signal — a meaningful institutional seller has exited or fallen below the 5% disclosure threshold, reducing the quality of the register at a stock already sitting at a 3-month high.",
+        "The timing is the key read: with A2M at a 3-month high, the exiting holder is selling into strength, which is the classic distribution pattern — they have captured the recent run and are stepping away, leaving the stock more exposed to any near-term catalyst disappointment.",
+        "Not flagged market sensitive, so this is a register housekeeping disclosure rather than an operational event; however, the loss of a substantial holder at an extended price point is a mild headwind — the market should monitor whether further large-holder exits follow in coming sessions, which would signal broader institutional distribution."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 7.39,
+        "market_cap_aud": 5380332731.5,
+        "shares_outstanding": 728055850,
+        "beta": 0.783,
+        "rsi_14": 63.83,
+        "volume_trend_ratio": 1.13,
+        "volume_last_ratio": 0.98,
+        "avg_turnover_aud": 12072509,
+        "liquid": true,
+        "avg_volume_20": 1969428,
+        "volume_change_pct": -2.0,
+        "pct_from_3m_high": -0.67,
+        "pct_from_3m_low": 15.65,
+        "pct_from_6m_high": -8.77,
+        "pct_from_6m_low": 51.43,
+        "pct_from_52w_high": -25.88,
+        "pct_from_52w_low": 51.43,
+        "high_52w": 9.97,
+        "low_52w": 4.88,
+        "high_3m": 7.44,
+        "low_3m": 6.39,
+        "high_6m": 8.1,
+        "low_6m": 4.88,
+        "month1_high": 7.44,
+        "month1_low": 6.66,
+        "month2_high": 6.89,
+        "month2_low": 6.39,
+        "month3_high": 7.26,
+        "month3_low": 6.47,
+        "range_position_3m": 0.952,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "L1H",
+      "company": "L1 CAPITAL INTERNATIONAL (HEDGED) ACTIVE ETF",
+      "headline": "Quarterly Portfolio Disclosure - September 2026",
+      "time": "2026-11-16T23:44:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162515-2A1710975",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A quarterly portfolio disclosure for L1 Capital International Hedged Active ETF (L1H) is a standard regulatory transparency filing — it discloses the fund's underlying international equity holdings as at September 2026 and is not an operational result or investment decision for the ETF vehicle itself.",
+        "Not flagged market sensitive and no price action data provided; as an active ETF, L1H's unit price tracks intraday indicative NAV, so the quarterly disclosure is a lagged transparency filing that does not in itself move the unit price.",
+        "The hedged structure means L1H's returns strip out AUD/USD currency moves — the quarterly holdings disclosure is most useful for investors benchmarking L1 Capital's international conviction positions and examining any rotation between geographies or sectors quarter-on-quarter, but this is a research input rather than a near-term price catalyst."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1I",
+      "company": "L1 CAPITAL INTERNATIONAL (UNHEDGED) ACTIVE ETF",
+      "headline": "Quarterly Portfolio Disclosure - September 2026",
+      "time": "2026-11-16T23:44:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162514-2A1710971",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A quarterly portfolio disclosure for L1 Capital International Unhedged Active ETF (L1I) is a routine regulatory transparency filing — structurally identical in purpose to the L1H filing above, disclosing international equity holdings as at September 2026 without constituting a new operational event.",
+        "Not flagged market sensitive and no price action data provided; the unhedged variant carries full AUD/foreign currency exposure, so the quarterly holdings data is a useful reference for investors wanting to understand L1's international conviction in native currency terms, but it is not a price-moving event for L1I units.",
+        "Comparing L1H and L1I disclosures simultaneously may reveal whether the manager's international book is consistent across both structures or whether hedged versus unhedged vehicles carry different sector or geographic tilts — an analytical overlay rather than a direct market signal."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Application for quotation of securities - BXB",
+      "time": "2026-11-16T23:43:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162513-2A1710973",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a duplicate of announcement [5] — a second application for quotation of securities filing by Brambles (BXB) on the same date, likely covering a separate but similarly routine tranche of securities (e.g. a second plan type or vesting event) and carrying the same administrative character as the first filing.",
+        "BXB remains 1.16% off its 3-month high; a second quotation application on the same day at a large-cap industrial company reinforces the routine plan-securities interpretation — the aggregate dilution from both filings combined is almost certainly immaterial relative to Brambles' substantial market capitalisation and free float.",
+        "Not flagged market sensitive; institutional investors should treat both BXB quotation filings as back-office compliance events with no independent directional read — the stock's near-high positioning reflects its operational and earnings narrative, not these administrative filings."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 22.2,
+        "market_cap_aud": 29502411256.8,
+        "shares_outstanding": 1328937444,
+        "beta": 0.732,
+        "rsi_14": 67.55,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.59,
+        "avg_turnover_aud": 65121253,
+        "liquid": true,
+        "avg_volume_20": 3543423,
+        "volume_change_pct": -41.0,
+        "pct_from_3m_high": -1.16,
+        "pct_from_3m_low": 22.38,
+        "pct_from_6m_high": -1.16,
+        "pct_from_6m_low": 37.21,
+        "pct_from_52w_high": -12.7,
+        "pct_from_52w_low": 37.21,
+        "high_52w": 25.43,
+        "low_52w": 16.18,
+        "high_3m": 22.46,
+        "low_3m": 18.14,
+        "high_6m": 22.46,
+        "low_6m": 16.18,
+        "month1_high": 22.46,
+        "month1_low": 20.1,
+        "month2_high": 20.22,
+        "month2_low": 18.28,
+        "month3_high": 19.95,
+        "month3_low": 18.14,
+        "range_position_3m": 0.94,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.16% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "The price sat in the upper part of its 3-month range, 1.16% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GRO",
       "company": "SCHRODER REAL RETURN ACTIVE ETF",
