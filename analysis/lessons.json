@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T10:41:43.589402+00:00",
+  "updated_at": "2026-11-16T07:00:58.349961+00:00",
   "next_id": 294,
   "lessons": [
     {
@@ -503,8 +503,8 @@
       "trigger": "Unflagged infrastructure or access agreement announcement (haul road, easement, water licence) for a junior developer, with no dollar value, timeline, or work programme attached",
       "rule": "A legal-access or infrastructure agreement removes a project risk but does not advance resource, funding, or permitting milestones — it is a prerequisite event, not a value-creation event. Default to bearish rather than neutral when the filing is unflagged and no follow-on catalyst (drill start, feasibility update, funding) is disclosed, because the market often reads the announcement as confirming the project is still in an early gating phase.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "last_seen": "2026-11-16",
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-14",
@@ -512,6 +512,13 @@
           "headline": "Haul Road Agreement Delivers Win for RGL's Kal Gold Project",
           "called": "neutral",
           "abnormal_pct": -8.43
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "CRR",
+          "headline": "Mayview Antimony Gold Prospect Land Access Agreement Signed",
+          "called": "bullish",
+          "abnormal_pct": -13.87
         }
       ]
     },
@@ -1354,16 +1361,9 @@
       "trigger": "Board Changes combined with a Strategic Review announcement, flagged market sensitive, at a stock 50%+ below its 12-month high with above-average recent volume",
       "rule": "A 'Board Changes & Strategic Review' filing at a deeply de-rated stock is not a procedural governance event — the strategic review component signals that incumbent leadership has been displaced and an asset or corporate process has been opened, which at a stock with heavily priced-in bad news creates asymmetric upside (sale, merger, or asset monetisation). When the filing is market-sensitive and combines board change with an explicit strategic review, lean bullish rather than neutral, because the downside is already largely priced and the review announcement itself sets a floor by signalling management accountability and potential value realisation.",
       "created": "2026-09-16",
-      "last_seen": "2026-11-12",
-      "times_seen": 13,
+      "last_seen": "2026-11-16",
+      "times_seen": 14,
       "examples": [
-        {
-          "date": "2026-10-14",
-          "ticker": "LGI",
-          "headline": "Board and Executive Changes",
-          "called": "neutral",
-          "abnormal_pct": 13.68
-        },
         {
           "date": "2026-11-04",
           "ticker": "FTI",
@@ -1391,6 +1391,13 @@
           "headline": "Board Renewal and Leadership Changes",
           "called": "neutral",
           "abnormal_pct": 9.44
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "BMC",
+          "headline": "BMC announces leadership changes",
+          "called": "neutral",
+          "abnormal_pct": 12.26
         }
       ]
     },
@@ -1551,16 +1558,9 @@
       "trigger": "Market-sensitive response to an ASX price query at a stock at or near a 12-month low with volume running materially above average (>3x) and median daily turnover near zero",
       "rule": "An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.",
       "created": "2026-09-17",
-      "last_seen": "2026-10-26",
-      "times_seen": 9,
+      "last_seen": "2026-11-16",
+      "times_seen": 10,
       "examples": [
-        {
-          "date": "2026-09-25",
-          "ticker": "AMD",
-          "headline": "Response to ASX Price and Volume Query",
-          "called": "bullish",
-          "abnormal_pct": -12.4
-        },
         {
           "date": "2026-10-07",
           "ticker": "EXR",
@@ -1588,6 +1588,13 @@
           "headline": "Response to ASX Price Query",
           "called": "neutral",
           "abnormal_pct": -29.8
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "AMX",
+          "headline": "Response to ASX Price Query",
+          "called": "neutral",
+          "abnormal_pct": 10.0
         }
       ]
     },
@@ -2492,17 +2499,10 @@
       "trigger": "Debt facility extension announcement flagged market sensitive at a deeply de-rated micro-cap (60%+ below 12-month high) with thin liquidity, where the extension removes a near-term maturity cliff and no punitive terms are disclosed in the headline",
       "rule": "A market-sensitive debt extension at a distressed micro-cap is primarily a survival event — it removes the going-concern cliff that was the dominant overhang, and the absence of disclosed punitive terms in the headline is the key qualifier; lean neutral-to-bullish rather than neutral when the extension is flagged material and no covenant or conversion language appears in the headline, because removing an existential risk at a stock already priced for distress is asymmetrically positive even if the underlying business remains weak.",
       "created": "2026-09-21",
-      "last_seen": "2026-10-19",
-      "times_seen": 13,
+      "last_seen": "2026-11-16",
+      "times_seen": 14,
       "examples": [
         {
-          "date": "2026-10-09",
-          "ticker": "TZL",
-          "headline": "Business and Funding Update",
-          "called": "neutral",
-          "abnormal_pct": -13.98
-        },
-        {
           "date": "2026-10-19",
           "ticker": "STV",
           "headline": "Swift Extends Pure Debt Facility to March 2028",
@@ -2529,6 +2529,13 @@
           "headline": "Swift Extends Pure Debt Facility to March 2028",
           "called": "bullish",
           "abnormal_pct": -17.11
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "NMT",
+          "headline": "$2 Million Secured Convertible Note Documentation Executed",
+          "called": "bearish",
+          "abnormal_pct": 10.41
         }
       ]
     },
@@ -2914,17 +2921,10 @@
       "trigger": "Named project milestone completion announcement (concept stage, pre-FEED, scoping) flagged market sensitive at a thinly traded micro-cap at or near a multi-month high with suppressed pre-announcement volume (<0.5x average), where the milestone gates the next phase but does not itself commit capital or name a counterparty",
       "rule": "A concept-stage or pre-FEED completion at a stock already at its multi-month high means the milestone was anticipated and is priced — before calling bullish, ask whether the completion announcement names a specific next gating event (funding partner, government grant, FID date) that was not previously disclosed; if not, call neutral rather than bullish, because a phase-completion without a named next catalyst is a 'task done' filing that confirms progress already implied by the stock's price level rather than creating new upside.",
       "created": "2026-09-23",
-      "last_seen": "2026-11-04",
-      "times_seen": 14,
+      "last_seen": "2026-11-16",
+      "times_seen": 15,
       "examples": [
         {
-          "date": "2026-10-12",
-          "ticker": "REC",
-          "headline": "Completion of Ironstone Well Gold Project Acquisition",
-          "called": "bullish",
-          "abnormal_pct": -12.13
-        },
-        {
           "date": "2026-11-04",
           "ticker": "GW1",
           "headline": "Strategic Partnership with Atana Elements inc.",
@@ -2951,6 +2951,13 @@
           "headline": "Strategic Partnership with Atana Elements inc.",
           "called": "bullish",
           "abnormal_pct": -29.41
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "CCE",
+          "headline": "Successful Stage 1 Deployment",
+          "called": "bullish",
+          "abnormal_pct": -12.74
         }
       ]
     },
@@ -3049,16 +3056,9 @@
       "trigger": "Conference presentation announcement at a named, broadly accessible investor conference (e.g. ASX SMIDcaps Conference) by a pre-revenue biotech or life sciences company, not flagged market sensitive, with no named catalyst in the headline and no price action data available",
       "rule": "Before calling neutral on an ASX SMIDcaps or equivalent broad-market investor conference announcement, distinguish it from the L010 pre-raise-marketing bearish default — the ASX SMIDcaps audience includes active generalist fund managers who may not follow the stock, and a presentation slot can itself trigger fresh accumulation independent of any new fundamental disclosure; default to neutral rather than bearish when the conference is a named ASX-organised or equivalent institutional forum, reserving bearish only for generic online webinars or roadshows with no curated institutional audience.",
       "created": "2026-09-23",
-      "last_seen": "2026-11-12",
-      "times_seen": 7,
+      "last_seen": "2026-11-16",
+      "times_seen": 8,
       "examples": [
-        {
-          "date": "2026-10-01",
-          "ticker": "SHG",
-          "headline": "Company Presentation",
-          "called": "bearish",
-          "abnormal_pct": 7.7
-        },
         {
           "date": "2026-10-01",
           "ticker": "SHG",
@@ -3086,6 +3086,13 @@
           "headline": "Alterity to Present at Bell Potter Healthcare Conference",
           "called": "neutral",
           "abnormal_pct": -9.02
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "AVE",
+          "headline": "Avecho presents at BIO-Europe",
+          "called": "neutral",
+          "abnormal_pct": 20.41
         }
       ]
     },
@@ -3592,8 +3599,8 @@
       "trigger": "Institutional placement flagged market sensitive at a stock within 5% of a multi-month high with 5-day volume running >1.5x average, where the headline frames the raise as funding a named growth phase rather than generic working capital",
       "rule": "L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.",
       "created": "2026-09-25",
-      "last_seen": "2026-11-12",
-      "times_seen": 17,
+      "last_seen": "2026-11-16",
+      "times_seen": 18,
       "examples": [
         {
           "date": "2026-11-03",
@@ -3610,13 +3617,6 @@
           "abnormal_pct": -12.01
         },
         {
-          "date": "2026-11-03",
-          "ticker": "QML",
-          "headline": "Strongly Subscribed $5.5 Million Placement",
-          "called": "bullish",
-          "abnormal_pct": -12.01
-        },
-        {
           "date": "2026-11-12",
           "ticker": "AWJ",
           "headline": "$17m Placement to Accelerate Growth",
@@ -3629,6 +3629,13 @@
           "headline": "$17m Placement to Accelerate Growth",
           "called": "bullish",
           "abnormal_pct": -18.3
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "MPK",
+          "headline": "$70.0M Placement to Fund Ferke Gold Project to FID",
+          "called": "bullish",
+          "abnormal_pct": -12.74
         }
       ]
     },
@@ -3682,17 +3689,10 @@
       "trigger": "Aircore or RC drilling programme completion announcement headlined as a 'Gold Discovery' (or equivalent named discovery language) flagged market sensitive at a junior explorer 60%+ below its 12-month high, where the headline bundles programme completion with discovery framing but no assay grades are yet disclosed",
       "rule": "L002 covers commencement announcements; L013 covers survey completion. A programme-completion announcement that pairs 'completed' with active discovery language ('Gold Discovery') occupies a third category — it signals that the company believes results already in hand are discovery-grade, even before assay publication; treat the discovery language as a substantive signal that separates this from a neutral programme-completion filing. When the headline names a discovery and the filing is market-sensitive, lean neutral-to-bullish rather than applying L002's neutral default, because management has made an affirmative claim about result quality that the market-sensitive flag endorses.",
       "created": "2026-09-25",
-      "last_seen": "2026-11-06",
-      "times_seen": 15,
+      "last_seen": "2026-11-16",
+      "times_seen": 16,
       "examples": [
         {
-          "date": "2026-11-05",
-          "ticker": "WC1",
-          "headline": "Salazar Scandium Drilling Completed",
-          "called": "neutral",
-          "abnormal_pct": 12.77
-        },
-        {
           "date": "2026-11-06",
           "ticker": "PRB",
           "headline": "AIRCORE DRILLING COMPLETED AT MOUNT PADBURY",
@@ -3719,6 +3719,13 @@
           "headline": "AIRCORE DRILLING COMPLETED AT MOUNT PADBURY",
           "called": "neutral",
           "abnormal_pct": 8.33
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "LEG",
+          "headline": "Drilling Completed at Pinnacle Well Project",
+          "called": "neutral",
+          "abnormal_pct": 14.7
         }
       ]
     },
@@ -4104,16 +4111,9 @@
       "trigger": "Annual report or full-year compliance filing (not flagged market sensitive) at a junior explorer or developer with no price action data available and no companion operational announcement",
       "rule": "An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.",
       "created": "2026-09-28",
-      "last_seen": "2026-10-15",
-      "times_seen": 15,
+      "last_seen": "2026-11-16",
+      "times_seen": 16,
       "examples": [
-        {
-          "date": "2026-10-07",
-          "ticker": "MHK",
-          "headline": "Appendix 4G and Corporate Governance Statement",
-          "called": "neutral",
-          "abnormal_pct": -8.24
-        },
         {
           "date": "2026-10-12",
           "ticker": "HMG",
@@ -4141,6 +4141,13 @@
           "headline": "Letter to Shareholders, Notice of AGM and Proxy Form",
           "called": "neutral",
           "abnormal_pct": -11.02
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "LAM",
+          "headline": "Financial Statements to 30 September 2026",
+          "called": "neutral",
+          "abnormal_pct": -11.59
         }
       ]
     },
@@ -7430,8 +7437,8 @@
       "trigger": "Non-market-sensitive operational update ('Operational Update [Named Mine/Project]') at a producing or near-producing miner 60%+ below its 12-month high, where the headline names a specific operational site but discloses no production rate, grade, cost, or positive milestone",
       "rule": "A non-flagged operational update at a named producing site that omits all quantitative metrics (tonnes mined, grade, cost per ounce) is more likely to contain negative operational news (underperformance vs. plan, equipment issues, grade reconciliation problems) than a positive update — companies with good numbers headline the number; lean bearish rather than neutral when the update is unflagged, names only the site and the word 'update', and no metric appears in the headline.",
       "created": "2026-10-19",
-      "last_seen": "2026-10-19",
-      "times_seen": 4,
+      "last_seen": "2026-11-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-19",
@@ -7460,6 +7467,13 @@
           "headline": "Operational Update Reward Gold Mine",
           "called": "neutral",
           "abnormal_pct": -12.26
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "RDN",
+          "headline": "Mt Sholl Option and Zambia Lobito Copper Project Update",
+          "called": "neutral",
+          "abnormal_pct": -24.59
         }
       ]
     },
@@ -8218,8 +8232,8 @@
       "trigger": "Non-dilutive government agency debt announcement (EXIM, EFIC, or equivalent export credit agency loan) to a subsidiary of a listed parent, at a stock 50%+ below its 12-month high, where the loan is denominated in foreign currency and no drawdown timeline or associated revenue recognition schedule is disclosed",
       "rule": "An export credit agency loan to a named subsidiary is not equivalent to a direct cash injection into the listed parent — the listed entity's access to the funds depends on intercompany structures, and the market will immediately ask whether the subsidiary's debt is recourse to the parent or ring-fenced; before calling bullish on a subsidiary-level government loan, confirm whether the proceeds flow to the listed parent's balance sheet and whether drawdown is conditional on contract milestones; if neither is disclosed, default to neutral rather than bullish.",
       "created": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "times_seen": 4,
+      "last_seen": "2026-11-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-10-22",
@@ -8248,6 +8262,13 @@
           "headline": "EXIM Lends USD 10.3M to Titomic USA, Inc.",
           "called": "bullish",
           "abnormal_pct": -14.95
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "VMM",
+          "headline": "2nd US$5M from Brazilian Critical Minerals Fund & Cleansing",
+          "called": "bullish",
+          "abnormal_pct": -9.59
         }
       ]
     },
@@ -8532,8 +8553,8 @@
       "trigger": "Seven or more simultaneous Initial Director's Interest Notices at a distressed junior (no price action data, no market-sensitive flag), where the volume of filings implies a wholesale board reconstitution rather than a routine appointment",
       "rule": "A mass simultaneous initial director disclosure (7 or more) at a distressed junior is not a neutral governance filing — it is more likely to accompany a deed of company arrangement exit, recapitalisation, or administration emergence where a new controlling group has taken over; lean bearish rather than neutral because the incoming board's first act is often a dilutive recapitalisation to fund the restructured entity, and the absence of a market-sensitive flag signals no positive operational content is being disclosed alongside the governance reset.",
       "created": "2026-10-23",
-      "last_seen": "2026-10-23",
-      "times_seen": 3,
+      "last_seen": "2026-11-16",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-10-23",
@@ -8555,6 +8576,13 @@
           "headline": "Initial Director's Interest Notice x7",
           "called": "neutral",
           "abnormal_pct": -11.63
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "CX8",
+          "headline": "Initial Directors Interest Notice x4",
+          "called": "neutral",
+          "abnormal_pct": -7.92
         }
       ]
     },
@@ -9859,8 +9887,8 @@
       "trigger": "Scoping study with a large headline NPV at a rare earths (or other specialist critical mineral) junior 50%+ below its 12-month high with near-zero absolute liquidity, where the commodity faces known persistent structural headwinds (processing complexity, offtake difficulty, financing scarcity) independent of the commodity price cycle",
       "rule": "Before calling bullish on a large NPV scoping study at a rare earths junior, ask whether the commodity's structural commercialisation barriers (separation processing, off-take concentration, project financing scarcity) are so well-known that the market systematically discounts scoping-stage NPVs regardless of their headline size — if rare earths processing and offtake risk are the dominant unresolved constraints and neither is addressed in the headline, default to neutral rather than bullish, because the NPV is a theoretical number the market has already learned not to pay for at scoping stage in this commodity.",
       "created": "2026-10-29",
-      "last_seen": "2026-10-29",
-      "times_seen": 1,
+      "last_seen": "2026-11-16",
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-10-29",
@@ -9868,6 +9896,13 @@
           "headline": "Sandy Mitchell Rare Earths Scoping Study - A$883M NPV",
           "called": "bullish",
           "abnormal_pct": -12.78
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "AKN",
+          "headline": "Further High-Grade Rare Earth Mineralisation at East Tundulu",
+          "called": "bullish",
+          "abnormal_pct": -12.09
         }
       ]
     },
@@ -10804,8 +10839,8 @@
       "trigger": "Market-sensitive production guidance or outlook announcement at a producing single-asset miner (mineral sands, gold, base metals) that is 60%+ below its 12-month high with near-zero absolute liquidity, where the headline names the asset and uses 'Guidance' or 'Outlook' language",
       "rule": "A named production guidance filing flagged market sensitive at a deeply de-rated single-asset producer is directionally asymmetric to the upside — the stock already prices significant operational stress, so a reaffirmation or modest upgrade functions as a floor-setting catalyst while the market-sensitive flag confirms the numbers moved enough to disclose; apply L230-style asymmetric logic and lean neutral-to-bullish rather than neutral when the headline pairs a named asset with 'Guidance' or 'Outlook' at a heavily de-rated stock, because the downside (further cut) is already largely priced and even a stable number is a positive surprise relative to the implied bear case.",
       "created": "2026-11-10",
-      "last_seen": "2026-11-10",
-      "times_seen": 4,
+      "last_seen": "2026-11-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-11-10",
@@ -10834,6 +10869,13 @@
           "headline": "Thunderbird Guidance and Production Outlook",
           "called": "neutral",
           "abnormal_pct": 23.22
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "VTX",
+          "headline": "Operational Update October 2026 Gold Sales",
+          "called": "neutral",
+          "abnormal_pct": 10.14
         }
       ]
     },
@@ -11156,8 +11198,8 @@
       "trigger": "Results of AGM filing (not flagged market sensitive) at a junior resources or metals explorer that is 60%+ below its 12-month high with suppressed pre-announcement volume (<0.5x average) and thin but non-zero absolute liquidity (A$5,000–A$15,000/day), where the AGM agenda plausibly included capital-authority or strategic resolutions",
       "rule": "Before calling neutral on an AGM results filing at a deeply de-rated junior with thin liquidity, check whether the notice of meeting contained capital-structure, strategic, or pivot resolutions — a clean pass on substantive resolutions at a news-starved, distressed register can trigger a disproportionate relief-buying response; lean neutral-to-bullish rather than neutral when such resolutions were on the agenda and the stock is materially de-rated.",
       "created": "2026-11-12",
-      "last_seen": "2026-11-12",
-      "times_seen": 4,
+      "last_seen": "2026-11-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-11-12",
@@ -11186,6 +11228,13 @@
           "headline": "Results of Annual General Meeting",
           "called": "neutral",
           "abnormal_pct": 23.88
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "AEG",
+          "headline": "Results of Annual General Meeting",
+          "called": "neutral",
+          "abnormal_pct": 18.32
         }
       ]
     },
@@ -11377,8 +11426,8 @@
       "trigger": "Cessation of securities (options lapsing) at a deeply de-rated micro-cap with pre-announcement volume running below average (0.5–0.7x) but non-zero, where the stock has an identifiable prior negative catalyst (extreme de-rating >80%) that makes the cessation's dilution-removal benefit marginal relative to the structural overhang",
       "rule": "L017's neutral-to-constructive default assumes the cessation removes a meaningful dilution overhang; at extreme de-ratings (>80% below high) where the stock is priced for near-insolvency, lapsing options are almost certainly deeply out-of-the-money and their removal is economically trivial — the market may instead read the lapse as confirming that option-holders have abandoned any recovery expectation; before applying L017's constructive lean, ask whether the lapsed options were meaningfully in or near the money; if they were deeply out-of-the-money (consistent with an 85%+ de-rating), default to bearish rather than neutral, because the cessation signals holder capitulation rather than register improvement.",
       "created": "2026-11-13",
-      "last_seen": "2026-11-13",
-      "times_seen": 4,
+      "last_seen": "2026-11-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-11-13",
@@ -11402,11 +11451,18 @@
           "abnormal_pct": -13.58
         },
         {
-          "date": "2026-11-13",
-          "ticker": "SRJ",
-          "headline": "Notification of cessation of securities - SRJ",
+          "date": "2026-11-16",
+          "ticker": "DTM",
+          "headline": "Notification of cessation of securities - DTM",
           "called": "neutral",
-          "abnormal_pct": -13.58
+          "abnormal_pct": -19.59
+        },
+        {
+          "date": "2026-11-16",
+          "ticker": "JAN",
+          "headline": "Notification of cessation of securities - JAN",
+          "called": "neutral",
+          "abnormal_pct": -14.83
         }
       ]
     },
@@ -11649,5 +11705,5 @@
       ]
     }
   ],
-  "last_reflected": "2026-11-13"
+  "last_reflected": "2026-11-16"
 }
