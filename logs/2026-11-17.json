@@ -1,9 +1,94 @@
 {
   "date": "2026-11-17",
-  "total": 257,
+  "total": 259,
   "market_sensitive_count": 68,
-  "generated_at": "2026-11-16T23:37:47.798679+00:00",
+  "generated_at": "2026-11-16T23:43:48.489385+00:00",
   "announcements": [
+    {
+      "ticker": "GRO",
+      "company": "SCHRODER REAL RETURN ACTIVE ETF",
+      "headline": "GROW Monthly Report - October 2026",
+      "time": "2026-11-16T23:41:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162512-2A1710970",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly NAV/performance report for the GROW active ETF — a periodic disclosure with no market-sensitive flag, meaning the filing contains no information the issuer judges to be price-moving beyond standard portfolio transparency obligations.",
+        "The 'so what?' for investors is limited to tracking whether the fund's real-return mandate (targeting returns above inflation) is being met; without specific performance figures disclosed in the headline, the filing serves as a register update rather than a catalyst for unit price re-rating.",
+        "No actionable near-term catalyst emerges from a monthly report filing of this type — institutional holders will monitor rolling performance against the RBA CPI benchmark, but unit price is ultimately driven by underlying asset performance and broader macro conditions, not the report itself."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WQG",
+      "company": "WCM GLOBAL GROWTH LIMITED",
+      "headline": "Weekly NTA 13 November 2026",
+      "time": "2026-11-16T23:38:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162511-3A706682",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weekly NTA disclosure for WQG is a routine compliance filing — not flagged market sensitive, confirming the board sees no price-relevant deviation from expectations that warrants an elevated disclosure standard.",
+        "The 'so what?' is directional only insofar as the NTA figure reveals whether the portfolio's global growth equity holdings have appreciated or declined week-on-week; a persistent NTA discount or premium to the unit price is the key variable institutional LIC investors monitor for arbitrage or buyback signals, but no headline figures are disclosed here to act on.",
+        "With no accompanying operational update, buyback announcement, or portfolio change notice, this is purely procedural; near-term unit price movement will be driven by underlying global equity market direction and any NTA discount/premium dynamics rather than this filing itself."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 1.955,
+        "market_cap_aud": 547159810.65,
+        "shares_outstanding": 279877141,
+        "beta": 0.675,
+        "rsi_14": 50.15,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 0.81,
+        "avg_turnover_aud": 451760,
+        "liquid": true,
+        "avg_volume_20": 241949,
+        "volume_change_pct": -19.0,
+        "pct_from_3m_high": -13.5,
+        "pct_from_3m_low": 6.25,
+        "pct_from_6m_high": -13.5,
+        "pct_from_6m_low": 9.83,
+        "pct_from_52w_high": -13.5,
+        "pct_from_52w_low": 21.43,
+        "high_52w": 2.26,
+        "low_52w": 1.61,
+        "high_3m": 2.26,
+        "low_3m": 1.84,
+        "high_6m": 2.26,
+        "low_6m": 1.78,
+        "month1_high": 2.02,
+        "month1_low": 1.84,
+        "month2_high": 2.18,
+        "month2_low": 1.97,
+        "month3_high": 2.26,
+        "month3_low": 1.95,
+        "range_position_3m": 0.274,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "The price sat in the lower part of its 3-month range, 13.5% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AHC",
       "company": "AUSTCO HEALTHCARE LIMITED",
