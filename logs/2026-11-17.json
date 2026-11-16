@@ -1,9 +1,255 @@
 {
   "date": "2026-11-17",
-  "total": 268,
-  "market_sensitive_count": 68,
-  "generated_at": "2026-11-16T23:51:07.007789+00:00",
+  "total": 273,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-11-16T23:57:27.101901+00:00",
   "announcements": [
+    {
+      "ticker": "PU6",
+      "company": "PEPPER SPARKZ TRUST NO.6",
+      "headline": "Removal from Official List",
+      "time": "2026-11-16T23:52:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162526-2A1710981",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Removal from the Official List is an administrative terminal event for PU6 (Pepper Sparkz Trust No.6) — as a trust or structured finance vehicle, delisting typically follows the wind-down, maturity, or redemption of the underlying asset pool rather than corporate distress, and in this context is the expected lifecycle conclusion rather than a negative surprise.",
+        "No market-sensitive flag is attached, consistent with this being a planned, procedural conclusion; holders of the trust units would have received prior notice of the wind-down or redemption event, meaning the delisting itself carries no new information content and should not generate material price discovery on the day.",
+        "The practical implication for any residual unit-holders is ensuring positions are closed or redeemed prior to the effective delisting date — after removal, secondary market liquidity ceases entirely; institutional holders should confirm redemption mechanics and confirm no residual economic exposure remains in the trust structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GAS",
+      "company": "STATE GAS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-11-16T23:51:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162525-2A1710980",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Pause in Trading' market update flagged market sensitive at a stock already 76% below its 12-month high signals a material, imminent disclosure — the halt almost certainly precedes an announcement the company believes is price-sensitive, but direction is entirely unknown until the companion filing lands; the market-sensitive flag is necessary but not sufficient to infer positive content.",
+        "With median daily turnover of roughly A$633/day, GAS is effectively illiquid — any post-halt price discovery will be driven by a handful of orders, making the stock highly susceptible to outsized moves in either direction; this thin-liquidity context amplifies both upside and downside risk relative to what the fundamental content of the pending announcement would justify in a normally traded stock.",
+        "Investors should await the companion announcement before taking a view — a trading halt at a deeply de-rated, near-zero-liquidity junior can precede anything from a capital raise (dilutive) to a binding offtake or farm-in (constructive); per lesson L058, applying an asymmetric upside assumption to a generic halt notice at a depressed stock is unwarranted without headline-level milestone specificity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 0.009,
+        "market_cap_aud": 5052957.61,
+        "shares_outstanding": 561439734,
+        "beta": -1.712,
+        "rsi_14": 56.08,
+        "volume_trend_ratio": 0.76,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 633,
+        "liquid": false,
+        "avg_volume_20": 417473,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -30.77,
+        "pct_from_3m_low": 50.0,
+        "pct_from_6m_high": -60.87,
+        "pct_from_6m_low": 50.0,
+        "pct_from_52w_high": -76.32,
+        "pct_from_52w_low": 50.0,
+        "high_52w": 0.038,
+        "low_52w": 0.006,
+        "high_3m": 0.013,
+        "low_3m": 0.006,
+        "high_6m": 0.023,
+        "low_6m": 0.006,
+        "month1_high": 0.01,
+        "month1_low": 0.006,
+        "month2_high": 0.011,
+        "month2_low": 0.008,
+        "month3_high": 0.013,
+        "month3_low": 0.01,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "76.32% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$633/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "The price sat in the middle part of its 3-month range, 30.77% below the high of that period.",
+          "Treat all of that with care: it trades about A$633 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCL",
+      "company": "HIGHCOM LIMITED",
+      "headline": "Supply of Rifle-Rated Combat Helmets to Pakistan Army",
+      "time": "2026-11-16T23:50:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162524-3A706685",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A named, specific contract win — rifle-rated combat helmets to the Pakistan Army — is a concrete, revenue-generating milestone with clear demand validation; this is not a generic project update but a named customer, named product, named sovereign buyer, which is the headline specificity required to lean directionally.",
+        "HCL is 71% below its 12-month high with median daily turnover of roughly A$6,596/day — the stock is thinly traded, so volume signals carry limited informational weight, but the severe de-rating means even a modest revenue-positive announcement can catalyse meaningful percentage moves as the market reprices near-term revenue visibility upward from a low base.",
+        "The strategic significance extends beyond the immediate order quantum: a sovereign military customer (Pakistan Army) for a critical protection product creates a referenceable contract that supports further defence procurement pipeline development across South and Central Asia — this is a credibility and pipeline signal as much as a revenue event, and the market-sensitive flag confirms the company views it as material."
+      ],
+      "tags": [
+        "Other",
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 0.091,
+        "market_cap_aud": 12890620.65,
+        "shares_outstanding": 141655172,
+        "beta": 0.635,
+        "rsi_14": 39.36,
+        "volume_trend_ratio": 1.25,
+        "volume_last_ratio": 4.6,
+        "avg_turnover_aud": 6596,
+        "liquid": false,
+        "avg_volume_20": 212011,
+        "volume_change_pct": 360.0,
+        "pct_from_3m_high": -39.33,
+        "pct_from_3m_low": 1.11,
+        "pct_from_6m_high": -52.11,
+        "pct_from_6m_low": 1.11,
+        "pct_from_52w_high": -71.56,
+        "pct_from_52w_low": 1.11,
+        "high_52w": 0.32,
+        "low_52w": 0.09,
+        "high_3m": 0.15,
+        "low_3m": 0.09,
+        "high_6m": 0.19,
+        "low_6m": 0.09,
+        "month1_high": 0.12,
+        "month1_low": 0.09,
+        "month2_high": 0.13,
+        "month2_low": 0.1,
+        "month3_high": 0.15,
+        "month3_low": 0.093,
+        "range_position_3m": 0.017,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "71.56% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$6,596/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-16 close.",
+          "The price sat in the lower part of its 3-month range, 39.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,596 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-11-16T23:50:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162523-3A706684",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding at a stock 56% below its 12-month high with no market-sensitive flag is procedurally ambiguous — the direction of the change (increase or decrease) is not disclosed in the headline, and per lesson L109, ambiguous substantial-holder filings at materially de-rated stocks carry an elevated base rate of reflecting institutional exit rather than accumulation.",
+        "Pre-announcement volume running at 2.04x the 20-day average is the most important contextual signal here — however, with median daily turnover of only ~A$12,277/day the stock remains thinly traded, meaning the elevated ratio likely reflects a small absolute number of additional trades and should not be over-interpreted as evidence of meaningful institutional accumulation; it could equally reflect the substantial holder transacting their own position.",
+        "Without the market-sensitive flag and without directional disclosure in the headline, the correct discipline (consistent with the unflagged-filing discount and L109) is to default to neutral and await the full filing to confirm whether the change represents an increase (constructive signal at a de-rated stock) or a reduction (exit-pressure signal into an already thin register)."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-16",
+        "bars": 254,
+        "last_close": 0.05,
+        "market_cap_aud": 57283560.45,
+        "shares_outstanding": 1145671209,
+        "beta": -0.286,
+        "rsi_14": 36.47,
+        "volume_trend_ratio": 2.04,
+        "volume_last_ratio": 1.35,
+        "avg_turnover_aud": 12277,
+        "liquid": false,
+        "avg_volume_20": 352045,
+        "volume_change_pct": 35.0,
+        "pct_from_3m_high": -39.76,
+        "pct_from_3m_low": 11.11,
+        "pct_from_6m_high": -47.37,
+        "pct_from_6m_low": 11.11,
+        "pct_from_52w_high": -56.52,
+        "pct_from_52w_low": 11.11,
+        "high_52w": 0.115,
+        "low_52w": 0.045,
+        "high_3m": 0.083,
+        "low_3m": 0.045,
+        "high_6m": 0.095,
+        "low_6m": 0.045,
+        "month1_high": 0.065,
+        "month1_low": 0.045,
+        "month2_high": 0.08,
+        "month2_low": 0.062,
+        "month3_high": 0.083,
+        "month3_low": 0.057,
+        "range_position_3m": 0.132,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.04x its 20-day average",
+          "56.52% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$12,277/day",
+        "reading": [
+          "Going into this, FLC traded 2.04x its usual daily volume over the last 5 sessions — measured to the 2026-11-16 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 39.76% below the high of that period.",
+          "Treat all of that with care: it trades about A$12,277 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAX",
+      "company": "PLATINUM ASIA FUND COMPLEX ETF",
+      "headline": "Quarterly Portfolio Disclosure - September 2026",
+      "time": "2026-11-16T23:48:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03162522-2A1710979",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "A quarterly portfolio disclosure for an ETF (Platinum Asia Fund Complex ETF) is a mandatory, periodic transparency filing — it discloses the fund's underlying holdings as of 30 September 2026 and carries no valuation event, no corporate action, and no operational surprise; it is purely informational and not flagged market sensitive.",
+        "The disclosure's investment relevance lies in what it reveals about portfolio positioning changes quarter-on-quarter — institutional investors can use it to assess whether Platinum has rotated within Asian equities (e.g. increased China exposure, shifted to defensive names) which may have secondary read-through implications for the underlying stocks held, but the ETF's own unit price is driven by NAV, not by this filing.",
+        "No price action data is provided for PAX, and given the administrative nature of the filing, no directional call is warranted — the filing is consistent with ASX ETF periodic disclosure obligations and contains no information that would cause a rational market participant to revise their view of the ETF's value or Platinum's management quality."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FLC",
       "company": "FLUENCE CORPORATION LIMITED",
