@@ -450,6 +450,20 @@ _Seen 19×. First written 2026-09-18, last reinforced 2026-11-12._
 | 2026-10-28 | NPM | bearish | +16.7% | Presentation - South-West Connect Conference |
 | 2026-10-28 | NPM | bearish | +16.7% | Presentation - South-West Connect Conference |
 
+### L085 — Institutional placement flagged market sensitive at a stock within 5% of a multi-month high with 5-day volume running >1.5x average, where the headline frames the raise as funding a named growth phase rather than generic working capital
+
+L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.
+
+_Seen 19×. First written 2026-09-25, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | MPK | bullish | -12.7% | $70.0M Placement to Fund Ferke Gold Project to FID |
+| 2026-11-16 | MPK | bullish | -12.7% | $70.0M Placement to Fund Ferke Gold Project to FID |
+| 2026-11-12 | AWJ | bullish | -18.3% | $17m Placement to Accelerate Growth |
+| 2026-11-12 | AWJ | bullish | -18.3% | $17m Placement to Accelerate Growth |
+| 2026-11-03 | QML | bullish | -12.0% | Strongly Subscribed $5.5 Million Placement |
+
 ### L223 — Results of Meeting filing at a non-distressed, revenue-generating mid-to-small-cap (electrical contractor, industrial services, or equivalent operating business), not flagged market sensitive, with no price action data available
 
 At an established, revenue-generating operating company (not a distressed junior), a Results of Meeting filing with no market-sensitive flag and no disclosed resolution failure has a materially higher base rate of passing all resolutions cleanly than at a distressed micro-cap — and a clean pass on remuneration or strategic resolutions can itself trigger a relief-buying or short-covering reaction at a depressed price; default to neutral-to-bullish rather than purely neutral when the company is an operating business with identifiable revenue, because the AGM clean-pass signal functions as a governance floor that distressed-register logic does not apply to.
@@ -463,20 +477,6 @@ _Seen 19×. First written 2026-10-27, last reinforced 2026-11-13._
 | 2026-11-13 | WRX | neutral | +5.0% | Results of Meeting |
 | 2026-11-13 | WRX | neutral | +5.0% | Results of Meeting |
 | 2026-11-12 | ACF | neutral | +16.4% | Results of Meeting |
-
-### L085 — Institutional placement flagged market sensitive at a stock within 5% of a multi-month high with 5-day volume running >1.5x average, where the headline frames the raise as funding a named growth phase rather than generic working capital
-
-L027's funded-catalyst moderating logic requires the raise to be priced constructively relative to the market — when the stock is near a multi-month high and volume is already elevated (signalling pre-positioning), the placement price will almost certainly be set at a discount to the prevailing market price, creating immediate arbitrage selling; the funded-catalyst framing does not override the mechanical price ceiling imposed by the placement discount when the stock is extended; call bearish rather than bullish when the stock is near a recent high, volume is elevated, and a large placement is announced, because the discount arbitrage dominates the narrative signal in the near term.
-
-_Seen 18×. First written 2026-09-25, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | MPK | bullish | -12.7% | $70.0M Placement to Fund Ferke Gold Project to FID |
-| 2026-11-12 | AWJ | bullish | -18.3% | $17m Placement to Accelerate Growth |
-| 2026-11-12 | AWJ | bullish | -18.3% | $17m Placement to Accelerate Growth |
-| 2026-11-03 | QML | bullish | -12.0% | Strongly Subscribed $5.5 Million Placement |
-| 2026-11-03 | QML | bullish | -12.0% | Strongly Subscribed $5.5 Million Placement |
 
 ### L104 — Forward guidance announcement (FY guidance, production outlook) flagged market sensitive at a gold producer or operating miner with no price action data available, where the headline frames the filing as 'FY[X] Guidance & Outlook' rather than as a results beat or resource upgrade
 
@@ -534,6 +534,34 @@ _Seen 17×. First written 2026-09-21, last reinforced 2026-11-09._
 | 2026-11-09 | DAL | bullish | -8.1% | Dalaroo strikes more gold 1.25km from high grade discovery |
 | 2026-10-15 | CPM | bullish | -10.4% | RC Drilling Intersects Broad Cu at Attina and Ardmore North |
 
+### L087 — Aircore or RC drilling programme completion announcement headlined as a 'Gold Discovery' (or equivalent named discovery language) flagged market sensitive at a junior explorer 60%+ below its 12-month high, where the headline bundles programme completion with discovery framing but no assay grades are yet disclosed
+
+L002 covers commencement announcements; L013 covers survey completion. A programme-completion announcement that pairs 'completed' with active discovery language ('Gold Discovery') occupies a third category — it signals that the company believes results already in hand are discovery-grade, even before assay publication; treat the discovery language as a substantive signal that separates this from a neutral programme-completion filing. When the headline names a discovery and the filing is market-sensitive, lean neutral-to-bullish rather than applying L002's neutral default, because management has made an affirmative claim about result quality that the market-sensitive flag endorses.
+
+_Seen 17×. First written 2026-09-25, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | LEG | neutral | +14.7% | Drilling Completed at Pinnacle Well Project |
+| 2026-11-16 | LEG | neutral | +14.7% | Drilling Completed at Pinnacle Well Project |
+| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
+| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
+| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
+
+### L097 — Annual report or full-year compliance filing (not flagged market sensitive) at a junior explorer or developer with no price action data available and no companion operational announcement
+
+An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.
+
+_Seen 17×. First written 2026-09-28, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | LAM | neutral | -11.6% | Financial Statements to 30 September 2026 |
+| 2026-11-16 | LAM | neutral | -11.6% | Financial Statements to 30 September 2026 |
+| 2026-10-15 | NNL | neutral | -11.0% | Letter to Shareholders, Notice of AGM and Proxy Form |
+| 2026-10-12 | HMG | neutral | -11.9% | Quarterly Activities Report and Appendix 5B |
+| 2026-10-12 | HMG | neutral | -11.9% | Quarterly Activities Report and Appendix 5B |
+
 ### L055 — AGM filing that bundles a resolution to change the company name alongside director nominations, at a stock 50%+ below its 12-month high with near-zero median daily turnover
 
 A name-change resolution in an AGM notice at a deeply de-rated micro-cap is a leading indicator of a strategic pivot (new commodity, new geography, or post-restructure rebrand) that often precedes an operational announcement or capital raise; do not treat as purely administrative — lean neutral-to-bullish rather than neutral, because the name change signals management has already decided on a new direction and the AGM is the formal gate for executing it.
@@ -548,19 +576,19 @@ _Seen 16×. First written 2026-09-21, last reinforced 2026-11-05._
 | 2026-11-05 | IPT | neutral | -10.9% | Impact Minerals Proposes New Name Altrica Advanced Materials |
 | 2026-10-29 | AUZ | neutral | +28.7% | Australian Mines Proposes Name Change to First Scandium |
 
-### L087 — Aircore or RC drilling programme completion announcement headlined as a 'Gold Discovery' (or equivalent named discovery language) flagged market sensitive at a junior explorer 60%+ below its 12-month high, where the headline bundles programme completion with discovery framing but no assay grades are yet disclosed
+### L069 — Named project milestone completion announcement (concept stage, pre-FEED, scoping) flagged market sensitive at a thinly traded micro-cap at or near a multi-month high with suppressed pre-announcement volume (<0.5x average), where the milestone gates the next phase but does not itself commit capital or name a counterparty
 
-L002 covers commencement announcements; L013 covers survey completion. A programme-completion announcement that pairs 'completed' with active discovery language ('Gold Discovery') occupies a third category — it signals that the company believes results already in hand are discovery-grade, even before assay publication; treat the discovery language as a substantive signal that separates this from a neutral programme-completion filing. When the headline names a discovery and the filing is market-sensitive, lean neutral-to-bullish rather than applying L002's neutral default, because management has made an affirmative claim about result quality that the market-sensitive flag endorses.
+A concept-stage or pre-FEED completion at a stock already at its multi-month high means the milestone was anticipated and is priced — before calling bullish, ask whether the completion announcement names a specific next gating event (funding partner, government grant, FID date) that was not previously disclosed; if not, call neutral rather than bullish, because a phase-completion without a named next catalyst is a 'task done' filing that confirms progress already implied by the stock's price level rather than creating new upside.
 
-_Seen 16×. First written 2026-09-25, last reinforced 2026-11-16._
+_Seen 16×. First written 2026-09-23, last reinforced 2026-11-16._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-11-16 | LEG | neutral | +14.7% | Drilling Completed at Pinnacle Well Project |
-| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
-| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
-| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
-| 2026-11-06 | PRB | neutral | +8.3% | AIRCORE DRILLING COMPLETED AT MOUNT PADBURY |
+| 2026-11-16 | CCE | bullish | -12.7% | Successful Stage 1 Deployment |
+| 2026-11-16 | CCE | bullish | -12.7% | Successful Stage 1 Deployment |
+| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
+| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
+| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
 
 ### L088 — Market-sensitive response to an ASX price and volume query at a stock within 5% of a multi-month high, where volume has been elevated in the prior sessions
 
@@ -575,20 +603,6 @@ _Seen 16×. First written 2026-09-25, last reinforced 2026-11-09._
 | 2026-11-09 | CCR | neutral | -8.4% | Response to Price Query |
 | 2026-11-09 | CCR | neutral | -8.4% | Response to Price Query |
 | 2026-11-06 | NWS | neutral | -8.8% | SEC Form 8-K |
-
-### L097 — Annual report or full-year compliance filing (not flagged market sensitive) at a junior explorer or developer with no price action data available and no companion operational announcement
-
-An annual report without a market-sensitive flag can still contain a silent negative catalyst — specifically a going-concern qualification or a materially worse-than-expected cash position; when no price action data is available to assess prior positioning, do not default to neutral without first asking whether the auditor's report or cash flow statement is likely to contain a going-concern note given the company's known burn rate and funding history; if a going-concern qualification is probable given the company profile, lean bearish rather than neutral.
-
-_Seen 16×. First written 2026-09-28, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | LAM | neutral | -11.6% | Financial Statements to 30 September 2026 |
-| 2026-10-15 | NNL | neutral | -11.0% | Letter to Shareholders, Notice of AGM and Proxy Form |
-| 2026-10-12 | HMG | neutral | -11.9% | Quarterly Activities Report and Appendix 5B |
-| 2026-10-12 | HMG | neutral | -11.9% | Quarterly Activities Report and Appendix 5B |
-| 2026-10-12 | HMG | neutral | -11.9% | Quarterly Activities Report and Appendix 5B |
 
 ### L120 — Reinstatement to quotation announcement flagged market sensitive at a stock near a recent high (within 5% of 3-month high) with deeply suppressed pre-announcement volume (<0.2x average) and non-trivial absolute liquidity (median turnover >A$5,000/day)
 
@@ -660,6 +674,20 @@ _Seen 15×. First written 2026-09-16, last reinforced 2026-10-13._
 | 2026-10-13 | CTT | neutral | +25.0% | Becoming a substantial holder |
 | 2026-09-21 | LOT | neutral | +8.7% | Change in substantial holding |
 
+### L032 — Board Changes combined with a Strategic Review announcement, flagged market sensitive, at a stock 50%+ below its 12-month high with above-average recent volume
+
+A 'Board Changes & Strategic Review' filing at a deeply de-rated stock is not a procedural governance event — the strategic review component signals that incumbent leadership has been displaced and an asset or corporate process has been opened, which at a stock with heavily priced-in bad news creates asymmetric upside (sale, merger, or asset monetisation). When the filing is market-sensitive and combines board change with an explicit strategic review, lean bullish rather than neutral, because the downside is already largely priced and the review announcement itself sets a floor by signalling management accountability and potential value realisation.
+
+_Seen 15×. First written 2026-09-16, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | BMC | neutral | +12.3% | BMC announces leadership changes |
+| 2026-11-16 | BMC | neutral | +12.3% | BMC announces leadership changes |
+| 2026-11-12 | DAI | neutral | +9.4% | Board Renewal and Leadership Changes |
+| 2026-11-04 | FTI | bearish | +14.6% | FortifAI Announces Board and Executive Changes |
+| 2026-11-04 | FTI | bearish | +14.6% | FortifAI Announces Board and Executive Changes |
+
 ### L034 — Extension-only drill result (L018 shape) at a stock 50–70% below its 12-month high, where pre-announcement volume is materially BELOW average (volume ratio <0.7x)
 
 L018's bearish default was built for elevated-volume scenarios where sell-the-news risk is the dominant concern. When volume is suppressed ahead of an extension result, the pre-positioning argument inverts — there is no crowded long to unwind, and thin pre-positioning into a material geological result at a deeply de-rated stock can produce a relief-buying response. Do not apply L018's bearish call when pre-announcement volume is below average; default to neutral instead, and reserve bearish for extension results into elevated volume only.
@@ -687,20 +715,6 @@ _Seen 15×. First written 2026-09-21, last reinforced 2026-11-03._
 | 2026-11-03 | REE | bullish | -10.3% | Drilling Confirms Copper-Nickel Sulphide System and Gallium |
 | 2026-11-03 | REE | bullish | -10.3% | Drilling Confirms Copper-Nickel Sulphide System and Gallium |
 | 2026-10-13 | AQX | bullish | -14.3% | Horn Island Drilling Completed with All Holes Mineralised |
-
-### L069 — Named project milestone completion announcement (concept stage, pre-FEED, scoping) flagged market sensitive at a thinly traded micro-cap at or near a multi-month high with suppressed pre-announcement volume (<0.5x average), where the milestone gates the next phase but does not itself commit capital or name a counterparty
-
-A concept-stage or pre-FEED completion at a stock already at its multi-month high means the milestone was anticipated and is priced — before calling bullish, ask whether the completion announcement names a specific next gating event (funding partner, government grant, FID date) that was not previously disclosed; if not, call neutral rather than bullish, because a phase-completion without a named next catalyst is a 'task done' filing that confirms progress already implied by the stock's price level rather than creating new upside.
-
-_Seen 15×. First written 2026-09-23, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | CCE | bullish | -12.7% | Successful Stage 1 Deployment |
-| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
-| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
-| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
-| 2026-11-04 | GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
 
 ### L074 — Drill-start or rig-secured announcement (L002 shape) flagged market sensitive at a junior explorer with pre-announcement volume materially BELOW average (<0.5x) and the headline contains 'fast tracked', 'accelerated', or equivalent urgency language implying an externally imposed or opportunity-driven timeline compression
 
@@ -743,20 +757,6 @@ _Seen 15×. First written 2026-10-15, last reinforced 2026-11-12._
 | 2026-11-06 | SND | neutral | -6.6% | Change of Director's Interest Notice |
 | 2026-11-06 | SND | neutral | -6.6% | Change of Director's Interest Notice |
 | 2026-11-06 | SND | neutral | -6.6% | Change of Director's Interest Notice |
-
-### L032 — Board Changes combined with a Strategic Review announcement, flagged market sensitive, at a stock 50%+ below its 12-month high with above-average recent volume
-
-A 'Board Changes & Strategic Review' filing at a deeply de-rated stock is not a procedural governance event — the strategic review component signals that incumbent leadership has been displaced and an asset or corporate process has been opened, which at a stock with heavily priced-in bad news creates asymmetric upside (sale, merger, or asset monetisation). When the filing is market-sensitive and combines board change with an explicit strategic review, lean bullish rather than neutral, because the downside is already largely priced and the review announcement itself sets a floor by signalling management accountability and potential value realisation.
-
-_Seen 14×. First written 2026-09-16, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | BMC | neutral | +12.3% | BMC announces leadership changes |
-| 2026-11-12 | DAI | neutral | +9.4% | Board Renewal and Leadership Changes |
-| 2026-11-04 | FTI | bearish | +14.6% | FortifAI Announces Board and Executive Changes |
-| 2026-11-04 | FTI | bearish | +14.6% | FortifAI Announces Board and Executive Changes |
-| 2026-11-04 | FTI | bearish | +14.6% | FortifAI Announces Board and Executive Changes |
 
 ### L038 — Completed asset divestment announcement (titled 'Completes … Sale') at a stock 50%+ below its 12-month high, not flagged market sensitive, where the asset disposed is a non-core or operationally burdensome interest (e.g. a PSC, a JV stake, a legacy mine) and the headline uses the word 'Completes' rather than 'Announces'
 
@@ -968,6 +968,20 @@ _Seen 11×. First written 2026-09-15, last reinforced 2026-11-02._
 | 2026-11-02 | NPM | neutral | -13.7% | Phase 2 drilling completed at Las Openas |
 | 2026-10-06 | AS2 | neutral | -13.1% | Project-wide soil sampling complete at EPL 7626, Uis Project |
 
+### L037 — Market-sensitive response to an ASX price query at a stock at or near a 12-month low with volume running materially above average (>3x) and median daily turnover near zero
+
+An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.
+
+_Seen 11×. First written 2026-09-17, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | AMX | neutral | +10.0% | Response to ASX Price Query |
+| 2026-11-16 | AMX | neutral | +10.0% | Response to ASX Price Query |
+| 2026-10-26 | STK | neutral | -29.8% | Response to ASX Price Query |
+| 2026-10-13 | IMA | neutral | +14.8% | Response to ASX Price Query |
+| 2026-10-13 | IMA | neutral | +14.8% | Response to ASX Price Query |
+
 ### L079 — AGM presentation filing (not flagged market sensitive) at a stock within 5% of a multi-month high, where the company is a mid-to-large-cap with identifiable institutional following and the AGM presentation is the primary scheduled investor communication for the period (i.e., no interim results or investor day is scheduled nearby)
 
 An AGM presentation at a mid-cap with institutional ownership near a multi-month high, where no other scheduled communication is imminent, functions as the primary earnings-outlook and capital-allocation update for the period — it is not merely procedural even without a market-sensitive flag; before calling neutral, ask whether the AGM document is the company's sole forward-guidance vehicle for the half-year; if yes, lean neutral-to-bullish when the stock's prior tape is constructive and the company has a track record of using AGM presentations to provide positive operational updates.
@@ -1066,20 +1080,6 @@ _Seen 10×. First written 2026-09-16, last reinforced 2026-10-05._
 | 2026-09-22 | DCC | bearish | +8.5% | Change in substantial holding |
 | 2026-09-22 | DCC | bearish | +8.5% | Change in substantial holding |
 
-### L037 — Market-sensitive response to an ASX price query at a stock at or near a 12-month low with volume running materially above average (>3x) and median daily turnover near zero
-
-An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.
-
-_Seen 10×. First written 2026-09-17, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | AMX | neutral | +10.0% | Response to ASX Price Query |
-| 2026-10-26 | STK | neutral | -29.8% | Response to ASX Price Query |
-| 2026-10-13 | IMA | neutral | +14.8% | Response to ASX Price Query |
-| 2026-10-13 | IMA | neutral | +14.8% | Response to ASX Price Query |
-| 2026-10-07 | EXR | bullish | -21.0% | Response to ASX Price Query |
-
 ### L052 — Market-sensitive announcement that a target company's board has rejected a 'further revised' (second or subsequent) acquisition proposal from a named acquirer, with volume elevated (>1.5x average) and stock near a multi-month high
 
 A board rejection of a further-revised offer, when the stock is already near its high on elevated volume, signals that M&A optionality is fully priced and the rejection increases deal-collapse risk rather than bump probability — the market interprets the rejection as the acquirer's limit being reached rather than as leverage for a higher bid; call bearish rather than bullish when this is a second-or-subsequent rejection into an extended, pre-positioned tape.
@@ -1177,6 +1177,20 @@ _Seen 9×. First written 2026-09-21, last reinforced 2026-11-09._
 | 2026-10-06 | BUR | bullish | -17.2% | Cane Bore Assays Confirm CID Iron Mineralisation at North an |
 | 2026-10-06 | BUR | bullish | -17.2% | Cane Bore Assays Confirm CID Iron Mineralisation at North an |
 | 2026-10-01 | DLY | neutral | +14.5% | Large-Scale MVT Zn-Pb Target at Box Hole, Huckitta Project |
+
+### L072 — Conference presentation announcement at a named, broadly accessible investor conference (e.g. ASX SMIDcaps Conference) by a pre-revenue biotech or life sciences company, not flagged market sensitive, with no named catalyst in the headline and no price action data available
+
+Before calling neutral on an ASX SMIDcaps or equivalent broad-market investor conference announcement, distinguish it from the L010 pre-raise-marketing bearish default — the ASX SMIDcaps audience includes active generalist fund managers who may not follow the stock, and a presentation slot can itself trigger fresh accumulation independent of any new fundamental disclosure; default to neutral rather than bearish when the conference is a named ASX-organised or equivalent institutional forum, reserving bearish only for generic online webinars or roadshows with no curated institutional audience.
+
+_Seen 9×. First written 2026-09-23, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | AVE | neutral | +20.4% | Avecho presents at BIO-Europe |
+| 2026-11-16 | AVE | neutral | +20.4% | Avecho presents at BIO-Europe |
+| 2026-11-12 | ATH | neutral | -9.0% | Alterity to Present at Bell Potter Healthcare Conference |
+| 2026-11-04 | PCK | neutral | -8.7% | Chair's Address to Shareholders and CEO presentation |
+| 2026-10-01 | SHG | bearish | +7.7% | Company Presentation |
 
 ### L136 — Named project permitting update (titled '[Project Name] - Permitting Update' or '[Project Name] Area X Permitting Update') at a junior developer 60%+ below its 12-month high, NOT flagged market sensitive, where the headline specifies a permitting process milestone but does not use 'granted', 'approved', or 'issued' language
 
@@ -1373,20 +1387,6 @@ _Seen 8×. First written 2026-09-23, last reinforced 2026-11-05._
 | 2026-11-05 | RXL | neutral | +10.5% | United North Growth Drilling Update |
 | 2026-11-05 | RXL | neutral | +10.5% | United North Growth Drilling Update |
 | 2026-09-24 | BMR | bearish | +9.1% | Torpys High-Grade Mineralisation Extends Towards Surface |
-
-### L072 — Conference presentation announcement at a named, broadly accessible investor conference (e.g. ASX SMIDcaps Conference) by a pre-revenue biotech or life sciences company, not flagged market sensitive, with no named catalyst in the headline and no price action data available
-
-Before calling neutral on an ASX SMIDcaps or equivalent broad-market investor conference announcement, distinguish it from the L010 pre-raise-marketing bearish default — the ASX SMIDcaps audience includes active generalist fund managers who may not follow the stock, and a presentation slot can itself trigger fresh accumulation independent of any new fundamental disclosure; default to neutral rather than bearish when the conference is a named ASX-organised or equivalent institutional forum, reserving bearish only for generic online webinars or roadshows with no curated institutional audience.
-
-_Seen 8×. First written 2026-09-23, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | AVE | neutral | +20.4% | Avecho presents at BIO-Europe |
-| 2026-11-12 | ATH | neutral | -9.0% | Alterity to Present at Bell Potter Healthcare Conference |
-| 2026-11-04 | PCK | neutral | -8.7% | Chair's Address to Shareholders and CEO presentation |
-| 2026-10-01 | SHG | bearish | +7.7% | Company Presentation |
-| 2026-10-01 | SHG | bearish | +7.7% | Company Presentation |
 
 ### L075 — Project expansion or tenement enlargement headline ('Project Expanded', 'Ground Extended', 'Additional Tenure Secured') at a junior explorer 60%+ below its 12-month high with near-zero median daily turnover (<A$1,000/day), NOT flagged market sensitive, with pre-announcement volume below average (<0.6x)
 
@@ -1976,6 +1976,20 @@ _Seen 6×. First written 2026-10-16, last reinforced 2026-10-20._
 | 2026-10-16 | TAT | neutral | +26.3% | High-grade Cu-Au defines multiple targets at OK-Bellevue |
 | 2026-10-16 | TAT | neutral | +26.3% | High-grade Cu-Au defines multiple targets at OK-Bellevue |
 
+### L179 — Non-market-sensitive operational update ('Operational Update [Named Mine/Project]') at a producing or near-producing miner 60%+ below its 12-month high, where the headline names a specific operational site but discloses no production rate, grade, cost, or positive milestone
+
+A non-flagged operational update at a named producing site that omits all quantitative metrics (tonnes mined, grade, cost per ounce) is more likely to contain negative operational news (underperformance vs. plan, equipment issues, grade reconciliation problems) than a positive update — companies with good numbers headline the number; lean bearish rather than neutral when the update is unflagged, names only the site and the word 'update', and no metric appears in the headline.
+
+_Seen 6×. First written 2026-10-19, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | RDN | neutral | -24.6% | Mt Sholl Option and Zambia Lobito Copper Project Update |
+| 2026-11-16 | RDN | neutral | -24.6% | Mt Sholl Option and Zambia Lobito Copper Project Update |
+| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
+| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
+| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
+
 ### L198 — Named-project, grade-and-width assay result (specific metres and g/t disclosed in headline) flagged market sensitive at a stock where no price action data is available, where the headline uses 'growth confirmed' or equivalent language implying the result is an extension of an existing system rather than a maiden discovery
 
 Even when grade and width appear in the headline, ask whether the framing ('material growth confirmed', 'extends mineralisation') signals that the result adds to an already-known system rather than establishing a new one — the market may have already partially priced the extension narrative from prior releases, and 'confirmation' language implies the result meets but does not exceed prior expectations; when no price action data is available to assess pre-positioning and the headline uses confirmation rather than discovery language, default to neutral rather than bullish.
@@ -2031,6 +2045,48 @@ _Seen 6×. First written 2026-10-29, last reinforced 2026-10-30._
 | 2026-10-29 | IPX | neutral | +16.2% | September 2026 Quarterly Report |
 | 2026-10-29 | IPX | neutral | +16.2% | September 2026 Quarterly Report |
 | 2026-10-29 | MSB | neutral | +22.9% | Quarterly Activities/Appendix 4C Cash Flow Report |
+
+### L270 — Market-sensitive production guidance or outlook announcement at a producing single-asset miner (mineral sands, gold, base metals) that is 60%+ below its 12-month high with near-zero absolute liquidity, where the headline names the asset and uses 'Guidance' or 'Outlook' language
+
+A named production guidance filing flagged market sensitive at a deeply de-rated single-asset producer is directionally asymmetric to the upside — the stock already prices significant operational stress, so a reaffirmation or modest upgrade functions as a floor-setting catalyst while the market-sensitive flag confirms the numbers moved enough to disclose; apply L230-style asymmetric logic and lean neutral-to-bullish rather than neutral when the headline pairs a named asset with 'Guidance' or 'Outlook' at a heavily de-rated stock, because the downside (further cut) is already largely priced and even a stable number is a positive surprise relative to the implied bear case.
+
+_Seen 6×. First written 2026-11-10, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | VTX | neutral | +10.1% | Operational Update October 2026 Gold Sales |
+| 2026-11-16 | VTX | neutral | +10.1% | Operational Update October 2026 Gold Sales |
+| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
+| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
+| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
+
+### L280 — Results of AGM filing (not flagged market sensitive) at a junior resources or metals explorer that is 60%+ below its 12-month high with suppressed pre-announcement volume (<0.5x average) and thin but non-zero absolute liquidity (A$5,000–A$15,000/day), where the AGM agenda plausibly included capital-authority or strategic resolutions
+
+Before calling neutral on an AGM results filing at a deeply de-rated junior with thin liquidity, check whether the notice of meeting contained capital-structure, strategic, or pivot resolutions — a clean pass on substantive resolutions at a news-starved, distressed register can trigger a disproportionate relief-buying response; lean neutral-to-bullish rather than neutral when such resolutions were on the agenda and the stock is materially de-rated.
+
+_Seen 6×. First written 2026-11-12, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | AEG | neutral | +18.3% | Results of Annual General Meeting |
+| 2026-11-16 | AEG | neutral | +18.3% | Results of Annual General Meeting |
+| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
+| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
+| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
+
+### L286 — Cessation of securities (options lapsing) at a deeply de-rated micro-cap with pre-announcement volume running below average (0.5–0.7x) but non-zero, where the stock has an identifiable prior negative catalyst (extreme de-rating >80%) that makes the cessation's dilution-removal benefit marginal relative to the structural overhang
+
+L017's neutral-to-constructive default assumes the cessation removes a meaningful dilution overhang; at extreme de-ratings (>80% below high) where the stock is priced for near-insolvency, lapsing options are almost certainly deeply out-of-the-money and their removal is economically trivial — the market may instead read the lapse as confirming that option-holders have abandoned any recovery expectation; before applying L017's constructive lean, ask whether the lapsed options were meaningfully in or near the money; if they were deeply out-of-the-money (consistent with an 85%+ de-rating), default to bearish rather than neutral, because the cessation signals holder capitulation rather than register improvement.
+
+_Seen 6×. First written 2026-11-13, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | JAN | neutral | -14.8% | Notification of cessation of securities - JAN |
+| 2026-11-16 | DTM | neutral | -19.6% | Notification of cessation of securities - DTM |
+| 2026-11-16 | JAN | neutral | -14.8% | Notification of cessation of securities - JAN |
+| 2026-11-16 | DTM | neutral | -19.6% | Notification of cessation of securities - DTM |
+| 2026-11-13 | SRJ | neutral | -13.6% | Notification of cessation of securities - SRJ |
 
 ### L007 — Asset divestment announcement by a company trading more than 60% below its 12-month high, with no proceeds or deal terms disclosed in the headline
 
@@ -2256,20 +2312,6 @@ _Seen 5×. First written 2026-10-16, last reinforced 2026-10-20._
 | 2026-10-16 | WCE | bearish | +9.2% | Update - Proposed issue of securities - WCE |
 | 2026-10-16 | WCE | bearish | +9.2% | Update - Proposed issue of securities - WCE |
 
-### L179 — Non-market-sensitive operational update ('Operational Update [Named Mine/Project]') at a producing or near-producing miner 60%+ below its 12-month high, where the headline names a specific operational site but discloses no production rate, grade, cost, or positive milestone
-
-A non-flagged operational update at a named producing site that omits all quantitative metrics (tonnes mined, grade, cost per ounce) is more likely to contain negative operational news (underperformance vs. plan, equipment issues, grade reconciliation problems) than a positive update — companies with good numbers headline the number; lean bearish rather than neutral when the update is unflagged, names only the site and the word 'update', and no metric appears in the headline.
-
-_Seen 5×. First written 2026-10-19, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | RDN | neutral | -24.6% | Mt Sholl Option and Zambia Lobito Copper Project Update |
-| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
-| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
-| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
-| 2026-10-19 | VTX | neutral | -12.3% | Operational Update Reward Gold Mine |
-
 ### L195 — First assay result from a named project headlined as 'supporting' a specific mining method (open pit, underground) rather than disclosing grade and width as the primary headline metric, at a stock 60%+ below its 12-month high
 
 When the headline frames assay results in terms of strategic validation ('supports open pit strategy') rather than leading with grade and width numbers, treat the result as structurally closer to a geometry-only or extension-only filing — the strategic framing may be compensating for grades that are not strong enough to stand alone; require disclosed grade and width in the headline before calling bullish, and default to neutral when the headline leads with method rather than metric.
@@ -2312,6 +2354,20 @@ _Seen 5×. First written 2026-10-22, last reinforced 2026-11-04._
 | 2026-10-22 | LSR | bullish | -13.8% | Lodestar Delivers Significant Resource at Ned's Creek Gold |
 | 2026-10-22 | LSR | bullish | -13.8% | Lodestar Delivers Significant Resource at Ned's Creek Gold |
 
+### L208 — Seven or more simultaneous Initial Director's Interest Notices at a distressed junior (no price action data, no market-sensitive flag), where the volume of filings implies a wholesale board reconstitution rather than a routine appointment
+
+A mass simultaneous initial director disclosure (7 or more) at a distressed junior is not a neutral governance filing — it is more likely to accompany a deed of company arrangement exit, recapitalisation, or administration emergence where a new controlling group has taken over; lean bearish rather than neutral because the incoming board's first act is often a dilutive recapitalisation to fund the restructured entity, and the absence of a market-sensitive flag signals no positive operational content is being disclosed alongside the governance reset.
+
+_Seen 5×. First written 2026-10-23, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | CX8 | neutral | -7.9% | Initial Directors Interest Notice x4 |
+| 2026-11-16 | CX8 | neutral | -7.9% | Initial Directors Interest Notice x4 |
+| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
+| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
+| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
+
 ### L213 — Non-market-sensitive 'drilling advancement' or 'drilling progress' operational update (no assay, no resource, no permit) at a stock at a 12-month low with near-zero absolute liquidity (median daily turnover <A$5,000/day) and no pre-announcement volume data available, where the headline names a specific drilling operation by project name
 
 At a 12-month low with near-zero absolute liquidity and no volume data, a named drilling progress update — even without assay data — can function as the first operational signal a completely dormant register has seen, producing a relief-buying response disproportionate to the information content; do not default to neutral purely on L058 grounds when absolute liquidity is near-zero and the stock is at its worst price level, because the bar for a positive surprise in a dormant register is lower than in a normally traded stock; lean neutral-to-bullish when the headline names an active drilling operation at a stock at its 12-month low with effectively no trading history.
@@ -2325,48 +2381,6 @@ _Seen 5×. First written 2026-10-26, last reinforced 2026-11-04._
 | 2026-10-26 | TG1 | neutral | +14.1% | El Donna RC Drilling Advancement |
 | 2026-10-26 | TG1 | neutral | +14.1% | El Donna RC Drilling Advancement |
 | 2026-10-26 | TG1 | neutral | +14.1% | El Donna RC Drilling Advancement |
-
-### L270 — Market-sensitive production guidance or outlook announcement at a producing single-asset miner (mineral sands, gold, base metals) that is 60%+ below its 12-month high with near-zero absolute liquidity, where the headline names the asset and uses 'Guidance' or 'Outlook' language
-
-A named production guidance filing flagged market sensitive at a deeply de-rated single-asset producer is directionally asymmetric to the upside — the stock already prices significant operational stress, so a reaffirmation or modest upgrade functions as a floor-setting catalyst while the market-sensitive flag confirms the numbers moved enough to disclose; apply L230-style asymmetric logic and lean neutral-to-bullish rather than neutral when the headline pairs a named asset with 'Guidance' or 'Outlook' at a heavily de-rated stock, because the downside (further cut) is already largely priced and even a stable number is a positive surprise relative to the implied bear case.
-
-_Seen 5×. First written 2026-11-10, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | VTX | neutral | +10.1% | Operational Update October 2026 Gold Sales |
-| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
-| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
-| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
-| 2026-11-10 | SFX | neutral | +23.2% | Thunderbird Guidance and Production Outlook |
-
-### L280 — Results of AGM filing (not flagged market sensitive) at a junior resources or metals explorer that is 60%+ below its 12-month high with suppressed pre-announcement volume (<0.5x average) and thin but non-zero absolute liquidity (A$5,000–A$15,000/day), where the AGM agenda plausibly included capital-authority or strategic resolutions
-
-Before calling neutral on an AGM results filing at a deeply de-rated junior with thin liquidity, check whether the notice of meeting contained capital-structure, strategic, or pivot resolutions — a clean pass on substantive resolutions at a news-starved, distressed register can trigger a disproportionate relief-buying response; lean neutral-to-bullish rather than neutral when such resolutions were on the agenda and the stock is materially de-rated.
-
-_Seen 5×. First written 2026-11-12, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | AEG | neutral | +18.3% | Results of Annual General Meeting |
-| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
-| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
-| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
-| 2026-11-12 | MHK | neutral | +23.9% | Results of Annual General Meeting |
-
-### L286 — Cessation of securities (options lapsing) at a deeply de-rated micro-cap with pre-announcement volume running below average (0.5–0.7x) but non-zero, where the stock has an identifiable prior negative catalyst (extreme de-rating >80%) that makes the cessation's dilution-removal benefit marginal relative to the structural overhang
-
-L017's neutral-to-constructive default assumes the cessation removes a meaningful dilution overhang; at extreme de-ratings (>80% below high) where the stock is priced for near-insolvency, lapsing options are almost certainly deeply out-of-the-money and their removal is economically trivial — the market may instead read the lapse as confirming that option-holders have abandoned any recovery expectation; before applying L017's constructive lean, ask whether the lapsed options were meaningfully in or near the money; if they were deeply out-of-the-money (consistent with an 85%+ de-rating), default to bearish rather than neutral, because the cessation signals holder capitulation rather than register improvement.
-
-_Seen 5×. First written 2026-11-13, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | JAN | neutral | -14.8% | Notification of cessation of securities - JAN |
-| 2026-11-16 | DTM | neutral | -19.6% | Notification of cessation of securities - DTM |
-| 2026-11-13 | SRJ | neutral | -13.6% | Notification of cessation of securities - SRJ |
-| 2026-11-13 | SRJ | neutral | -13.6% | Notification of cessation of securities - SRJ |
-| 2026-11-13 | SRJ | neutral | -13.6% | Notification of cessation of securities - SRJ |
 
 ### L021 — Government or official-body selection of a junior's project for a named investment summit, trade mission, or critical minerals programme (not flagged market sensitive), stock 40-60% below 12-month high
 
@@ -2459,6 +2473,20 @@ _Seen 4×. First written 2026-09-25, last reinforced 2026-09-25._
 | 2026-09-25 | RCT | neutral | +29.1% | Response to Iris Bidder's Statement |
 | 2026-09-25 | RCT | neutral | +29.1% | Response to Iris Bidder's Statement |
 | 2026-09-25 | RCT | neutral | +29.1% | Response to Iris Bidder's Statement |
+
+### L096 — Convertible debenture or convertible note facility announcement (flagged market sensitive) at a junior developer or explorer 50%+ below its 12-month high, where the facility is denominated in a foreign currency (USD) and no conversion price, coupon, or maturity terms are disclosed in the headline
+
+A convertible debenture announcement without disclosed conversion price, coupon, or maturity is structurally more bearish than a straight equity placement at a distressed stock — the headline quantum overstates the benefit because the conversion mechanics (which may be deeply discounted) are the actual value-destructive element; do not call neutral when conversion terms are absent from the headline; lean bearish rather than neutral, because the market will immediately assume worst-case conversion terms (near-spot or discounted) and will price dilution before details are released, particularly when the facility is in a foreign currency that adds FX complexity.
+
+_Seen 4×. First written 2026-09-28, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | VMM | bullish | -9.6% | 2nd US$5M from Brazilian Critical Minerals Fund & Cleansing |
+| 2026-11-16 | NMT | bearish | +10.4% | $2 Million Secured Convertible Note Documentation Executed |
+| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
+| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
+| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
 
 ### L101 — Drilling programme scale-up announcement ('programme doubled', 'holes added') combined with an explicit near-term results signpost ('results near', 'assays imminent') at a stock near a multi-month high, where no assay data is yet disclosed
 
@@ -2773,19 +2801,6 @@ _Seen 4×. First written 2026-10-23, last reinforced 2026-10-23._
 | 2026-10-23 | ZNC | bullish | -10.3% | Sixth Supplementary Target's Statement |
 | 2026-10-23 | ZNC | bullish | -10.3% | Sixth Supplementary Target's Statement |
 | 2026-10-23 | ZNC | bullish | -10.3% | Sixth Supplementary Target's Statement |
-
-### L208 — Seven or more simultaneous Initial Director's Interest Notices at a distressed junior (no price action data, no market-sensitive flag), where the volume of filings implies a wholesale board reconstitution rather than a routine appointment
-
-A mass simultaneous initial director disclosure (7 or more) at a distressed junior is not a neutral governance filing — it is more likely to accompany a deed of company arrangement exit, recapitalisation, or administration emergence where a new controlling group has taken over; lean bearish rather than neutral because the incoming board's first act is often a dilutive recapitalisation to fund the restructured entity, and the absence of a market-sensitive flag signals no positive operational content is being disclosed alongside the governance reset.
-
-_Seen 4×. First written 2026-10-23, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | CX8 | neutral | -7.9% | Initial Directors Interest Notice x4 |
-| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
-| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
-| 2026-10-23 | WMC | neutral | -11.6% | Initial Director's Interest Notice x7 |
 
 ### L211 — Named acquisition shareholder approval announcement ('Overwhelming Shareholder Support for X Acquisition') at a stock at or near a multi-month high, where the approval vote resolves the primary execution risk but no post-approval integration milestone or earnings contribution timeline is disclosed
 
@@ -3204,6 +3219,18 @@ _Seen 4×. First written 2026-11-13, last reinforced 2026-11-13._
 | 2026-11-13 | AYA | bullish | -6.6% | Five Yr Agreement with HonorHealth Expands US Momentum |
 | 2026-11-13 | AYA | bullish | -6.6% | Five Yr Agreement with HonorHealth Expands US Momentum |
 
+### L012 — Unflagged infrastructure or access agreement announcement (haul road, easement, water licence) for a junior developer, with no dollar value, timeline, or work programme attached
+
+A legal-access or infrastructure agreement removes a project risk but does not advance resource, funding, or permitting milestones — it is a prerequisite event, not a value-creation event. Default to bearish rather than neutral when the filing is unflagged and no follow-on catalyst (drill start, feasibility update, funding) is disclosed, because the market often reads the announcement as confirming the project is still in an early gating phase.
+
+_Seen 3×. First written 2026-09-14, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | CRR | bullish | -13.9% | Mayview Antimony Gold Prospect Land Access Agreement Signed |
+| 2026-11-16 | CRR | bullish | -13.9% | Mayview Antimony Gold Prospect Land Access Agreement Signed |
+| 2026-09-14 | RGL | neutral | -8.4% | Haul Road Agreement Delivers Win for RGL's Kal Gold Project |
+
 ### L045 — Regulatory licence variation announcement (EPL variation, exploration licence amendment, permit modification) with 'Issued' or 'Granted' language at a junior miner/explorer 60%+ below its 12-month high, not flagged market sensitive
 
 A 'varied EPL issued' or equivalent granted-licence announcement removes a specific regulatory risk and confirms the company has active, approved work authorisation — this is structurally different from a mere application or a generic operational update; before defaulting to neutral on the grounds of no assay data or prior de-rating, ask whether the varied licence now enables a specific next operational step (drill start, bulk sample, resource extension) that was previously blocked; if so, lean neutral-to-bullish rather than neutral, because the grant itself is the gating event the market was waiting for.
@@ -3239,18 +3266,6 @@ _Seen 3×. First written 2026-09-28, last reinforced 2026-09-28._
 | 2026-09-28 | SPX | bullish | -20.2% | Spenda AI-Returns Platform Signs First Major FMCG Customer |
 | 2026-09-28 | SPX | bullish | -20.2% | Spenda AI-Returns Platform Signs First Major FMCG Customer |
 | 2026-09-28 | SPX | bullish | -20.2% | Spenda AI-Returns Platform Signs First Major FMCG Customer |
-
-### L096 — Convertible debenture or convertible note facility announcement (flagged market sensitive) at a junior developer or explorer 50%+ below its 12-month high, where the facility is denominated in a foreign currency (USD) and no conversion price, coupon, or maturity terms are disclosed in the headline
-
-A convertible debenture announcement without disclosed conversion price, coupon, or maturity is structurally more bearish than a straight equity placement at a distressed stock — the headline quantum overstates the benefit because the conversion mechanics (which may be deeply discounted) are the actual value-destructive element; do not call neutral when conversion terms are absent from the headline; lean bearish rather than neutral, because the market will immediately assume worst-case conversion terms (near-spot or discounted) and will price dilution before details are released, particularly when the facility is in a foreign currency that adds FX complexity.
-
-_Seen 3×. First written 2026-09-28, last reinforced 2026-09-28._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
-| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
-| 2026-09-28 | CEL | neutral | -8.2% | Challenger Gold Secures US$24m Convertible Debentures |
 
 ### L107 — Extension-only or visible-gold-continuation drill result (L018 shape, no assay grades in headline) at a stock within 5% of a multi-month high, flagged market sensitive, where the extension is at a named underground or high-conviction target (e.g. 'TMH') with a prior discovery narrative
 
@@ -3395,6 +3410,18 @@ _Seen 3×. First written 2026-10-28, last reinforced 2026-11-09._
 | 2026-11-09 | MMI | neutral | +11.0% | Operational Update October 2026 |
 | 2026-10-28 | AMI | neutral | +10.3% | Quarterly Update and Outlook - September 2026 |
 | 2026-10-28 | AMI | neutral | +10.3% | Quarterly Update and Outlook - September 2026 |
+
+### L242 — Scoping study with a large headline NPV at a rare earths (or other specialist critical mineral) junior 50%+ below its 12-month high with near-zero absolute liquidity, where the commodity faces known persistent structural headwinds (processing complexity, offtake difficulty, financing scarcity) independent of the commodity price cycle
+
+Before calling bullish on a large NPV scoping study at a rare earths junior, ask whether the commodity's structural commercialisation barriers (separation processing, off-take concentration, project financing scarcity) are so well-known that the market systematically discounts scoping-stage NPVs regardless of their headline size — if rare earths processing and offtake risk are the dominant unresolved constraints and neither is addressed in the headline, default to neutral rather than bullish, because the NPV is a theoretical number the market has already learned not to pay for at scoping stage in this commodity.
+
+_Seen 3×. First written 2026-10-29, last reinforced 2026-11-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-16 | AKN | bullish | -12.1% | Further High-Grade Rare Earth Mineralisation at East Tundulu |
+| 2026-11-16 | AKN | bullish | -12.1% | Further High-Grade Rare Earth Mineralisation at East Tundulu |
+| 2026-10-29 | AHK | bullish | -12.8% | Sandy Mitchell Rare Earths Scoping Study - A$883M NPV |
 
 ### L245 — Market-sensitive combined quarterly activities and Appendix 4C at a deeply de-rated (>70% below 12-month high), near-zero-liquidity medical technology or digital health company (not a junior mineral explorer) with deeply suppressed pre-announcement volume (<0.3x average)
 
@@ -3564,17 +3591,6 @@ _Seen 3×. First written 2026-11-13, last reinforced 2026-11-13._
 | 2026-11-13 | EMB | neutral | +5.3% | Notice of Extraordinary General Meeting/Proxy Form |
 | 2026-11-13 | EMB | neutral | +5.3% | Notice of Extraordinary General Meeting/Proxy Form |
 
-### L012 — Unflagged infrastructure or access agreement announcement (haul road, easement, water licence) for a junior developer, with no dollar value, timeline, or work programme attached
-
-A legal-access or infrastructure agreement removes a project risk but does not advance resource, funding, or permitting milestones — it is a prerequisite event, not a value-creation event. Default to bearish rather than neutral when the filing is unflagged and no follow-on catalyst (drill start, feasibility update, funding) is disclosed, because the market often reads the announcement as confirming the project is still in an early gating phase.
-
-_Seen 2×. First written 2026-09-14, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | CRR | bullish | -13.9% | Mayview Antimony Gold Prospect Land Access Agreement Signed |
-| 2026-09-14 | RGL | neutral | -8.4% | Haul Road Agreement Delivers Win for RGL's Kal Gold Project |
-
 ### L122 — Market-sensitive 'distribution update' or equivalent dividend/distribution announcement at a thinly traded micro-cap with suppressed pre-announcement volume (<0.5x), where the filing is the primary scheduled distribution communication for the period
 
 A market-sensitive distribution update is directionally asymmetric in favour of a maintained or increased payout — issuers who cut or suspend distributions almost always use language signalling a reduction ('revised', 'suspended', 'deferred'), while a plain 'distribution update' headline from a company with a distribution history more commonly confirms continuity or an increase; lean neutral-to-bullish rather than neutral when the headline uses neutral framing without cut language and the market-sensitive flag is present, because the flag confirms the quantum is material and the absence of negative framing is itself informative.
@@ -3684,17 +3700,6 @@ _Seen 2×. First written 2026-10-26, last reinforced 2026-10-26._
 | --- | --- | --- | ---: | --- |
 | 2026-10-26 | FRB | bullish | -14.4% | Firebird Significantly Improves LMR Precursor Quality |
 | 2026-10-26 | FRB | bullish | -14.4% | Firebird Significantly Improves LMR Precursor Quality |
-
-### L242 — Scoping study with a large headline NPV at a rare earths (or other specialist critical mineral) junior 50%+ below its 12-month high with near-zero absolute liquidity, where the commodity faces known persistent structural headwinds (processing complexity, offtake difficulty, financing scarcity) independent of the commodity price cycle
-
-Before calling bullish on a large NPV scoping study at a rare earths junior, ask whether the commodity's structural commercialisation barriers (separation processing, off-take concentration, project financing scarcity) are so well-known that the market systematically discounts scoping-stage NPVs regardless of their headline size — if rare earths processing and offtake risk are the dominant unresolved constraints and neither is addressed in the headline, default to neutral rather than bullish, because the NPV is a theoretical number the market has already learned not to pay for at scoping stage in this commodity.
-
-_Seen 2×. First written 2026-10-29, last reinforced 2026-11-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-16 | AKN | bullish | -12.1% | Further High-Grade Rare Earth Mineralisation at East Tundulu |
-| 2026-10-29 | AHK | bullish | -12.8% | Sandy Mitchell Rare Earths Scoping Study - A$883M NPV |
 
 ### L253 — Quotation of new options (not shares) at a deeply de-rated stock with suppressed pre-announcement volume, where the options were issued as part of a prior raise rather than as a standalone dilutive event
 
