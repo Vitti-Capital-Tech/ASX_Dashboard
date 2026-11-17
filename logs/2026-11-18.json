@@ -1,9 +1,79 @@
 {
   "date": "2026-11-18",
-  "total": 257,
+  "total": 258,
   "market_sensitive_count": 66,
-  "generated_at": "2026-11-17T23:17:24.472527+00:00",
+  "generated_at": "2026-11-17T23:23:24.916872+00:00",
   "announcements": [
+    {
+      "ticker": "SOC",
+      "company": "SOCO CORPORATION LTD",
+      "headline": "CEO's AGM Address",
+      "time": "2026-11-17T23:18:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03163087-2A1711232",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "A CEO's AGM address at a stock sitting at a 12-month low with zero recorded volume and effectively zero median daily turnover is the least market-moving combination possible — the filing is not flagged market sensitive, and AGM addresses at dormant micro-caps are almost universally procedural rather than catalyst events.",
+        "The complete absence of trading activity (0.0x volume ratio, A$0/day median turnover) means volume data is entirely uninformative here — there is no tape signal of either accumulation or distribution, and any price movement post-announcement would be driven by a single small order rather than genuine market conviction; institutional investors should treat this filing as noise.",
+        "Without market-sensitive flagging or a headline-level operational milestone (new contract, funding confirmation, strategic partnership), the CEO address offers no actionable near-term catalyst; the more important watch item for SOC remains whether the company can demonstrate sufficient cash runway and operational progress to re-engage its register, neither of which is signalled by this filing."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-17",
+        "bars": 254,
+        "last_close": 0.035,
+        "market_cap_aud": 4877428.4,
+        "shares_outstanding": 139355097,
+        "beta": -0.104,
+        "rsi_14": 31.81,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 38677,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -14.63,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -27.08,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -48.53,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.068,
+        "low_52w": 0.035,
+        "high_3m": 0.041,
+        "low_3m": 0.035,
+        "high_6m": 0.048,
+        "low_6m": 0.035,
+        "month1_high": 0.04,
+        "month1_low": 0.035,
+        "month2_high": 0.04,
+        "month2_low": 0.038,
+        "month3_high": 0.041,
+        "month3_low": 0.04,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, SOC traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-11-17 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LPE",
       "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
