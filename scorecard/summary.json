@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T18:40:07.247061+11:00",
+  "generated_at": "2026-11-17T19:40:06.169370+11:00",
   "days_scored": 72,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 3917,
+      "scored": 3916,
       "correct": 1604,
-      "wrong": 1079,
+      "wrong": 1078,
       "flat": 1234,
       "hit_rate": 59.8,
       "avg_abnormal_pct": 1.75
@@ -21,9 +21,9 @@
       "avg_abnormal_pct": -0.69
     },
     "neutral": {
-      "scored": 10804,
+      "scored": 10803,
       "correct": 4758,
-      "wrong": 6046,
+      "wrong": 6045,
       "flat": 0,
       "hit_rate": 44.0,
       "avg_abnormal_pct": 0.13
@@ -31,15 +31,15 @@
   },
   "spread_pct": 2.44,
   "directional_hit_rate": 58.7,
-  "directional_scored": 3792,
+  "directional_scored": 3791,
   "intraday": {
     "by_sentiment": {
       "bullish": {
-        "scored": 3917,
+        "scored": 3916,
         "correct": 1119,
-        "wrong": 1360,
+        "wrong": 1359,
         "flat": 1438,
-        "hit_rate": 45.1,
+        "hit_rate": 45.2,
         "avg_abnormal_pct": -0.18
       },
       "bearish": {
@@ -51,8 +51,8 @@
         "avg_abnormal_pct": -0.55
       },
       "neutral": {
-        "scored": 10804,
-        "correct": 5302,
+        "scored": 10803,
+        "correct": 5301,
         "wrong": 5502,
         "flat": 0,
         "hit_rate": 49.1,
@@ -60,8 +60,8 @@
       }
     },
     "spread_pct": 0.37,
-    "directional_hit_rate": 49.1,
-    "directional_scored": 3435
+    "directional_hit_rate": 49.2,
+    "directional_scored": 3434
   },
   "by_document_type": [
     {
@@ -93,12 +93,12 @@
     },
     {
       "document_type": "Results",
-      "scored": 197,
-      "hit_rate": 55.8,
-      "intraday_scored": 182,
-      "intraday_hit_rate": 45.6,
-      "intraday_avg_as_called": -0.77,
-      "avg_as_called": 0.6
+      "scored": 196,
+      "hit_rate": 56.1,
+      "intraday_scored": 181,
+      "intraday_hit_rate": 45.9,
+      "intraday_avg_as_called": -0.75,
+      "avg_as_called": 0.61
     },
     {
       "document_type": "Annual General Meeting",
@@ -639,11 +639,11 @@
     },
     {
       "date": "2026-11-17",
-      "hit_rate": 62.7,
-      "scored": 67,
-      "spread_pct": 6.51,
-      "intraday_hit_rate": 47.4,
-      "intraday_scored": 57
+      "hit_rate": 63.6,
+      "scored": 66,
+      "spread_pct": 6.63,
+      "intraday_hit_rate": 48.2,
+      "intraday_scored": 56
     }
   ]
 }
