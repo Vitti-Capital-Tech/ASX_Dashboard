@@ -4,9 +4,9 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5296 graded calls
+- Window: last 20 trading days, 5297 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-18T06:45:56.108913+00:00
+- Generated: 2026-11-18T07:41:33.466307+00:00
 
 ## Headline
 
@@ -19,7 +19,7 @@ Directional calls (bullish/bearish): **59.9%** correct on 1212 graded calls.
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **59.3%** of the time (n=3368). Every graded announcement moved 60.7% of the time.
+Stocks called neutral moved 1% or more anyway **59.3%** of the time (n=3369). Every graded announcement moved 60.7% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
