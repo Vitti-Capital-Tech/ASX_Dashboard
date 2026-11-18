@@ -1,9 +1,167 @@
 {
   "date": "2026-11-19",
-  "total": 288,
+  "total": 291,
   "market_sensitive_count": 98,
-  "generated_at": "2026-11-18T23:10:47.061737+00:00",
+  "generated_at": "2026-11-18T23:16:41.658056+00:00",
   "announcements": [
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "2026 Chairmar Address and Company Presentation",
+      "time": "2026-11-18T23:14:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03163732-3A706929",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Chairman's Address and Company Presentation filed without a market-sensitive flag is a standard AGM-season awareness document — it carries no obligation to disclose new price-moving information, and the absence of the flag strongly suggests the content is backward-looking or reiterative of previously disclosed material.",
+        "Melbana's key asset remains its Cuba-focused Amistad project, which has faced prolonged operational and geopolitical headwinds; a presentation at this juncture is more likely to frame strategic optionality than announce a concrete operational milestone, limiting its capacity to re-rate the stock.",
+        "Without accompanying volume data or price context, the signal value is minimal — investors should treat this as a holding-pattern communication rather than a catalyst, and monitor for any subsequent market-sensitive operational update from the Cuba programme or asset-monetisation activity as the genuine directional trigger."
+      ],
+      "tags": [
+        "AGM",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAC",
+      "company": "LAC GOLD LIMITED",
+      "headline": "AGM Presentation",
+      "time": "2026-11-18T23:09:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03163731-6A1355828",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM presentation without a market-sensitive flag at a stock more than 52% below its 12-month high is structurally a maintenance communication — the absence of the flag signals management has assessed no new price-moving content is being disclosed, limiting its capacity to catalyse a re-rating.",
+        "At a median daily turnover of approximately A$25,049, LAC trades in a thinly liquid register where even modest institutional interest can move the price, but that same illiquidity means any negative read-through from the presentation (e.g. slower-than-expected project timelines) can amplify downside; the deep de-rating already in place reduces but does not eliminate downside risk on disappointing content.",
+        "The 'so what' for investors is that without a named milestone — resource estimate, funding announcement, or strategic partner — an AGM presentation at a gold junior this far below its high is unlikely to close the discount to peers; monitor for a companion market-sensitive filing or post-AGM operational update as the more meaningful directional signal."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-18",
+        "bars": 254,
+        "last_close": 0.25,
+        "market_cap_aud": 53726598.75,
+        "shares_outstanding": 214906395,
+        "beta": 0.908,
+        "rsi_14": 41.88,
+        "volume_trend_ratio": 0.85,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 25049,
+        "liquid": false,
+        "avg_volume_20": 166785,
+        "volume_change_pct": -99.0,
+        "pct_from_3m_high": -35.06,
+        "pct_from_3m_low": 13.64,
+        "pct_from_6m_high": -43.18,
+        "pct_from_6m_low": 13.64,
+        "pct_from_52w_high": -52.38,
+        "pct_from_52w_low": 13.64,
+        "high_52w": 0.525,
+        "low_52w": 0.22,
+        "high_3m": 0.385,
+        "low_3m": 0.22,
+        "high_6m": 0.44,
+        "low_6m": 0.22,
+        "month1_high": 0.33,
+        "month1_low": 0.22,
+        "month2_high": 0.385,
+        "month2_low": 0.3,
+        "month3_high": 0.38,
+        "month3_low": 0.335,
+        "range_position_3m": 0.182,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "52.38% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$25,049/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-18 close.",
+          "The price sat in the lower part of its 3-month range, 35.06% below the high of that period.",
+          "Treat all of that with care: it trades about A$25,049 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAU",
+      "company": "RESOURO STRATEGIC METALS INC.",
+      "headline": "Resouro Advances Trial Mining at Novo Mundo",
+      "time": "2026-11-18T23:08:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03163730-6A1355826",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A trial mining advancement at Novo Mundo is an operational milestone — moving from exploration or feasibility into active trial mining represents a stage-gate progression that can re-rate a strategic metals developer, but the absence of a market-sensitive flag is a material constraint: management has judged the content not price-moving, which tempers the bullish read.",
+        "The stock is at a 12-month low with a median daily turnover of approximately A$0, meaning it is effectively a dormant register with near-zero liquidity; the reported 5-day volume running at 1.52x the 20-day average should be treated with extreme caution given this near-zero base — a handful of trades can produce an elevated ratio that carries no informational weight about institutional intent or accumulation.",
+        "Applying lesson L058: a project-update headline without a market-sensitive flag and without a specific production quantum, offtake, or funding milestone named carries equal probability of containing confirmatory routine progress as genuine acceleration news — the 'advances' language is directionally positive but insufficiently specific to override the unflagged status; default to neutral and require a companion market-sensitive filing with grade, tonnage, or commercial terms before leaning bullish."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-11-18",
+        "bars": 254,
+        "last_close": 0.18,
+        "market_cap_aud": 21276728.82,
+        "shares_outstanding": 118204049,
+        "beta": 1.015,
+        "rsi_14": 31.04,
+        "volume_trend_ratio": 1.52,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 4740,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -40.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_6m_high": -47.83,
+        "pct_from_6m_low": 0.0,
+        "pct_from_52w_high": -58.62,
+        "pct_from_52w_low": 0.0,
+        "high_52w": 0.435,
+        "low_52w": 0.18,
+        "high_3m": 0.3,
+        "low_3m": 0.18,
+        "high_6m": 0.345,
+        "low_6m": 0.18,
+        "month1_high": 0.23,
+        "month1_low": 0.18,
+        "month2_high": 0.28,
+        "month2_low": 0.23,
+        "month3_high": 0.3,
+        "month3_low": 0.27,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_6m_high": false,
+        "at_6m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.52x its 20-day average",
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, RAU traded 1.52x its usual daily volume over the last 5 sessions — measured to the 2026-11-18 close, before this announcement was public.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "G88",
       "company": "GOLDEN MILE RESOURCES LTD",
