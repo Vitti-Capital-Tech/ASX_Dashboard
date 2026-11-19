@@ -1,9 +1,78 @@
 {
   "date": "2026-11-20",
-  "total": 208,
+  "total": 209,
   "market_sensitive_count": 34,
-  "generated_at": "2026-11-19T23:43:57.939634+00:00",
+  "generated_at": "2026-11-19T23:50:36.026860+00:00",
   "announcements": [
+    {
+      "ticker": "ELD",
+      "company": "ELDERS LIMITED",
+      "headline": "Change of CEO's Interest Notice",
+      "time": "2026-11-19T23:44:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03164315-2A1711830",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "CEO interest notice at Elders is an administrative disclosure — the direction of the change (acquisition vs. disposal) is not stated in the headline, and the filing is not flagged market sensitive, meaning the exchange itself does not view this as price-moving information; the dominant interpretation must be procedural until the filing detail confirms direction.",
+        "Price action context is notable: volume has run at 2.13x the 20-day average over the last five sessions, and the stock sits only 2.7% off its 3-month high — this is a stock showing relative strength and elevated activity, which means any confirmed insider buying would be incrementally constructive but is likely already partially reflected in price, while confirmed selling into this strength would carry a mild bearish read.",
+        "Applying lesson L031: director/CEO interest notices into elevated volume on stocks not deeply distressed require direction confirmation before leaning either way — without knowing whether this represents on-market purchases or a disposal (e.g. from an incentive plan vesting), the correct default is neutral; institutional investors should check the filing body for transaction type before drawing conclusions."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-11-19",
+        "bars": 254,
+        "last_close": 7.02,
+        "market_cap_aud": 1512099716.4,
+        "shares_outstanding": 215398820,
+        "beta": 0.824,
+        "rsi_14": 71.92,
+        "volume_trend_ratio": 2.13,
+        "volume_last_ratio": 1.82,
+        "avg_turnover_aud": 4629328,
+        "liquid": true,
+        "avg_volume_20": 1088107,
+        "volume_change_pct": 82.0,
+        "pct_from_3m_high": -2.7,
+        "pct_from_3m_low": 20.83,
+        "pct_from_6m_high": -2.7,
+        "pct_from_6m_low": 41.53,
+        "pct_from_52w_high": -9.65,
+        "pct_from_52w_low": 41.53,
+        "high_52w": 7.77,
+        "low_52w": 4.96,
+        "high_3m": 7.215,
+        "low_3m": 5.81,
+        "high_6m": 7.215,
+        "low_6m": 4.96,
+        "month1_high": 7.215,
+        "month1_low": 6.08,
+        "month2_high": 6.605,
+        "month2_low": 6.01,
+        "month3_high": 6.78,
+        "month3_low": 5.81,
+        "range_position_3m": 0.861,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.13x its 20-day average",
+          "2.7% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ELD traded 2.13x its usual daily volume over the last 5 sessions — measured to the 2026-11-19 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 2.7% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AAR",
       "company": "ASTRAL RESOURCES NL",
