@@ -1,9 +1,94 @@
 {
   "date": "2026-11-20",
-  "total": 209,
-  "market_sensitive_count": 34,
-  "generated_at": "2026-11-19T23:50:36.026860+00:00",
+  "total": 211,
+  "market_sensitive_count": 35,
+  "generated_at": "2026-11-19T23:57:37.886496+00:00",
   "announcements": [
+    {
+      "ticker": "PWH",
+      "company": "PWR HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - PWH",
+      "time": "2026-11-19T23:52:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03164317-2A1711831",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PWR Holdings is a profitable, well-regarded advanced cooling technology manufacturer — a notification regarding unquoted securities at this quality of company is almost certainly a routine administrative filing (e.g. performance rights or options issued under an employee incentive plan) rather than a capital raise or dilutive event, reducing its market-moving significance materially.",
+        "The filing is explicitly not flagged market sensitive, which at a mid-cap industrial with consistent earnings is consistent with a standard incentive-plan securities notification; under lesson L139 the unflagged status and absence of a companion quotation application or operational announcement argues against reading dilution risk into this filing at this point in time.",
+        "No price action data is available to assess tape context, but for a company of PWH's standing, standalone unquoted-securities notifications carry negligible directional signal — investors should await a companion quotation application (which would bring the shares to market) before assessing any supply-overhang impact; procedurally neutral."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-19",
+        "bars": 254,
+        "last_close": 11.2,
+        "market_cap_aud": 1126430166.4,
+        "shares_outstanding": 100574122,
+        "beta": 0.812,
+        "rsi_14": 51.37,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.26,
+        "avg_turnover_aud": 1711287,
+        "liquid": true,
+        "avg_volume_20": 175369,
+        "volume_change_pct": -74.0,
+        "pct_from_3m_high": -9.31,
+        "pct_from_3m_low": 20.56,
+        "pct_from_6m_high": -10.4,
+        "pct_from_6m_low": 44.52,
+        "pct_from_52w_high": -10.4,
+        "pct_from_52w_low": 55.12,
+        "high_52w": 12.5,
+        "low_52w": 7.22,
+        "high_3m": 12.35,
+        "low_3m": 9.29,
+        "high_6m": 12.5,
+        "low_6m": 7.75,
+        "month1_high": 11.85,
+        "month1_low": 11.03,
+        "month2_high": 11.67,
+        "month2_low": 9.29,
+        "month3_high": 12.35,
+        "month3_low": 10.03,
+        "range_position_3m": 0.624,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-19 close.",
+          "The price sat in the middle part of its 3-month range, 9.31% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "First Earn-out Payment Received Relating to ANZ Divestment",
+      "time": "2026-11-19T23:51:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03164316-6A1356057",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Receipt of the first earn-out payment from the ANZ divestment confirms the transaction is performing against agreed milestones — this is a direct cash inflow event that validates the deal structure and reduces execution risk on the remaining earn-out tranches, a material positive for a company in transition.",
+        "The market-sensitive flag on what is structurally a 'payment received' announcement signals the quantum is likely meaningful relative to AHE's current market capitalisation — earn-out receipts at micro-cap level can materially shift cash runway and near-term solvency optics, making the actual dollar figure the critical detail investors will seek in the filing body.",
+        "With the ANZ business now divested and earn-outs beginning to flow, the key forward question is whether AHE's remaining operational platform is self-sustaining or dependent on further earn-out receipts — the cadence and size of subsequent tranches will determine whether this is a value-crystallisation story or a managed wind-down; near-term sentiment is bullish on the confirmation of cash receipt."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ELD",
       "company": "ELDERS LIMITED",
