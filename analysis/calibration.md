@@ -6,7 +6,7 @@ here is hand-written; edit `calibration.py` if a finding is wrong.
 
 - Window: last 20 trading days, 5273 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-19T08:42:34.367571+00:00
+- Generated: 2026-11-19T10:42:54.545725+00:00
 
 ## Headline
 
@@ -19,7 +19,7 @@ Directional calls (bullish/bearish): **60.7%** correct on 1211 graded calls.
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **60.7%** of the time (n=3390). Every graded announcement moved 62% of the time.
+Stocks called neutral moved 1% or more anyway **60.6%** of the time (n=3390). Every graded announcement moved 62% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
