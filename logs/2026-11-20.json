@@ -1,9 +1,77 @@
 {
   "date": "2026-11-20",
-  "total": 207,
+  "total": 208,
   "market_sensitive_count": 34,
-  "generated_at": "2026-11-19T23:37:12.152005+00:00",
+  "generated_at": "2026-11-19T23:43:57.939634+00:00",
   "announcements": [
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-11-19T23:41:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03164314-6A1356056",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director interest notice at AAR with the stock sitting ~56% below its 12-month high — this is not a stock trading near extended levels, so lesson L031 applies directly: the L001 bearish default for director notices is designed for selling into strength, not for filings at a materially de-rated price where insider buying is a plausible and constructive interpretation.",
+        "The filing carries no market-sensitive flag and discloses no direction in the headline, meaning the two most common bullish signals (flag + confirmed purchase) are both absent — the direction of the change (acquisition vs. disposal) is the critical variable that the headline alone cannot resolve, and without that confirmation the filing is procedurally informative at best.",
+        "With AAR ~56% off its high, any confirmed insider purchase would carry meaningful signalling value — directors accumulating at a significantly de-rated price is historically a constructive register signal; however, until the body of the filing confirms direction, the correct posture is neutral, reserving a bullish lean only if the notice confirms an on-market or off-market acquisition."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-19",
+        "bars": 254,
+        "last_close": 0.13,
+        "market_cap_aud": 235145258.4,
+        "shares_outstanding": 1808809680,
+        "beta": 2.682,
+        "rsi_14": 40.64,
+        "volume_trend_ratio": 1.09,
+        "volume_last_ratio": 2.35,
+        "avg_turnover_aud": 372909,
+        "liquid": true,
+        "avg_volume_20": 3348650,
+        "volume_change_pct": 135.0,
+        "pct_from_3m_high": -39.53,
+        "pct_from_3m_low": 4.0,
+        "pct_from_6m_high": -39.53,
+        "pct_from_6m_low": 23.81,
+        "pct_from_52w_high": -55.93,
+        "pct_from_52w_low": 23.81,
+        "high_52w": 0.295,
+        "low_52w": 0.105,
+        "high_3m": 0.215,
+        "low_3m": 0.125,
+        "high_6m": 0.215,
+        "low_6m": 0.105,
+        "month1_high": 0.17,
+        "month1_low": 0.125,
+        "month2_high": 0.1925,
+        "month2_low": 0.135,
+        "month3_high": 0.215,
+        "month3_low": 0.18,
+        "range_position_3m": 0.056,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "55.93% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-19 close.",
+          "The price sat in the lower part of its 3-month range, 39.53% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TBN",
       "company": "TAMBORAN RESOURCES CORPORATION",
