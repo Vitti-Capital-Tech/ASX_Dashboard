@@ -2,19 +2,22 @@
 // watching for a trade that day.
 //
 // What this screens for is MOVEMENT AND TRADEABILITY, not direction. Measured
-// over 32 scored sessions (Aug–Sep 2026, ~6,000 announcements):
+// over 74 scored sessions (Aug–Nov 2026, ~17,000 announcements), each rule
+// checked separately on the first and second 37 sessions so a pattern that
+// held in only one of them was not kept:
 //
-//   · The AI sentiment label called the open→close direction right 48.8% of
-//     the time — no better than a coin. Bullish calls on a stock that gapped up
-//     more than 5% hit only 39%: the gap is usually the whole move.
-//   · The filters below roughly double the typical intraday range. Median
-//     |open→close| was 1.27% across everything and 2.82% on what survives
-//     them, with 47% of survivors moving 3% or more (vs ~20% overall).
-//   · No ranking among the survivors reliably beat another, so the order is a
-//     convenience (smaller liquid names tend to move more), not a forecast.
+//   · The AI sentiment label called the open→close direction right 48.9% of
+//     the time — a coin. Bullish calls on a stock that gapped up more than 5%
+//     held only 36%: the gap is usually the whole move.
+//   · The hard filters roughly double the typical intraday range: median
+//     |open→close| 1.23% across everything, ~2.6% on what survives them.
+//   · The points ranking below lifts the top 10 a day further (median 2.92% /
+//     2.93% in the two halves, vs 2.29% / 1.80% for the names it leaves out).
+//     Ranking by market cap alone did not separate them.
 //
-// So the list answers "where will there be a move I can actually get in and out
-// of", and leaves the direction to the open and the first few minutes of tape.
+// No filter here was found to predict direction, so the list answers "where is
+// there likely to be a move I can get in and out of" and leaves which way to
+// the open and the first minutes of tape.
 
 import type { Announcement } from '@/types';
 
@@ -29,7 +32,8 @@ export interface IntradayParams {
   preOpenOnly: boolean;
   /** Only ASX price-sensitive filings. Non-sensitive ones barely move. */
   sensitiveOnly: boolean;
-  /** Drop filing types that, in the data, do not move the stock intraday. */
+  /** Drop filings that, in the data, do not move the stock intraday: routine
+   *  types, and placement or takeover headlines. */
   excludeRoutine: boolean;
   /** How many names to return. */
   maxPicks: number;
@@ -68,9 +72,19 @@ const ROUTINE_TYPES = new Set([
 ]);
 const ROUTINE_TAGS = new Set(['trading halt', 'compliance', 'dividend', 'agm']);
 
+/** Headlines with the smallest intraday ranges on liquid names. A raise is
+ *  priced before the open; a takeover pins the stock to the bid. */
+const LOW_MOVE_HEADLINE = /placement|raising|entitlement|capital raise|acqui|takeover|scheme|merger|\bbid\b/i;
+
 /** Types that moved most on liquid names. Used only to choose which of one
- *  ticker's several filings represents it, never to rank tickers. */
+ *  ticker's several filings represents it. */
 const PRIMARY_TYPES = new Set(['results', 'merger & acquisition', 'half yearly report']);
+
+// ── Ranking points. Each held in both halves of the sample on its own. ──
+const MOVER_HEADLINE = /contract|award|agreement|offtake|result|report|half year|full year|profit/i;
+const EXPLORATION_HEADLINE = /drill|assay|intercept|resource/i;
+const DEEP_DRAWDOWN_PCT = -50;   // % from the 52-week high
+const NEAR_HIGH_PCT = -10;
 
 const OPEN_HOUR_SYDNEY = 10;
 
@@ -92,7 +106,8 @@ export function releasedBeforeOpen(iso: string, date: string): boolean {
 
 function isRoutine(a: Announcement): boolean {
   if (ROUTINE_TYPES.has((a.document_type ?? '').toLowerCase())) return true;
-  return (a.tags ?? []).some(t => ROUTINE_TAGS.has(t.toLowerCase()));
+  if ((a.tags ?? []).some(t => ROUTINE_TAGS.has(t.toLowerCase()))) return true;
+  return LOW_MOVE_HEADLINE.test(a.headline ?? '');
 }
 
 /** Why an announcement fails the screen, or null when it passes. */
@@ -119,30 +134,84 @@ function representative(a: Announcement, b: Announcement): Announcement {
   return new Date(a.time) >= new Date(b.time) ? a : b;
 }
 
+export interface IntradayPick {
+  ann: Announcement;
+  points: number;
+  /** Why it ranked where it did, as short chips. */
+  reasons: { label: string; good: boolean }[];
+}
+
+/** Points and the reasons for them, for one ticker's passing filings. */
+function scoreTicker(rep: Announcement, filings: Announcement[], sensitiveToday: number): IntradayPick {
+  const reasons: IntradayPick['reasons'] = [];
+  let points = 0;
+  const fromHigh = rep.market_context?.pct_from_52w_high;
+
+  if (fromHigh !== null && fromHigh !== undefined && fromHigh < DEEP_DRAWDOWN_PCT) {
+    points += 1;
+    reasons.push({ label: `${Math.abs(fromHigh).toFixed(0)}% below 52w high`, good: true });
+  }
+  if (sensitiveToday >= 2) {
+    points += 1;
+    reasons.push({ label: `${sensitiveToday} sensitive filings`, good: true });
+  }
+  const mover = filings.find(f => MOVER_HEADLINE.test(f.headline ?? ''));
+  if (mover) {
+    points += 1;
+    const m = (mover.headline ?? '').match(MOVER_HEADLINE)?.[0] ?? 'results';
+    reasons.push({ label: m.charAt(0).toUpperCase() + m.slice(1).toLowerCase(), good: true });
+  }
+  if (fromHigh !== null && fromHigh !== undefined && fromHigh > NEAR_HIGH_PCT) {
+    points -= 1;
+    reasons.push({ label: 'near 52w high', good: false });
+  }
+  if (filings.some(f => EXPLORATION_HEADLINE.test(f.headline ?? ''))) {
+    points -= 1;
+    reasons.push({ label: 'drilling / assay', good: false });
+  }
+  return { ann: rep, points, reasons };
+}
+
 export interface IntradayResult {
-  picks: Announcement[];
+  picks: IntradayPick[];
   /** Distinct tickers that passed, before the cap. */
   qualified: number;
 }
 
 /**
- * The shortlist: one row per ticker, at most `maxPicks`, smallest market cap
- * first. Market cap is a tiebreak of convenience — among liquid names the
- * smaller ones had the wider ranges — not a prediction of which will move.
+ * The shortlist: one row per ticker, at most `maxPicks`, highest points first
+ * and smallest market cap among equals.
+ *
+ * `dayAnns` is the whole day's log, not the filtered feed — "two sensitive
+ * filings today" is a fact about the stock, and should not change because a
+ * sentiment filter hid one of them.
  */
-export function pickIntraday(anns: Announcement[], p: IntradayParams, date: string): IntradayResult {
-  const byTicker = new Map<string, Announcement>();
+export function pickIntraday(
+  anns: Announcement[], dayAnns: Announcement[], p: IntradayParams, date: string,
+): IntradayResult {
+  const sensitiveCount = new Map<string, number>();
+  for (const a of dayAnns) {
+    if (!a.market_sensitive) continue;
+    const k = a.ticker.toUpperCase();
+    sensitiveCount.set(k, (sensitiveCount.get(k) ?? 0) + 1);
+  }
+
+  const byTicker = new Map<string, Announcement[]>();
   for (const a of anns) {
     if (intradayReject(a, p, date)) continue;
-    const key = a.ticker.toUpperCase();
-    const prev = byTicker.get(key);
-    byTicker.set(key, prev ? representative(prev, a) : a);
+    const k = a.ticker.toUpperCase();
+    const list = byTicker.get(k);
+    if (list) list.push(a); else byTicker.set(k, [a]);
   }
-  const all = Array.from(byTicker.values()).sort((a, b) => {
-    const ma = a.market_context?.market_cap_aud ?? Infinity;
-    const mb = b.market_context?.market_cap_aud ?? Infinity;
-    if (ma !== mb) return ma - mb;
-    return (b.market_context?.avg_turnover_aud ?? 0) - (a.market_context?.avg_turnover_aud ?? 0);
+
+  const scored = Array.from(byTicker.entries()).map(([k, filings]) =>
+    scoreTicker(filings.reduce(representative), filings, sensitiveCount.get(k) ?? 0));
+
+  scored.sort((a, b) => {
+    if (a.points !== b.points) return b.points - a.points;
+    const ma = a.ann.market_context?.market_cap_aud ?? Infinity;
+    const mb = b.ann.market_context?.market_cap_aud ?? Infinity;
+    return ma - mb;
   });
-  return { picks: all.slice(0, p.maxPicks), qualified: all.length };
+  return { picks: scored.slice(0, p.maxPicks), qualified: scored.length };
 }

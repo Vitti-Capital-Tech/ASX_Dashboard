@@ -366,11 +366,12 @@ export default function Dashboard() {
   // The intraday screen runs over whatever the other filters left, so it
   // composes with them (e.g. bullish-only picks) rather than replacing them.
   const intraday = useMemo(
-    () => intradayOn ? pickIntraday(filtered, intradayParams, date) : null,
-    [intradayOn, filtered, intradayParams, date],
+    () => intradayOn && log
+      ? pickIntraday(filtered, log.announcements, intradayParams, date) : null,
+    [intradayOn, filtered, log, intradayParams, date],
   );
 
-  const sorted = useMemo(() => intraday ? intraday.picks : [...filtered].sort((a, b) => {
+  const sorted = useMemo(() => intraday ? intraday.picks.map(p => p.ann) : [...filtered].sort((a, b) => {
     if (a.market_sensitive !== b.market_sensitive) return a.market_sensitive ? -1 : 1;
     const ra = sentimentRank(getSentiment(a));
     const rb = sentimentRank(getSentiment(b));
@@ -578,7 +579,7 @@ export default function Dashboard() {
               {intraday && (
                 <IntradayPanel
                   params={intradayParams}
-                  shown={intraday.picks.length}
+                  picks={intraday.picks}
                   qualified={intraday.qualified}
                   onChange={setIntradayParams}
                 />
