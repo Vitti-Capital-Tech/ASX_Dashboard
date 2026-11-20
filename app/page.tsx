@@ -7,6 +7,7 @@ import {
 } from '@/types';
 import { formatDateLabel, getSentiment, sentimentRank } from '@/lib/utils';
 import { ALL_CATEGORIES, VIEW_REGION, type SentimentFilter } from '@/lib/views';
+import { DEFAULT_INTRADAY, pickIntraday, type IntradayParams } from '@/lib/intraday';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
 import ViewHeader from '@/components/ViewHeader';
@@ -16,6 +17,7 @@ import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementTable from '@/components/AnnouncementTable';
 import PlacementCard from '@/components/PlacementCard';
 import AccuracyPanel from '@/components/AccuracyPanel';
+import IntradayPanel from '@/components/IntradayPanel';
 
 const REFRESH_MS = 5 * 60 * 1000;
 
@@ -94,6 +96,8 @@ export default function Dashboard() {
   const [category, setCategory] = useState<string>(ALL_CATEGORIES);
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [marketSensitiveOnly, setMarketSensitiveOnly] = useState(false);
+  const [intradayOn, setIntradayOn] = useState(false);
+  const [intradayParams, setIntradayParams] = useState<IntradayParams>(DEFAULT_INTRADAY);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -359,13 +363,20 @@ export default function Dashboard() {
     return counts;
   }, [log]);
 
-  const sorted = useMemo(() => [...filtered].sort((a, b) => {
+  // The intraday screen runs over whatever the other filters left, so it
+  // composes with them (e.g. bullish-only picks) rather than replacing them.
+  const intraday = useMemo(
+    () => intradayOn ? pickIntraday(filtered, intradayParams, date) : null,
+    [intradayOn, filtered, intradayParams, date],
+  );
+
+  const sorted = useMemo(() => intraday ? intraday.picks : [...filtered].sort((a, b) => {
     if (a.market_sensitive !== b.market_sensitive) return a.market_sensitive ? -1 : 1;
     const ra = sentimentRank(getSentiment(a));
     const rb = sentimentRank(getSentiment(b));
     if (ra !== rb) return ra - rb;
     return new Date(b.time).getTime() - new Date(a.time).getTime();
-  }), [filtered]);
+  }), [filtered, intraday]);
 
   const renderedGrid = useMemo(() => (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -405,6 +416,7 @@ export default function Dashboard() {
     setCategory(ALL_CATEGORIES);
     setActiveTags(new Set());
     setMarketSensitiveOnly(false);
+    setIntradayOn(false);
     setSearch('');
   }, []);
 
@@ -421,7 +433,8 @@ export default function Dashboard() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     // Name the file after whatever narrowed it, so exports stay tellable apart.
-    const slug = sentiment !== 'all' ? `_${sentiment}`
+    const slug = intradayOn ? '_intraday-picks'
+      : sentiment !== 'all' ? `_${sentiment}`
       : category !== ALL_CATEGORIES ? `_${category.replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
         : activeTags.size > 0 ? `_tagged-${Array.from(activeTags).slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
           : search.trim() ? `_search-${search.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
@@ -430,7 +443,7 @@ export default function Dashboard() {
     a.download = `Vitti_ASX_Export_${date}${slug}_${sorted.length}rows.csv`;
     a.click();
     URL.revokeObjectURL(url);
-  }, [sorted, date, sentiment, category, activeTags, search]);
+  }, [sorted, date, sentiment, category, activeTags, search, intradayOn]);
 
   const dateLabel = date ? formatDateLabel(date) : '';
   const sensitiveCount = log?.announcements.filter(a => a.market_sensitive).length ?? 0;
@@ -557,8 +570,19 @@ export default function Dashboard() {
                 onSentimentChange={setSentiment}
                 onCategoryChange={setCategory}
                 onSensitiveToggle={() => setMarketSensitiveOnly(v => !v)}
+                intradayOn={intradayOn}
+                onIntradayToggle={() => setIntradayOn(v => !v)}
                 onClear={clearFilters}
               />
+
+              {intraday && (
+                <IntradayPanel
+                  params={intradayParams}
+                  shown={intraday.picks.length}
+                  qualified={intraday.qualified}
+                  onChange={setIntradayParams}
+                />
+              )}
 
               {isClientsView && clientTickersLoading && (
                 <Spinner title="Loading Client Holdings"

@@ -11,6 +11,8 @@ interface Props {
   marketSensitiveOnly: boolean;
   activeTagCount: number;
   sensitiveCount: number;
+  intradayOn: boolean;
+  onIntradayToggle: () => void;
   onSentimentChange: (s: SentimentFilter) => void;
   onCategoryChange: (c: string) => void;
   onSensitiveToggle: () => void;
@@ -24,11 +26,11 @@ interface Props {
  */
 export default function FilterBar({
   sentiment, category, marketSensitiveOnly, activeTagCount, sensitiveCount,
-  onSentimentChange, onCategoryChange, onSensitiveToggle, onClear,
+  intradayOn, onIntradayToggle, onSentimentChange, onCategoryChange, onSensitiveToggle, onClear,
 }: Props) {
   const dirty =
     sentiment !== 'all' || category !== ALL_CATEGORIES ||
-    marketSensitiveOnly || activeTagCount > 0;
+    marketSensitiveOnly || activeTagCount > 0 || intradayOn;
 
   return (
     <div className="flex flex-wrap items-center gap-2.5 mb-5">
@@ -83,6 +85,27 @@ export default function FilterBar({
         </svg>
         Market sensitive
         {marketSensitiveOnly && <span className="font-mono opacity-80">{sensitiveCount}</span>}
+      </button>
+
+      {/* Intraday shortlist — a screen over the whole feed, so it sits apart */}
+      <button
+        onClick={onIntradayToggle}
+        aria-pressed={intradayOn}
+        title="Narrow the morning's feed to 5–15 liquid, price-sensitive names worth watching today"
+        className="flex items-center gap-2 px-3.5 py-2 rounded-xl text-[0.74rem] font-semibold transition-all duration-150"
+        style={intradayOn ? {
+          background: 'var(--accent-dim)',
+          border: '1px solid var(--border-accent)',
+          color: 'var(--accent-light)',
+        } : {
+          background: 'var(--border-subtle)',
+          border: '1px solid var(--border-med)',
+          color: 'var(--text-dim)',
+        }}>
+        <svg viewBox="0 0 20 20" fill="currentColor" className="w-3 h-3">
+          <path d="M11 1L3 12h6l-1 7 8-11h-6l1-7z" />
+        </svg>
+        Intraday picks
       </button>
 
       {dirty && (
