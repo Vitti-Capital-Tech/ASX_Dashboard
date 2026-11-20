@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4787 graded calls
+- Window: last 20 trading days, 5273 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-09-22T06:58:37.951222+00:00
+- Generated: 2026-11-19T10:42:54.545725+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **59.9%** correct on 1101 graded calls.
+Directional calls (bullish/bearish): **60.7%** correct on 1211 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 848 | 61.6% |
-| bearish | 253 | 54.5% |
+| bullish | 762 | 60.1% |
+| bearish | 449 | 61.7% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **54.3%** of the time (n=3066). Every graded announcement moved 58.2% of the time.
+Stocks called neutral moved 1% or more anyway **60.6%** of the time (n=3390). Every graded announcement moved 62% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,18 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 635 | 64.9% |
-| Not flagged | 466 | 53.2% |
+| Market sensitive | 801 | 62.4% |
+| Not flagged | 410 | 57.3% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 890 | 62.2% |
-| Substantial Holding | 61 | 39.3% |
-| Results | 54 | 46.3% |
-| Dividend | 31 | 51.6% |
+| Market Update | 755 | 60.3% |
+| Quarterly Report | 170 | 62.9% |
+| Annual General Meeting | 99 | 64.6% |
+| Substantial Holding | 67 | 50.7% |
+| Results | 45 | 62.2% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -50,11 +51,11 @@ than shown with a caveat. They will appear as the sample fills in.
 
 | Ticker | Called | Move | Headline |
 | --- | --- | ---: | --- |
-| TSR | bearish | +27.9% | $1.1 Million Placement to Fund Critical Minerals Strategy |
-| REG | bullish | -27.5% | Government announces AN-ACC pricing from 1 October 2026 |
-| M2R | bearish | +24.7% | $1.25M Placement to Advance Gidji JV Gold Project |
-| LMG | bullish | -21.4% | LMG Successful Equity Raise |
-| SQX | bearish | +21.1% | Application for quotation of securities - SQX |
+| ZIP | bullish | -29.5% | 1Q FY27 results update |
+| GW1 | bullish | -29.4% | Strategic Partnership with Atana Elements inc. |
+| TIO | bullish | -29.0% | Temas Signs Quebec RCL Contract and Appoints Anthony Travers |
+| SGA | bearish | +28.1% | IMARC Revised Investor Presentation |
+| WRX | bullish | -25.7% | Drilling Intersects Broad Shallow Silver Mineralisation |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
