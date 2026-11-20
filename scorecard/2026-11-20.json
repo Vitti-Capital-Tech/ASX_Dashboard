@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T18:39:38.243843+11:00",
+  "generated_at": "2026-11-20T19:39:27.913060+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -22,19 +22,19 @@
         "avg_abnormal_pct": -0.52
       },
       "neutral": {
-        "scored": 146,
+        "scored": 145,
         "correct": 31,
-        "wrong": 115,
+        "wrong": 114,
         "flat": 0,
-        "hit_rate": 21.2,
-        "avg_abnormal_pct": 0.26
+        "hit_rate": 21.4,
+        "avg_abnormal_pct": 0.25
       }
     },
     "spread_pct": 0.56,
     "directional_hit_rate": 50.0,
     "directional_scored": 44,
     "pending": 0,
-    "no_data": 45,
+    "no_data": 46,
     "conflicts": 0
   },
   "intraday_stats": {
@@ -56,11 +56,11 @@
         "avg_abnormal_pct": -0.47
       },
       "neutral": {
-        "scored": 146,
-        "correct": 66,
+        "scored": 145,
+        "correct": 65,
         "wrong": 80,
         "flat": 0,
-        "hit_rate": 45.2,
+        "hit_rate": 44.8,
         "avg_abnormal_pct": -0.5
       }
     },
@@ -68,7 +68,7 @@
     "directional_hit_rate": 45.7,
     "directional_scored": 35,
     "pending": 0,
-    "no_data": 45,
+    "no_data": 46,
     "conflicts": 0
   },
   "highlights": {
@@ -6607,18 +6607,18 @@
       "avg_volume_20": 431122,
       "rsi_14": 44.87,
       "market_cap_aud": 11913319.55,
-      "session_date": "2026-11-20",
-      "prev_close": 0.008,
-      "open": 0.008,
-      "vwap": 0.008,
-      "gap_pct": 0.0,
-      "intraday_verdict": "correct",
-      "close": 0.008,
-      "return_pct": 0.0,
-      "open_close_pct": 0.0,
-      "index_return_pct": -1.58,
-      "abnormal_pct": 1.58,
-      "verdict": "wrong",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 1,
       "also": []
     },
