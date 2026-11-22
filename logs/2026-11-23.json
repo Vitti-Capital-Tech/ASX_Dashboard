@@ -1,9 +1,95 @@
 {
   "date": "2026-11-23",
-  "total": 320,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-11-22T23:44:59.485763+00:00",
+  "total": 322,
+  "market_sensitive_count": 97,
+  "generated_at": "2026-11-22T23:51:17.867551+00:00",
   "announcements": [
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "CEO Appointment",
+      "time": "2026-11-22T23:47:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165043-2A1712147",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A CEO appointment flagged market sensitive signals this is not a routine administrative change — LPE is a small embedded-network energy retailer where leadership continuity and strategic direction are critical to contract retention and growth in a competitive regulated space; a new CEO appointment at this level typically signals either a strategic pivot or a response to prior underperformance.",
+        "The 'so what?' for investors is whether the incoming CEO brings an operational, commercial, or regulatory background — in the embedded-network sector, the ability to navigate AEMC rule changes and win new strata/commercial contracts is the core value driver; a commercially oriented appointment would be constructive, while a cost-cutting mandate would signal defensive positioning.",
+        "Without price action data, the tape context cannot be assessed, but CEO changes at micro-cap energy retailers are frequently the precursor to a strategy refresh or capital event — investors should monitor for a companion investor-day or strategic update filing in the near term to determine whether this appointment is a re-rating catalyst or a stabilisation move."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-11-20",
+        "bars": 253,
+        "last_close": 0.1075,
+        "market_cap_aud": 19632126.87,
+        "shares_outstanding": 182624436,
+        "beta": 0.055,
+        "rsi_14": 61.25,
+        "volume_trend_ratio": 1.39,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 20906,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -17.31,
+        "pct_from_3m_low": 31.1,
+        "pct_from_6m_high": -17.31,
+        "pct_from_6m_low": 62.88,
+        "pct_from_52w_high": -40.28,
+        "pct_from_52w_low": 62.88,
+        "high_52w": 0.18,
+        "low_52w": 0.066,
+        "high_3m": 0.13,
+        "low_3m": 0.082,
+        "high_6m": 0.13,
+        "low_6m": 0.066,
+        "month1_high": 0.11,
+        "month1_low": 0.083,
+        "month2_high": 0.11,
+        "month2_low": 0.082,
+        "month3_high": 0.13,
+        "month3_low": 0.082,
+        "range_position_3m": 0.531,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-20 close.",
+          "The price sat in the middle part of its 3-month range, 17.31% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMA",
+      "company": "IMAGE RESOURCES NL",
+      "headline": "Trading Halt",
+      "time": "2026-11-22T23:44:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165042-6A1356381",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt flagged market sensitive at IMA — a mineral sands producer — most commonly precedes a material corporate or capital event such as a merger, acquisition, significant asset transaction, or a major capital raise; the halt itself provides no directional information but confirms something price-sensitive is imminent.",
+        "IMA operates the Boonanarring mineral sands project and has been navigating mine-life extension and product offtake dynamics — a halt at this stage of their operational cycle raises the probability of either a strategic transaction (asset sale, JV, or takeover bid) or a significant equity raise to fund the next project phase, both of which carry asymmetric implications for existing holders.",
+        "Until the halt is lifted and the accompanying announcement is made, no reliable directional call can be formed — the market-sensitive flag confirms materiality but the binary nature of the pending news (accretive deal vs. dilutive raise) keeps the sentiment squarely neutral pending disclosure; watch for the resumption announcement for the decisive re-rating signal."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RCM",
       "company": "RAPID CRITICAL METALS LIMITED",
