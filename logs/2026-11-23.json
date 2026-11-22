@@ -1,9 +1,79 @@
 {
   "date": "2026-11-23",
-  "total": 322,
+  "total": 323,
   "market_sensitive_count": 97,
-  "generated_at": "2026-11-22T23:51:17.867551+00:00",
+  "generated_at": "2026-11-22T23:57:42.277876+00:00",
   "announcements": [
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Amendment to Agreement with Rapid Critical Minerals",
+      "time": "2026-11-22T23:53:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165044-2A1712148",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An amendment to a commercial agreement with Rapid Critical Minerals is structurally ambiguous — it could reflect a renegotiation of terms, extension, restructuring, or partial unwind; without headline-level specificity on what changed and why, the filing carries equal probability of constructive (improved terms, extended timeline) or negative (reduced commitments, failed milestone) outcomes, consistent with lesson L058.",
+        "Price action context is effectively uninformative here: at ~A$2,712/day median turnover, the stock is near-zero liquidity, meaning the 1.9x volume ratio over the past 5 sessions likely represents a handful of trades — no reliable intent (accumulation or distribution) can be read from that signal; the 75% drawdown from the 12-month high signals a deeply de-rated register where any news is filtered through survival-and-relevance optics.",
+        "Next steps hinge entirely on the substance of the amendment — investors should scrutinise whether the revised agreement retains, extends, or dilutes LDR's economic interest in the critical minerals arrangement; if the amendment defers or reduces LDR's entitlements, the filing is a quiet negative; if it broadens scope or accelerates milestones, it may serve as a low-key catalyst — but the non-market-sensitive flag and generic headline title both argue against assuming the former without reading the full document."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-11-20",
+        "bars": 253,
+        "last_close": 0.065,
+        "market_cap_aud": 13192461.69,
+        "shares_outstanding": 202960949,
+        "beta": 2.01,
+        "rsi_14": 37.99,
+        "volume_trend_ratio": 1.9,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 2712,
+        "liquid": false,
+        "avg_volume_20": 68996,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -50.0,
+        "pct_from_3m_low": 10.17,
+        "pct_from_6m_high": -50.0,
+        "pct_from_6m_low": 10.17,
+        "pct_from_52w_high": -75.0,
+        "pct_from_52w_low": 10.17,
+        "high_52w": 0.26,
+        "low_52w": 0.059,
+        "high_3m": 0.13,
+        "low_3m": 0.059,
+        "high_6m": 0.13,
+        "low_6m": 0.059,
+        "month1_high": 0.079,
+        "month1_low": 0.059,
+        "month2_high": 0.1,
+        "month2_low": 0.0765,
+        "month3_high": 0.13,
+        "month3_low": 0.097,
+        "range_position_3m": 0.085,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.9x its 20-day average",
+          "75.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,712/day",
+        "reading": [
+          "Going into this, LDR traded 1.9x its usual daily volume over the last 5 sessions — measured to the 2026-11-20 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 50.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,712 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LPE",
       "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
