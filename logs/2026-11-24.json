@@ -1,9 +1,79 @@
 {
   "date": "2026-11-24",
-  "total": 293,
+  "total": 294,
   "market_sensitive_count": 80,
-  "generated_at": "2026-11-23T23:39:23.856462+00:00",
+  "generated_at": "2026-11-23T23:45:19.364239+00:00",
   "announcements": [
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Chairman's Address to Shareholders",
+      "time": "2026-11-23T23:40:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165645-2A1712485",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Chairman's Address not flagged as market sensitive is a procedural communication — it may recap known strategy or project status but is structurally unlikely to contain undisclosed price-sensitive material; at a stock sitting 67% below its 12-month high, the bar for a re-rating catalyst is high and a Chairman's letter rarely clears it alone.",
+        "Pre-announcement volume ran at 1.92x the 20-day average, but with median daily turnover of only ~A$14,000, this ratio is near-meaningless in absolute terms — a handful of retail trades can produce a 2x volume spike at this liquidity level, so no informed accumulation signal should be inferred from the elevated multiple.",
+        "The key 'so what' for institutional observers is whether the address contains any hard operational update — drill timelines, funding status, or JV developments — that the headline omits; absent that, the filing is consistent with routine AGM/shareholder engagement and is unlikely to shift the structural bearish sentiment that a 67%-below-peak de-rating implies."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-23",
+        "bars": 254,
+        "last_close": 0.08,
+        "market_cap_aud": 16009218.32,
+        "shares_outstanding": 200115229,
+        "beta": 2.314,
+        "rsi_14": 37.93,
+        "volume_trend_ratio": 1.92,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 14287,
+        "liquid": false,
+        "avg_volume_20": 175237,
+        "volume_change_pct": -70.0,
+        "pct_from_3m_high": -46.67,
+        "pct_from_3m_low": 12.68,
+        "pct_from_6m_high": -46.67,
+        "pct_from_6m_low": 12.68,
+        "pct_from_52w_high": -67.35,
+        "pct_from_52w_low": 12.68,
+        "high_52w": 0.245,
+        "low_52w": 0.071,
+        "high_3m": 0.15,
+        "low_3m": 0.071,
+        "high_6m": 0.15,
+        "low_6m": 0.071,
+        "month1_high": 0.12,
+        "month1_low": 0.071,
+        "month2_high": 0.15,
+        "month2_low": 0.098,
+        "month3_high": 0.13,
+        "month3_low": 0.115,
+        "range_position_3m": 0.114,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.92x its 20-day average",
+          "67.35% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,287/day",
+        "reading": [
+          "Going into this, LGM traded 1.92x its usual daily volume over the last 5 sessions — measured to the 2026-11-23 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 46.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,287 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FM3",
       "company": "FIRSTMAC MORTGAGE FUNDING TRUST NO. 4 SERIES 1-2020",
