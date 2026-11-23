@@ -1,9 +1,79 @@
 {
   "date": "2026-11-24",
-  "total": 294,
+  "total": 295,
   "market_sensitive_count": 80,
-  "generated_at": "2026-11-23T23:45:19.364239+00:00",
+  "generated_at": "2026-11-23T23:51:51.168079+00:00",
   "announcements": [
+    {
+      "ticker": "CCR",
+      "company": "CREDIT CLEAR LIMITED",
+      "headline": "AGM Chair Address",
+      "time": "2026-11-23T23:46:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165646-3A707268",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM Chair Address at a stock sitting 60% below its 12-month high is a low-conviction event without a market-sensitive flag — the absence of that flag is itself the signal here, strongly implying no new guidance, capital action, or strategic update that management believes would materially move the price.",
+        "With median daily turnover of ~A$33,100, this is thinly traded territory where volume ratios carry little analytical weight; even a modestly constructive address is unlikely to attract enough buying interest to generate a sustained re-rating given the illiquid register and deep de-rating.",
+        "The 'so what?' for institutional observers is essentially nil in the near term: an unflagged Chair Address at a deeply discounted fintech/collections business is procedural housekeeping — the market will be watching for any commentary on revenue run-rate, collections volumes, or path to profitability, but absent a market-sensitive flag, any forward signals are likely to be cautious or vague rather than catalytic."
+      ],
+      "tags": [
+        "AGM",
+        "Finance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-11-23",
+        "bars": 254,
+        "last_close": 0.12,
+        "market_cap_aud": 60391421.4,
+        "shares_outstanding": 503261845,
+        "beta": 0.771,
+        "rsi_14": 38.72,
+        "volume_trend_ratio": 0.8,
+        "volume_last_ratio": 1.92,
+        "avg_turnover_aud": 33100,
+        "liquid": false,
+        "avg_volume_20": 354542,
+        "volume_change_pct": 92.0,
+        "pct_from_3m_high": -36.84,
+        "pct_from_3m_low": 4.35,
+        "pct_from_6m_high": -45.45,
+        "pct_from_6m_low": 20.0,
+        "pct_from_52w_high": -60.0,
+        "pct_from_52w_low": 20.0,
+        "high_52w": 0.3,
+        "low_52w": 0.1,
+        "high_3m": 0.19,
+        "low_3m": 0.115,
+        "high_6m": 0.22,
+        "low_6m": 0.1,
+        "month1_high": 0.19,
+        "month1_low": 0.115,
+        "month2_high": 0.145,
+        "month2_low": 0.115,
+        "month3_high": 0.175,
+        "month3_low": 0.125,
+        "range_position_3m": 0.067,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "60.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,100/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-11-23 close.",
+          "The price sat in the lower part of its 3-month range, 36.84% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,100 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LGM",
       "company": "LEGACY MINERALS HOLDINGS LIMITED",
