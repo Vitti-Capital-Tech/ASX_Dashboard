@@ -4,9 +4,9 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 5015 graded calls
+- Window: last 20 trading days, 5014 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-23T08:46:13.969384+00:00
+- Generated: 2026-11-23T10:41:14.768271+00:00
 
 ## Headline
 
