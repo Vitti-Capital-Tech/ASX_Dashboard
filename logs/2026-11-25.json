@@ -1,9 +1,98 @@
 {
   "date": "2026-11-25",
-  "total": 296,
+  "total": 298,
   "market_sensitive_count": 100,
-  "generated_at": "2026-11-24T23:30:29.383731+00:00",
+  "generated_at": "2026-11-24T23:37:06.426664+00:00",
   "announcements": [
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "AGM Presentation",
+      "time": "2026-11-24T23:30:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03166320-6A1356885",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM presentations at deeply de-rated micro-caps (QEM sits 84% below its 12-month high) are rarely re-rating catalysts on their own — they typically rehearse strategy and project timelines already known to the market, with no new operational milestone or capital decision to change the investment thesis.",
+        "Volume context here is essentially uninformative: at a median daily turnover of roughly A$3,873 and pre-announcement volume running at just 0.24x average, the tape is too thin to read directional intent — these ratios reflect structural illiquidity rather than any deliberate positioning ahead of the AGM.",
+        "With no market-sensitive flag and a purely administrative document type, this filing makes no independent case for a directional move; next meaningful catalysts for QEM will need to come from project-specific updates (resource work, permitting, or funding milestones) rather than from the AGM presentation itself."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-24",
+        "bars": 254,
+        "last_close": 0.009,
+        "market_cap_aud": 3281830.7,
+        "shares_outstanding": 364647856,
+        "beta": 2.089,
+        "rsi_14": 29.74,
+        "volume_trend_ratio": 0.24,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 3873,
+        "liquid": false,
+        "avg_volume_20": 1395459,
+        "volume_change_pct": -50.0,
+        "pct_from_3m_high": -55.0,
+        "pct_from_3m_low": 12.5,
+        "pct_from_6m_high": -74.29,
+        "pct_from_6m_low": 12.5,
+        "pct_from_52w_high": -84.21,
+        "pct_from_52w_low": 12.5,
+        "high_52w": 0.057,
+        "low_52w": 0.008,
+        "high_3m": 0.02,
+        "low_3m": 0.008,
+        "high_6m": 0.035,
+        "low_6m": 0.008,
+        "month1_high": 0.012,
+        "month1_low": 0.008,
+        "month2_high": 0.015,
+        "month2_low": 0.011,
+        "month3_high": 0.02,
+        "month3_low": 0.013,
+        "range_position_3m": 0.083,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.24x its average",
+          "84.21% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,873/day",
+        "reading": [
+          "Going into this, QEM traded only 0.24x its usual daily volume over the last 5 sessions — measured to the 2026-11-24 close.",
+          "The price sat in the lower part of its 3-month range, 55.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,873 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "Proposed issue of securities - L1M",
+      "time": "2026-11-24T23:30:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03166319-6A1356882",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed Issue of Securities' filing signals an imminent capital raise is being structured — this is a dilution-warning document that precedes formal Appendix 3B lodgement and quotation, alerting the market to incoming new paper before terms are finalised.",
+        "The filing carries no market-sensitive flag and no accompanying operational announcement, meaning there is no visible funded-catalyst to offset the dilution signal; under lesson L139, a standalone securities-issuance notice without an operational companion leans bearish due to the prospective supply overhang arriving into what is likely a thinly traded register.",
+        "Without price action data it is not possible to judge how much of this is already priced in, but the structural mechanic — new shares entering a market-update framing with no disclosed use-of-proceeds catalyst — leaves the near-term bias negative until terms, pricing, and use-of-proceeds are confirmed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MAQ",
       "company": "MACQUARIE TECHNOLOGY GROUP LIMITED",
