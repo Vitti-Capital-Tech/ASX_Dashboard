@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T17:45:11.652209+11:00",
+  "generated_at": "2026-11-24T18:40:01.933457+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -22,12 +22,12 @@
         "avg_abnormal_pct": -1.0
       },
       "neutral": {
-        "scored": 178,
+        "scored": 179,
         "correct": 53,
-        "wrong": 125,
+        "wrong": 126,
         "flat": 0,
-        "hit_rate": 29.8,
-        "avg_abnormal_pct": -0.43
+        "hit_rate": 29.6,
+        "avg_abnormal_pct": -0.44
       }
     },
     "spread_pct": 3.12,
@@ -56,12 +56,12 @@
         "avg_abnormal_pct": -0.84
       },
       "neutral": {
-        "scored": 178,
-        "correct": 86,
+        "scored": 179,
+        "correct": 87,
         "wrong": 92,
         "flat": 0,
-        "hit_rate": 48.3,
-        "avg_abnormal_pct": 0.26
+        "hit_rate": 48.6,
+        "avg_abnormal_pct": 0.25
       }
     },
     "spread_pct": -1.65,
@@ -1063,18 +1063,18 @@
       "avg_volume_20": 4294734,
       "rsi_14": 39.79,
       "market_cap_aud": 130087972.42,
-      "session_date": "2026-11-24",
-      "prev_close": 0.049,
-      "open": 0.05,
-      "vwap": 0.0492,
-      "gap_pct": 2.04,
-      "intraday_verdict": "wrong",
-      "close": 0.048,
-      "return_pct": -2.04,
-      "open_close_pct": -4.0,
-      "index_return_pct": 1.82,
-      "abnormal_pct": -3.86,
-      "verdict": "wrong",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 3,
       "also": [
         "Proposed issue of securities - AR1",
@@ -8144,18 +8144,18 @@
       "avg_volume_20": 1235361,
       "rsi_14": 47.49,
       "market_cap_aud": 5052478776.0,
-      "session_date": null,
-      "prev_close": null,
-      "open": null,
-      "vwap": null,
-      "gap_pct": null,
-      "intraday_verdict": "no_data",
-      "close": null,
-      "return_pct": null,
-      "open_close_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data",
+      "session_date": "2026-11-24",
+      "prev_close": 20.6,
+      "open": 20.7,
+      "vwap": 20.8167,
+      "gap_pct": 0.49,
+      "intraday_verdict": "correct",
+      "close": 20.57,
+      "return_pct": -0.15,
+      "open_close_pct": -0.63,
+      "index_return_pct": 1.82,
+      "abnormal_pct": -1.96,
+      "verdict": "wrong",
       "announcements": 2,
       "also": [
         "Life360 Announces Board Transition"
