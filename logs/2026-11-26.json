@@ -1,9 +1,187 @@
 {
   "date": "2026-11-26",
-  "total": 290,
+  "total": 294,
   "market_sensitive_count": 100,
-  "generated_at": "2026-11-25T23:17:30.840313+00:00",
+  "generated_at": "2026-11-25T23:23:41.797760+00:00",
   "announcements": [
+    {
+      "ticker": "LSA",
+      "company": "LACHLAN STAR LIMITED",
+      "headline": "Results of Meeting and change of auditor",
+      "time": "2026-11-25T23:21:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03167022-6A1357186",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Results of Meeting combined with an auditor change at a deeply de-rated micro-cap (68.7% below 12-month high) is structurally ambiguous — the auditor swap may signal cost-cutting, a governance reset, or a disagreement with the outgoing firm; without headline-level disclosure of which way the change cuts, it cannot be read as directionally positive.",
+        "Volume at 0.59x average into a stock with median daily turnover of only ~A$6,868 renders the volume ratio close to meaningless as an intent signal — at this absolute liquidity level, a handful of retail trades can move the ratio materially, so no accumulation or distribution conclusion should be drawn from the tape alone.",
+        "Lesson L218 flags that GM results at 12-month lows with potential capital or strategic resolutions on the agenda deserve scrutiny; however, the auditor-change pairing here is governance/compliance in character rather than a capital-authority resolution, which limits the re-rating asymmetry — default to neutral rather than leaning constructive without evidence of a passed strategic resolution."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance",
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-11-25",
+        "bars": 254,
+        "last_close": 0.072,
+        "market_cap_aud": 26752070.02,
+        "shares_outstanding": 371556528,
+        "beta": 1.755,
+        "rsi_14": 34.42,
+        "volume_trend_ratio": 0.59,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 6868,
+        "liquid": false,
+        "avg_volume_20": 103893,
+        "volume_change_pct": -62.0,
+        "pct_from_3m_high": -55.69,
+        "pct_from_3m_low": 1.41,
+        "pct_from_6m_high": -58.86,
+        "pct_from_6m_low": 1.41,
+        "pct_from_52w_high": -68.7,
+        "pct_from_52w_low": 50.0,
+        "high_52w": 0.23,
+        "low_52w": 0.048,
+        "high_3m": 0.1625,
+        "low_3m": 0.071,
+        "high_6m": 0.175,
+        "low_6m": 0.071,
+        "month1_high": 0.088,
+        "month1_low": 0.071,
+        "month2_high": 0.125,
+        "month2_low": 0.075,
+        "month3_high": 0.1625,
+        "month3_low": 0.105,
+        "range_position_3m": 0.011,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.59x its average",
+          "68.7% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$6,868/day",
+        "reading": [
+          "Going into this, LSA traded only 0.59x its usual daily volume over the last 5 sessions — measured to the 2026-11-25 close.",
+          "The price sat in the lower part of its 3-month range, 55.69% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,868 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOA",
+      "company": "AUSMON RESOURCES LIMITED",
+      "headline": "Presentation at AGM",
+      "time": "2026-11-25T23:21:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03167021-2A1713118",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM presentation filed without a market-sensitive flag is a standard procedural disclosure; at Ausmon Resources (AOA), a micro-cap miner, the presentation is unlikely to contain new operational or financial data beyond what has already been disclosed in quarterly and annual reports.",
+        "No price action data is provided for AOA, so no tape-based inference can be made — the filing must stand on its own merits, and an unflagged AGM presentation has a low base rate for containing price-moving information per the tracked grading record.",
+        "The 'so what' here is minimal: institutional investors should treat this as a housekeeping disclosure, monitoring only for any forward guidance or project-update language embedded in the AGM deck that may not have appeared in prior filings — absent that, no action is warranted."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOA",
+      "company": "AUSMON RESOURCES LIMITED",
+      "headline": "Chair's Address to Shareholders",
+      "time": "2026-11-25T23:20:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03167020-2A1713117",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Chair's Address to Shareholders filed simultaneously with the AGM presentation (same company, same session) is a companion procedural document — its content is typically a narrative summary of the year and an outlook statement, rarely containing quantified guidance or new material information not already in the AGM deck.",
+        "The 'Market Update' document type classification slightly elevates the information-content expectation, but the absence of a market-sensitive flag is the stronger signal here — per tracked accuracy data, unflagged filings must make their own case before earning a directional call, and a Chair's Address typically does not.",
+        "With no price action data available for AOA, the filing pair (AGM presentation + Chair's Address) should be read as a bundle: the key risk for investors is that the Chair's tone on project timelines or funding outlook may differ from prior communications, but without reading the full text, the directional bias remains procedural and neutral."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Investor Presentation - Annual General Meeting",
+      "time": "2026-11-25T23:20:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03167019-6A1357184",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM investor presentation at Falcon Metals (FAL), 64.29% below its 12-month high, is being filed into suppressed volume (0.54x average) — the tape is quiet rather than accumulation-driven, suggesting no informed buying ahead of the AGM, which limits the upside surprise potential even if the presentation contains constructive project content.",
+        "The filing carries no market-sensitive flag, which is the dominant signal for a de-rated junior metals explorer: at 64% below the 12-month high, the market has already heavily discounted the equity, but an unflagged AGM presentation historically has a lower hit-rate for directional impact than a flagged operational update — the presentation must contain new guidance, resource milestones, or funding clarity to move the stock materially.",
+        "Next steps to watch: whether the AGM deck discloses a drilling timeline, funding position (cash runway vs. exploration spend rate), or any JV/farm-in progress — these are the specific elements that could differentiate this from a purely procedural AGM filing and justify a re-rating from the depressed level; absent those disclosures, the stock remains in a 'wait-for-catalyst' mode."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-11-25",
+        "bars": 254,
+        "last_close": 0.325,
+        "market_cap_aud": 85786547.28,
+        "shares_outstanding": 263958607,
+        "beta": 2.792,
+        "rsi_14": 35.95,
+        "volume_trend_ratio": 0.54,
+        "volume_last_ratio": 0.2,
+        "avg_turnover_aud": 359779,
+        "liquid": true,
+        "avg_volume_20": 985001,
+        "volume_change_pct": -80.0,
+        "pct_from_3m_high": -48.0,
+        "pct_from_3m_low": 4.84,
+        "pct_from_6m_high": -56.38,
+        "pct_from_6m_low": 4.84,
+        "pct_from_52w_high": -64.29,
+        "pct_from_52w_low": 4.84,
+        "high_52w": 0.91,
+        "low_52w": 0.31,
+        "high_3m": 0.625,
+        "low_3m": 0.31,
+        "high_6m": 0.745,
+        "low_6m": 0.31,
+        "month1_high": 0.45,
+        "month1_low": 0.31,
+        "month2_high": 0.545,
+        "month2_low": 0.42,
+        "month3_high": 0.625,
+        "month3_low": 0.49,
+        "range_position_3m": 0.048,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_6m_high": false,
+        "at_6m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.54x its average",
+          "64.29% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, FAL traded only 0.54x its usual daily volume over the last 5 sessions — measured to the 2026-11-25 close.",
+          "The price sat in the lower part of its 3-month range, 48.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SRR",
       "company": "SARAMA RESOURCES LTD",
