@@ -5,7 +5,7 @@ close by `reflect.py` and read back to it the next morning. This is a ledger, no
 a rolling window — nothing here is ever deleted.
 
 - Last reflection: 2026-11-25
-- 290 active, 12 candidate, 17 dormant
+- 291 active, 13 candidate, 17 dormant
 
 A lesson enters as a **candidate** and stays out of the daily prompt until the same
 blind spot turns up on 2 separate days, because one occurrence cannot be told
@@ -20,13 +20,13 @@ In front of the model before every call it makes.
 
 A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.
 
-_Seen 52×. First written 2026-09-21, last reinforced 2026-11-25._
+_Seen 53×. First written 2026-09-21, last reinforced 2026-11-25._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
 | 2026-11-25 | DVP | neutral | -9.2% | Pioneer Dome Project Update |
 | 2026-11-25 | DVP | neutral | -9.2% | Pioneer Dome Project Update |
-| 2026-11-24 | BTE | neutral | -15.4% | Serowe CBM Project Update |
+| 2026-11-25 | DVP | neutral | -9.2% | Pioneer Dome Project Update |
 | 2026-11-24 | BTE | neutral | -15.4% | Serowe CBM Project Update |
 | 2026-11-24 | BTE | neutral | -15.4% | Serowe CBM Project Update |
 
@@ -76,15 +76,15 @@ _Seen 39×. First written 2026-09-16, last reinforced 2026-11-05._
 
 Apply L201's logic to GM results at 12-month lows: before calling neutral, check whether the underlying notice of meeting contained capital-authority or strategic resolutions (consolidation, name change, placement ratification); if such resolutions were on the agenda and the stock is at its lowest price with near-zero liquidity, the passage of a strategic resolution is the re-rating catalyst a disengaged register was waiting for — lean neutral-to-bullish rather than neutral when the meeting agenda was substantively strategic rather than purely procedural.
 
-_Seen 34×. First written 2026-10-27, last reinforced 2026-11-25._
+_Seen 35×. First written 2026-10-27, last reinforced 2026-11-25._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
 | 2026-11-25 | LMS | neutral | +9.1% | Results of Meeting |
+| 2026-11-25 | NIM | neutral | -10.7% | Results of Meeting |
 | 2026-11-25 | DUB | bearish | +14.7% | Results of Meeting |
 | 2026-11-25 | LMS | neutral | +9.1% | Results of Meeting |
 | 2026-11-25 | DUB | bearish | +14.7% | Results of Meeting |
-| 2026-11-24 | BGE | neutral | +18.2% | Results of Meeting |
 
 ### L017 — Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day
 
@@ -174,14 +174,14 @@ _Seen 30×. First written 2026-09-24, last reinforced 2026-11-24._
 
 A result-season investor presentation flagged market sensitive is not an awareness-marketing filing under L010 — it is the company's primary forward-guidance and recovery-narrative document accompanying a reported financial period; when the stock is deeply de-rated and the market-sensitive flag is present, the presentation likely contains new guidance, cost targets, or strategic pivots that can re-rate the stock independently of the underlying result; lean neutral-to-bullish rather than neutral, because the combination of a named financial year, a market-sensitive flag, and a severely de-rated price creates asymmetric upside if the content signals a credible recovery path.
 
-_Seen 29×. First written 2026-09-28, last reinforced 2026-11-25._
+_Seen 30×. First written 2026-09-28, last reinforced 2026-11-25._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
+| 2026-11-25 | XF1 | neutral | +11.5% | Xref XF1 Pre-AGM Presentation |
 | 2026-11-25 | FCT | neutral | -13.9% | Investor Presentation |
-| 2026-11-18 | WJL | neutral | -13.6% | 1H27 Investor Presentation |
-| 2026-11-18 | WJL | neutral | -13.6% | 1H27 Investor Presentation |
-| 2026-11-18 | WJL | neutral | -13.6% | 1H27 Investor Presentation |
+| 2026-11-25 | CQT | bearish | +25.4% | Significant Management & Operational Restructuring |
+| 2026-11-25 | FCT | neutral | -13.9% | Investor Presentation |
 | 2026-11-18 | WJL | neutral | -13.6% | 1H27 Investor Presentation |
 
 ### L139 — Notification regarding unquoted securities (ASX Appendix 3B or equivalent) at a stock 50%+ below its 12-month high with below-average pre-announcement volume (<0.7x), where the filing is not flagged market sensitive and no companion quotation application or operational announcement is filed on the same day
@@ -240,6 +240,20 @@ _Seen 28×. First written 2026-09-18, last reinforced 2026-11-25._
 | 2026-11-17 | FUL | neutral | -10.7% | Dry Canyon Maiden Drilling Program |
 | 2026-11-11 | HTM | neutral | +8.4% | Phase 2 Drilling Underway at Mt Fisher and Wagtail |
 
+### L109 — Change of substantial holder interest (direction ambiguous, not 'becoming') at a stock 85%+ below its 12-month high with suppressed pre-announcement volume (<0.7x average) and near-zero median daily turnover, where the direction of the change is not disclosed in the headline
+
+At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.
+
+_Seen 28×. First written 2026-10-01, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | ELV | neutral | -9.1% | Change in substantial holding |
+| 2026-11-25 | ELV | neutral | -9.1% | Change in substantial holding |
+| 2026-10-29 | SKY | neutral | -18.0% | Change in substantial holding |
+| 2026-10-26 | VUL | bearish | +10.5% | Change in substantial holding |
+| 2026-10-26 | VUL | bearish | +10.5% | Change in substantial holding |
+
 ### L151 — Notice of AGM filing (not flagged market sensitive) at a stock 50%+ below its 12-month high with pre-announcement volume materially BELOW average (<0.3x) and near-zero median daily turnover, where no price action spike or activist signal is present
 
 When volume is deeply suppressed (not merely flat) into an AGM notice at a distressed, near-zero-liquidity stock, the absence of any buyer interest is itself a bearish signal — the register is disengaged and the AGM creates no near-term catalyst; lean bearish rather than neutral, because a non-flagged procedural filing into a silent, distressed tape more commonly precedes a dilutive resolution or a going-concern update at the meeting than a positive outcome.
@@ -267,20 +281,6 @@ _Seen 27×. First written 2026-09-25, last reinforced 2026-11-20._
 | 2026-11-20 | EIQ | neutral | +19.8% | Cleansing Notice |
 | 2026-11-18 | KNI | neutral | -13.6% | Cleansing Statement |
 | 2026-11-16 | VMM | bullish | -9.6% | 2nd US$5M from Brazilian Critical Minerals Fund & Cleansing |
-
-### L109 — Change of substantial holder interest (direction ambiguous, not 'becoming') at a stock 85%+ below its 12-month high with suppressed pre-announcement volume (<0.7x average) and near-zero median daily turnover, where the direction of the change is not disclosed in the headline
-
-At extreme de-ratings (>85% below high) with suppressed volume and near-zero liquidity, an ambiguous substantial-holder change filing carries a higher-than-average probability of reflecting a reduction by a holder exiting a distressed position rather than accumulation — the base rate for institutional exit is higher at these distress levels. When volume is also suppressed (no evidence of accumulation), default to neutral-to-bearish rather than purely neutral, and require confirmation of an increase before calling constructive.
-
-_Seen 27×. First written 2026-10-01, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | ELV | neutral | -9.1% | Change in substantial holding |
-| 2026-10-29 | SKY | neutral | -18.0% | Change in substantial holding |
-| 2026-10-26 | VUL | bearish | +10.5% | Change in substantial holding |
-| 2026-10-26 | VUL | bearish | +10.5% | Change in substantial holding |
-| 2026-10-26 | VUL | bearish | +10.5% | Change in substantial holding |
 
 ### L049 — Online investor briefing announcement (not flagged market sensitive, no named catalyst in headline) by a junior developer or explorer 50%+ below its 12-month high, with 5-day volume materially BELOW average (<0.6x) and the company having material exposure to an active government critical minerals or industrial policy agenda
 
@@ -604,6 +604,20 @@ _Seen 19×. First written 2026-09-18, last reinforced 2026-11-12._
 | 2026-10-28 | NPM | bearish | +16.7% | Presentation - South-West Connect Conference |
 | 2026-10-28 | NPM | bearish | +16.7% | Presentation - South-West Connect Conference |
 
+### L297 — AGM Chairman's Address flagged market sensitive at a profitable or revenue-generating company (not a distressed junior) where no price action data is available and no negative trading language appears in the headline
+
+A market-sensitive Chairman's Address at a non-distressed operating company is structurally bullish on base rates — companies apply the market-sensitive flag to AGM addresses only when the prepared remarks contain material guidance, strategic, or operational disclosures that management expects to move the price; default to neutral-to-bullish rather than neutral when no price action data is available, no negative framing appears in the headline, and the company is an operating business with identifiable revenue, because the flag is the self-assessment that the content will be received positively.
+
+_Seen 19×. First written 2026-11-17, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | RPM | neutral | +17.1% | AGM Presentation |
+| 2026-11-25 | RPM | neutral | +17.1% | AGM Presentation |
+| 2026-11-25 | RPM | neutral | +17.1% | AGM Presentation |
+| 2026-11-24 | GSM | neutral | +12.5% | Managing Director's Address to AGM |
+| 2026-11-24 | PPK | neutral | -12.3% | Chair's Address and Presentation |
+
 ### L020 — Cleansing statement filed by a junior at a 12-month low, accompanied on the same day by an investor presentation (identifiable via same-day filing cluster)
 
 When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.
@@ -729,20 +743,6 @@ _Seen 18×. First written 2026-11-05, last reinforced 2026-11-23._
 | 2026-11-20 | VSL | neutral | +11.5% | ASX Appendix 3Y - Change of Director's Interest Notice - RC |
 | 2026-11-20 | VSL | neutral | +11.5% | ASX Appendix 3Y - Change of Director's Interest Notice - RC |
 | 2026-11-20 | VSL | neutral | +11.5% | ASX Appendix 3Y - Change of Director's Interest Notice - RC |
-
-### L297 — AGM Chairman's Address flagged market sensitive at a profitable or revenue-generating company (not a distressed junior) where no price action data is available and no negative trading language appears in the headline
-
-A market-sensitive Chairman's Address at a non-distressed operating company is structurally bullish on base rates — companies apply the market-sensitive flag to AGM addresses only when the prepared remarks contain material guidance, strategic, or operational disclosures that management expects to move the price; default to neutral-to-bullish rather than neutral when no price action data is available, no negative framing appears in the headline, and the company is an operating business with identifiable revenue, because the flag is the self-assessment that the content will be received positively.
-
-_Seen 18×. First written 2026-11-17, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | RPM | neutral | +17.1% | AGM Presentation |
-| 2026-11-25 | RPM | neutral | +17.1% | AGM Presentation |
-| 2026-11-24 | GSM | neutral | +12.5% | Managing Director's Address to AGM |
-| 2026-11-24 | PPK | neutral | -12.3% | Chair's Address and Presentation |
-| 2026-11-24 | GSM | neutral | +12.5% | Managing Director's Address to AGM |
 
 ### L001 — Change in substantial holding filed into elevated recent volume (5-day volume >1.5x average) on a stock near a multi-month high
 
@@ -1136,6 +1136,20 @@ _Seen 12×. First written 2026-11-10, last reinforced 2026-11-20._
 | 2026-11-20 | MNB | neutral | +26.6% | Notification of Expiry of Listed Options |
 | 2026-11-13 | GML | neutral | +8.4% | Notice of Expiry of Listed Options - GMLO |
 
+### L289 — AGM Chair Address (not flagged market sensitive) at a stock 60%+ below its 12-month high with 5-day volume running >2x average and near-zero absolute liquidity (median daily turnover <A$5,000/day), where the elevated volume is likely noise given the near-zero base
+
+Before calling bearish on an AGM Chair Address at a deeply de-rated micro-cap purely on structural distress grounds, ask whether the chair address is the primary communication vehicle for the period and whether the company has been in an operational silence — at a 65%+ de-rated, news-starved register, a chair address can contain positive operational commentary or strategic signals that the market treats as a floor catalyst; when volume is elevated but absolute liquidity is near-zero (making the ratio unreliable), default to neutral rather than bearish, reserving bearish for AGM addresses that explicitly bundle a dilutive resolution or contain negative guidance language in the headline.
+
+_Seen 12×. First written 2026-11-13, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | CZN | neutral | -12.9% | AGM Presentation |
+| 2026-11-25 | CZN | neutral | -12.9% | AGM Presentation |
+| 2026-11-25 | XF1 | neutral | +11.5% | Xref XF1 Pre-AGM Presentation |
+| 2026-11-20 | 5GG | neutral | -6.8% | AGM Business and Strategy Update |
+| 2026-11-20 | 5GG | neutral | -6.8% | AGM Business and Strategy Update |
+
 ### L008 — Early-stage geophysical survey commencement announcement (airborne magnetic, gravity, CSAMT etc.) on an illiquid junior explorer at or near a multi-month high, not flagged market sensitive
 
 A survey commencement is a programme-activity statement with no data content — it tells the market only that fieldwork has started, which is often already anticipated after prior announcements. Treat as neutral-to-bearish when the stock is already at a local high, because speculative positioning built ahead of the announcement has no new result to feed on and is vulnerable to unwind.
@@ -1289,20 +1303,6 @@ _Seen 11×. First written 2026-11-05, last reinforced 2026-11-23._
 | 2026-11-23 | PWR | neutral | -8.9% | Trading Update |
 | 2026-11-23 | PWR | neutral | -8.9% | Trading Update |
 | 2026-11-10 | SLC | neutral | -11.3% | UBS Conference Trading Update and Guidance |
-
-### L289 — AGM Chair Address (not flagged market sensitive) at a stock 60%+ below its 12-month high with 5-day volume running >2x average and near-zero absolute liquidity (median daily turnover <A$5,000/day), where the elevated volume is likely noise given the near-zero base
-
-Before calling bearish on an AGM Chair Address at a deeply de-rated micro-cap purely on structural distress grounds, ask whether the chair address is the primary communication vehicle for the period and whether the company has been in an operational silence — at a 65%+ de-rated, news-starved register, a chair address can contain positive operational commentary or strategic signals that the market treats as a floor catalyst; when volume is elevated but absolute liquidity is near-zero (making the ratio unreliable), default to neutral rather than bearish, reserving bearish for AGM addresses that explicitly bundle a dilutive resolution or contain negative guidance language in the headline.
-
-_Seen 11×. First written 2026-11-13, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | CZN | neutral | -12.9% | AGM Presentation |
-| 2026-11-25 | XF1 | neutral | +11.5% | Xref XF1 Pre-AGM Presentation |
-| 2026-11-20 | 5GG | neutral | -6.8% | AGM Business and Strategy Update |
-| 2026-11-20 | 5GG | neutral | -6.8% | AGM Business and Strategy Update |
-| 2026-11-17 | CC5 | neutral | +16.1% | AGM Managing Director's Presentation |
 
 ### L004 — Clinical or scientific presentation announcement (oral or poster) at a named medical/scientific conference, stock at or near a multi-month low
 
@@ -1934,6 +1934,20 @@ _Seen 7×. First written 2026-10-01, last reinforced 2026-10-15._
 | 2026-10-15 | ITM | bullish | -10.8% | High-Grade Antimony and Deeper Gold at Falchion |
 | 2026-10-01 | TM1 | bullish | -9.4% | Major Intercepts & Access Cleared for Resource Drilling |
 
+### L127 — EPA or equivalent environmental regulator referral announcement (flagged market sensitive) at a junior developer, where the referral initiates a formal environmental impact assessment process rather than completing one, and the project is in a jurisdiction with a known history of lengthy or contested EIA processes
+
+An EPA referral opens an assessment process whose outcome and timeline are entirely uncertain and potentially years away — it is a necessary but not sufficient step, and the market-sensitive flag reflects procedural significance rather than value creation; default to bearish rather than neutral when the referral initiates rather than concludes the regulatory process, because the filing confirms the project is entering a prolonged uncertainty window rather than exiting one, and investors who were holding in anticipation of a near-term development decision will re-price to reflect the extended timeline.
+
+_Seen 7×. First written 2026-10-05, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | ARL | neutral | -8.4% | KNP Goongarrie Hub EPBC Referral Lodged |
+| 2026-11-25 | ARL | neutral | -8.4% | KNP Goongarrie Hub EPBC Referral Lodged |
+| 2026-11-25 | ARL | neutral | -8.4% | KNP Goongarrie Hub EPBC Referral Lodged |
+| 2026-10-07 | KRM | neutral | -9.4% | Penikat Project, Finland - Area 6 Permitting Update |
+| 2026-10-05 | BRU | neutral | -7.2% | Buru refers the Rafael Project to the EPA WA |
+
 ### L129 — Non-flagged market-update announcement introducing a new named business line or product ('RideTour', 'Platform X') combined with pilot collaboration launches at a micro-cap technology or consumer company at a 3-month low, with no disclosed revenue, partner names, or financial terms, and suppressed pre-announcement volume (<0.5x)
 
 A new named business line paired with 'pilot collaborations' is not a contractual or revenue event, but at a deeply de-rated micro-cap in a news-starved register even a qualitative operational signal can produce a sharp relief-buying move that a neutral call misses entirely. Before defaulting to neutral purely on the absence of a market-sensitive flag and undisclosed partner names, ask whether the company has been in a prolonged operational silence and whether the announcement represents the first evidence of commercial traction — if yes, lean neutral-to-bullish rather than neutral, because the bar for a positive surprise in a news-starved register is lower than the bar you are implicitly applying.
@@ -2074,6 +2088,20 @@ _Seen 7×. First written 2026-11-12, last reinforced 2026-11-17._
 | 2026-11-17 | TRJ | neutral | +16.1% | Trajan - Bell Potter Healthcare Conference Presentation |
 | 2026-11-12 | ATH | neutral | -9.0% | Alterity to Present at Bell Potter Healthcare Conference |
 
+### L311 — Results of AGM filing (not flagged market sensitive) at a stock at a 12-month low with near-zero absolute liquidity (median daily turnover effectively A$0/day) and no pre-announcement volume data available, where no specific negative resolution or capital-authority outcome is signalled in the headline
+
+At a 12-month low with zero absolute liquidity and no volume data, the register is disengaged and there are effectively no motivated sellers — even a clean procedural AGM outcome (all resolutions passed, no dilutive capital authority triggered) can produce a sharp downward move if any resolution failed or any negative guidance was embedded in the address; before calling neutral, ask whether the AGM agenda included a remuneration-report vote or any resolution that could fail and trigger a governance signal, and lean bearish rather than neutral when the company is at an extreme distress level and the AGM is the primary communication event, because a failed resolution or negative address at this price level removes the last floor.
+
+_Seen 7×. First written 2026-11-24, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | CYP | neutral | -12.1% | Results Meeting of Annual General |
+| 2026-11-25 | CYP | neutral | -12.1% | Results Meeting of Annual General |
+| 2026-11-25 | CYP | neutral | -12.1% | Results Meeting of Annual General |
+| 2026-11-24 | AUA | neutral | -10.9% | Results of Annual General Meeting |
+| 2026-11-24 | ANR | neutral | -14.3% | Results of AGM |
+
 ### L030 — Production or processing restart announcement (refinery, plant, mill) flagged market sensitive at a stock 70%+ below its 12-month high, with below-average volume in the prior sessions
 
 A refinery or plant restart flagged as market sensitive is qualitatively different from a drill result or resource update — it signals a transition from development to active production-phase activity, which can be a discrete re-rating event even at a deeply de-rated stock; do not apply L005 (single-result insufficient to reverse de-rating) mechanically to operational restart announcements, because the restart itself changes the company's revenue-generating status; call neutral-to-bullish when the market-sensitive flag is present and the announcement confirms commencement of a production-phase activity, even with below-average pre-announcement volume.
@@ -2185,20 +2213,6 @@ _Seen 6×. First written 2026-09-30, last reinforced 2026-10-19._
 | 2026-10-19 | CBE | bullish | -11.0% | CBE Appoints Mining Heavyweight as Chairman to Drive Growth |
 | 2026-10-19 | CBE | bullish | -11.0% | CBE Appoints Mining Heavyweight as Chairman to Drive Growth |
 | 2026-10-13 | TXR | neutral | +20.0% | Talonx Appoints Former MOD Resources Executive Director |
-
-### L127 — EPA or equivalent environmental regulator referral announcement (flagged market sensitive) at a junior developer, where the referral initiates a formal environmental impact assessment process rather than completing one, and the project is in a jurisdiction with a known history of lengthy or contested EIA processes
-
-An EPA referral opens an assessment process whose outcome and timeline are entirely uncertain and potentially years away — it is a necessary but not sufficient step, and the market-sensitive flag reflects procedural significance rather than value creation; default to bearish rather than neutral when the referral initiates rather than concludes the regulatory process, because the filing confirms the project is entering a prolonged uncertainty window rather than exiting one, and investors who were holding in anticipation of a near-term development decision will re-price to reflect the extended timeline.
-
-_Seen 6×. First written 2026-10-05, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | ARL | neutral | -8.4% | KNP Goongarrie Hub EPBC Referral Lodged |
-| 2026-11-25 | ARL | neutral | -8.4% | KNP Goongarrie Hub EPBC Referral Lodged |
-| 2026-10-07 | KRM | neutral | -9.4% | Penikat Project, Finland - Area 6 Permitting Update |
-| 2026-10-05 | BRU | neutral | -7.2% | Buru refers the Rafael Project to the EPA WA |
-| 2026-10-05 | BRU | neutral | -7.2% | Buru refers the Rafael Project to the EPA WA |
 
 ### L130 — Market-sensitive 'Record Cash Generation' or equivalent operational-beat headline at a tungsten, specialty-metals, or niche commodity producer where the commodity price has recently deteriorated or where the 'record' metric is relative to a prior low base, with pre-announcement volume materially below average (<0.5x)
 
@@ -2339,20 +2353,6 @@ _Seen 6×. First written 2026-11-17, last reinforced 2026-11-19._
 | 2026-11-19 | C79 | neutral | +10.3% | Pre AGM Trading Update |
 | 2026-11-18 | EML | neutral | -24.3% | Q1 FY27 Trading Update |
 | 2026-11-18 | EML | neutral | -24.3% | Q1 FY27 Trading Update |
-
-### L311 — Results of AGM filing (not flagged market sensitive) at a stock at a 12-month low with near-zero absolute liquidity (median daily turnover effectively A$0/day) and no pre-announcement volume data available, where no specific negative resolution or capital-authority outcome is signalled in the headline
-
-At a 12-month low with zero absolute liquidity and no volume data, the register is disengaged and there are effectively no motivated sellers — even a clean procedural AGM outcome (all resolutions passed, no dilutive capital authority triggered) can produce a sharp downward move if any resolution failed or any negative guidance was embedded in the address; before calling neutral, ask whether the AGM agenda included a remuneration-report vote or any resolution that could fail and trigger a governance signal, and lean bearish rather than neutral when the company is at an extreme distress level and the AGM is the primary communication event, because a failed resolution or negative address at this price level removes the last floor.
-
-_Seen 6×. First written 2026-11-24, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | CYP | neutral | -12.1% | Results Meeting of Annual General |
-| 2026-11-25 | CYP | neutral | -12.1% | Results Meeting of Annual General |
-| 2026-11-24 | AUA | neutral | -10.9% | Results of Annual General Meeting |
-| 2026-11-24 | ANR | neutral | -14.3% | Results of AGM |
-| 2026-11-24 | GES | neutral | +14.8% | Results of 2026 Annual General Meeting |
 
 ### L012 — Unflagged infrastructure or access agreement announcement (haul road, easement, water licence) for a junior developer, with no dollar value, timeline, or work programme attached
 
@@ -3711,6 +3711,54 @@ _Seen 3×. First written 2026-11-24, last reinforced 2026-11-24._
 | 2026-11-24 | CP8 | neutral | +19.0% | Initial assay results from Wapiti drill program |
 | 2026-11-24 | CP8 | neutral | +19.0% | Initial assay results from Wapiti drill program |
 
+### L315 — Half-year or full-year results presentation flagged market sensitive at a profitable, revenue-generating company with identifiable sell-side analyst coverage, where the headline frames the filing as a named-period investor presentation (e.g. '1H27 Investor Presentation') and pre-announcement volume is elevated (>1.5x average), but no price-distress context (near high vs near low) is provided
+
+When a results-season investor presentation lands into elevated pre-announcement volume at a covered, revenue-generating company and no price-distress anchor is available, do not default to bullish on the L092 asymmetric-upside logic — elevated volume ahead of a known results event at an institutionally covered company is as likely to reflect exit ahead of a miss as accumulation ahead of a beat; require explicit beat or guidance-raise language in the headline before calling bullish, and default to neutral when that language is absent, because the downside from a consensus miss at an extended growth stock is asymmetrically large.
+
+_Seen 3×. First written 2026-11-25, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | WEB | bullish | -23.1% | 1H27 Investor Presentation |
+| 2026-11-25 | WEB | bullish | -23.1% | 1H27 Investor Presentation |
+| 2026-11-25 | WEB | bullish | -23.1% | 1H27 Investor Presentation |
+
+### L316 — Named executive employment terms disclosure (CEO, CFO, or equivalent) at a deeply de-rated, near-zero-liquidity company (median daily turnover effectively A$0/day), not flagged market sensitive, where the headline uses 'Material Terms' language implying disclosed incentive structure
+
+A 'Material Terms of CEO Employment Agreement' disclosure at a near-zero-liquidity, deeply de-rated company is not purely procedural — the disclosed incentive structure (performance hurdles, tenure, remuneration) signals whether the board has committed to a turnaround mandate or a maintenance brief, which at near-zero absolute liquidity (no motivated sellers active) can produce a sharp relief-buying response to any constructive incentive framing; lean neutral-to-bullish rather than neutral when the headline uses 'Material Terms' language and the register is completely dormant, because any positive governance signal in a silent, distressed register is the lowest-friction re-engagement catalyst available.
+
+_Seen 3×. First written 2026-11-25, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | MFD | neutral | +20.4% | Material Terms of CEO Employment Agreement |
+| 2026-11-25 | MFD | neutral | +20.4% | Material Terms of CEO Employment Agreement |
+| 2026-11-25 | MFD | neutral | +20.4% | Material Terms of CEO Employment Agreement |
+
+### L317 — AGM rescheduling notice (not flagged market sensitive) at a deeply de-rated clinical-stage biotech (60%+ below 12-month high) with deeply suppressed pre-announcement volume (<0.2x average), where the rescheduling delays shareholder votes that may include capital-authority resolutions
+
+An AGM rescheduling at a cash-constrained, deeply de-rated biotech is not purely administrative — the delay extends the window before capital-authority resolutions can be passed, which at a company with a known funding runway concern is a negative signal that tightens the rescue-capital timeline; lean bearish rather than neutral when the rescheduling pushes capital-authority resolutions further out at a stock already priced for near-terminal distress, because the delay is itself the value-relevant information: it defers the only near-term mechanism for balance-sheet relief.
+
+_Seen 3×. First written 2026-11-25, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | 1AD | neutral | -19.6% | 2026 AGM rescheduled to 17 December 2026 |
+| 2026-11-25 | 1AD | neutral | -19.6% | 2026 AGM rescheduled to 17 December 2026 |
+| 2026-11-25 | 1AD | neutral | -19.6% | 2026 AGM rescheduled to 17 December 2026 |
+
+### L318 — Standalone FY GHG (greenhouse gas emissions) statement or ESG compliance report flagged market sensitive at a near-zero-liquidity stock near a multi-month high, where the GHG filing is part of a same-day results cluster and the market-sensitive flag derives from the concurrent results rather than the GHG content itself
+
+When a GHG or ESG compliance filing is flagged market sensitive but filed simultaneously with a full-year results cluster, the flag belongs to the results cluster rather than the emissions disclosure — do not treat the GHG filing's market-sensitive flag as independent directional content; instead, read the GHG filing as a companion compliance document and derive direction from the results filing's content; the GHG statement alone carries no valuation signal and should be called neutral in isolation.
+
+_Seen 3×. First written 2026-11-25, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | NZK | neutral | +12.6% | NZK FY26 GHG Statement |
+| 2026-11-25 | NZK | neutral | +12.6% | NZK FY26 GHG Statement |
+| 2026-11-25 | NZK | neutral | +12.6% | NZK FY26 GHG Statement |
+
 ### L083 — Market-sensitive drill programme scale announcement ('X,000m drill program') combined with a named structural extension result ('extended by Ym') at a junior explorer, with pre-announcement volume below average (<0.6x) and no price-position data indicating stock is near a high
 
 Before calling bullish on a programme-scale-plus-extension headline, ask whether the extension result is characterised by geometry alone (strike length added, no grade or width) — if so, apply L054/L018 logic: the extension is not economically quantifiable without grade data and the programme-scale framing does not substitute for that missing information; default to neutral rather than bullish when the headline pairs programme scale with a geometry-only extension and no grade or width is disclosed.
@@ -3866,49 +3914,16 @@ _Seen 2×. First written 2026-11-11, last reinforced 2026-11-11._
 | 2026-11-11 | AUG | bullish | -8.0% | Wide Gold Zone Intersected in Clifton East Scissor Hole |
 | 2026-11-11 | AUG | bullish | -8.0% | Wide Gold Zone Intersected in Clifton East Scissor Hole |
 
-### L315 — Half-year or full-year results presentation flagged market sensitive at a profitable, revenue-generating company with identifiable sell-side analyst coverage, where the headline frames the filing as a named-period investor presentation (e.g. '1H27 Investor Presentation') and pre-announcement volume is elevated (>1.5x average), but no price-distress context (near high vs near low) is provided
+### L319 — Named well or project logistics milestone ('rig clears customs', 'equipment mobilised to site', 'permits received for spud') at a junior oil and gas or helium explorer, not flagged market sensitive, with suppressed pre-announcement volume (<0.5x) and the stock materially de-rated (>50% below 12-month high)
 
-When a results-season investor presentation lands into elevated pre-announcement volume at a covered, revenue-generating company and no price-distress anchor is available, do not default to bullish on the L092 asymmetric-upside logic — elevated volume ahead of a known results event at an institutionally covered company is as likely to reflect exit ahead of a miss as accumulation ahead of a beat; require explicit beat or guidance-raise language in the headline before calling bullish, and default to neutral when that language is absent, because the downside from a consensus miss at an extended growth stock is asymmetrically large.
-
-_Seen 2×. First written 2026-11-25, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | WEB | bullish | -23.1% | 1H27 Investor Presentation |
-| 2026-11-25 | WEB | bullish | -23.1% | 1H27 Investor Presentation |
-
-### L316 — Named executive employment terms disclosure (CEO, CFO, or equivalent) at a deeply de-rated, near-zero-liquidity company (median daily turnover effectively A$0/day), not flagged market sensitive, where the headline uses 'Material Terms' language implying disclosed incentive structure
-
-A 'Material Terms of CEO Employment Agreement' disclosure at a near-zero-liquidity, deeply de-rated company is not purely procedural — the disclosed incentive structure (performance hurdles, tenure, remuneration) signals whether the board has committed to a turnaround mandate or a maintenance brief, which at near-zero absolute liquidity (no motivated sellers active) can produce a sharp relief-buying response to any constructive incentive framing; lean neutral-to-bullish rather than neutral when the headline uses 'Material Terms' language and the register is completely dormant, because any positive governance signal in a silent, distressed register is the lowest-friction re-engagement catalyst available.
+A logistics confirmation that removes a specific operational barrier (customs clearance, in-country transport, border crossing) is one step closer to a hard spud date than a pure commencement notice — treat it as more positive than a generic programme statement under L002, and lean neutral-to-bullish rather than neutral when volume is suppressed (no sell-the-news risk), the barrier removed is specifically named, and the stock is materially de-rated, because the customs-clearance confirmation converts programme intent into physical operational certainty.
 
 _Seen 2×. First written 2026-11-25, last reinforced 2026-11-25._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-11-25 | MFD | neutral | +20.4% | Material Terms of CEO Employment Agreement |
-| 2026-11-25 | MFD | neutral | +20.4% | Material Terms of CEO Employment Agreement |
-
-### L317 — AGM rescheduling notice (not flagged market sensitive) at a deeply de-rated clinical-stage biotech (60%+ below 12-month high) with deeply suppressed pre-announcement volume (<0.2x average), where the rescheduling delays shareholder votes that may include capital-authority resolutions
-
-An AGM rescheduling at a cash-constrained, deeply de-rated biotech is not purely administrative — the delay extends the window before capital-authority resolutions can be passed, which at a company with a known funding runway concern is a negative signal that tightens the rescue-capital timeline; lean bearish rather than neutral when the rescheduling pushes capital-authority resolutions further out at a stock already priced for near-terminal distress, because the delay is itself the value-relevant information: it defers the only near-term mechanism for balance-sheet relief.
-
-_Seen 2×. First written 2026-11-25, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | 1AD | neutral | -19.6% | 2026 AGM rescheduled to 17 December 2026 |
-| 2026-11-25 | 1AD | neutral | -19.6% | 2026 AGM rescheduled to 17 December 2026 |
-
-### L318 — Standalone FY GHG (greenhouse gas emissions) statement or ESG compliance report flagged market sensitive at a near-zero-liquidity stock near a multi-month high, where the GHG filing is part of a same-day results cluster and the market-sensitive flag derives from the concurrent results rather than the GHG content itself
-
-When a GHG or ESG compliance filing is flagged market sensitive but filed simultaneously with a full-year results cluster, the flag belongs to the results cluster rather than the emissions disclosure — do not treat the GHG filing's market-sensitive flag as independent directional content; instead, read the GHG filing as a companion compliance document and derive direction from the results filing's content; the GHG statement alone carries no valuation signal and should be called neutral in isolation.
-
-_Seen 2×. First written 2026-11-25, last reinforced 2026-11-25._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-11-25 | NZK | neutral | +12.6% | NZK FY26 GHG Statement |
-| 2026-11-25 | NZK | neutral | +12.6% | NZK FY26 GHG Statement |
+| 2026-11-25 | NHE | neutral | +8.4% | Kinambo-1 update - Drilling Rig Clears Customs |
+| 2026-11-25 | NHE | neutral | +8.4% | Kinambo-1 update - Drilling Rig Clears Customs |
 
 ## Candidates
 
@@ -4024,15 +4039,25 @@ _Seen 1×. First written 2026-11-24, last reinforced 2026-11-24._
 | --- | --- | --- | ---: | --- |
 | 2026-11-24 | PEB | neutral | -12.9% | Financial Results for the Half Year to 30 September 2026 |
 
-### L319 — Named well or project logistics milestone ('rig clears customs', 'equipment mobilised to site', 'permits received for spud') at a junior oil and gas or helium explorer, not flagged market sensitive, with suppressed pre-announcement volume (<0.5x) and the stock materially de-rated (>50% below 12-month high)
+### L320 — 'Ceasing to be a substantial holder' filing (confirmed exit, direction unambiguously a reduction) at a stock at a 12-month low with extreme relative volume (>3x) but near-zero absolute liquidity (median daily turnover <A$5,000/day)
 
-A logistics confirmation that removes a specific operational barrier (customs clearance, in-country transport, border crossing) is one step closer to a hard spud date than a pure commencement notice — treat it as more positive than a generic programme statement under L002, and lean neutral-to-bullish rather than neutral when volume is suppressed (no sell-the-news risk), the barrier removed is specifically named, and the stock is materially de-rated, because the customs-clearance confirmation converts programme intent into physical operational certainty.
+A confirmed substantial-holder exit at a 12-month low on extreme relative volume at a near-zero-liquidity stock can paradoxically be a floor-setting event: the exiting holder was the marginal seller and their departure removes the primary supply overhang, leaving no motivated seller in a near-zero market; before calling bearish on a 'ceasing' filing at a 12-month low with near-zero absolute liquidity, ask whether the exit completes rather than initiates the de-registration selling pressure — if the holder has fully exited, the register may actually improve, and the correct call is neutral rather than bearish.
 
 _Seen 1×. First written 2026-11-25, last reinforced 2026-11-25._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-11-25 | NHE | neutral | +8.4% | Kinambo-1 update - Drilling Rig Clears Customs |
+| 2026-11-25 | KAL | bearish | +9.5% | Ceasing to be a substantial holder |
+
+### L321 — Named C-suite operational appointment (COO, CCO, CRO) with explicit operational-acceleration language in the headline ('to Accelerate Operational Scale-Up', 'to Drive Commercial Ramp') at a commercial-stage medical technology or life sciences company with elevated pre-announcement volume (>2x average) and thin but non-zero liquidity
+
+A COO appointment framed explicitly around operational scale-up at a commercial-stage medtech is a mid-stage commercial inflection signal, not a governance maintenance step — treat it as neutral-to-bullish rather than neutral when the headline contains explicit acceleration or scale-up language and the company is demonstrably past the pre-revenue stage, because the appointment signals management has decided near-term revenue ramp is credible enough to warrant dedicated operational infrastructure, and elevated pre-announcement volume at this liquidity tier confirms informed positioning ahead of the announcement.
+
+_Seen 1×. First written 2026-11-25, last reinforced 2026-11-25._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-11-25 | OIL | neutral | +9.5% | Optiscan Appoints COO to Accelerate Operational Scale-Up |
 
 ## Dormant
 
