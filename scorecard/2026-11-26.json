@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T17:46:29.625429+11:00",
+  "generated_at": "2026-11-26T18:39:54.999534+11:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -22,11 +22,11 @@
         "avg_abnormal_pct": 2.29
       },
       "neutral": {
-        "scored": 193,
-        "correct": 68,
+        "scored": 192,
+        "correct": 67,
         "wrong": 125,
         "flat": 0,
-        "hit_rate": 35.2,
+        "hit_rate": 34.9,
         "avg_abnormal_pct": -0.32
       }
     },
@@ -34,7 +34,7 @@
     "directional_hit_rate": 48.2,
     "directional_scored": 56,
     "pending": 0,
-    "no_data": 65,
+    "no_data": 66,
     "conflicts": 0
   },
   "intraday_stats": {
@@ -56,11 +56,11 @@
         "avg_abnormal_pct": 1.2
       },
       "neutral": {
-        "scored": 193,
-        "correct": 78,
+        "scored": 192,
+        "correct": 77,
         "wrong": 115,
         "flat": 0,
-        "hit_rate": 40.4,
+        "hit_rate": 40.1,
         "avg_abnormal_pct": -0.16
       }
     },
@@ -68,7 +68,7 @@
     "directional_hit_rate": 42.3,
     "directional_scored": 52,
     "pending": 0,
-    "no_data": 65,
+    "no_data": 66,
     "conflicts": 0
   },
   "highlights": {
@@ -4463,18 +4463,18 @@
       "avg_volume_20": 960180,
       "rsi_14": 50.63,
       "market_cap_aud": 1492838916.75,
-      "session_date": "2026-11-26",
-      "prev_close": 3.33,
-      "open": 3.36,
-      "vwap": 3.313,
-      "gap_pct": 0.9,
-      "intraday_verdict": "correct",
-      "close": 3.37,
-      "return_pct": 1.2,
-      "open_close_pct": 0.3,
-      "index_return_pct": 0.82,
-      "abnormal_pct": 0.38,
-      "verdict": "correct",
+      "session_date": null,
+      "prev_close": null,
+      "open": null,
+      "vwap": null,
+      "gap_pct": null,
+      "intraday_verdict": "no_data",
+      "close": null,
+      "return_pct": null,
+      "open_close_pct": null,
+      "index_return_pct": null,
+      "abnormal_pct": null,
+      "verdict": "no_data",
       "announcements": 4,
       "also": [
         "Results of Meeting",
