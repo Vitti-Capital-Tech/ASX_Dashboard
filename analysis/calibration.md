@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4819 graded calls
+- Window: last 20 trading days, 4688 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-11-25T10:42:48.897960+00:00
+- Generated: 2026-11-26T06:47:56.102336+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **59.6%** correct on 1094 graded calls.
+Directional calls (bullish/bearish): **59.1%** correct on 1067 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 726 | 58.3% |
-| bearish | 368 | 62.2% |
+| bullish | 732 | 58.9% |
+| bearish | 335 | 59.7% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **62.7%** of the time (n=3195). Every graded announcement moved 64.3% of the time.
+Stocks called neutral moved 1% or more anyway **63.3%** of the time (n=3155). Every graded announcement moved 65.4% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,19 +30,19 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 735 | 61.4% |
-| Not flagged | 359 | 56% |
+| Market sensitive | 690 | 62.2% |
+| Not flagged | 377 | 53.6% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 710 | 58.3% |
-| Quarterly Report | 132 | 66.7% |
-| Substantial Holding | 65 | 55.4% |
-| Annual General Meeting | 64 | 60.9% |
-| Results | 48 | 56.2% |
+| Market Update | 726 | 58.7% |
+| Quarterly Report | 83 | 68.7% |
+| Substantial Holding | 68 | 52.9% |
+| Annual General Meeting | 62 | 56.5% |
+| Results | 50 | 56% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
